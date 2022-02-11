@@ -1,0 +1,115 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/nft.schema.json",
+    "title": "NFT",
+    "description": "A historical nonfungible token",
+    "type": "object",
+    "properties": {
+        "title": {
+            "description": "Official title of the NFT",
+            "type": "string"
+        },
+        "excerpt": {
+            "description": "Short (280 character or less) description of the NFT",
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 280
+        },
+        "blockchain": {
+            "description": "Which blockchain is the NFT on?",
+            "type": "string",
+            "enum": ["ethereum", "bitcoin"]
+        },
+        "standard": {
+            "description": "Which blockchain is the NFT on?",
+            "type": "string",
+            "enum": ["Predates ERC-721", "ERC-721", "ERC-1155"]
+        },
+        "wrapperContract": {
+            "type": "string",
+            "pattern": "^0x[a-fA-F0-9]{40}"
+        },
+        "totalSupply": {
+            "description": "What is the total supply/individual items within the NFT?",
+            "type": "integer"
+        },
+        "onChain": {
+            "description": "Is the art/data/primary functionality of the NFT stored directly onchain?",
+            "type": "boolean"
+        },
+        "redFlags": {
+            "description": "Are there substantial issues that collectors should be aware of, if so, list them here.",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "nonfungible": {
+            "description": "Is each token unique (1/1 and non-divisible), or are they fungible?",
+            "type": "boolean"
+        },
+        "staticSupply": {
+            "description": "Does the supply have a hard limit specified within the contract, with no option of changing?",
+            "type": "boolean"
+        },
+        "contracts": {
+            "description": "All contracts related to the given NFT",
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "^0x[a-fA-F0-9]{40}"
+            }
+        },
+        "creators": {
+            "description": "Who created the NFT?",
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "openseaVerification": {
+            "description": "Is the NFT collection verified on OpenSea?",
+            "type": "boolean"
+        },
+        "twitter": {
+            "description": "Twitter account",
+            "type": "string",
+            "pattern": "^@"
+        },
+        "website": {
+            "description": "Website for NFT",
+            "type": "string",
+            "pattern": "^https?://"
+        },
+        "discord": {
+            "description": "Discord for NFT",
+            "type": "string",
+            "pattern": "^https?://"
+        },
+        "openseaCollection": {
+            "description": "URL to OpenSea collection",
+            "type": "string",
+            "pattern": "^https?://"
+        },
+        "creationTimestamp": {
+            "description": "Exact timestamp that NFT launched (based on blockchain contract deployment ONLY)",
+            "type": "string"
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "title",
+        "excerpt",
+        "blockchain",
+        "onChain",
+        "contracts",
+        "openseaVerification",
+        "twitter",
+        "website",
+        "discord",
+        "creationTimestamp",
+        "openseaCollection",
+        "totalSupply",
+        "staticSupply"
+    ]
+}

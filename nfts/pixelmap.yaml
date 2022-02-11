@@ -1,0 +1,26 @@
+---
+# Primary Info
+title: PixelMap
+blockchain: ethereum
+creationTimestamp: Nov-17-2016 04:29:10 AM +UTC
+excerpt: Pixelmap is the 2nd oldest NFT on ETH and this first billboard style NFT from 2016
+totalSupply: 3970
+contracts: ["0x015a06a433353f8db634df4eddf0c109882a15ab", "0x050dc61dfb867e0fe3cf2948362b6c0f3faf790b"]
+openseaCollection: https://opensea.io/collection/pixelmap
+openseaVerification: true
+wrapperContract: "0x050dc61dfb867e0fe3cf2948362b6c0f3faf790b"
+standard: Predates ERC-721
+creators: ["@kenerwin88"]
+
+# Socials
+twitter: "@PixelMapNFT"
+discord: https://discord.gg/pixelmap
+website: https://pixelmap.io
+
+# Contract Specific Attributes
+onChain: true
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+redFlags: []
