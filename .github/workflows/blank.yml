@@ -11,5 +11,5 @@ jobs:
         with:
           yamlSchemasJson: |
             {
-                "nft_schema.json": "nfts/*"
+                "./nft_schema.json": "nfts/*"
             }
