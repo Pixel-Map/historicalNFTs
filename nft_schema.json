@@ -150,12 +150,10 @@
         "blockchain",
         "assetDataLocation",
         "contracts",
-        "openseaVerification",
         "twitter",
         "website",
         "discord",
         "creationTimestamp",
-        "openseaCollection",
         "totalSupply",
         "staticSupply"
     ]
