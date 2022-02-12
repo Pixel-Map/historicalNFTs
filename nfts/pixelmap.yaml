@@ -7,7 +7,26 @@ excerpt: |
   Pixelmap is the oldest verified NFT collection on OpenSea, the first billboard style NFT, 
   and provides the ability to create, display, and immortalize artwork directly on the Blockchain.
 totalSupply: 3970
-contracts: ["0x015a06a433353f8db634df4eddf0c109882a15ab", "0x050dc61dfb867e0fe3cf2948362b6c0f3faf790b"]
+contracts:
+  - name: PixelMap OG Contract
+    address: "0x015a06a433353f8db634df4eddf0c109882a15ab"
+    notes: |
+      All data for each tile is stored directly on the OG contract.  The
+      image data for each tile is stored as hex triplets (768 char total), with
+      Base91 encoding + PAKO compression to minimize gas fees.
+  - name: PixelMap Wrapper,
+    address: "0x050dc61dfb867e0fe3cf2948362b6c0f3faf790b"
+    notes: |
+      It's important to note, that the original PixelMap contract contains the
+      ability to buy, sell, and update tiles.  The one thing it does NOT have,
+      is the ability to transfer directly, or sell to a specific person.  In
+      order to wrap a tile, you essentially have to list it for sale, and buy it
+      from yourself.  Because ANYONE can buy it during the wrapping process, It's
+      important to set it for sale at a price that you'd be happy with receiving the
+      money if someone else buys it from you (always wrap above OpenSea floor!).
+
+      Once wrapped, you can always transfer safely or sell to specific buyers, or
+      even unwrap if you'd like.  You can wrap your tiles via the PixelMap.io website.
 openseaCollection: https://opensea.io/collection/pixelmap
 openseaVerification: true
 wrapperContract: "0x050dc61dfb867e0fe3cf2948362b6c0f3faf790b"

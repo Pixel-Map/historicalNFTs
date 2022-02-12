@@ -1,0 +1,27 @@
+---
+# Primary Info
+title: Placeholder
+blockchain: ethereum
+creationTimestamp: Jan-1-2022 04:29:10 AM +UTC
+excerpt: |
+  About the NFT
+totalSupply: 1000
+contracts: [{name: "contractName", address: "0x0000000000000000000000000000000000000000", notes: ""}]
+openseaCollection: https://opensea.io/collection/placeholder
+openseaVerification: true
+wrapperContract: "0x0000000000000000000000000000000000000000"
+standard: Predates ERC-721
+creators: ["@plcceholder"]
+
+# Socials
+twitter: "@PlaceholderNFT"
+discord: https://discord.gg/placeholder
+website: https://placeholder
+
+# Contract Specific Attributes
+onChain: true
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+redFlags: []

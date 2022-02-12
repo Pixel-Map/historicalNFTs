@@ -18,12 +18,19 @@
         "blockchain": {
             "description": "Which blockchain is the NFT on?",
             "type": "string",
-            "enum": ["ethereum", "bitcoin"]
+            "enum": [
+                "ethereum",
+                "bitcoin"
+            ]
         },
         "standard": {
             "description": "Which blockchain is the NFT on?",
             "type": "string",
-            "enum": ["Predates ERC-721", "ERC-721", "ERC-1155"]
+            "enum": [
+                "Predates ERC-721",
+                "ERC-721",
+                "ERC-1155"
+            ]
         },
         "wrapperContract": {
             "type": "string",
@@ -56,8 +63,25 @@
             "description": "All contracts related to the given NFT",
             "type": "array",
             "items": {
-                "type": "string",
-                "pattern": "^0x[a-fA-F0-9]{40}"
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "address": {
+                        "type": "string",
+                        "pattern": "^0x[a-fA-F0-9]{40}"
+                    },
+                    "notes": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "name",
+                    "address",
+                    "notes"
+                ]
             }
         },
         "creators": {
