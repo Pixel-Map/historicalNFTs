@@ -18,9 +18,12 @@ contracts:
     notes: Easily wrap MoonCats via the acclimator here -- https://mooncat.community/acclimator
 openseaCollection: https://opensea.io/collection/acclimatedmooncats
 openseaVerification: true
-wrapperContract: "0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69"
+wrapperContract:
+  address: "0xc3f733ca98E0daD0386979Eb96fb1722A1A05E69"
+  canUnwrapToOriginalToken: true
 standard: Predates ERC-721
 creators: ["@ponderware", "@wanderwonder"]
+activeDevelopment: true
 
 # Socials
 twitter: "@mooncatrescue"
@@ -28,7 +31,7 @@ discord: https://discord.gg/mooncats
 website: https://mooncat.community/
 
 # Contract Specific Attributes
-onChain: true
+assetDataLocation: onchain
 staticSupply: true
 nonfungible: true
 

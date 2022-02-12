@@ -33,16 +33,35 @@
             ]
         },
         "wrapperContract": {
-            "type": "string",
-            "pattern": "^0x[a-fA-F0-9]{40}"
+            "pattern": "^0x[a-fA-F0-9]{40}",
+            "type": "object",
+            "properties": {
+                "address": {
+                    "type": "string",
+                    "pattern": "^0x[a-fA-F0-9]{40}"
+                },
+                "canUnwrapToOriginalToken": {
+                    "type": "boolean"
+                }
+            },
+            "required": [
+                "address",
+                "canUnwrapToOriginalToken"
+            ],
+            "additionalProperties": false
         },
         "totalSupply": {
             "description": "What is the total supply/individual items within the NFT?",
             "type": "integer"
         },
-        "onChain": {
-            "description": "Is the art/data/primary functionality of the NFT stored directly onchain?",
-            "type": "boolean"
+        "assetDataLocation": {
+            "description": "Where is the data for the NFT primarily stored?",
+            "type": "string",
+            "enum": [
+                "onchain",
+                "IPFS",
+                "webserver"
+            ]
         },
         "redFlags": {
             "description": "Are there substantial issues that collectors should be aware of, if so, list them here.",
@@ -118,6 +137,10 @@
         "creationTimestamp": {
             "description": "Exact timestamp that NFT launched (based on blockchain contract deployment ONLY)",
             "type": "string"
+        },
+        "activeDevelopment": {
+            "description": "Is the project still being actively developed?",
+            "type": "boolean"
         }
     },
     "additionalProperties": false,
@@ -125,7 +148,7 @@
         "title",
         "excerpt",
         "blockchain",
-        "onChain",
+        "assetDataLocation",
         "contracts",
         "openseaVerification",
         "twitter",
