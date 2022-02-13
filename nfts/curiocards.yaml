@@ -1,0 +1,146 @@
+---
+# Primary Info
+title: Curio Cards
+blockchain: ethereum
+creationTimestamp: May-09-2017 05:18:04 PM +UTC
+excerpt: |
+  Curio Cards is the First Art NFT project on Ethereum, launched as an online
+  gallery art show on May 9th, 2017. Curio used the distributed network 
+  Ethereum to create a new model for creation and ownership of digital 
+  artwork.
+totalSupply: 25617
+contracts:
+  - name: "Curio Card Factory"
+    address: "0x3cc44273a97e8fbfbcbd3d60200cc9fd33d84d66"
+    notes: "Used to create individual card contracts?"
+  - name: "Curio ERC1155 Wrapper"
+    address: "0x73DA73EF3a6982109c4d5BDb0dB9dd3E3783f313"
+    notes: ""
+  - name: "Curio 1"
+    address: "0x6Aa2044C7A0f9e2758EdAE97247B03a0D7e73d6c"
+    notes: ""
+  - name: "Curio 2"
+    address: "0xE9A6A26598B05dB855483fF5eCc5f1d0C81140c8"
+    notes: ""
+  - name: "Curio 3"
+    address: "0x3f8131B6E62472CEea9cb8Aa67d87425248a3702"
+    notes: ""
+  - name: "Curio 4"
+    address: "0x4F1694be039e447B729ab11653304232Ae143C69"
+    notes: ""
+  - name: "Curio 5"
+    address: "0x5a3D4A8575a688b53E8b270b5C1f26fd63065219"
+    notes: ""
+  - name: "Curio 6"
+    address: "0x1Ca6AC0Ce771094F0F8a383D46BF3acC9a5BF27f"
+    notes: ""
+  - name: "Curio 7"
+    address: "0x2647bd8777e0C66819D74aB3479372eA690912c3"
+    notes: ""
+  - name: "Curio 8"
+    address: "0x2FCE2713a561bB019BC5A110BE0A19d10581ee9e"
+    notes: ""
+  - name: "Curio 9"
+    address: "0xbf4Cc966F1e726087c5C55aac374E687000d4d45"
+    notes: ""
+  - name: "Curio 10"
+    address: "0x72b34d637C0d14acE58359Ef1bF472E4b4c57125"
+    notes: ""
+  - name: "Curio 11"
+    address: "0xb36c87F1f1539c5FC6f6e7b1C632e1840C9B66b4"
+    notes: ""
+  - name: "Curio 12"
+    address: "0xD15af10A258432e7227367499E785C3532b50271"
+    notes: ""
+  - name: "Curio 13"
+    address: "0x2d922712f5e99428c65b44f09Ea389373d185bB3"
+    notes: ""
+  - name: "Curio 14"
+    address: "0x0565ac44e5119a3224b897De761a46A92aA28ae8"
+    notes: ""
+  - name: "Curio 15"
+    address: "0xdb7F262237Ad8acca8922aA2c693a34D0d13e8fe"
+    notes: ""
+  - name: "Curio 16"
+    address: "0x1b63532CcB1FeE0595c7fe2Cb35cFD70ddF862Cd"
+    notes: ""
+  - name: "Curio 17"
+    address: "0xF59536290906F204C3c7918D40C1Cc5f99643d0B"
+    notes: ""
+  - name: "Curio 18"
+    address: "0xA507D9d28bbca54cBCfFad4BB770C2EA0519F4F0"
+    notes: ""
+  - name: "Curio 19"
+    address: "0xf26BC97Aa8AFE176e275Cf3b08c363f09De371fA - Curio 19"
+    notes: ""
+  - name: "Curio 20"
+    address: "0xD0ec99E99cE22f2487283A087614AEe37F6B1283"
+    notes: ""
+  - name: "Curio 21"
+    address: "0xB7A5a84Ff90e8Ef91250fB56c50a7bB92a6306EE"
+    notes: ""
+  - name: "Curio 22"
+    address: "0x148fF761D16632da89F3D30eF3dFE34bc50CA765"
+    notes: ""
+  - name: "Curio 23"
+    address: "0xCDE7185B5C3Ed9eA68605a960F6653AA1a5b5C6C"
+    notes: ""
+  - name: "Curio 24"
+    address: "0xE67dad99c44547B54367E3e60fc251fC45a145C6"
+    notes: ""
+  - name: "Curio 25"
+    address: "0xC7f60C2b1DBDfd511685501EDEb05C4194D67018"
+    notes: ""
+  - name: "Curio 26"
+    address: "0x1cB5BF4Be53eb141B56f7E4Bb36345a353B5488c"
+    notes: ""
+  - name: "Curio 27"
+    address: "0xFb9F3fa2502d01d43167A0A6E80bE03171DF407E"
+    notes: ""
+  - name: "Curio 28"
+    address: "0x59D190e8A2583C67E62eEc8dA5EA7f050d8BF27e"
+    notes: ""
+  - name: "Curio 29"
+    address: "0xD3540bCD9c2819771F9D765Edc189cBD915FEAbd"
+    notes: ""
+  - name: "Curio 30"
+    address: "0x7F5B230Dc580d1e67DF6eD30dEe82684dD113D1F"
+    notes: ""
+  - name: "Curio 17b"
+    address: "0xE0B5E6F32d657e0e18d4B3E801EBC76a5959e123"
+    notes: ""
+
+openseaCollection: https://opensea.io/collection/curiocardswrapper
+openseaVerification: true
+wrapperContract:
+  address: "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators:
+  - "@cryptograffiti" # Cryptograffiti: Artwork for cards 11-13
+  - "@helloluis" # Cryptopop: Artwork for cards 17-19
+  - "@InferenceActive" # Daniel Friedman: Artwork for cards 24-26
+  - "@kee_in" # Kian Bradley: 2017 curio wallet developer, 2021 wrapper site and website developer
+  - "@maximusmaximus" # Max Infeld: curio artist, artwork for cards 27-29
+  - "@TheMoonOfficia2" # Moon: 2017 frontend and token gallery developer, 2021 official curio wrapper solidity developer
+  - "@phneep" # Phneep : curio artist, artwork for cards 1-10, 14-16, 20
+  - "@rhett_creighton" # Rhett Creighton: co-founder, 2017 solidity developer and contract deployer
+  - "@robek_world" # Robek World: curio artist, artwork for cards 21-23
+  - "@MadBitcoins" # Thomas Hunt: co-founder, 2017 marketing, community and content"
+  - "@travisformayor" # Travis: co-founder, 2017 - Current frontend dev and community manager
+  - "Unknown" # Thoros of Myr: curio artist, artwork and animation for card 30"
+
+activeDevelopment: true
+
+# Socials
+twitter: "@MyCurioCards"
+discord: http://discord.curio.cards/
+website: https://curio.cards/
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: true
+nonfungible: false
+
+# Red Flags
+redFlags: []
