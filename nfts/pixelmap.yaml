@@ -35,6 +35,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@kenerwin88"]
 activeDevelopment: true
+logo: https://pixelmap.io/assets/images/logo.png
 
 # Socials
 twitter: "@PixelMapNFT"

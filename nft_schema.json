@@ -141,6 +141,10 @@
         "activeDevelopment": {
             "description": "Is the project still being actively developed?",
             "type": "boolean"
+        },
+        "logo": {
+            "desscription": "Link to square logo for project",
+            "type": "string"
         }
     },
     "additionalProperties": false,
@@ -155,6 +159,7 @@
         "discord",
         "creationTimestamp",
         "totalSupply",
-        "staticSupply"
+        "staticSupply",
+        "logo"
     ]
 }
