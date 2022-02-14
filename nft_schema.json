@@ -145,6 +145,10 @@
         "logo": {
             "desscription": "Link to square logo for project",
             "type": "string"
+        },
+        "profileImage": {
+            "desscription": "Link to large profile image for project (690x762px)",
+            "type": "string"
         }
     },
     "additionalProperties": false,
