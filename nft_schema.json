@@ -149,6 +149,36 @@
         "profileImage": {
             "desscription": "Link to large profile image for project (690x762px)",
             "type": "string"
+        },
+        "relatedLinks": {
+            "description": "All contracts related to the given NFT",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "link": {
+                        "type": "string",
+                        "pattern": "^https?://"
+                    },
+                    "summary": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "name",
+                    "link",
+                    "summary"
+                ]
+            }
+        },
+        "rarityTools": {
+            "description": "URL to rarity tools link (if applicable)",
+            "type": "string",
+            "pattern": "^https?://"
         }
     },
     "additionalProperties": false,

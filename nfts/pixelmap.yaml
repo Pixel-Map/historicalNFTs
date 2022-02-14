@@ -50,3 +50,15 @@ nonfungible: true
 
 # Red Flags
 redFlags: []
+
+# Helpful Links
+relatedLinks:
+  - name: How to Update a PixelMap Tile
+    link: https://pixelmap.medium.com/how-to-update-your-pixelmap-tile-3b9c1cd88b75
+    summary: In depth tutorial on how to update a PixelMap tile
+  - name: The Rediscovery of PixelMap
+    link: https://adamamcbride.medium.com/pixel-map-lost-2016-nft-project-78fc00e62179
+    summary: Medium article by Adam McBride about the rediscovery of PixelMap
+  - name: The "invisible" tile
+    link: https://link.medium.com/KL5kH3ZA9ib
+    summary: The 3,970th tile is actually invisible, this article goes into depth about why.
