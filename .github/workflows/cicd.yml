@@ -3,7 +3,7 @@ name: CI
 on: push
 
 jobs:
-  validate:
+  cicid:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -35,3 +35,4 @@ jobs:
 
             with open("nfts.json", "w") as write_file:
                 json.dump(nfts, write_file, indent=4)
+      - run: cat nfts.json
