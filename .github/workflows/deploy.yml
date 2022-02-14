@@ -32,7 +32,18 @@ jobs:
                 with open(nft) as f:
                     data = yaml.load(f, Loader=SafeLoader)
                     nfts.append(data)
+                    jsonFilename = nft.replace("yaml", "json")
+                    with open(jsonFilename, "w") as write_file:
+                        json.dump(data, write_file, indent=4)
 
-            with open("nfts.json", "w") as write_file:
+
+            with open("nfts/all.json", "w") as write_file:
                 json.dump(nfts, write_file, indent=4)
-      - run: cat nfts.json
+
+      - uses: shallwefootball/s3-upload-action@master
+        with:
+          aws_key_id: ${{ secrets.AWS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          aws_bucket: ${{ secrets.AWS_BUCKET }}
+          source_dir: "nfts"
+          destination_dir: "nfts"
