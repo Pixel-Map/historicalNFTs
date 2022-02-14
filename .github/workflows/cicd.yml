@@ -14,6 +14,10 @@ jobs:
                 "./nft_schema.json": "nfts/*"
             }
       - uses: actions/setup-python@v2
+        with:
+          python-version: "3.9"
+          cache: "pip"
+      - run: pip install pyyaml
       - uses: jannekem/run-python-script-action@v1
         with:
           script: |
