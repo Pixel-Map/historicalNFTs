@@ -1,0 +1,59 @@
+---
+# Primary Info
+title: PixelCons
+blockchain: ethereum
+creationTimestamp: Dec-02-2018 06:44:38 PM +UTC
+excerpt: |
+  PixelCons are collectible NFTs featuring minimalist pixel art. This open 
+  platform was started in 2018 to allow any artist to easily make digital 
+  collectibles within a shared ecosystem. Every PixelCon is unique and it's 
+  ownership is secured on the Ethereum blockchain.
+totalSupply: 0
+contracts:
+  - name: PixelCons
+    address: "0x5536B6aAdd29eAf0DB112Bb28046A5FaD3761bD4"
+    notes: |
+      All data for each tile is stored directly on the OG contract.  The
+      image data for each tile is stored as hex triplets (768 char total), with
+      Base91 encoding + PAKO compression to minimize gas fees.
+  - name: PixelCon Invaders,
+    address: "0xB5604Fc106074A140DF727Fe28cd68F0dbB6C1B9"
+    notes: |
+      New Invaders can be uncovered (minted) by anyone who owns PixelCons. 
+      Invaders are generated using existing PixelCons as a source of randomness 
+      and minted as PixelCons themselves.
+openseaCollection: https://opensea.io/collection/pixelcons
+openseaVerification: false
+standard: ERC-721
+creators: ["@PixelConsToken"]
+activeDevelopment: true
+logo: https://pbs.twimg.com/profile_images/1367892217533173768/TZD_RtU__400x400.jpg
+profileImage: https://pbs.twimg.com/profile_images/1367892217533173768/TZD_RtU__400x400.jpg
+
+# Socials
+twitter: "@PixelConsToken"
+discord: https://t.co/nxQqJ9vw7S
+website: https://pixelcons.io
+
+# Contract Specific Attributes
+assetDataLocation: onchain
+staticSupply: false
+nonfungible: true
+
+# Information
+flags:
+  - name: Unlimited Supply
+    level: warning
+    details: |
+      There is no limit to the number of PixelCons that can be created as long 
+      as it is unique.  However, historic PixelCons can be found from as far 
+      back as 2018 and the special Genesis series minted at contract launch 
+      can be found by filtering by "2018 Genesis" on OpenSea.
+# Helpful Links
+relatedLinks:
+  - name: PixelCon Contract Sources
+    link: https://github.com/PixelCons/PixelCons-Contracts
+    summary: All PixelCon contracts have been opensourced
+  - name: 137PM Article about PixelCons
+    link: https://www.one37pm.com/nft/art/pixelcons-2018-nft-pixel-art-project
+    summary: Article about the history of PixelCons

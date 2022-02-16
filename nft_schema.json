@@ -64,11 +64,32 @@
                 "webserver"
             ]
         },
-        "redFlags": {
+        "flags": {
             "description": "Are there substantial issues that collectors should be aware of, if so, list them here.",
             "type": "array",
             "items": {
-                "type": "string"
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "level": {
+                        "type": "string",
+                        "enum": [
+                            "warning",
+                            "dealbreaker"
+                        ]
+                    },
+                    "details": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "name",
+                    "level",
+                    "details"
+                ]
             }
         },
         "nonfungible": {

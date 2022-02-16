@@ -50,7 +50,7 @@ staticSupply: true
 nonfungible: true
 
 # Red Flags
-redFlags: []
+flags: []
 
 # Helpful Links
 relatedLinks:

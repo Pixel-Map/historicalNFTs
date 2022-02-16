@@ -144,4 +144,4 @@ staticSupply: true
 nonfungible: false
 
 # Red Flags
-redFlags: []
+flags: []
