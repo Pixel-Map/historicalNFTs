@@ -28,6 +28,7 @@
             "type": "string",
             "enum": [
                 "Predates ERC-721",
+                "ERC-20",
                 "ERC-721",
                 "ERC-1155"
             ]
@@ -179,6 +180,10 @@
             "description": "URL to rarity tools link (if applicable)",
             "type": "string",
             "pattern": "^https?://"
+        },
+        "extendedDescription": {
+            "description": "For the times that the excerpt just isn't enough",
+            "type": "string"
         }
     },
     "additionalProperties": false,

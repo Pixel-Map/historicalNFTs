@@ -4,11 +4,19 @@ title: AI Generated Nude Portrait \#7 Frame 1-300 (aka Lost Robbies)
 blockchain: ethereum
 creationTimestamp: Jul-16-2018 10:51:40 PM +UTC
 excerpt: |
-  On July 17, 2018, Christies held their first ever annual Tech Summit in London. SuperRare had just launched a few months prior and the team was stoked to have the chance to attend and network with titans of the traditional art industry. At the time, the digital art world as we know it was still emerging and largely unknown, especially digital art tokenized on the blockchain. 
+  On July 17, 2018, Christies held their first Tech Summit in London.  SuperRare was invited to add to the gift bags of the attendees,
+  & enlisted Robbie Barrat.  Robbie then created "AI Generated Nude Portrat #7", sold as 300 (1/1) frames of one artwork.
+extendedDescription: |
+  On July 17, 2018, Christies held their first ever annual Tech Summit in London. SuperRare had just launched a few months prior and the 
+  team was stoked to have the chance to attend and network with titans of the traditional art industry. At the time, the digital art world 
+  as we know it was still emerging and largely unknown, especially digital art tokenized on the blockchain. 
 
-  SuperRare was invited to add to the gift bags of the 300+ attendees, and wanting to do something cool and unique decided to partner with Jason Bailey and enlist Robbie Barrat, the first artist to ever tokenize on SuperRare, to create an artwork with 300 individual frames that could each be tokenized and given away to the attendees.
+  SuperRare was invited to add to the gift bags of the 300+ attendees, and wanting to do something cool and unique decided to partner with 
+  Jason Bailey and enlist Robbie Barrat, the first artist to ever tokenize on SuperRare, to create an artwork with 300 individual frames 
+  that could each be tokenized and given away to the attendees.
 
-  Robbie created AI Generated Nude Portrait #7 for the event, which he intended as 300 separate frames of a single artwork. Each of the 300 frames was tokenized separately and added to redeemable ETH gift cards with directions for how to claim the 1/1 token on SuperRare.
+  Robbie created AI Generated Nude Portrait #7 for the event, which he intended as 300 separate frames of a single artwork. Each of the 300 
+  frames was tokenized separately and added to redeemable ETH gift cards with directions for how to claim the 1/1 token on SuperRare.
 totalSupply: 300
 contracts:
   - name: "SupeRare (SUPR)"
@@ -17,7 +25,6 @@ contracts:
       Token 191 until 490 represent the "Lost Robbies". 
       For example token 1 (which Robbie called "Frame") is this: https://superrare.com/artwork/ai-generated-nude-portrait-7-frame-1-191
       The last frame (300) is this: https://superrare.com/artwork/ai-generated-nude-portrait-7-frame-300-490
-openseaCollection: null
 openseaVerification: false
 wrapperContract:
   address: "0x0000000000000000000000000000000000000000"
@@ -25,6 +32,8 @@ wrapperContract:
 standard: ERC-20
 creators: ["@videodrome"]
 activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/profile-lostrobbies.png
+profileImage: https://pixelmap.art/nfts/images/profile-lostrobbies.png
 
 # Socials
 twitter: "@LostRobbies"
@@ -32,7 +41,7 @@ discord: https://discord.com/invite/m2zBe3PREt
 website: https://editorial.superrare.com/2020/09/05/the-lost-robbies/
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: IPFS
 staticSupply: true
 nonfungible: true
 
