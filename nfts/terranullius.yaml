@@ -39,10 +39,13 @@ staticSupply: false
 nonfungible: false
 
 # Red Flags
-redFlags:
-  - TerraNullius does not contain functionality for owning or transferring assets,
-    nor does it have a limit on supply.  Many people have unfortunately purchased
-    from the TerraNullius V2 wrapper thinking that it contains a historic NFT, but it does
-    not.  TN is only mentioned in this repository for educational purposes and as a reminder
-    to always DYOR.  This can easily be proven by reviewing the original contract, or by attempting
-    to unwrap from the V2 wrapper (impossible).
+flags:
+  - name: Unownable/Invalid Contract
+    level: dealbreaker
+    details: |
+      TerraNullius does not contain functionality for owning or transferring assets,
+      nor does it have a limit on supply.  Many people have unfortunately purchased
+      from the TerraNullius V2 wrapper thinking that it contains a historic NFT, but it does
+      not.  TN is only mentioned in this repository for educational purposes and as a reminder
+      to always DYOR.  This can easily be proven by reviewing the original contract, or by attempting
+      to unwrap from the V2 wrapper (impossible).
