@@ -1,0 +1,41 @@
+---
+# Primary Info
+title: CryptoCrystal
+blockchain: ethereum
+creationTimestamp: May-11-2018 05:31:07 AM +UTC
+excerpt: |
+  World's first sentient mineral.  CryptoCrystal are sentient Shiny Crystals 
+  that have personalities similar to human while being overly cute like pet 
+  animals. Each of them is unique being in the Ethereum, with no duplicated 
+  DNA structure.
+totalSupply: 10000
+contracts:
+  - name: CryptoCrystal Contract
+    address: "0xcec76159cb10f8c110e738809E4eE4b71F1DE12e"
+    notes: ""
+openseaCollection: https://opensea.io/collection/cryptocrystal
+openseaVerification: true
+standard: ERC-721
+creators: ["Minicoohei"]
+activeDevelopment: true
+logo: https://lh3.googleusercontent.com/bmOfasRPirTPJdRzn8eeJ7NBEuv4PMU8Sfg21OJqO-iMn2JfKvs_yXjOfJIH_8TQRXzOS0F_53nUCxWQiYFUYvZw=s0
+profileImage: https://cryptocrystal.app/static/media/about.600e96cf.png
+
+# Socials
+twitter: "@_cryptocrystal"
+discord: https://discord.com/invite/sTFJs5QDQy
+website: https://cryptocrystal.app/
+
+# Contract Specific Attributes
+assetDataLocation: onchain # All attributes, except images
+staticSupply: false # Not sure, says locked at 10,000, must validate!
+nonfungible: true
+
+# Red Flags
+flags: []
+
+# Helpful Links
+relatedLinks:
+  - name: CryptoCrystal Rarity/Weight Spreadsheet
+    link: https://docs.google.com/spreadsheets/d/1nNYnsXjdKuveSoLUNrMQZ_9FUtvgUNTZfWTEmzkIaH0/edit#gid=0
+    summary: Details on rarity for each CryptoCrystal
