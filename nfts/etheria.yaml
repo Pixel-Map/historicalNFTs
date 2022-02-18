@@ -12,7 +12,7 @@ contracts:
   - name: "Etheria v1.2 (Official)"
     address: "0xb21f8684f23dbb1008508b4de91a0aaedebdb7e4"
     notes: Etheria v1.2 is the only version supported by the original dev and on etheria.world.
-  - name: "Etheria v1.1 (Deprecated"
+  - name: "Etheria v1.1 (Deprecated)"
     address: "0xcf684dfb8304729355b58315e8019b1aa2ad1bac"
     notes: |
       Commonly referred to as Blockplots, the Etheria v1.1 contract is not sanctioned by the creator,

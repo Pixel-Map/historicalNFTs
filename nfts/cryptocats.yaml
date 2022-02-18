@@ -1,0 +1,73 @@
+---
+# Primary Info
+title: CryptoCats
+blockchain: ethereum
+creationTimestamp: Nov-12-2017 08:12:07 AM +UTC
+excerpt: |
+  CryptoCats are one of the scarcest NFT collections from that time with only 
+  625 tokens. Predating the ERC721, there are some pretty cute function names in the smart contract.
+  Each CryptoCat is unique and most are programmatically generated with different accessories.
+totalSupply: 625
+contracts:
+  - name: CryptoCat Release 1
+    address: "0xc4aa7a486c054e6f277712c7d82db1a3a1dbe758"
+    notes: |
+      There were 3 releases of CryptoCats and all tokens from release 1 and 2 
+      have been migrated to the official contract with the tokens for release 
+      3: 0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f The onchain history is all 
+      connected to the Contract Owner address: 0xd7148578159b87a9EFA2f0290531B44b0f9063D1 
+      More details can be found in cryptocats-history channel
+  - name: CryptoCat Release 2
+    address: "0xa185B9E63FB83A5a1A13A4460B8E8605672b6020"
+    notes: 176 cats released/minted - 12 inherited cats
+  - name: CryptoCat Wrapper,
+    address: "0xd0e7bc3f1efc5f098534bce73589835b8273b9a0"
+    notes: ""
+  - name: Buggy Contract 1
+    address: "0x9508008227b6b3391959334604677d60169EF540"
+    notes: |
+      Soon after this contract was deployed we realised it had a buggy withdraw 
+      function. Whoever bought tokens from this contract wasted that ETH, this is sad.
+  - name: Buggy Contract 2
+    address: "0x19c320b43744254ebdBcb1F1BD0e2a3dc08E01dc"
+    notes: |
+      This was deployed on Christmas Eve, once we realised the bug in Buggy 
+      Contract 1. This contract was deployed but we immediately realised it had 
+      a new bug, pointing to testnet, making it unusable to migrate tokens 
+      from release 1 & 2. It couldn't be used to fork and migrate the previous 
+      tokens into it.
+openseaCollection: https://opensea.io/collection/wrappedcryptocats
+openseaVerification: true
+wrapperContract:
+  address: "0xd0e7bc3f1efc5f098534bce73589835b8273b9a0"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: ["@CryptoCats26"]
+activeDevelopment: false
+logo: https://pbs.twimg.com/profile_images/1464784539369181188/B1Mg3aDD_400x400.jpg
+profileImage: https://pbs.twimg.com/profile_images/1464784539369181188/B1Mg3aDD_400x400.jpg
+
+# Socials
+twitter: "@CryptoCats26"
+discord: https://discord.gg/T2Twu4VuMC
+website: https://cryptocats.thetwentysix.io/
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags: []
+
+# Helpful Links
+relatedLinks:
+  - name: View CryptoCat Holders
+    link: https://ethplorer.io/address/0x088c6ad962812b5aa905ba6f3c5c145f9d4c079f#chart=candlestick
+    summary: Live tracking of all CryptoCat Holders
+  - name: "12 Cats on the Blockchain Slidedeck"
+    link: https://www.slideshare.net/GendryMorales/12-cats-on-the-blockchain-demystifying-ethereum-with-the-cryptocats
+    summary: To help you peel back the magic of the blockchain and look beneath the surface, three blockchain entrepreneurs will be exclusively demoing a full stack Ethereum use-case called the CryptoCats.
+faq:
+  - question: How do I wrap my CryptoCat?
+    answer: "For wrapping cats, you can use the wrapper on the official CryptoCats website: https://cryptocats.thetwentysix.io/wrap"

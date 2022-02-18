@@ -92,6 +92,26 @@
                 ]
             }
         },
+        "faq": {
+            "description": "Questions and Answers about the NFT",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "question": {
+                        "type": "string"
+                    },
+                    "answer": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "question",
+                    "answer"
+                ]
+            }
+        },
         "nonfungible": {
             "description": "Is each token unique (1/1 and non-divisible), or are they fungible?",
             "type": "boolean"
