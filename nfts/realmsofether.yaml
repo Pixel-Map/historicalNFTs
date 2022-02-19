@@ -1,20 +1,20 @@
 # Primary Info
-title: RealmsOfEther
+title: Realms Of Ether
 blockchain: ethereum
 creationTimestamp: Dec-30-2017 09:50:47 AM +UTC
 excerpt: |
   Realms of Ether is a game based on the Ethereum blockchain. Players can own fortresses, farm resources, create buildings and recruit troups.
 totalSupply: 500
 contracts:
-  - name: “Realms of Ether"
+  - name: Realms of Ether
     address: "0x0716d44d5991b15256a2de5769e1376d569bba7c"
-    notes: "Original Contract for Realms of Ether"
-  - name: "Realms of Ether Wrapper, created by 0xngmi"
+    notes: Original Contract for Realms of Ether
+  - name: Realms of Ether Wrapper
     address: "0x8479277AaCFF4663Aa4241085a7E27934A0b0840"
-    notes: "ERC-721 wrapper for Ether Realms, created by "
-  - name: "Staking Contract for Realms of Ether"
+    notes: Created by 0xngmi
+  - name: Staking Contract for Realms of Ether
     address: "0x4F9dEcDF87428AED7C1dAdE33B5f31f58BA0e3DA"
-    notes: "Commmunity made staking contract"
+    notes: Commmunity made staking contract
 openseaCollection: https://opensea.io/collection/realms-of-ether-1
 openseaVerification: true
 wrapperContract:
