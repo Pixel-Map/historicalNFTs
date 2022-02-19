@@ -46,3 +46,93 @@ nonfungible: false
 
 # Red Flags
 flags: []
+
+faq:
+  - question: What's the big deal about Cryptocards?
+    answer: It’s a historical NFT collection fully minted in Jan 2018 predating
+      the launch of the ERC-721 standard. It was launched on one of the first NFT
+      marketplaces on Ethereum – MisfitArt built by the same team.  A modified
+      version of the CryptoPunks contract was used.  It’s the only NFT collection
+      tracking Bitcoin’s history.  Each card was individually designed and not
+      computer generated.
+  - question: How it all started
+    answer: Back in 2017, we were intrigued by the CryptoPunks collection and
+      although it was deemed more of a quirky art experiment at the time.
+      In July the same year, we were buzzing to start an experiment of our own.
+      Although familiar with the generative NFTs we wanted to create something
+      different, a collection that tells the story, about one of the the most
+      powerful and disruptive technologies of our lifetime – Bitcoin.  We spent
+      the better part of the year designing the collection and we finally launched
+      in Jan 2018. The reception wasn’t spectacular by any metric and we moved
+      on to other things.
+  - question: The Rediscovery?
+    answer:
+      A few years later people began to better understand the paradigm-altering
+      model NFT’s were bringing to the concept of ‘ownership’ itself. It was November
+      2021 and after a defining booming year for the NFT space, CryptoCards was
+      still undiscovered.  A few people stumbled on our website, but due to a
+      glitch in our Metamask libraries which weren’t updated for a couple years,
+      the estimated gas to buy a 0.005 E card was horrendous. We fixed this issue,
+      built an ERC1155 wrapper and relaunched the collection.
+
+      Before we got there, we were lucky to get in a call with AdamMcBride, a
+      man who needs no introduction. He is the reason why we managed to get this
+      collection in the hands and imagination of thousands of collectors.
+  - question: What is the total supply?
+    answer: There are 64 cards with editions from 1 to max 200 with a total
+      collection supply of 8.451. There are 5 levels of ‘rarity’, with
+      corresponding max supply of 200, 100, 50, 10 and 1.
+
+      Uncommon (200 max supply)
+      Rare (100)
+      Very Rare (50)
+      Extremely Rare (10)
+      Ghost Rare (1) sold recently for 51 ETH.
+
+      Some cards haven’t been wrapped yet. That’s why less than 200/100 etc can
+      show up in the total supply on OpenSea. The cards that haven’t been wrapped
+      yet still exist, they just aren’t showing up on OpenSea. Cards can be wrapped
+      /unwrapped whenever the owner likes, costing a gas fee when doing so.
+
+      Projects that were created before January 24th, 2018 had to come up with
+      their own code to become non-fungible. In order to be traded on modern NFT
+      marketplaces, projects need to be ERC-721 compliant. Because you can’t edit
+      the code once it’s running on the blockchain, a project created before
+      the nowadays NFT standard needs to be ‘wrapped’ in a smart contract that
+      uses ERC-721/ERC-1155 standard.
+  - question: The Where is Taiwan incident?
+    answer:
+      Bots swarmed into our discord posting hundreds of messages, ‘Where is Taiwan?’
+      The “China Bans Bitcoin” listing on OpenSea was temporarily suspended as
+      countless bots reported it as the card depicted the Chinese map without
+      Taiwan in it. The bots were quickly banned from  Discord and the listing
+      on OpenSea was brought back for the public to see once The CryptoCards
+      community rallied and contacted OpenSea on Twitter.
+  - question: The Lost Cards?
+    answer:
+      "When we minted the CryptoCards in Jan 2018, the market was in a frenzy with gas prices fluctuating wildly.
+      Not all the CryptoCards we were minted as some transactions timed out.
+      We kept track of what minting transactions went through in a database.
+      During rediscovery on Nov ’21, the user interface used to buy the NFTs
+      included only 61 CryptoCards. Adam got a DM from a friend who mentioned
+      they just found 2 new CryptoCards mintable from the contract. We unfortunately,
+      used an older database for the website found on a forgotten hardrive, that
+      did not include records of 4 additional CryptoCards being minted back in Jan
+      2018. The community refers to these cards as the ‘Lost Cards’.
+
+      We did a separate sale for the Lost CryptoCards with all proceeds going
+      to the treasury controlled by the DAO.
+
+      The Lost Cards are:
+
+      The Wright Reveal
+      Bitcoin covered on The Economist
+      Russia Bitcoin Regulations
+      The Unknown CryptoCard. The art was lost and got burnt by the developers"
+  - question: The Wrapper?
+    answer: This is a historic collection and we had to built a wrapper to adapt
+      it to today’s NFT standards. Simply put, ‘wrapping’ an NFT means putting
+      the original NFT into a container that allows people to buy and sell on
+      current marketplaces. The first wrapper built although fully functional
+      on any other NFT markeplace didn’t work on OpenSea due to a whitelisting
+      issue. We built a second wrapper which cleared any issues.
