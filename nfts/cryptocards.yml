@@ -1,0 +1,47 @@
+---
+# Primary Info
+title: CryptoCards
+blockchain: ethereum
+creationTimestamp: Jan-07-2018 09:05:05 AM +UTC
+excerpt: |
+  The Cryptocards collection was created at the dawn of what is considered cryptoart or NFTs today being minted on January 2018.
+  It is the only NFT collection chronicling the history of Bitcoin until Jan 2018 with 64 cards with a total supply of 8.451.
+totalSupply: 8451
+contracts:
+  - name: CryptoCards OG Contract
+    address: "0xCA4a47679c62884673819E2e9614f9F209c372C8"
+    notes: |
+      The initial CryptoCards were issued as ERC-20 tokens. It was the first collection on an NFT marketplace predating OpenSea called MisfitArt. The marketplace was build by the same founders.
+      The contract is a modified version of the CryptoPunks contract with marketplace features built in.
+  - name: CryptoCards Wrapper V1,
+    address: "0x86a68f655018389658f657257fd6d0c337c09351"
+    notes: |
+      This was the first ERC1155 wrapper for the collection, but unfortunately the collection is tradeable on all NFT marketplaces except OpenSea due to a contract whitelisting issue.
+      We deployed a second CryptoCards ERC1155 Wrapper V2 to be compatible with OpenSea.
+      An easy to use and gas efficient dApp to wrap/unwrap ERC20<-> ERC1155 Wrapper V2 is available
+  - name: CryptoCards Wrapper V2,
+    address: "0x3a7dc718eaf31f0a55988161f3d75d7ca785b034"
+    notes: |
+      This is the official ERC-1155 V2 Wrapper that powers the verified CryptoCards collection on OpenSea. This second iteration, addressed an OpenSea issue in the initial wrapper.
+openseaCollection: https://opensea.io/collection/cryptocards-collection
+openseaVerification: true
+wrapperContract:
+  address: "0x3a7dc718eaf31f0a55988161f3d75d7ca785b034"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-1155
+creators: ["@the_cryptocards"]
+activeDevelopment: true
+logo: https://cryptocards.dev/wp-content/uploads/2022/01/logof.png
+
+# Socials
+twitter: "@the_cryptocards"
+discord: https://discord.gg/m9nUKEzcWJ
+website: https://cryptocards.dev/
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: true
+nonfungible: false
+
+# Red Flags
+flags: []
