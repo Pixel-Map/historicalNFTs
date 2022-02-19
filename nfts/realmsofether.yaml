@@ -1,0 +1,108 @@
+# Primary Info
+title: Realms of Ether
+blockchain: ethereum
+creationTimestamp: Dec-30-2017 09:50:47 AM +UTC
+excerpt: |
+  Realms of Ether is a game based on the Ethereum blockchain. Players can own fortresses, farm resources, create buildings and recruit troups.
+totalSupply: 500
+contracts:
+  - name: “Realms of Ether"
+    address: "0x0716d44d5991b15256a2de5769e1376d569bba7c"
+    notes: "Original Contract for Realms of Ether"
+  - name: "Realms of Ether Wrapper, created by 0xngmi"
+    address: "0x8479277AaCFF4663Aa4241085a7E27934A0b0840"
+    notes: "ERC-721 wrapper for Ether Realms, created by "
+  - name: "Staking Contract for Realms of Ether"
+    address: "0x4F9dEcDF87428AED7C1dAdE33B5f31f58BA0e3DA"
+    notes: "Commmunity made staking contract"
+openseaCollection: https://opensea.io/collection/realms-of-ether-1
+openseaVerification: true
+wrapperContract:
+  address: "0x8479277AaCFF4663Aa4241085a7E27934A0b0840"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: [“@ether-games"]
+activeDevelopment: true
+logo: https://raw.githubusercontent.com/realms-of-ether/realms-of-ether.github.io/master/assets/castle.png
+profileImage: https://raw.githubusercontent.com/realms-of-ether/realms-of-ether.github.io/master/assets/castle.png
+
+# Socials
+twitter: "@realms_of_ether"
+discord: https://discord.gg/F8wwQF4g
+website: https://realms-of-ether.github.io/
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: false # Possibly limited to 500 or 1000, original contract isn't verified, impossible to know at the moment.
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Original contract isn't verified
+    level: warning
+    details: It's difficult to identify vulnerabilities or the supply, as the original contract cannot be verified.
+
+# Helpful Links
+relatedLinks:
+  - name: First Official Medium Post by the Dev
+    link: https://medium.com/@ethergames/developing-and-running-a-game-on-the-ethereum-blockchain-1-5fd8bcd7fb8b
+    summary: 2017 Medium article by the unknown dev
+  - name: First post by a community member
+    link: https://medium.com/@theamericantrendsetter/realms-of-ether-2017-pioneering-the-p2e-blockchain-gaming-12c4603f968e
+    summary: First post by community member (2022) on Medium
+  - name: BitcoinTalk - CryptoCultures
+    link: https://bitcointalk.org/index.php?topic=4480373.msg40244750#msg40244750
+    summary: Another game on Ethereum, by the same dev.
+  - name: Infect-The-World
+    link: https://infect-the-world.github.io/
+    summary: Another game on Ethereum, by the same dev.
+
+
+# FAQ
+faq:
+  - question: Who is the original dev?
+    answer: The OG dev has never been identified.
+  - question: How do I wrap or unwrap my Fortress into an ERC-721?
+    answer: Use the wrapper built by 0xngmi here - https://0xngmi.github.io/fortresses/frontend/index.html
+      1 >> "Get fortress hashes"
+      2 >> "Claim"
+      3 >> "Transfer"
+      4 >> "Wrap"
+  - question: On the https://realms-of-ether.github.io/ website the minting shows 500/1000. Can we still mint Fortresses?
+    answer: The original developer listed 1000 total Fortresses on the website. However, when deploying the contract they capped the minting at 500 total. This is why the website shows 500/1000 Fortresses minted.
+  - question: Why do the Fortresses on Opensea show minting happened in August 2021?
+    answer: Realms of Ether was developed in 2017, prior to the NFT ERC-721 standard that is used for NFTs today and which all NFTs trading 
+      on Opensea use. In August 2021 0xngmi developed an ERC-721 wrapper so that Fortresses minted on the website could be traded on Opensea. 
+      The Opensea mint date represents the date that the Fortress was wrapped into the ERC-721 format.
+  - question: How were the Fortresses being traded before the ERC-721 wrapper?
+    answer: Realms of Ether has a high level of functionality for a 2017 blockchain game. The auction house in the game is fully functional and was being utilised by the community to buy and sell Fortresses.
+  - question: Can we still use the in-game auction house?
+    answer: Fortresses can be easily wrapped and unwrapped. Owners can trade their unwrapped Fortress on the in-game auction house, or they can wrap their Fortress and trade it on Opensea.
+  - question: Is the original developer still involved in the game?
+    answer: Unfortunately attempts to contact the original developer have not been successful. The project is currently being run by the 
+      community through this Discord. If you're the original developer and reading this, please let us know! We would love for you to be involved! 
+  - question: What does the website do?
+    answer: https://realmsofether.com/ is the community built dashboard. The “Inspector” feature shows the traits of each fortress, when it 
+      was minted, and a rarity score. The “Gold Mine” feature allows fortress owners to stake their RoE NFT for GOLD, an ERC-20 that will be 
+      used in future DAO initiatives. The “Learn” feature shares more about the journey of Realms of Ether. The GOLD contract is located 
+      at https://etherscan.io/token/0x4F9dEcDF87428AED7C1dAdE33B5f31f58BA0e3DA. 
+  - question: There’s a DAO?
+    answer: "All fortress owners are automatically in the DAO. The DAO supports the community and its mission. 
+      Draft proposals for the DAO are made in #dao-proposals and final votes are held at https://snapshot.org/#/realmsofether.eth. 
+      The DAO treasury is located at https://etherscan.io/address/0xda6967678522c04d2d0c362808220d69dbe2ca31. 
+
+      The treasury has a 5 member multi-sig, and transactions are executed after 3 members have signed."
+  - question: What is citadel.art?
+    answer: https://www.citadel.art/ is a community led initiative by an anonymous developer. From what we know so far, it is an NFT gallery 
+      within a Realms of Ether castle. Only fortress owners have access to the NFT gallery. The project is under continuous development with no timeline. 
+  - question: What’s the castle purchase proposal?
+    answer: The DAO voted to purchase a real world Medieval European castle for shared ownership by DAO members. The proposal is a long term 
+      project and discussion for specifics are ongoing. The snapshot for the original proposal is located at 
+      https://snapshot.org/#/realmsofether.eth/proposal/0xb45190c6db7bd1e7462f0e22d93cd08666edee6093ed495bc5c208fa97e25e39. 
+
+      The draft idea paper is located for the specifics of the proposal is located at 
+      https://docs.google.com/document/d/16-LW-g2mz6J-lsLjC4C_QlKZ-GCfaBZP3sDZHetst1o/edit. The proposal is a living document that is 
+      continuously updated based on community discussions. 
+  - question: The treasury owns Realms of Ether castles?
+    answer: The DAO passed a proposal to authorize the treasury to purchase floor-price castles. Since then, the DAO has acquired 3 Realms of Ether castles. There are no plans to sell them at the moment. 
+      The original proposal is located at https://snapshot.org/#/realmsofether.eth/proposal/QmQXpg6Qhj8jQcju66ZUacVGHcKt466EiiwFoCNZa3ceL8 
