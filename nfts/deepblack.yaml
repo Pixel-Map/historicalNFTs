@@ -1,0 +1,84 @@
+---
+# Primary Info
+title: DeepBlack
+blockchain: ethereum
+creationTimestamp: Sep-25-2019 08:42:18 PM +UTC
+excerpt: |
+  DeepBlack is the first Artificial Intelligence that has created the art and 
+  uploaded to the blockchain without any human interaction. DeepBlack
+  trained on over 50,000 pieces of artwork in order too create a limited number 
+  of one of a kind, unique, and original art pieces.
+totalSupply: 3073
+contracts:
+  - name: DeepBlack
+    address: "0xd70F41Dd5875EEE7fa9DD8048567bC932124A8d2"
+    notes: |
+      DeepBlack Contract
+
+openseaCollection: https://opensea.io/collection/bitairt
+openseaVerification: true
+
+standard: ERC-721
+creators: ["BitAIrtFoundation"]
+activeDevelopment: true
+logo: https://lh3.googleusercontent.com/EUGRVvsHqslpM5yKXU2Ga-EntseA--VIMu9_fuP9dl_T_BQg1L4RPUlUOCWYaVoBISpaKBSnJZmuD5kZo0X5slE=s0
+profileImage: https://lh3.googleusercontent.com/EUGRVvsHqslpM5yKXU2Ga-EntseA--VIMu9_fuP9dl_T_BQg1L4RPUlUOCWYaVoBISpaKBSnJZmuD5kZo0X5slE=s0
+
+# Socials
+twitter: "@DeepBlackAI"
+discord: https://t.co/NM9G4vDEXj
+website: https://deepblack.io
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags: []
+
+# Helpful Links
+
+faq:
+  - question: Who is Deep Black?
+    answer: DeepBlack is the first Artificial Intelligence artist that has
+      created the art and uploaded to the blockchain without any human interaction.
+      DeepBlack endured extensive training on over 50,000 pieces of various types
+      of artwork through the use of a supercomputer to enable the creation of a
+      limited number of one of a kind, unique, and original art pieces.
+  - question: About Deep Black?
+    answer: DeepBlack is a project that causes us to question the concept of
+      intelligence and the role of technology in today’s world. For many, the idea
+      of artificial intelligence and a world dominated by technology instils fear.
+      DeepBlack causes us to question this view; it shows us that AI can be powerful
+      in a positive way, and that technology can be used to bring hope and
+      achievement to society.
+  - question: The Origins of DeepBlack?
+    answer:
+      DeepBlack was created in 2018 as an AI artist and was released on the
+      blockchain the very first time more than 2 years ago. DeepBlack’s original
+      project was not expected to succeed, it was for Pete (DeepBlacks Agent) to
+      learn about the blockchain. The plan was to originally give access for people
+      to be able to print out their DeepBlack and keep a copy of the art as a NFT.
+  - question: The Generation Process?
+    answer: DeepBlack uses a two step process to create its art. The Artificial
+      Intelligence engine is a modified Generative Adversarial Network. The first
+      step is the "Generator", the second is the "Discriminator". The process is
+      fed with 50,000 images of existing artwork and the "Generator" attempts to
+      create new artwork based on that input. The role of the "Discriminator" is
+      to see if it can spot which pieces of art are computer generated. If it
+      fails to spot a piece, that piece is considered successful.
+  - question: Am I sure you will never mint new token?
+    answer: Ownership of the smartcontract was transferred to the 0 address
+      which is a famous burning address. This address is the only one able to
+      withdraw funds and mint new token.
+  - question: Are you the first NFT AI art?
+    answer: "The answer is No, Talented human artists released AI art on Chain
+      months before DeepBlack. DeepBlack is an innovative concept where the AI
+      is the artist and not a tool used by an human. DeepBlack artworks were
+      never reviewed by an human but curated by another AI. DeepBlack created
+      various art movement, and painting styles: Abstract, Portrait, Landscape
+      ... No human judged whether the artworks were good or not, it was what is
+      was and it was DeepBlack’s creations. The creator of DeepBlack is a “tool
+      guy” and has no art skill whatsoever, and the only Artist is the AI named DeepBlack.
+      As far as we know DeepBlack is a  concept of AI artist, not AI art."

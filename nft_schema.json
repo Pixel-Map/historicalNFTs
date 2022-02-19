@@ -28,6 +28,7 @@
             "type": "string",
             "enum": [
                 "Predates ERC-721",
+                "Predates ERC-1155",
                 "ERC-20",
                 "ERC-721",
                 "ERC-1155"
