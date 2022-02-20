@@ -41,7 +41,7 @@ nonfungible: false
 # Red Flags
 flags:
   - name: Unownable/Invalid Contract
-    level: dealbreaker
+    level: alert
     details: |
       TerraNullius does not contain functionality for owning or transferring assets,
       nor does it have a limit on supply.  Many people have unfortunately purchased
