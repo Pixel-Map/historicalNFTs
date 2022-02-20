@@ -205,16 +205,12 @@
                     "link": {
                         "type": "string",
                         "pattern": "^https?://"
-                    },
-                    "summary": {
-                        "type": "string"
                     }
                 },
                 "additionalProperties": false,
                 "required": [
                     "name",
-                    "link",
-                    "summary"
+                    "link"
                 ]
             }
         },

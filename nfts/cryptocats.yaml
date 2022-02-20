@@ -64,10 +64,8 @@ flags: []
 relatedLinks:
   - name: View CryptoCat Holders
     link: https://ethplorer.io/address/0x088c6ad962812b5aa905ba6f3c5c145f9d4c079f#chart=candlestick
-    summary: Live tracking of all CryptoCat Holders
   - name: "12 Cats on the Blockchain Slidedeck"
     link: https://www.slideshare.net/GendryMorales/12-cats-on-the-blockchain-demystifying-ethereum-with-the-cryptocats
-    summary: To help you peel back the magic of the blockchain and look beneath the surface, three blockchain entrepreneurs will be exclusively demoing a full stack Ethereum use-case called the CryptoCats.
 faq:
   - question: How do I wrap my CryptoCat?
     answer: "For wrapping cats, you can use the wrapper on the official CryptoCats website: https://cryptocats.thetwentysix.io/wrap"

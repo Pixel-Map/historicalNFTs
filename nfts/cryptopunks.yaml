@@ -32,9 +32,8 @@ staticSupply: true
 nonfungible: true
 
 # Red Flags
-# flags: 
+# flags:
 
 relatedLinks:
   - name: Breaking down V1 CryptoPunks
     link: https://www.startwithnfts.com/posts/breaking-down-v1-cryptopunks-the-first-cryptopunks-release
-    summary: Information about the V1 vs. V2 CryptoPunk contracts.

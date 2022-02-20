@@ -53,7 +53,5 @@ flags:
 relatedLinks:
   - name: PixelCon Contract Sources
     link: https://github.com/PixelCons/PixelCons-Contracts
-    summary: All PixelCon contracts have been opensourced
   - name: 137PM Article about PixelCons
     link: https://www.one37pm.com/nft/art/pixelcons-2018-nft-pixel-art-project
-    summary: Article about the history of PixelCons

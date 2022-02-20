@@ -1,0 +1,47 @@
+---
+# Primary Info
+title: Aether
+blockchain: ethereum
+creationTimestamp: Mar-11-2018 06:39:46 AM +UTC
+excerpt: |
+  Aether is the first metaverse built on NFT (ERC721) standards. Our vision for 
+  Aether spans across our Community Members, our Visitors, and Aether Labs. For 
+  all of us, success means building one of the best communities in the industry.
+totalSupply: 0
+contracts:
+  - name: "Aether Contract"
+    address: "0x31d4c5be1082a88f2abafea549b6c189c2cf057f"
+    notes: ""
+openseaCollection: https://opensea.io/collection/aether
+openseaVerification: true
+standard: ERC-721
+creators: ["@aspheris"]
+activeDevelopment: true
+logo: "https://pbs.twimg.com/profile_images/1459373730535133184/lI1Z75CN_400x400.jpg"
+profileImage: "https://aether11739-production.s3.us-east-1.amazonaws.com/public/details/aeth-32-1640966457527-5"
+
+# Socials
+twitter: "@aether_city"
+discord: https://discord.gg/aethercity
+website: https://www.aethercity.org/
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: In This World Of Ours (2018)
+    link: https://medium.com/@aethercity/aether-city-in-this-world-of-ours-88dddfa42e47
+  - name: Metaverse Rediscovered (@adammcbride)
+    link: https://adamamcbride.medium.com/aether-2018-nft-metaverse-rediscovered-1f16869a4741
+  - name: Welcome to Aether
+    link: https://medium.com/@aethercity/welcome-to-aether-city-e34050a66409
+  - name: Aether's Contract
+    link: https://medium.com/@aethercity/aethers-contract-416168be886b
+# faq:
+#   - question: ""
+#     answer: ""

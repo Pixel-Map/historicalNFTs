@@ -31,3 +31,11 @@ nonfungible: true
 
 # Red Flags
 flags: []
+
+relatedLinks:
+  - name: How to Update a PixelMap Tile
+    link: https://pixelmap.medium.com/how-to-update-your-pixelmap-tile-3b9c1cd88b75
+
+faq:
+  - question: ""
+    answer: ""

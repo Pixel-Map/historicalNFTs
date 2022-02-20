@@ -45,7 +45,8 @@ flags: []
 # FAQ
 faq:
   - question: Why buy a Su Square?
-    answer: Su Squares is a billboard that connects you to neighboring projects based on the location you purchase. We have run the Su Squares image on display on Times Square (16 displays) and I-95.
+    answer:
+      Su Squares is a billboard that connects you to neighboring projects based on the location you purchase. We have run the Su Squares image on display on Times Square (16 displays) and I-95.
       The first ever ERC-721 NFT project for sale, purchasing a square allows you to permanently own a unique piece of blockchain history. No other project can make this claim. Please see the ERC-721 paper and find Su Squares listed. Su Squares was built by the lead author of ERC-721.
 
       For brands looking to connect with highly engaged members of the Web3 community, owning a Su Square gives you permanent exposure to this audience. Your Square is yours forever and will act as living proof of your “skin in the game”. Celebrate this historic moment in crypto and bring awareness to like-minded individuals that can become your customers.
@@ -66,14 +67,17 @@ faq:
 
       The source code for the Su Squares smart contract is publicly accessible on GitHub.
   - question: Will this website stay online? (tenthousandsu.com)
-    answer: We commit to keep this website online for at least ten years from our 2018 launch. We expect extreme interest in Su Squares and we will work hard to keep the website online. This website is published under the jurisdiction of the United States of America. If for some reason it becomes impossible for us to continue hosting the site here we will move to a different jurisdiction or make any other temporary modification necessary to comply with local laws.
+    answer:
+      We commit to keep this website online for at least ten years from our 2018 launch. We expect extreme interest in Su Squares and we will work hard to keep the website online. This website is published under the jurisdiction of the United States of America. If for some reason it becomes impossible for us to continue hosting the site here we will move to a different jurisdiction or make any other temporary modification necessary to comply with local laws.
       We have released the project under a permissive open source license. This also includes all website code, backend code and image processing.
   - question: Is this an investment?
-    answer: Your Su Square entitles you to advertise your image/text/hyperlink on TenThousandSu.com. The Ethereum network and the Su Squares 
-      ERC-721 smart contract ensure your access to the features. We believe this is an advertising expense for your company, not an investment. 
+    answer:
+      Your Su Square entitles you to advertise your image/text/hyperlink on TenThousandSu.com. The Ethereum network and the Su Squares
+      ERC-721 smart contract ensure your access to the features. We believe this is an advertising expense for your company, not an investment.
       But you should check with your lawyer, tax advisor and financial advisor before purchasing Su Squares.
   - question: What happens if I lose access to my Square, can you get it back for me?
-    answer: No. We do not have access to purchased Su Squares. This is enforced by the blockchain. We don't have any way to get it back. 
+    answer:
+      No. We do not have access to purchased Su Squares. This is enforced by the blockchain. We don't have any way to get it back.
       And the fact that we can't get it back is publicly knowable by inspecting our Su Squares smart contract on the blockchain.
   - question: Who runs this project?
     answer: Su Entriken and William Entriken
@@ -83,25 +87,17 @@ faq:
 relatedLinks:
   - name: Introducing the Underlay
     link: https://tenthousandsu.com/articles/2021-10-18-the-underlay
-    summary: ""
   - name: Project History
     link: https://tenthousandsu.com/articles/2021-09-17-project-history
-    summary: ""
   - name: Storing data in your Square
     link: https://tenthousandsu.com/articles/2021-09-04-steganography
-    summary: ""
   - name: Su Squares Open Sourced
     link: https://tenthousandsu.com/articles/2021-08-29-open-source
-    summary: ""
   - name: Operator Bug Fixed
     link: https://tenthousandsu.com/articles/2018-11-11-operator-bug-fixed
-    summary: ""
   - name: Operator Bug
     link: https://tenthousandsu.com/articles/2018-09-18-operator-bug
-    summary: ""
   - name: Launch Week
     link: https://tenthousandsu.com/articles/2018-08-01-launch-week
-    summary: ""
   - name: Tools and Tricks
     link: http://tools.tenthousandsu.com/
-    summary: ""
