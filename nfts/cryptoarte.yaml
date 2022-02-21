@@ -1,0 +1,55 @@
+---
+# Primary Info
+title: CryptoArte
+blockchain: ethereum
+creationTimestamp: Jul-11-2018 11:26:19 PM +UTC
+excerpt: |
+  CryptoArte is art that visualizes the blocks on the Ethereum 
+  network. Each piece contains 576 Ethereum blocks (18x32) which represents a 
+  part of the blockchain in different colors and icons inside the blocks. 
+  CryptoARte is the first off-chain generative NFT collection.
+totalSupply: 9895
+contracts:
+  - name: "CryptoArte"
+    address: "0xbace7e22f06554339911a03b8e0ae28203da9598"
+    notes: "The main CryptoArte contract"
+openseaCollection: https://opensea.io/collection/cryptoarte
+openseaVerification: true
+wrapperContract:
+  address: "0x0000000000000000000000000000000000000000"
+  canUnwrapToOriginalToken: false
+standard: Predates ERC-721
+creators: ["@CryptoArte"]
+activeDevelopment: false
+logo: "https://www.cryptoarte.io/static/images/about/03276864-public-mid.png"
+profileImage: "https://www.cryptoarte.io/static/images/about/03276864-public-mid.png"
+
+# Socials
+twitter: "@cryptoarte"
+discord: https://discord.gg/kwbRuwf
+website: https://www.cryptoarte.io/
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: A Comprehensive Guide to CryptoArte Paintings
+    link: https://medium.com/coinmonks/a-comprehensive-guide-to-cryptoarte-paintings-724783c87442
+  - name: Which Painting Predate Autoglpyhs?
+    link: https://docs.google.com/spreadsheets/d/1QT_Rbn9jsuaVQ92uSRYZ0v7-ETJrnG7pu_NcfiLBLqs/edit?usp=drivesdk
+  - name: Interview between Adam McBride and Seb about Cryptoarte project!
+    link: https://open.spotify.com/episode/3Y0rYHIADWXfo9voI5ioKh?si=10137141df3342f3&nd=1
+  - name: "Early Generative Art Project: 'CryptoArte' with Sebastian Brocher"
+    link: https://www.proof.xyz/early-generative-art-project-cryptoarte-with-sebastian/
+faq:
+  - question: When was the first painting minted?
+    answer: The first painting was minted on the 13th of July 2018.
+  - question: Does that mean CryptoArte came before Autoglyphs?
+    answer: Yes, Autoglyphs commenced minting on the 6th of April 2019.
+  - question: Is the painting number the same as the mint number?
+    answer: No, paintings have historically been minted in a semi-random order, with people also being able to choose paintings to mint. Painting # 400 was the first minted.
