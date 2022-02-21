@@ -4,7 +4,7 @@ title: CryptoArte
 blockchain: ethereum
 creationTimestamp: Jul-11-2018 11:26:19 PM +UTC
 excerpt: |
-  CryptoArte is art that visualizes the blocks on the Ethereum 
+  CryptoArte is art that visualizes blocks on the Ethereum 
   network. Each piece contains 576 Ethereum blocks (18x32) which represents a 
   part of the blockchain in different colors and icons inside the blocks. 
   CryptoARte is the first off-chain generative NFT collection.
@@ -19,7 +19,7 @@ wrapperContract:
   address: "0x0000000000000000000000000000000000000000"
   canUnwrapToOriginalToken: false
 standard: Predates ERC-721
-creators: ["@CryptoArte"]
+creators: ["@sebinatx"]
 activeDevelopment: false
 logo: https://pbs.twimg.com/profile_images/1423335465881640967/Quu29IIF_400x400.png
 profileImage: https://pbs.twimg.com/profile_images/1423335465881640967/Quu29IIF_400x400.png
