@@ -1,0 +1,76 @@
+---
+# Primary Info
+title: Lunar Moon Plots
+blockchain: ethereum
+creationTimestamp: Oct-20-2017 10:13:37 AM +UTC
+excerpt: |
+  Lunar is a virtual moon real estate NFT that launched on October 20, 2017. Only 400 sectors of 
+  the Moon exist and vary by size and location, making this collection extremely rare. Each plot 
+  includes a unique interactive 3D lunar map - spin to see your plot!
+totalSupply: 400
+contracts:
+  - name: "LunarToken Smart Contract"
+    address: "0x43fb95c7afa1ac1e721f33c695b2a0a94c7ddab2"
+    notes: ""
+  - name: LunarTokenHelper Smart Contract
+    address: "0x9809dbeb9e030eb296c7c410758310dfcb1ef3dd"
+    notes: ""
+  - name: "Lunar Moon Plots Official Wrapper"
+    address: "0xe81175546f554ca6ceb63b142f27de7557c5bf62"
+    notes: "Wrapper tool: https://lunartoken.co/wrapper/index.html"
+openseaCollection: https://opensea.io/collection/wrapped-lunar
+openseaVerification: true
+wrapperContract:
+  address: "0xe81175546f554ca6ceb63b142f27de7557c5bf62"
+  canUnwrapToOriginalToken: false
+standard: ERC-20
+creators: ["@Lunartoken"]
+activeDevelopment: false
+logo: "https://pixelmap.art/nfts/images/logo-lunarmoonplots.png"
+profileImage: "https://pixelmap.art/nfts/images/profile-lunarmoonplots.png"
+
+# Socials
+twitter: "@lunar_token"
+discord: https://discord.gg/4YQ4twNTUZ
+website: https://lunartoken.co
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: Check floor price
+    link: https://alphaonchain.com/lunartoken
+  - name: Medium
+    link: https://lunartoken.medium.com/
+  - name: Podcast about Lunar Moon Plots
+    link: https://twitter.com/MintedFM/status/1451579403721392135?s=20
+
+faq:
+  - question: How does it work?
+    answer: "https://lunartoken.co/ is a fully-functioning decentralized real estate exchange 
+      built on top of Ethereum smart contracts. Originally launched in 2017, this is one of the 
+      first non-fungible tokens (NFTs) ever created. For every moon plot you purchase, you receive 
+      a token called a “lunar” (symbol: LUNA). Each token corresponds to a unique sector of the 
+      Moon, and has a price set by the owner upon purchase. Any other visitor to the moon can 
+      acquire a plot for the seller's price."
+  - question: How do I send or sell my deed to someone else?
+    answer: "In order to transfer or sell your moon deed, you can use lunartoken.co or interact 
+      with the contract directly. Note: Sending with a traditional wallet won't work because 
+      plots vary in location, size, and value—i.e. they are not fungible. Lunartoken was 
+      implemented using the original EIP proposal for non-fungible tokens (NFTs), meaning you 
+      can still check your balance with a traditional ERC-20 wallet."
+  - question: Is this legal?
+    answer: The Outer Space Treaty of 1967 clearly states, "outer space, including the Moon and 
+      other celestial bodies, is not subject to national appropriation by claim of sovereignty, 
+      by means of use or occupation, or by any other means." In other words, no government can 
+      claim ownership of the moon. It says nothing, however, about individuals claiming ownership 
+      of the moon. Accordingly, Lunar provides a decentralized service to manage everyone's 
+      claims.
+  - question: Where did this come from?
+    answer: In the cryptocurrency community, people often use the expression, “We're going to 
+      the moon!” But Lunar is the only token that will get you there.
