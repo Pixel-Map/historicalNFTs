@@ -1,0 +1,75 @@
+---
+# Primary Info
+title: Cryptographics
+blockchain: ethereum
+creationTimestamp: Oct-03-2018 09:12:44 PM +UTC
+excerpt: |
+  Cryptographics is a fully decentralized digital art creation platform that allows users to create, store and trade unique randomly generated digital artwork on the blockchain.
+totalSupply: 0
+contracts:
+  - name: "Cryptographics"
+    address: "0xB80776700778e7415DA08ef65fA389f75737fB95"
+    notes: "Contract was poorly named Digital Print Image (DPI). Images are stored on https://ipfs.decenter.com and https://ipfs.io nodes."
+openseaCollection: https://opensea.io/collection/cryptographicsart
+openseaVerification: false
+standard: ERC-721
+creators: ["@DecenterTeam"]
+activeDevelopment: true
+logo: "https://pbs.twimg.com/profile_images/1034356170692145152/juQcPbfx_400x400.jpg"
+profileImage: "https://pbs.twimg.com/media/E-_dLXIWQAMy6_K?format=jpg&name=medium"
+
+# Socials
+twitter: "@_Cryptographics"
+discord: https://discord.gg/xnhfYRS
+website: https://cryptographics.app/
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: Introducing Cryptographics – Unique digital artwork on the Ethereum blockchain (2018)
+    link: https://blog.decenter.com/2018/10/08/cryptographics-unique-digital-artwork-blockchain/
+  - name: Cryptographics - a playful digital artwork hub where artists create and sell unique art (2018)
+    link: https://medium.com/@soyrosa/cryptographics-a-playful-digital-artwork-hub-where-artists-create-and-sell-unique-art-2676b28d9978
+  - name: The Definitive Timeline of Early NFTs on Ethereum V2 by Leoindas.eth
+    link: https://twitter.com/LeonidasNFT/status/1470401958766862337
+  - name: Ever found 20$ in your coat pocket? I just found 2 ETH in a dusty NFT app
+    link: https://peakd.com/hive-174578/@soyrosa/ever-found-20dollar-in-your-coat-pocket-i-just-found-2-eth-in-a-dusty-nft-app-d
+
+faq:
+  - question: "What is a cryptographic?"
+    answer: "A cryptographic is a unique piece of digital artwork randomly created using the Cryptographics DApp and stored on the blockchain by its Creator. Cryptographics are stored on the Ethereum blockchain as one of a kind ERC-721 tokens and they can as such be kept in their owners’ Ethereum wallets and traded with other users."
+  - question: "How do I create a cryptographic?"
+    answer:
+      "Creating a cryptographic is a simple 3-step process. Once you click the Compose button the steps are as follows
+
+      1. Select Asset Packs where you simply pick the Asset packs whose elements you want to see included in your cryptographic.
+      2. Generate cryptographic where the Cryptographic DApp generates digital artwork with random assets from the selected Asset packs using a provably random algorithm. You, as the Creator, are free to try and Recompose the cryptographic as many times as you want before deciding to save it. You can also choose to use a square format canvas instead or add a white frame to your cryptographic.
+      3. Save cryptographic where you name and describe your cryptographic, before clicking the Claim cryptographic button. This process will store your cryptographic to the blockchain and add the unique ERC-721 token to your MetaMask Ethereum account."
+  - question: "How do I sell a cryptographic?"
+    answer: "Once you create and save a cryptographic on the blockchain, you can offer it for sale in the Cryptographics Gallery at any point in time. You do this by selecting the cryptographic you want to sell on profile page, clicking the List for sale button and setting your desired price. Once you’re done, your cryptographic will be shown with the price you set in the Gallery and other users will be able to buy it from you."
+  - question: "What is an Asset pack?"
+    answer: "An Asset pack is a collection of graphic assets bundled together and uploaded to the Cryptographics DApp by an Artist. Every Asset pack has a unique price set by the Artist for the whole pack. A Creator only needs to purchase a certain Asset pack once and can reuse it for any number of cryptographics afterwards without any additional cost. An Asset pack is always sold and bought as a whole, no matter the number of actual assets that were used on a cryptographic."
+  - question: "How do I create an asset pack?"
+    answer:
+        "Creating an asset pack is a relatively simple process once you have the actual assets ready for upload. Once you click the Create Asset Pack button, these are the three steps you should follow
+
+        1. Upload Assets - where you upload the actual graphic files. Please note that the maximum number of assets in an Asset pack is 50. This is also the step where you configure your assets. The options that you can turn on for any of your Assets are Asset scaling, Asset rotation and Background use. An important thing to note is that Asset scaling only works in one direction, reducing the asset size, in order to preserve graphics quality and avoid pixelation.
+        2. Test Asset Pack - where you can see how your Asset pack behaves in the Cryptographics composer and if it works as you intended it to.
+        3. Submit Asset Pack - where you need to generate a thumbnail for your Asset pack, name it, put in your desired price and provide an additional description if you want to. Once you click the Submit button, you need to confirm the transaction in MetaMask and that’s it."
+  - question: "What can I upload as assets?"
+    answer: "You can upload any graphic elements as assets, be it digital art, photography, paintings or drawings. In case the graphics you are uploading are not specifically created by you, they should belong to the public domain, i.e. not be copyrighted. The content of the graphics itself should not be malicious or harmful in any way."
+  - question: "How do I sell an Asset Pack?"
+    answer: "There are no additional actions needed to sell an asset pack once you initially submit it to the Cryptographics DApp. It will be available in the Asset Packs collection and Creators will be able to find and select your Asset Pack during the Cryptographics creation process and each time a new Creator uses your Asset Pack you will receive a payment from them in the value you set as the Asset Pack price. You can check your funds balance on your profile page at any point in time. Please note that once a Creator purchases your Asset Pack, they can reuse it for any number of cryptographics in the future without any additional payments, so please plan and set your Asset Packs' prices accordingly."
+  - question: "Is the cryptographic creation process truly random and is there a way to cheat and save specific, pre-made art as a cryptographic?"
+    answer: "The Cryptographics composing algorithm uses multiple randomized variables and hashing functions in order to generate the final seed that is then used to compose the randomly selected, positioned and scaled assets into a single cryptographic. This process makes it impossible to come to the same final seed two times, meaning that no two cryptographics can be exactly the same. Furthermore, even if at some point in the future a seed that has already been used for a saved cryptographic is generated again, the Cryptographics smart contract would not allow it to be used. All of this means that no two cryptographics can ever be truly the same.
+  One thing that users can do to cheat is create a final graphic on their own, submit an asset pack containing that single graphic and use it to create the same looking cryptographic. However, since the true source of cryptographics is fully disclosed, forged cryptographics have no quantifiable value."
+  - question: "Where are cryptographics stored?"
+    answer: "Once saved, your cryptographic's distinct metadata is stored on the Ethereum blockchain in the form of a unique, non-fungible ERC-721 token and tied to your Ethereum wallet, making you the owner. All of the actual graphic assets are stored on the InterPlanetary File System (IPFS) and each time you open a saved cryptographic in the Cryptographics DApp it is perfectly recreated using its unique metadata and consisting assets. The only pre-composed cryptographics that are kept stored as singular image files are low-resolution thumbnails of existing cryptographics shown in the Gallery."
+  - question: "How are funds distributed when selling and purchasing asset packs or cryptographics? (On the native marketplace)"
+    answer: "Whenever an Asset pack is bought, the Artist receives 95% of the Creator's payment, while the Cryptographics team receives the remaining 5%. Additionally, whenever someone buys a cryptographic, the seller receives 95% of the payment, with 2% going to the original Creator and 3% to the Cryptographics team."
