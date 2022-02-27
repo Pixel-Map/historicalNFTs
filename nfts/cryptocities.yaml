@@ -1,0 +1,63 @@
+---
+# Primary Info
+title: CryptoCities
+blockchain: ethereum
+creationTimestamp: Feb-09-2018 09:17:13 AM +UTC
+excerpt: |
+  CryptoCities is a strategy game built on the Ethereum blockchain, where real towns, villages and cities are discovered over time. 
+  Each has unique features that will influence all future game evolution.
+totalSupply: 25000
+contracts:
+  - name: CryptoCities
+    address: "0xD137eD189a8a3e9bF5541431C9b9Ff1D4EB5c196"
+    notes: The original CryptoCities contract
+  - name: CryptoCities Wrapper
+    address: "0xbDCbd7B7C07091D8f8FfDD2bdF99019058f82346"
+    notes: Converts City to ERC-721, not reversible!
+openseaCollection: https://opensea.io/collection/cryptocities2018
+openseaVerification: false
+wrapperContract:
+  address: "0xbDCbd7B7C07091D8f8FfDD2bdF99019058f82346"
+  canUnwrapToOriginalToken: false
+standard: Predates ERC-721
+creators: ["@liquid_pixels"]
+activeDevelopment: true
+logo: "https://pixelmap.art/nfts/images/logo-cryptocities.png"
+profileImage: "https://pixelmap.art/nfts/images/profile-cryptocities.png"
+
+# Socials
+twitter: "@liquid_pixels"
+discord: https://discord.gg/4yxxpPEJDV
+website: https://cryptocities.net/
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags: 
+  - name: Royalties within Contract
+    level: alert
+    details: Royalty fees are directly controlled via the contract, and adjustable at any time by the creators.  While most projects have
+      royalties on various marketplaces, having it directly controlled by the contract means that a compromised key or bad actor could
+      set it to 100% and there would be no possibility of setting up a new collection or listing on a different marketplace as a workaround.
+  - name: Original contract isn't verified
+    level: warning
+    details: It's difficult to identify vulnerabilities or the supply, as the original contract cannot be verified.
+  - name: Wrapper cannot unwrap to original token
+    level: warning
+    details: Wrapping an original CryptoCities token is a one-way process, wrapped cities cannot be unwrapped.
+
+relatedLinks:
+  - name: CryptoCities Guide
+    link: https://cryptocities.net/guide
+
+faq:
+  - question: Introduction for Newbies?
+    answer: CryptoCities was launched in Feb 2018 after being actively developed through 2017. It's one of the earliest NFT projects around
+      and has largely flown under the radar for most of it's time. Most development of the game took place in 2018 and since then it has been 
+      running but not actively developed during the crypto winter of 2019/2020. The game has been maintained through the years with small 
+      fixes, tweaks, etc. and has had no real downtime since it started. The game has been played every day for 1294 days by a small number 
+      of committed players.
+
