@@ -1,0 +1,73 @@
+---
+# Primary Info
+title: Thousand Ether Homepage
+blockchain: ethereum
+creationTimestamp: Aug-27-2017 12:54:50 AM +UTC
+excerpt: |
+  The ThousandEtherHomapage is a homage to the famous MillionDollarHomepage. 
+  Our goal is to balance the authentic retro feel of the original project with 
+  a modern interpretation of Ethereum blockchain technology.
+totalSupply: 1621
+contracts:
+  - name: KetherHomepage
+    address: "0xb5fe93ccfec708145d6278b0c71ce60aa75ef925"
+    notes: The original Thousand Ether Homepage contract
+  - name: KetherNFT
+    address: "0x7bb952ab78b28a62b1525aca54a71e7aa6177645"
+    notes: ERC-721 Wrapper Contract
+  - name: KetherSortition
+    address: "0xa9a57f7d2A54C1E172a7dC546fEE6e03afdD28E2"
+    notes: Innovative "Sortition" contract, handles random election of a magistrate
+openseaCollection: https://opensea.io/collection/thousand-ether-homepage
+openseaVerification: true
+wrapperContract:
+  address: "0xa9a57f7d2A54C1E172a7dC546fEE6e03afdD28E2"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: ["@shazow", "@mveytsman"]
+activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/logo-thousandetherhomepage.png
+profileImage: https://pixelmap.art/nfts/images/profile-thousandetherhomepage.png
+
+# Socials
+twitter: "@ketherhomepage"
+discord: https://discord.gg/PXVRw37bQ7
+website: https://thousandetherhomepage.com
+
+# Contract Specific Attributes
+assetDataLocation: onchain
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: Age of the Magistrate (Sortition Overview)
+    link: https://medium.com/@ketherhomepage/thousand-ether-homepage-age-of-the-magistrate-ac2d9166c074
+
+faq:
+  - question: Can plots be subdivided or merged?
+    answer: No. This is a constraint of the original contract from 2017.
+      Maybe we can find some creative things to do with merged derivatives later, but assume not for now.
+  - question: What is the goal of Thousand Ether Homepage?
+    answer:
+      The ThousandEtherHomapage is a homage to the famous MillionDollarHomepage.
+      Our goal is to balance the authentic retro feel of the original project with
+      a modern interpretation of Ethereum blockchain technology. What a time to be alive!
+  - question: This project is not moving fast enough?
+    answer: We want to make one thing very clear--When this project sold out,
+      we did not pump it or even promote it. We didn't even have a Discord or
+      Twitter until after it was selling out! We are grateful for the organic
+      growth and we have been working hard to accelerate our original roadmap.
+
+      At every point, we've done our best to be completely transparent about the
+      state of the project and our plans for it. All of our work is open source
+      and we work in public, at any moment you can go see what the progress is,
+      and we've always answered questions honestly.
+
+      We are committed to a long term vision of this project, we started in 2017
+      with a 10 year time horizon in mind. It's 2021 and we're not even half done.
+      We want to differentiate our project on perseverance rather than hype.
+
+      We're delighted to have you along on this journey if it fits with your values.
