@@ -1,0 +1,51 @@
+---
+# Primary Info
+title: MyBlockchainCorner
+blockchain: ethereum
+creationTimestamp: Apr-08-2017 07:47:17 PM +UTC
+excerpt: |
+  Webpage displays tiles where buyers can display a piece of HTML. Can be 
+  updated and modified by the owner, unlimited supply.
+totalSupply: 0
+contracts:
+  - name: "MyBlockchainCorner"
+    address: "0x8c051c68d9601771ce96d4c9e971985aede480f7"
+    notes: ""
+# No wrapper afaik, not listed on OpenSea.
+# openseaCollection: https://opensea.io/collection/placeholder
+# openseaVerification: false
+# wrapperContract:
+#   address: "0x0000000000000000000000000000000000000000"
+#   canUnwrapToOriginalToken: false
+standard: Predates ERC-721
+creators: ["@raycar5"]
+activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/logo-myblockchaincorner.png
+profileImage: https://pixelmap.art/nfts/images/profile-myblockchaincorner.png
+
+# Socials
+twitter: "@myblkchaincrner"
+discord: https://discord.gg/cHVPNarH
+website: https://myblockchaincorner.web.app
+
+# Contract Specific Attributes
+assetDataLocation: onchain
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Original contract isn't verified
+    level: warning
+    details: It's difficult to identify vulnerabilities, as the original contract cannot be verified.
+  - name: Unlimited Supply
+    level: warning
+    details: |
+      There is no limit to the number of PixelCons that can be created as long 
+      as it is unique.  However, historic PixelCons can be found from as far 
+      back as 2018 and the special Genesis series minted at contract launch 
+      can be found by filtering by "2018 Genesis" on OpenSea.
+
+# faq:
+#   - question: ""
+#     answer: ""
