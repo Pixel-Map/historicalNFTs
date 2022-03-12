@@ -237,6 +237,7 @@
         "creationTimestamp",
         "totalSupply",
         "staticSupply",
-        "logo"
+        "logo",
+        "flags"
     ]
 }

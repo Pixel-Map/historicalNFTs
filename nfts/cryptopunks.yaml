@@ -32,7 +32,7 @@ staticSupply: true
 nonfungible: true
 
 # Red Flags
-# flags:
+flags: []
 
 relatedLinks:
   - name: Breaking down V1 CryptoPunks
