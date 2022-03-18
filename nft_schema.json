@@ -162,6 +162,11 @@
             "type": "string",
             "pattern": "^@"
         },
+        "instagram": {
+            "description": "Instagram account",
+            "type": "string",
+            "pattern": "^https?://"
+        },
         "website": {
             "description": "Website for NFT",
             "type": "string",
