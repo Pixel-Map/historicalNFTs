@@ -23,8 +23,8 @@ rarityTools: https://rarity.tools/cryptoskulls
 # Socials
 twitter: "@Crypto_Skulls"
 discord: https://discord.com/invite/bzbMMnk
-website: https://cryptoskulls.com/
-instagram: https://www.instagram.com/cryptoskulls.nft/
+website: https://cryptoskulls.com
+instagram: https://www.instagram.com/cryptoskulls.nft
 
 # Contract Specific Attributes
 assetDataLocation: webserver
@@ -40,6 +40,6 @@ relatedLinks:
   - name: Swap $GSK
     link: https://shibaswap.com/#/swap?outputCurrency=0xA0343eD4F61E131D8b9738d810F0AAaFA346d305
   - name: Gold of Skulls Official Site
-    link: https://goldofskulls.com/
+    link: https://goldofskulls.com
 
 faq: []
