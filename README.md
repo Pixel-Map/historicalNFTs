@@ -17,3 +17,4 @@ NFTs are inherently technical and can range from relatively simple to incredibly
 1. The contract(s) of the NFT represent the ultimate source of truth.
 2. In the case of multiple contracts for a given project, the creator has the final say on which is official.  Additional contracts can be listed for context and knowledge sharing but not considered separate projects without the creator's approval.
 3. A wrapper is valid only if the wrapped token can be unwrapped to the original asset.  Otherwise, the wrapper will be considered a separate project not connected to the historical asset.
+
