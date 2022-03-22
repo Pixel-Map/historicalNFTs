@@ -1,0 +1,88 @@
+---
+# Primary Info
+title: Pride Punks
+blockchain: ethereum
+creationTimestamp: Jun-23-2018 03:23:34 AM +UTC
+excerpt: |
+  PridePunks were launched Jun 23, 2018 as a celebration of CryptoPunks, Pride month and a statement on the lack of inclusivity of Web3.
+  They were created at a time when LarvaLabs Punks traded for dollars and were intended to be a collaborative project to make Punks more exciting.
+totalSupply: 10000
+contracts:
+  - name: MetaPunk Token (Pride Punks Contract)
+    address: "0x0144b7e66993c6bfab85581e8601f96bfe50c9df"
+    notes: Originally required wrapping a valid LarvaLabs punk, later modified via a second contract.
+  - name: MetaPunkController
+    address: "0x0144b7e66993c6bfab85581e8601f96bfe50c9df"
+    notes: In the 2022 system the MetaPunkController is the owner of the MetaPunk Token 2018 . This means the controller controls all the 
+      functionality of the token and enforces the 10k limit as well as assigns metadata for each token as it is minted. 
+openseaCollection: https://opensea.io/collection/pridepunks2018
+openseaVerification: false
+# wrapperContract:
+#   address: "0x0000000000000000000000000000000000000000"
+#   canUnwrapToOriginalToken: false
+standard: ERC-721
+creators: ["@pridepunks2018"]
+activeDevelopment: true
+logo: https://pixelmap.art/nfts/images/logo-pridepunks.png
+profileImage: https://pixelmap.art/nfts/images/profile-pridepunks.png
+
+# Socials
+twitter: "@pridepunks2018"
+discord: https://discord.gg/ZkX4CFtWhJ
+website: https://www.pridepunk.xyz
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Centralized Control of Contract
+    level: alert
+    details: |
+      Currently, the supply limit & ability to mint is centralized, and controlled by the MetaPunkController contract.  Per the FAQ, 
+      once it is known that the MetaPunkController is functioning properly, the PridePunk DAO will be given ownership over the MetaPunk 
+      Controller and the MetaPunkToken, the DAO members then can vote to end the mint (if the mint it still going on) or to burn the 
+      ownership keys completely.  If the ownership keys are burned, staticSupply will be considered to be true for this NFT, and this alert
+      will be removed. 
+
+relatedLinks:
+  - name: Matt2000 from LarvaLabs calling the project cool in 2018
+    link: https://discord.com/channels/329381334701178885/329381334701178885/460208740172300328
+  - name: PridePunk Wiki
+    link: https://pridepunks.notion.site/pridepunks/Pride-Punk-Wiki-0df75b81726b4650bbd922075f47f59e
+
+faq:
+  - question: When is the mint? How much? What about the rainbowlist? etc...
+    answer: TBD
+  - question: Are NFTs minted in 2018 and 2022 on different contracts?
+    answer: No, all NFTs are minted on the original 2018 contract. 
+  - question: Are these NFTs original 2018 NFTs?
+    answer: The original mint was never finished. Only two tokens were minted in 2018. With the mint reopening, these are 2022 NFT's 
+      minted on the original 2018 contract. 
+  - question: If PridePunks are from 2018, can I un-wrap the 2022 smart contract?
+    answer: No, PridePunks are not wrapped. All PridePunks minted are NFTs on the original 2018 NFT contract.
+  - question: How many NFT's were minted in 2018?
+    answer: Two NFTs were minted in 2018. ~150 Tokens were minted in March 2022 as part of rediscovery and testing.
+  - question: Does the wrapper hold the new token? How does this work?
+    answer: The MetaPunk Controller contract is the Owner of the original 2018 contract. It controls it completely. At the end of the mint 
+      ownership will be transferred to the PridePunkDao contract. Voters can decide to burn the ownership key, if they want, locking the 
+      2018 contract forever. 
+  - question: Is the mint function on the 2018 contract unlimited?
+    answer: No. The 2018 contract is designed to be used with a Controller contract. The controller contract limits the possible number of 
+      minted NFTs to 10,000.  (Editor note -- the 2018 contract is technically unlimited.  If/once the key to the controller contract
+      is burned, then it will truly be limited to 10k mints)
+  - question: Is there a 'wrapper' contract? And does it hold the NFTs?
+    answer: No. PridePunks are not wrapped Tokens. The NFTs are all minted on the 2018 contract, which is what the user receives. There is a 
+      'controller' contract that owns the original 2018 contract to manage minting.
+  - question: But I heard talk about a wrapper? What does this mean?
+    answer: Originally in the design of the 2018 system (which was not very good), it was required that you 'wrap' a real CryptoPunk before 
+      you could mint a PridePunk. This functionality was a bad idea and is no longer used. Only two NFTs ever wrapped a real CryptoPunk. 
+      The new 2022 Controller impersonates the original CryptoPunk contract and allows to mint PridePunks without wrapping a CryptoPunk.
+  - question: Did you say PridePunkDao?
+    answer: Yes. There will be more information about this soon, but the PridePunkDAO will be an on-chain DAO that manages the PridePunk 
+      Ecosystem treasury. More info post-mint!
+  - question: How much control will the creator maintain over the contracts?
+    answer: At the end of the mint all contract admin roles will be transferred to the DAO. The only reason for keeping them during the 
+      mint it to be able to help in an emergency
