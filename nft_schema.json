@@ -9,6 +9,10 @@
             "description": "Official title of the NFT",
             "type": "string"
         },
+        "analysis": {
+            "description": "Optional in depth analysis about the NFT",
+            "type": "string"
+        },
         "excerpt": {
             "description": "Short (280 character or less) description of the NFT",
             "type": "string",
