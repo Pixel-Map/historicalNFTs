@@ -147,9 +147,12 @@ faq:
       them on OpenSea at https://opensea.io/collection/pixelmap-time-capsules."
 analysis: |
   ## Background Story
-  PixelMap is the oldest verified NFT collection on OpenSea, launched on November 17, 2016, predating all NFTs other than Etheria on the Ethereum blockchain.
-
-  A little over a decade ago, a website called MillionDollarHomePage.com was created by Alex Tew.  The page consisted (and still consists) of a 1000x1000 pixel grid, with a total of 1,000,000 pixels being sold for $1 each.  Because the pixels themselves were too small to be seen individually, they were sold in 10x10 pixel tiles for $100 each.  The purchasers of each tile then provided a 10x10 pixel image to be used, as well as optionally a URL for the tile to link to.  Once an image had been configured for a given tile however, it could never be changed (nor could the ownership of the tile).
+  ![PixelMap](https://pixelmap.art/nfts/images/profile-pixelmap.png "PixelMap")
+  A little over a decade ago, a website called MillionDollarHomePage.com was created by Alex Tew.  The page consisted (and still consists) 
+  of a 1000x1000 pixel grid, with a total of 1,000,000 pixels being sold for $1 each.  Because the pixels themselves were too small to be 
+  seen individually, they were sold in 10x10 pixel tiles for $100 each.  The purchasers of each tile then provided a 10x10 pixel image to be 
+  used, as well as optionally a URL for the tile to link to.  Once an image had been configured for a given tile however, it could never be 
+  changed (nor could the ownership of the tile).
 
   In many ways, **PixelMap.io** is similar to the MillionDollarHomepage.  There are a total of 1,016,064 pixels for sale (on a 1,296 x 784 grid).  This grid is broken up into 3,969 16x16 tiles, each at an initial price of 2 Ethereum.  However, unlike the MillionDollarHomepage.com, every single tile is controlled by a single contract on the Ethereum Blockchain.  This lends itself to the following benefits.
 
