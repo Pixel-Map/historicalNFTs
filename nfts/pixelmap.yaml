@@ -159,4 +159,12 @@ analysis: |
   * The project is completely Open Source, which means anyone can view the code, audit the Solidity contract, or even set up more frontends if they'd like.  For instance, if someone wanted to set up an easier-to-use tile editor for PixelMap.io, they could, as all of the data is stored safely on the Ethereum blockchain.
 
   ### Quirks
-  When PixelMap was created, the ERC-721 standard didn't yet exist.  However, the ability, to buy, update, and sell were all part of the original 70 lines contract.  Unfortunately, the ability to do a wallet-to-wallet transfer without selling didn't exist, as the assumption was that a seller wouldn't care WHO purchased a tile, only that they had the ability to sell them.  This wasn't an issue from 2016 though 2021, as any tiles purchased were done so directly from the contract.  However, with the creation of ERC-721 marketplaces (such as OpenSea and LooksRare), the ability to do a direct transfer of the NFT is a hard requirement.  Thankfully, a wrapper contract was created that allows all of the original behavior, in addition to providing a safe transfer function.  One caveat to that is that the act of wrapping a tile requires that you must first purchase it from yourself, setting it at a price that is high enough that no one else poaches it from you (or if they do, you find the amount acceptable for the tile).  
+  When PixelMap was created, the ERC-721 standard didn't yet exist.  The ability, to buy, update, and sell were all part of the 
+  original 70 lines contract.  Unfortunately, the ability to do a wallet-to-wallet transfer without selling didn't exist, as the assumption 
+  was that a seller wouldn't care WHO purchased a tile, only that they had the ability to sell them.  This wasn't an issue from 2016 though 
+  2021, as any tiles purchased were done so directly from the contract.  
+  
+  However, with the creation of ERC-721 marketplaces (such as OpenSea 
+  and LooksRare), the ability to do a direct transfer of the NFT is a hard requirement.  Thankfully, a wrapper contract was created that 
+  allows all of the original behavior, in addition to providing a safe transfer function.  One caveat to that is that the act of wrapping 
+  a tile requires that you must first purchase it from yourself, setting it at a price that is high enough that no one else poaches it from you (or if they do, you find the amount acceptable for the tile).  
