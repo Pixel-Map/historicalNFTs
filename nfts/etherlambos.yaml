@@ -1,0 +1,51 @@
+---
+# Primary Info
+title: EtherLambos
+blockchain: ethereum
+creationTimestamp: Mar-04-2018 09:55:35 PM +UTC
+excerpt: |
+  EtherLambos (2018) features a limited edition of upgradeable blockchain 
+  supercars, & represents one of the earliest crypto memes.  There are 
+  six Etherlambo-models available.
+totalSupply: 1600
+contracts:
+  - name: "EtherLambos"
+    address: "0xda9f43015749056182352e9dC6D3eE0B6293D80A"
+    notes: ""
+openseaCollection: https://opensea.io/collection/etherlambos
+openseaVerification: true
+standard: ERC-721
+creators: ["@Etherlambos"]
+activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/logo-etherlambos.png
+profileImage: https://pixelmap.art/nfts/images/logo-etherlambos.png
+
+# Socials
+twitter: "@Etherlambos"
+discord: https://discord.com/invite/YkVayphdy4
+website: https://etherlambos.io
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Centralized Control of Contract
+    level: alert
+    details: |
+      Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The EtherLambos contract
+      includes three roles, a CEO, CFO, and COO.  The CEO can pause transfers/sales at any time, and the COO can mint
+      an unlimited number of new models.  All 3 roles are currently still controlled by private wallets.
+relatedLinks:
+  - name: How to Update a PixelMap Tile
+    link: https://pixelmap.medium.com/how-to-update-your-pixelmap-tile-3b9c1cd88b75
+
+faq:
+  - question: ""
+    answer: ""
+
+analysis: |
+  ## This section fully supports Markdown for an indepth overview or analysis of the given NFT.
+  More info...
