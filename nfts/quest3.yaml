@@ -1,0 +1,70 @@
+---
+# Primary Info
+title: Quest-3
+blockchain: ethereum
+creationTimestamp: Jan-1-1994 04:29:10 AM +UTC
+excerpt: |
+  A Published by Ponderware original. Quest-3 is an experimental, experiential 
+  NFT modeled after the Geocities era. "The Internet's first NFT."
+totalSupply: 25600
+contracts:
+  - name: "contractName"
+    address: "0x0000000000000000000000000000000000000000"
+    notes: ""
+openseaCollection: https://opensea.io/collection/quest3
+openseaVerification: false
+standard: ERC-721
+creators: ["@menancing94"]
+activeDevelopment: false
+logo: "https://pixelmap.art/nfts/images/logo-quest3.png"
+profileImage: "https://pixelmap.art/nfts/images/profile-quest3.png"
+
+# Socials
+twitter: "@PlaceholderNFT"
+discord: https://discord.gg/ponderware
+website: http://quest-3.net
+
+# Contract Specific Attributes
+assetDataLocation: onchain
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Released April 1, 2022
+    level: alert
+    details: |
+      1994... is before Ethereum.  But Yolo.
+
+relatedLinks: []
+
+faq:
+  - question: WHAT IS QUEST-3?
+    answer: Quest-3 is a mid-90s riff on an NFT.  It's an April Fool's joke, but
+      it's also a real, fully functional, legitimate, CC0, 100% on-chain, usable NFT.
+  - question: CAN I GET ON THE ALLOWLIST??
+    answer: You've had 28 years to mint. ¯\_(ツ)_/¯
+  - question: WHAT'S THE MINT PRICE?
+    answer: The mint price is 0.01994206980085, but each action in your quest is free - just pay shipping and handling (priced in gwei)
+  - question: WHAT IS THE PRICE TO JOURNEY IN QUEST-3?
+    answer: Just Shipping and Handling (priced in gwei).
+  - question: WHAT HAPPENED TO MAIL IN OPTIONS??
+    answer: Since blockchain technology has come so far, we've decided to discontinue the mail-in mint option. We appreciate your continued support over the decades, and we apologize for any inconvenience. If you feel you've been rugged, go fax yourself.
+  - question: CAN QUEST-3 TOKENS BE TRADED?
+    answer: You bet!
+  - question: HOW LONG DO I HAVE TO FINISH MY QUEST-3?
+    answer: Everyone's journey happens at their own pace, you good.
+  - question: IS THERE A ROADMAP?
+    answer: Yes, and it is 100% completed!  The project is launched and that's all that's happening.
+  - question: IS THERE STAKING?
+    answer: See above
+  - question: WILL THERE BE A TOKEN?  WHAT'S THE TOKENOMICS?
+    answer: See roadmap
+  - question: A DEVELOPER JUST IM'ED ME AND SAID I NEED TO FAX MY SEED PHRASE TO THEM???
+    answer: No one from Pondertech Digital Solutions will ever ask for your seed phrase. Never fax, AIM, or otherwise share with anyone your seed phrase.
+  - question: IS THIS ON AN L2?
+    answer: They didn't exist in 1994, so nope.
+  - question: I PAID TO CONTINUE MY JOURNEY BUT NOTHING HAPPENED, BOGUS?!?
+    answer:
+      Making it takes time. "Doing something" doesn't mean you will get an outcome immediately. Your fate depends upon the actions of other travelers. This not only guarantees randomness and prevents people from cheating, but it unites everyone in their quest to make it. Be patient. If too few travelers "do something", you may have the opportunity to take a heroic action!
+      Stay vigilant.
