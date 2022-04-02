@@ -1,0 +1,56 @@
+---
+# Primary Info
+title: PeoplesCasino
+blockchain: ethereum
+creationTimestamp: Sep-24-2019 09:02:27 AM +UTC
+excerpt: |
+  People's Casino allows you to purchase and run your own fully functional gambling application on the Ethereum blockchain. Each casino is a unique online gambling machine. You are responsible for supplying the house reserve, and solely benefit from all earnings.
+totalSupply: 1000
+contracts:
+  - name: "PeoplesCasino"
+    address: "0x8995ad7deabd17c31b62ac89ee5f7d850a4bedb0"
+    notes: "Token ID counts backward from 1000"
+openseaCollection: https://opensea.io/collection/peoplescasino
+openseaVerification: false
+standard: ERC-721
+creators: ["@Dappcentral1"]
+activeDevelopment: true
+logo: https://pixelmap.art/nfts/images/logo-peoplescasino.png
+profileImage: https://pixelmap.art/nfts/images/logo-peoplescasino.png
+
+# Socials
+twitter: "@dappcentral1"
+discord: https://discord.gg/4zHFxWQsTf
+website: https://peoplescasino.online/
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: FAQ
+    link: https://peoplescasino.online/faq.html
+
+faq:
+  - question: "Blockchain-a-whatzit? I can own a casino?"
+    answer: "Don't let the scary techy buzzword put you off! Buy and own your own profitable casino game today! Let us walk you through the process. You will need some Ether or Matic to start with. You could even get some for free at coinbase!"
+  - question: "How much does it cost?"
+    answer: "The first People's Casino © casinos are on sale through OpenSea. Once you own a casino, you will need to top it up with a kitty to balance any bets. The more money you put in, the higher the bets and profits you can make. Any money you deposit in to the casino can be withdrawn at any time."
+  - question: "How can I get at my casino earnings?"
+    answer: "Your earnings can be withdrawn from the casino at anytime through the casino portal. You must be logged in with the owners account to do so."
+  - question: "How do I know this isn't a scam?"
+    answer: "Since this is an open source decentralized application, you can check all the code for yourself: Smart Contract After each bet, a link is available to see the transaction and prove that the result was acquired fairly."
+  - question: "Can I sell my casino again?"
+    answer: "Yes indeed! In fact, you can even sell your casino for many more times than the amount you bought it! NFT's today can sell for millions of dollars."
+  - question: "What happens to my earnings if I sell my casino?"
+    answer: "All the earnings put in to the casino, stay with the casino. So if the casino has a new owner, they own the profit! Make sure you withdrawal the kitty before trading!"
+  - question: "Who can use my casino?"
+    answer: "Anybody who has access to your casino's url, and some Ether or Matic can play your casino game. Perhaps recommend your friends get some for free at coinbase!"
+  - question: "What percentage of the earnings are mine?"
+    answer: "ONE HUNDRED PERCENT!! That's right! When you own a People's Casino © casino, all the earnings from the game go straight back into your casino. These earnings can be withdrawn at any time. The house edge for each casino is 4%."
+  - question: "What if I have other questions?"
+    answer: "For any other questions, or feedback, feel free to join our friendly Discord community: JOIN"
