@@ -16,7 +16,7 @@ openseaCollection: https://opensea.io/collection/etherlambos
 openseaVerification: true
 standard: ERC-721
 creators: ["@Etherlambos"]
-activeDevelopment: false
+activeDevelopment: true
 logo: https://pixelmap.art/nfts/images/logo-etherlambos.png
 profileImage: https://pixelmap.art/nfts/images/logo-etherlambos.png
 
