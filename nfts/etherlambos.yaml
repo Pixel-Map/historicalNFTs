@@ -39,13 +39,33 @@ flags:
       includes three roles, a CEO, CFO, and COO.  The CEO can pause transfers/sales at any time, and the COO can mint
       an unlimited number of new models.  All 3 roles are currently still controlled by private wallets.
 relatedLinks:
-  - name: How to Update a PixelMap Tile
-    link: https://pixelmap.medium.com/how-to-update-your-pixelmap-tile-3b9c1cd88b75
+  - name: Meet Etherlambos - The 1st dealer of digital luxury vehicles on the blockchain
+    link: https://bitcointalk.org/index.php?topic=2795356.0
 
 faq:
   - question: ""
     answer: ""
 
 analysis: |
-  ## This section fully supports Markdown for an indepth overview or analysis of the given NFT.
-  More info...
+  ## Additional Information
+  The collection consists of 1600 total lambos, all named after different 
+  blockchains/founders.
+
+  ![Etherlambos Rarity](https://pixelmap.art/nfts/images/etherlambos-rarity.png "EtherLambos")
+
+  - 100 MODEL SATOSHI
+  - 150 MODEL T-REX
+  - 200 MODEL CHARLIE
+  - 200 COINSHARES x EL
+  - 250 MODEL VITALIK
+  - 300 MODEL ONE
+  - 400 MODEL MONERA
+
+  1600 TOTAL LAMBOS
+
+  The original mint lambos from 2018 are known to the community as the "OG" lambos are serial numbers #1-100 for all 
+  models except T-Rex which is #50 and under.
+
+  **When you look at the mint dates on OpenSea it doesn't render for the correct date unless you click on the link to 
+  the contract and look at the transactions where you will see the OG dates so the supply and serial numbers are a 
+  good rule of thumb to go buy when evaluating rarity. **
