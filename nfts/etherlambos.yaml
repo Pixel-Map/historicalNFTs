@@ -1,0 +1,69 @@
+---
+# Primary Info
+title: EtherLambos
+blockchain: ethereum
+creationTimestamp: Mar-04-2018 09:55:35 PM +UTC
+excerpt: |
+  EtherLambos (2018) features a limited edition of upgradeable blockchain 
+  supercars, & represents one of the earliest crypto memes.  There are 
+  six Etherlambo-models available.
+totalSupply: 1600
+contracts:
+  - name: "EtherLambos"
+    address: "0xda9f43015749056182352e9dC6D3eE0B6293D80A"
+    notes: ""
+openseaCollection: https://opensea.io/collection/etherlambos
+openseaVerification: true
+standard: ERC-721
+creators: ["@Etherlambos"]
+activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/logo-etherlambos.png
+profileImage: https://pixelmap.art/nfts/images/logo-etherlambos.png
+
+# Socials
+twitter: "@Etherlambos"
+discord: https://discord.com/invite/YkVayphdy4
+website: https://etherlambos.io
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Centralized Control of Contract
+    level: alert
+    details: |
+      Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The EtherLambos contract
+      includes three roles, a CEO, CFO, and COO.  The CEO can pause transfers/sales at any time, and the COO can mint
+      an unlimited number of new models.  All 3 roles are currently still controlled by private wallets.
+relatedLinks:
+  - name: Meet Etherlambos - The 1st dealer of digital luxury vehicles on the blockchain
+    link: https://bitcointalk.org/index.php?topic=2795356.0
+
+faq: []
+
+analysis: |
+  ## Additional Information
+  The collection consists of 1600 total lambos, all named after different 
+  blockchains/founders.
+
+  ![Etherlambos Rarity](https://pixelmap.art/nfts/images/etherlambos-rarity.png "EtherLambos")
+
+  - 100 MODEL SATOSHI
+  - 150 MODEL T-REX
+  - 200 MODEL CHARLIE
+  - 200 COINSHARES x EL
+  - 250 MODEL VITALIK
+  - 300 MODEL ONE
+  - 400 MODEL MONERA
+
+  1600 TOTAL LAMBOS
+
+  The original mint lambos from 2018 are known to the community as the "OG" lambos are serial numbers #1-100 for all 
+  models except T-Rex which is #50 and under.
+
+  **When you look at the mint dates on OpenSea it doesn't render for the correct date unless you click on the link to 
+  the contract and look at the transactions where you will see the OG dates so the supply and serial numbers are a 
+  good rule of thumb to go buy when evaluating rarity. **
