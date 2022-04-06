@@ -42,7 +42,27 @@ relatedLinks:
   - name: Meet Etherlambos - The 1st dealer of digital luxury vehicles on the blockchain
     link: https://bitcointalk.org/index.php?topic=2795356.0
 
-faq: []
+faq:
+  - question: What is Etherlambos?
+    answer:
+      Etherlambos are non-fungible ERC721 tokens. As one of the world's first
+      cryptocollectibles, users can own, collect, and transfer those tokens on the blockchain. But that’s not all.
+      We have utilized smart contracts to enable owners of Etherlambos to modify and update all digital sports cars.
+  - question: How many Etherlambo-models are available?
+    answer:
+      There are currently six Etherlambo-models available. Etherlambos cannot be copied or destroyed. All
+      Etherlambos come in a limited edition. Scarcity of each model is a production and design choice.
+  - question: All Etherlambos are unique and amazing. However, I always dreamed of creating my very own digital car. Is this possible?
+    answer:
+      Yes, upon request, we will tailor individual vehicles to suit the desire of car enthusiasts. The model “X”
+      (you may choose the name) will be designed based on the specifications and wishes of clients, who will benefit
+      from premium tuning-options.
+  - question: Do Etherlambos have a value?
+    answer:
+      It is clear that the prices of blockchain assets are volatile and that the value of Etherlambos depends
+      on market demand, as well as the functioning of the app on the Ethereum blockchain, which we cannot guarantee.
+      Other risks include regulatory interventions, changes of the Ethereum blockchain infrastructure or other reasons
+      related to the legal or technical environment. We do not guarantee any value or utility of the Etherlambo tokens.
 
 analysis: |
   ## Additional Information
