@@ -1,0 +1,75 @@
+---
+# Primary Info
+title: Ether Rock
+blockchain: ethereum
+creationTimestamp: Dec-26-2017 02:24:27 AM +UTC
+excerpt: |
+  Launched in 2017, Ether Rock launched shortly after CryptoPunks.  With only
+  100 rocks available, it has one of the lowest supplies of any historical NFT.
+  As part of it's release, each rock became progressively more expensive to mint.
+totalSupply: 100
+contracts:
+  - name: "Ether Rock Original Contract"
+    address: "0x41f28833be34e6ede3c58d1f597bef429861c4e2"
+    notes: ""
+  - name: "Bugged Early EtherRock Contract"
+    address: "0x37504ae0282f5f334ed29b4548646f887977b7cc"
+    notes: |
+      The original contract at had a simple mistake in the buyRock() function. The line --
+      ```require(rocks[rockNumber].currentlyForSale = true);````
+      Should have had a double equals.  Because of that, anyone can buy anyone else's rock 
+      for the same price the owner purchased it for (regardless of whether the owner chose to sell it or not)
+openseaCollection: https://opensea.io/collection/wrapped-ether-rock
+openseaVerification: true
+wrapperContract:
+  address: "0xA3F5998047579334607c47a6a2889BF87A17Fc02"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: ["@etherrockcom"]
+activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/logo-etherrock.png
+profileImage: https://pixelmap.art/nfts/images/logo-etherrock.png
+
+# Socials
+twitter: "@etherrockcom"
+discord: https://discord.gg/cuzYmchbQx
+website: https://etherrock.com
+
+# Contract Specific Attributes
+assetDataLocation: webserver
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: We Love the Rock (Amazing Video)
+    link: https://www.youtube.com/watch?v=JgdP7oWP0_0
+  - name: EtherRock Wikipedia Article
+    link: https://en.wikipedia.org/wiki/EtherRock
+
+faq:
+  - question: What are EtherRocks?
+    answer: |
+      Although EtherRocks, or ETHRocks, are only just gaining attention, they 
+      are almost as old as the now-extremely popular CryptoPunks NFTs, selling 
+      for several millions of dollars. While CryptoPunks collection was created 
+      in June 2017, EtherRocks were launched in December that same year.
+
+      ETHRocks is basically a collection of digital rocks tokenized on the Ethereum 
+      blockchain. The NFT consists of still images of a “rock” which are all 
+      identical in design and shape but with different color tones. The creation 
+      of the EtherRocks was inspired by the Pet Rock toy craze in 1975 and only 
+      100 ETHRocks will ever exist.
+
+      Interestingly, the very first rock sold for 0.0999 ETH worth around $300 
+      at that time. The other rocks were sold between 0.1 and 0.36 ETH. The 
+      price increased as new rocks were minted. During the first three years of 
+      its launch, only about 20 out of 100 rocks managed to sell, leaving the 
+      remaining 80 rocks unclaimed.
+
+      But the recent hype and explosive growth of NFTs have shot these virtual 
+      rocks' prices beyond the moon. Currently, all of the rocks have been 
+      minted and many of them have been put up for sale on the EtherRocks' NFT 
+      marketplace.
