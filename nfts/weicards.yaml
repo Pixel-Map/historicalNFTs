@@ -44,10 +44,26 @@ relatedLinks:
     link: https://github.com/willdn/weicards
   - name: Early historical conversation on Reddit
     link: https://www.reddit.com/r/ethtrader/comments/7m8v0r/weicards_tradable_cards_%C3%B0app/
+  - name: WeiCard Wrapper
+    link: https://wei.cards/#/wrap
 
 faq:
-  - question: ""
-    answer: ""
+  - question: How does it work?
+    answer: |
+      WeiCards let you buy, lease and sell cards. WeiCards homepage is filled with cards ranked from 1 to 100. Each card is sold at 
+      a price related to its rank, the card 1 is initially sold at 1 Ether and card 100 is set at 0.01 Ether. A card is made from a descriptive 
+      title, a redirection URL and an image set by the card owner. For each card sold during the initial sale, 10% of the amount is reversed 
+      to Giveth!
+
+      If no cards are available to buy, you probably can rent one. You'll pay to the card owner a fixed amount of Ether to display your 
+      details for a pre-determined duration.
+  - question: So, what's the deal ?
+    answer: |
+      Although WeiCards looks like a regular website, it's not one, it's a Decentralized Applications (ÐApps). Cards are not loaded from our 
+      database (we do not host anything) but instead directly loaded from the Ethereum blockchain. This blockchain acts like a decentralized 
+      database where everyone can see its state and cannot be tampered by anyone. Once you acquired a card, it is written in the blockchain 
+      and it remains forever yours.
+
 
 analysis: |
   ## Overview by WhiteRabbit1111
