@@ -1,0 +1,91 @@
+---
+# Primary Info
+title: CryptoKitties
+blockchain: ethereum
+creationTimestamp: Nov-23-2017 05:41:19 AM +UTC
+excerpt: |
+  CryptoKitties is a game centered around breedable, collectible, and oh-so-adorable creatures we call CryptoKitties! Each cat is 
+  one-of-a-kind and 100% owned by you; it cannot be replicated, taken away, or destroyed.
+totalSupply: 34928
+contracts:
+  - name: "CryptoKitties (CK)"
+    address: "0x06012c8cf97BEaD5deAe237070F9587f8E7A266d"
+    notes: ""
+openseaCollection: https://opensea.io/collection/cryptokitties
+openseaVerification: true
+standard: ERC-721
+creators: ["@cryptokitties"]
+activeDevelopment: true
+logo: https://pixelmap.art/nfts/images/logo-cryptokitties.png
+
+# Socials
+twitter: "@cryptokitties"
+discord: https://discord.com/invite/cryptokitties
+website: https://www.cryptokitties.co
+
+# Contract Specific Attributes
+assetDataLocation: onchain
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Unlimited Supply
+    level: warning
+    details: |
+      There is no limit to the number of CryptoKitties that can created/minted/bred.  However, there IS a limit of how many gen-0 kitties.
+  - name: Centralized Control of Contract
+    level: alert
+    details: |
+      Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The CryptoKitties contract
+      includes three roles, a CEO, CFO, and COO.  The CEO can pause transfers/sales at any time, and anyone can mint new kitties.  All 3 
+      roles are currently still controlled by private wallets.  There are now over 2million kitties in existence.
+relatedLinks:
+  - name: Cryptopedia CryptoKitties Article
+    link: https://www.gemini.com/cryptopedia/cryptokitties-nft-crypto-ethereum-token
+  - name: Understanding the CryptoKitties Marketplace
+    link: https://medium.com/cryptokitties/understanding-the-cryptokitties-marketplace-f0a6f32ac090
+  - name: What are CryptoKitties?
+    link: https://decrypt.co/resources/cryptokitties
+  - name: About ERC-721
+    link: https://blockgeeks.com/guides/erc-721-token
+faq:
+  - question: Why are CryptoKitties listed as on-chain on NFTArchaeology.io?
+    answer: |
+      While the art is NOT onchain, the parts that matter as part of the game (with a focus on breeding), are all stored directly on-chain.
+      Even the "genes" of the cat are stored directly within the contract.
+  - question: How do CryptoKitties work?
+    answer: |
+      CryptoKitties are non-fungible tokens, originally built on the Ethereum blockchain using the ERC721 token standard. Before the 
+      existence of ERC721, tokens on blockchains were fungible, or interchangeable--any one Bitcoin or Ethereum token is identical to any 
+      other. ERC721 allowed for the creation of unique, non-fungible tokens.
+  - question: How do I breed CryptoKitties?
+    answer: |
+      To breed your own CryptoKitty, all you need is a breeding pair; either one can act as the Sire or Dame. The Sire will need a short 
+      recovery period after breeding, which increases each time they sire. The Dame will be unable to breed while incubating your new kitten.
+
+      To breed two Kitties you own together, click on one of them in your litter, and then click the "Breed" button that pops up; this will 
+      be the Sire. Then click on "Sire with my Kitties," and pick a cat to act as Dame; hit "OK, give them some privacy" to open up a 
+      transaction window, and soon you'll have your very own bouncing baby CryptoKitty.
+
+      Alternatively, you can breed one of your cats with a public sire, which will incur a small transaction fee.
+  - question: How many Gen-0 cats are there?
+    answer: 34928 (Gen-0 Kitty production stopped in November 2018), ongoing creation of other gen series
+
+analysis: |
+  ## Overview by WhiteRabbit1111
+  ![CryptoKitties](https://pixelmap.art/nfts/images/cryptokitties-misc.png "CryptoKitties")
+  This is another project that needs little introduction. Cryptokitties was one of the earliest blockchain games on Ethereum and was 
+  developed by Canadian studio Dapper Labs. The game allows players to purchase, collect, breed and sell virtual cats, and is credited with 
+  helping define the ERC721 early NFT standard.
+
+
+  CryptoKitties was a truly history-making game which caught the imagination of the crypto community in relation to the potential of digital 
+  collectables on the blockchain. The project also gained a great deal of attention due to the high level of in-game activity that served to 
+  bring Ethereum to its knees in terms of speeds, congestion and high fees. The very high prices that users were paying to buy and breed 
+  kitties was also making headlines at the time.
+
+  The game still operates and new kitties continue to be bred. It is the endless supply of new kitties that may have contributed to a 
+  reduction of interest and value amongst collectors. However, there remain many kitties with rare attributes along with the Founder 
+  kitties that have retained significant value.
+

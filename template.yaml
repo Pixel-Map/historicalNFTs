@@ -18,7 +18,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@plcceholder"]
 activeDevelopment: false
-logo: ""
+logo: https://pixelmap.art/nfts/images/logo-.png
 
 # Socials
 twitter: "@PlaceholderNFT"
