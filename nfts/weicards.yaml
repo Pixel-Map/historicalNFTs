@@ -1,0 +1,131 @@
+---
+# Primary Info
+title: WeiCards
+blockchain: ethereum
+creationTimestamp: Dec-23-2017 11:16:22 PM +UTC
+excerpt: |
+  WeiCards let you buy, lease and sell cards. There are only 100 cards in total and they are displayed on the original homepage in the order 
+  of their IDs. The title, URL and image of a card can be modified by the owner of the card anytime.
+totalSupply: 100
+contracts:
+  - name: "WeiCards"
+    address: "0x7F57292bF494A8c9342d37395D1378A65D59C499"
+    notes: ""
+openseaCollection: https://opensea.io/collection/weicards
+openseaVerification: false
+wrapperContract:
+  address: "0x81a83b411a079d4B1eb351511834D0c8d52860C4"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: ["@Willdn"]
+activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/logo-.png
+
+# Socials
+twitter: "@WeiCardsNft"
+discord: https://discord.gg/qMWgjtSumY
+website: https://wei.cards
+
+# Contract Specific Attributes
+assetDataLocation: onchain
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags:   
+  - name: Hardcoded royalties (minor issue)
+    level: warning
+    details: |
+      The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
+      without triggering an ownership change underneath.  However, when unwrapping/wrapping, or dealing with the original contract, 1% is
+      taken as part of any user-to-user transactions.
+relatedLinks:
+  - name: WeiCards Sourcecode
+    link: https://github.com/willdn/weicards
+  - name: Early historical conversation on Reddit
+    link: https://www.reddit.com/r/ethtrader/comments/7m8v0r/weicards_tradable_cards_%C3%B0app/
+
+faq:
+  - question: ""
+    answer: ""
+
+analysis: |
+  ## Overview by WhiteRabbit1111
+  ![WeiCards](https://pixelmap.art/nfts/images/weicards-misc.png "WeiCards")
+
+  WeiCards was an early blockchain project that allows users to buy, lease and sell promotional cards on the site. The WeiCards homepage is 
+  filled with cards ranked from 1 to 100. Each card is made from a descriptive title, a redirection URL and an image set by the card owner.
+  
+  Owners have the option to rent their WeiCard out to someone for a fixed price and duration, sell it to a fixed price and edit their card details
+  Although WeiCards looks like a regular website, it's not one, it uses Decentralized Applications (DApps). Cards are not loaded from a database (nothing is hosted) but instead is directly loaded from the Ethereum blockchain. This blockchain acts like a decentralized database where everyone can see its state and cannot be tampered by anyone. Once a user acquires a card, it is written in the blockchain and it remains forever theirs. https://willdn.github.io/weicards/#/
+  WeiCards are a particularly unusual asset, and I suspect that they will remain a highly sought after historical relic in perpetuity.
+  
+  There are a small handful of buggy WeiCard contracts on the site, so if the buy price seems too good to be true — it probably is. Given 
+  the age of the site, you will need to manually connect your MetaMask wallet (a setting available on Metamask) and if the gas fee seems 
+  extraordinarily high then do not proceed as you are most likely interacting with on of the defunct contracts.
+
+  ## The History of WeiCards and ETHMap by MagicDrops
+
+  It all started on December 19 of 2017 when Willdn pushed the WeiCards code to a new GitHub repository. Little did Willdn know, he was 
+  creating a historic project that would be unearthed and resurrected nearly 4 years later.
+
+  The official production build for WeiCards was released on December 30, 2017. With one day to spare, WeiCards was officially launched 
+  and solidified in the category of 2017 NFT projects that are currently being rediscovered by collectors. The reason 2017 is such an 
+  important year for NFTs is it is the same year that CryptoPunks were released. Very few projects existed in the NFT space before 2017
+   and many were just experiments and fun side projects for developers to toy with coding in solidity. Every year since 2017 we have seen 
+   exponential growth in the amount of projects released as NFTs, so it makes any project before 2018 true relics in most collectors eyes.
+
+  WeiCards is extremely simple in its structure and how it works. There are 100 WeiCards available. Each one represents a digital billboard
+   or advertising space on the website. It allows users to purchase a WeiCard and upload their own image, title, and link to where the 
+   WeiCard would direct a user when that WeiCard is clicked. It also allows the owner of a card to lease or rent out their WeiCard to others 
+   at any price and duration the owner chooses. A simple yet innovative idea that could provide passive income to the owner of a WeiCard who 
+   wants to allow their WeiCard to be rented out for a temporary amount of time.
+
+  Only 6 WeiCards were originally purchased within the first few weeks of the project launching. Then the project lay dormant for 1316 days 
+  with no activity on the contract. On August 16, 2021 that all would change.
+
+  This is where ETHMap enters the picture. ETHMap was published to GitHub and deployed on February 2, 2018. It saw a lot more activity 
+  (buys and sells) during its initial days, however, it soon became inactive with the last contract activity recorded on August 19th, 2018. 
+  For the next 1,093 days, the contract remained with no activity besides one user and transaction withdrawing funds from a previous sale 
+  years before, but no buys or sells. 
+
+  ETHMap was discovered by collectors before WeiCards. ETHMap was another simple project by Willdn that allowed a user to connect their 
+  MetaMask wallet and purchase a country on a digital map. A user could visit the site purchase the USA, India, Japan, etc. There were a 
+  total of 178 countries that could be claimed by users. 
+
+  On August 16th, 2021 the ETHMap project was rediscovered by the archeologists of the modern NFT space. It was quickly shared around 
+  different Discords and Twitter DMs. Within just a few hours, every country had an owner and Willdn had earned over 50eth nearly 4 years 
+  after he initially released the project. 
+
+  Previous owners who listed their ETHMap country up for sale years ago came to find that their countries were purchased during the 
+  onslaught of the discovery. Very shortly after ETHMap exploded, owners noticed that Willdn had another project on GitHub that pre-dated 
+  ETHMap. That project was WeiCards. WeiCards proceeded to quickly sell out all remaining 94 cards.
+
+  August 16th of 2021 will forever go down in the history books for these two projects. A community was built on Discord and users began 
+  pouring in to connect with one another and share their latest purchases. The community soon banded together to try and find Willdn and 
+  share with him that his projects had now exploded and had a much bigger audience of collectors.
+
+  From what we can discern from the community attempting to contact Willdn in every way imaginable, he wanted to remain out of the 
+  spotlight. The ETH was withdrawn from both contracts and WIlldn never joined the newly formed Discord created by his new and enthusiastic 
+  community.
+
+  Willdn had obviously gotten the message that his projects were now highly sought after historical NFT relics, but he has chosen to 
+  remain anonymous to the community at large.
+
+  The community decided that it was best to move the project forward without Willdn’s involvement. He wanted to maintain anonymity 
+  and the community wished to respect his right to privacy. 
+
+  Things move quickly in the NFT space and the WeiCards and ETHMap community was no exception.Within 2 days (by August 18th, 2021) a wrapper 
+  had made by community members so that each ETHMap country could officially be an ERC-721 token and listed on OpenSea to make them visible 
+  to a larger market of NFT buyers and sellers. A new website (https://ethmap.app/) followed shortly after that which allowed users to 
+  purchase countries and wrap their countries. Purchasing directly on the original site had many bugs and problems which the community 
+  quickly patched.
+
+  Within just another few days, a new website for WeiCards (https://wei.cards/) which kept the same interface but fixed major bugs preventing 
+  users from connecting their MetaMask wallet to buy, sell, and lease directly on the site.
+
+  These two projects prove a few things. Early projects like CryptoPunks, CryptoKitties, MoonCats, WeiCards, ETHMap, etc all have an 
+  nherent value simply from their historical significance. It also proves the old adage of “it takes a village to raise a child.” These 
+  projects were discovered, the sites for both did not work, and the community came together to push the project forward and make it more 
+  accessible to the larger NFT market. It is truly incredible to witness the power a dedicated community can have. In days the floor price 
+  for WeiCards went from 1ETH to 10ETH+. It is clear that the only place to go for these early projects that get rediscovered is up. 
