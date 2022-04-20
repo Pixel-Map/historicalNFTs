@@ -1,0 +1,84 @@
+---
+# Primary Info
+title: CryptoFighters
+blockchain: ethereum
+creationTimestamp: Jan-22-2018 12:24:29 PM +UTC
+excerpt: |
+  CryptoFighters was launched as one of the first ever play to earn games on the Ethereum blockchain.  Players collect fighters and battle
+  them on-chain. Newly minted fighters were awarded to battle winners. The original collection is now known as 
+  CryptoFighters Classic.
+totalSupply: 25000
+contracts:
+  - name: "CryptoFighters"
+    address: "0x87d598064c736dd0c712d329afcfaa0ccc1921a1"
+    notes: ""
+openseaCollection: https://opensea.io/collection/cryptofighters
+openseaVerification: true
+standard: ERC-721
+creators: ["@CryptoFighters"]
+activeDevelopment: true
+logo: https://pixelmap.art/nfts/images/logo-cryptofighters.png
+
+# Socials
+twitter: "@CryptoFighters"
+discord: https://discord.gg/e2ZndMA
+website: https://www.cryptofighters.io/
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Unlimited Supply
+    level: warning
+    details: |
+      There is no limit to the number of CryptoFighters that can be created/minted.  However, you CAN filter them by generation, and year
+      minted.
+  - name: Centralized Control of Contract
+    level: alert
+    details: |
+      Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The CryptoFighters contract
+      includes three roles, a CEO, CFO, and COO.  The CEO can pause transfers/sales at any time, and the COO can mint
+      an unlimited number of new NFTs.  All 3 roles are currently still controlled by private wallets.
+relatedLinks:
+  - name: CryptoFighters Classic
+    link: https://v1.cryptofighters.io/
+  - name: Litepaper
+    link: https://cryptofighters.gitbook.io/cryptofighters-alliance-litepaper/
+  - name: Battle Contract
+    link: https://etherscan.io/tx/0xd68f732077a05e6ab06242153502b665f8e2011ab0cede9f032f4740fdebe275
+  - name: CryptoFighters - YouTube Video
+    link: https://www.youtube.com/watch?v=6sQ7zGuVqfU
+
+faq: []
+
+analysis: |
+  ## Our History
+
+  **From Jan 22nd 2018 to Feb 2022, here is what we have accomplished and done so far. You can check out the classic game here: https://v1.cryptofighters.io**
+
+  Back in December 2017 a group of friends got together on a mission to build a P2E blockchain based game on the Ethereum blockchain. The 
+  inspiration for the game came from the famous CryptoKitties project that allowed players to breed new kitties from two other kitties. 
+  This was enabled by storing genes associated with each kitty. 
+
+  The concept was to be able to have a game that will allow the winner to earn a new NFT that is a combination of both teams genes. 
+  
+  This was achieved with the following gameplay:
+  
+  1. Players created a team of up to 5 fighters and enter the team into the CryptoFighters arena.
+  2. Any other player can now choose to battle the team in the arena with his team. The winner was awarded a new fighter compiled from the genetic attributes of both teams. 
+  3. The player awarded the new fighter can now choose to sell his NFT via the CryptoFighters marketplace or use the fighter in a battle.
+  4. On Jan 22nd the first version of the game was deployed and was released to the public on Jan 23rd. 
+
+  The fighters were generated every x amount of time and were released for auction in the CryptoFighters internal marketplace. Over time we 
+  stopped the minting of new fighters. In total, combined with the newly minted fighters, 4954 fighters were minted and are in existence. 
+
+  ## Pausing of Original Battle Contract
+  On August 11th 2021, we decided to disable the battling contract resulting in no more battles being able to take place and we have no 
+  plan to ever enable it again. 
+
+  When we first launched the battle contract, gas fees were low and sustainable and cheap. The first battle cost $1.65 (priced at the time, 
+  see here). We couldn't have imagined the gas fees would get so high. If enabled now, some battles would cost around $500 just to battle. 
+  We didn't see this as sustainable and found in ruined gameplay.  
