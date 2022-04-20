@@ -18,8 +18,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@larvalabs"]
 activeDevelopment: false
-logo: https://pbs.twimg.com/media/FL-bRMCX0AQXB7E?format=png&name=small
-profileImage: https://www.larvalabs.com/public/images/product/cryptopunks/punk-variety-2x.png
+logo: https://pixelmap.art/nfts/images/logo-cryptopunks.png
 
 # Socials
 twitter: "@larvalabs"

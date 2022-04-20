@@ -131,12 +131,12 @@ creators:
   - "Unknown" # Thoros of Myr: curio artist, artwork and animation for card 30"
 
 activeDevelopment: true
-logo: https://pbs.twimg.com/profile_images/1443910587218468869/4EnJz_Ps_400x400.jpg
+logo: https://pixelmap.art/nfts/images/logo-curiocards.png
 
 # Socials
 twitter: "@MyCurioCards"
 discord: http://discord.curio.cards/
-website: https://curio.cards/
+website: https://docs.curio.cards/
 
 # Contract Specific Attributes
 assetDataLocation: IPFS

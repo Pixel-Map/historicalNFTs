@@ -27,7 +27,6 @@ standard: ERC-20
 creators: ["@Lunartoken"]
 activeDevelopment: false
 logo: "https://pixelmap.art/nfts/images/logo-lunarmoonplots.png"
-profileImage: "https://pixelmap.art/nfts/images/profile-lunarmoonplots.png"
 
 # Socials
 twitter: "@lunar_token"

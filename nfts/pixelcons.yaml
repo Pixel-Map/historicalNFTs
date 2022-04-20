@@ -28,7 +28,6 @@ standard: ERC-721
 creators: ["@PixelConsToken"]
 activeDevelopment: true
 logo: https://pixelmap.art/nfts/images/logo-pixelcons.png
-profileImage: https://pixelmap.art/nfts/images/profile-pixelcons.png
 
 # Socials
 twitter: "@PixelConsToken"

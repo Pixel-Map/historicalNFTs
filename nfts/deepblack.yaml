@@ -21,8 +21,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["BitAIrtFoundation"]
 activeDevelopment: true
-logo: https://lh3.googleusercontent.com/EUGRVvsHqslpM5yKXU2Ga-EntseA--VIMu9_fuP9dl_T_BQg1L4RPUlUOCWYaVoBISpaKBSnJZmuD5kZo0X5slE=s0
-profileImage: https://lh3.googleusercontent.com/EUGRVvsHqslpM5yKXU2Ga-EntseA--VIMu9_fuP9dl_T_BQg1L4RPUlUOCWYaVoBISpaKBSnJZmuD5kZo0X5slE=s0
+logo: https://pixelmap.art/nfts/images/logo-deepblack.png
 
 # Socials
 twitter: "@DeepBlackAI"

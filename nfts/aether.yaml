@@ -17,8 +17,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@aspheris"]
 activeDevelopment: true
-logo: "https://pbs.twimg.com/profile_images/1459373730535133184/lI1Z75CN_400x400.jpg"
-profileImage: "https://aether11739-production.s3.us-east-1.amazonaws.com/public/details/aeth-32-1640966457527-5"
+logo: https://pixelmap.art/nfts/images/logo-aether.png
 
 # Socials
 twitter: "@aether_city"

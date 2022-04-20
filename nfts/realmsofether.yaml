@@ -23,8 +23,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: [“@ether-games"]
 activeDevelopment: true
-logo: https://raw.githubusercontent.com/realms-of-ether/realms-of-ether.github.io/master/assets/castle.png
-profileImage: https://raw.githubusercontent.com/realms-of-ether/realms-of-ether.github.io/master/assets/castle.png
+logo: https://pixelmap.art/nfts/images/logo-realmsofether.png
 
 # Socials
 twitter: "@realms_of_ether"
