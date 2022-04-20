@@ -1,0 +1,71 @@
+---
+# Primary Info
+title: Pixereum
+blockchain: ethereum
+creationTimestamp: Mar-02-2018 12:10:12 AM +UTC
+excerpt: |
+  In 2017, Hideyoshi Moriya began an experimental crypto art project. Each pixel was available in exchange for ETH on his website 
+  https://pixereum.io/ at launch. Every pixel stores a color and message on the Ethereum blockchain.
+totalSupply: 10000
+contracts:
+  - name: "Pixereum Original Contract"
+    address: "0xc0d72D45CcA854e0F2fE3Cd2D4BAb91E772fE4C0"
+    notes: ""
+  - name: "Pixereum Wrapper"
+    address: "0x6f9d53ba6c16fcbe66695e860e72a92581b58aed"
+    notes: ""
+openseaCollection: https://opensea.io/collection/wrapped-pixereum
+openseaVerification: true
+wrapperContract:
+  address: "0x6f9d53ba6c16fcbe66695e860e72a92581b58aed"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: ["@hm0429"]
+activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/logo-pixereum.png
+
+# Socials
+twitter: "@pixereum"
+discord: https://discord.com/invite/wNXJKYTMqm
+website: https://v2.pixereum.io
+
+# Contract Specific Attributes
+assetDataLocation: onchain
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags:   
+  - name: Hardcoded royalties (minor issue)
+    level: warning
+    details: |
+      The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
+      without triggering an ownership change underneath.  However, when unwrapping/wrapping, or dealing with the original contract, 1% is
+      taken as part of any user-to-user transactions.
+
+relatedLinks:
+  - name: Old Pixereum Website
+    link: https://pixereum.io
+  - name: FAQ page
+    link: https://scrapbox.io/pixereum-v2/
+  - name: Pixereum Mini
+    link: https://scrapbox.io/pixereum-playground/Pixereum_mini
+
+faq:
+  - question: Where can I read more about Pixereum?
+    answer: https://scrapbox.io/pixereum-v2/
+
+analysis: |
+  ## What can you do on Pixereum?
+  There are 10000 pixels (x=100, y=100) on Pixereum.
+  Each pixel is managed on the Ethereum's blockchain by a smart contract.
+  - You can be a holder of pixels.
+  - You can change the color of pixels.
+  - You can optionally set your message.
+  - It's possible to change color and message of your pixels whenever you want.
+  - You can set any price (ETH) to your pixels.
+  
+  By default, a pixel's sale status is "not for sale", but you can update the status anytime.
+  
+  Other users can get an ownership of a pixel when the pixel's sale status is "for sale" and when sending equal or more amount of Ether 
+  than price which is set to the pixel.  When a pixel is purchased, amount of Ether - 1% fee will be sent to owner's address.

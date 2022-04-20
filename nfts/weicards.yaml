@@ -39,6 +39,7 @@ flags:
       The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
       without triggering an ownership change underneath.  However, when unwrapping/wrapping, or dealing with the original contract, 1% is
       taken as part of any user-to-user transactions.
+
 relatedLinks:
   - name: WeiCards Sourcecode
     link: https://github.com/willdn/weicards
