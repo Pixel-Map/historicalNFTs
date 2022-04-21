@@ -7,7 +7,7 @@ excerpt: |
   EtherLambos (2018) features a limited edition of upgradeable blockchain 
   supercars, & represents one of the earliest crypto memes.  There are 
   six Etherlambo-models available.
-totalSupply: 1600
+totalSupply: 1800
 contracts:
   - name: "EtherLambos"
     address: "0xda9f43015749056182352e9dC6D3eE0B6293D80A"
