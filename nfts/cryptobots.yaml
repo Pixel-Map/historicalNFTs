@@ -6,7 +6,7 @@ creationTimestamp: Dec-29-2017 04:53:15 PM +UTC
 excerpt: |
   CryptoBots is a game centered around cryptographically unique collectible bots on the Ethereum blockchain.  Contract appears to be heavily
   copied/inspired by CryptoKitties.
-totalSupply: 50000
+totalSupply: 10000
 contracts:
   - name: "CryptoBots (CBT)"
     address: "0xF7a6E15dfD5cdD9ef12711Bd757a9b6021ABf643"
@@ -30,17 +30,7 @@ staticSupply: false
 nonfungible: true
 
 # Red Flags
-flags: 
-  - name: Centralized Control of Contract
-    level: alert
-    details: |
-      Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The contract
-      includes three roles, a CEO, CFO, and COO.  The CEO can pause transfers/sales at any time, and the COO can mint
-      an unlimited number of new models.  All 3 roles are currently still controlled by private wallets.
-  - name: Incorrect Supply
-    level: alert
-    details: |
-      While only 10k Cryptobots have been minted, the contract actually allows for 50000 to be minted.
+flags: []
 relatedLinks:
   - name: RarityTools
     link: https://raritysniper.com/cryptobots
@@ -49,7 +39,6 @@ relatedLinks:
   - name: CryptoBots LinkedIn
     link: https://www.linkedin.com/company/crypto-bots
 faq: []
-
 # analysis: |
 #   ## This section fully supports Markdown for an indepth overview or analysis of the given NFT.
 #   More info...
