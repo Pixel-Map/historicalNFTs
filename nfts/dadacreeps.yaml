@@ -1,0 +1,170 @@
+---
+# Primary Info
+title: DADA Creeps
+blockchain: ethereum
+creationTimestamp: Oct-05-2017 03:56:52 PM +UTC
+excerpt: |
+  Inspired by Rare Pepes, and the Cryptopunks contract, Creeps & Weirdos was launched by DADA before Cryptokitties and the ERC721 Standard.  
+  DADA's marketplace introduced an important innovation: automatic royalties distributed on-chain for the first time in NFT history.
+totalSupply: 16600
+contracts:
+  - name: "DADA Collectible"
+    address: "0x068696A3cf3c4676B65F1c9975dd094260109d02"
+    notes: "The original DADA Creeps Contract"
+  - name: Wrapped Historic DADA (wD)
+    address: "0x5f53f9f5dcf76757f7cbf35c2e47164c65b9b5ed"
+    notes: Wrapper for the original 2017 DADA Creeps, NOTE it includes both 2017 and 2019!!
+openseaCollection: https://opensea.io/collection/wrapped-historic-dada
+openseaVerification: false
+wrapperContract:
+  address: "0x5f53f9f5dcf76757f7cbf35c2e47164c65b9b5ed"
+  canUnwrapToOriginalToken: false
+standard: Predates ERC-721
+creators: ["@PowerDada"]
+activeDevelopment: true
+logo: https://pixelmap.art/nfts/images/logo-dadacreeps.png
+
+# Socials
+twitter: "@PowerDada"
+discord: https://discord.gg/B26rtV8z9G
+website: https://creeps.dada.nyc
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Wrapper contains both 2017 and 2019 NFTs
+    level: warning
+    details: |
+      The DADA wrapper allows users to wrap both 2017 and 2019 NFTs.  If you're trying to buy "Creeps", which are specifically the 2017
+      asset, use the official Creeps DADA marketplace here to verify: https://creeps.dada.nyc/marketplace
+  - name: Hardcoded royalties (minor issue)
+    level: warning
+    details: |
+      The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
+      without triggering an ownership change underneath.  However, when dealing with the original contract, 40% is
+      taken as part of any user-to-user transactions.
+relatedLinks:
+  - name: Creeps & Weirdos Marketplace
+    link: https://creeps.dada.nyc/marketplace
+  - name: Creeps & Weirdos FAQs
+    link: https://powerdada.medium.com/creeps-weirdos-faqs-6d255c39ace8
+  - name: DADA Blog
+    link: https://powerdada.medium.com/
+  - name: A Handy Guide to Everything DADA
+    link: https://powerdada.medium.com/dada-is-everywhere-for-now-d6d4143bd9cd
+  - name: A New Way for DADA
+    link: https://medium.com/dada-speak-visually/a-new-way-for-dada-part-i-5dfebd80a82
+  - name: What a swell halloween party that was!
+    link: https://medium.com/dada-speak-visually/what-a-swell-halloween-party-that-was-88afc250d4de
+  - name: DADA and the NFT Craze
+    link: https://powerdada.medium.com/dada-and-the-nft-craze-cf5ee0b065aa
+  - name: The Creeps & Weirdos Collection Catalog
+    link: https://www.hicetnunc.xyz/objkt/230516
+  - name: A Brief History of The Creeps & Weirdos
+    link: https://nfts.wtf/a-brief-history-of-the-creeps-weirdos/
+  - name: Metapurse Acquires a Complete Set of 2017 Creeps
+    link: https://powerdada.medium.com/metapurse-acquires-a-complete-set-of-the-2017-creeps-weirdos-6e6948e601ae
+
+faq:
+  - question: What is DADA?
+    answer: DADA is a community of artists, technologists, and collectors which has a digital drawing platform where people create 
+      collaborative visual conversations. DADA has the largest collection of tokenizable art with over 136,000 drawings digitally handmade 
+      by artists on our drawing platform. The Creeps & Weirdos is a collection of drawings curated from some of those conversations.
+  - question: What are the Creeps & Weirdos?
+    answer: The Creeps & Weirdos are a curated collection of 108 different drawings with 5 levels of scarcity made by 30 different artists 
+      on dada.nyc (also dada.art). Each drawing comes from a visual conversation on DADA. The original supply was 16,600 ERC 20 tokens 
+      (known as Creeps), released on October 5, 2017. This genesis edition is for sale in this Presale.
+
+      An update to the contract was released in February 2019 to upgrade the tokens to the ERC721 standard, add serial print numbers, 
+      include metadata on IPFS, and reduce the supply by half to 8300 tokens. These are known as Weirdos.
+  - question: Please explain the royalties.
+    answer: The 2017 ERC20 Creeps feature automatic royalties coded into the smart contract, a first in NFT history. The original 
+      distribution on secondary sales is 40% on the collector's profit to the DADA Collective. As part of the rollout of our marketplace, 
+      we will give collectors the option to decide if they want to share the profits or not. Implementing this feature is a priority but 
+      it will not be available at launch.
+  - question: One collection, two contracts?
+    answer: |
+      The collection involves an ERC20 token released in 2017 and an ERC721 token released in 2019.
+      There are 2 different sets of collectibles: similar to a 2017 ERC20 vintage and a 2019 ERC721 vintage. This is an important distinction. 
+      The 2017 and 2019 tokens share the same imprint image (the art is the same) but are technologically different with unique attributes.
+  - question: What is the scarcity and supply of the Creeps & Weirdos?
+    answer: The collection consists of 108 individual artworks and 5 levels of scarcity--Common, Uncommon, Rare, Very Rare, and Extremely Rare.
+  - question: Who are the artists of the Creeps & Weirdos?
+    answer: Raúl Ávila, Betunski, Hernán Cacciatore, Otro Captore, Cromomaniaco, DADA, Jonathan Duarte, Javier Errecarte, María García, 
+      Sebastián García, Moxarra González, Norma Xelda Jara, Adriana López, Carlos Márquez, Massel, Brian Mosch, Salvador Nuñez, Lorena Pinasco, 
+      Franklin Piragauta, Beatriz Helena Ramos, Mauricio Rodríguez, Erick Sánchez, Serste, Gastón Spur, Talita Sotomayor, Vanesa Stati, Thana, 
+      Thaumatropio, Boris Toledo, Boris Z. Simunich.
+  - question: How do sales in the DADA Marketplace work? After sold, ETH go to our wallet directly, or we need to withdraw ETH from contract like cryptopunks do?
+    answer: You withdraw ETH from the contract as with the Cryptopunks.
+  - question: How are the mint numbers and prices determined?
+    answer: The rarity is based on the popularity of the conversations that the pieces belong to. Nothing to do with the quality or any other 
+      attribute of the art. So if a conversation had a lot of replies, the piece would be an `extremely rare`` piece. The prices are set by 
+      Dada and they are updated relative to the 2017 prices. They are based on the rarity and the rarity is based on the popularity of the 
+      conversation on DADA. The original prices back in 2017 were updated with a minimum cost of 0.5ETH and the same percentage increase was 
+      applied to all price points. You can check out the 2017 C&W Catalog created by @Artefact.
+  - question: Where can I see the full-size NFTs?
+    answer: High-res copies are found in the official catalog, just find your picture and click the image in the catalog https://ipfs.io/ipfs/QmennozPxioL3kEcVMV4wXicZTuWaJsFeEnE6tVinj2GS5
+analysis: |
+  ## Creeps & Weirdos
+
+  The Creeps & Weirdos collection was created at the dawn of what is considered cryptoart today. The collection was featured in Artnome’s article [The Blockchain Art Market is Here](https://www.artnome.com/news/2017/12/22/the-blockchain-art-market-is-here) in December 2017, and became the official image of the seminal [Rare Art Festival](https://raredigitalartfestival.splashthat.com/) in January 2018, a milestone event in NFT history.
+
+  A hybrid between crypto collectibles and rare digital artworks, C&W possesses the dank aesthetics and the collectible structure of the projects at the time, but they were not intended as trading cards, memes, avatars, or even a game. Instead, they were conceived by DADA as a decentralized marketplace for rare digital art, foreshadowing and thus paving the way for the current cryptoart marketplaces.
+
+  ## DADA
+
+  DADA is an art creation platform and artist collective, a virtual home to people from all over the world—from a bodybuilder in Argentina to an evangelical pastor in the US, a farmer in Kenya, and a former punk in England, to name just a few. Our decentralized community includes many influential artists, technologists, researchers, and collectors in the blockchain ecosystem.The artists who created the Creeps & Weirdos are among the first in the world to have minted NFTs. Most of them have been part of the DADA community from as early as 2014, and are still very active today.
+
+  The DADA Collective has also been at the forefront of the many live events featuring digital art. Our live drawing performances have been featured in art galleries and events around the world, including [Soul In The Machine](https://soulinthemachine.dada.nyc/) at the Ethereal Summit, and [Screens: An Exploration at the Tate Modern](https://tate.dada.nyc/) in London.
+
+  ![DADA Redwoman](https://pixelmap.art/nfts/images/dada-redwoman.png)
+
+  ## One Collection
+
+  The C&W artworks are truly rare because of the unique way in which they were made. Each artwork belongs to a visual conversation made on [DADA](https://dada.art/), the only platform in the world where people speak to each other through drawings, creating collaborative art.
+
+  This curated collection with a Halloween theme officially launched on October 31, 2017. It comprises 108 unique artworks made by 30 artists on DADA. The 2017 ERC20 Creeps have a total of 16,600 digital editions with 5 different levels of scarcity, which represent the significance of the visual conversations that the artworks belong to.
+
+  ![DADA Learn](https://pixelmap.art/nfts/images/dada-learn.png)
+
+  ## Two Vintage Editions
+
+  Back in 2017 when we were creating the Creeps & Weirdos collection, it was like working with a blank slate. It was exhilarating to experiment in such an early space, kind of like clearing the jungle with a machete. It was all innovation.
+
+  By 2019, we upgraded the C&W smart contract into the then new ERC721 standard. This was during the onset of the Crypto Winter, so we cut the original supply in half. We paused the 2017 contract, airdropped a new ERC721 NFT to every 2017 collector, and retired the collection.
+
+  Fast forward to March 2021. While we were hatching our plans to reissue the C&W collection the world finally caught up to NFTs. Some NFT “archaeologists” rediscovered the C&W and beat us to the punch, an event that we affectionately call ”the Apestorm”. Hundreds of people then “aped” on this collection that had been off the market for two years. But there was a catch: these historic NFTs could not be traded on secondary markets, because of the lack of royalty standards on Ethereum.
+
+  We spent the 5 months that followed looking into our contracts, searching for ways to unlock our NFTs while preserving their provenance and also reuniting the two tokens that were diverging with every OTC sale. After going down every possible rabbit hole, we realized that the most direct link to provenance was the historic 2017 contract. Unpausing it meant that in order to truly keep it as one collection we had to burn the 2019 contract, but each one of them had its own historical importance and its own quirks.
+
+  We therefore decided to honor the history behind this collection with all its experiments and discoveries.
+  Like fine wine vintages, The Creeps & Weirdos is one collection that has two editions with two historic smart contracts; the same artworks represented in two different tokens, a 2017 ERC20 Creep or a 2019 ERC721 Weirdo, with their different characteristics, stories, and nuances. We are thrilled to introduce them for trading once again.
+
+  ## The Rescue Operation
+
+  In order to honor this historic collection and make it available for people to collect, we conducted a complex Rescue Operation of the 2017 ERC20 Creeps. This involved creating our own bots and conducting rescue contracts in order to prevent bots from buying the entire collection at 2017 prices and to ensure that our community, artists, and individual collectors could participate in the sale. To be able to repurchase the entire collection and pay the gas fees for over 15,000 transactions we needed resources.
+
+  [Metapurse](https://www.metapurse.fund/), the largest NFT fund in the world, purchased a complete set of the historic 2017 Creeps & Weirdos NFT Collection for 500 ETH and an additional [curated selection of Creeps & Weirdos](https://powerdada.medium.com/the-metapurse-curation-3d720a84694d) for 105 ETH. This purchase was instrumental to pay for the gas required and to make the rescue happen.
+
+  The 2017 ERC20 C&W Catalog
+
+  ![DADA Collection](https://pixelmap.art/nfts/images/dada-collection.png)
+
+  Browse the [catalog created by Artefact](https://ipfs.io/ipfs/QmennozPxioL3kEcVMV4wXicZTuWaJsFeEnE6tVinj2GS5)
+
+  ## History In The Making
+
+  [DADA anticipated the NFT revolution](https://bitcoinmagazine.com/culture/op-ed-how-blockchain-technology-could-save-struggling-artists-around-world) in a Bitcoin Magazine article published on September 21, 2017. Since then, we’ve actively contributed to the development of the NFT ecosystem and shared our ideas at MIT, Christie’s, NYU, the Hackers Congress and SXSW, among many other prestigious events and conferences. Already in 2018, our keynote presentations at the first Rare Art Fest and the Ethereal Summit demonstrated our commitment to put an end to [the myth of the starving artist](https://www.forbes.com/sites/katmustatea/2018/07/15/can-blockchain-eliminate-the-myth-of-the-starving-artist/?sh=50a74a546769).
+
+  In early 2019 we retired the Creeps & Weirdos collection and focused on exploring possibilities beyond the markets, into the emerging field of token economics. In June 2020 we presented our white paper [The Invisible Economy](https://powerdada.medium.com/the-invisible-economy-db46897d4f07) at the RadicaXChange conference.
+
+  The Creeps & Weirdos strongly influenced our vision for the Invisible Economy. The return of the C&W marks the beginning of a new era in which 100% of the revenues will go to the DADA Fund and be distributed to the community in the form of basic income.
+
+  >“The NFT space is chock-full of financial and technological innovation, but what truly sets it apart is the unique opportunity to ‘do it right’. By infusing it with >diversity, value distribution, and sheer artistic virtuosity, Creeps & Weirdos have reimagined the collectible movement and done it right.”
+  >Metakovan, Metapurse Founder.
+
+  You are about to be part of this history. Join us as we keep exploring and creating community.
