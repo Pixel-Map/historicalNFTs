@@ -1,0 +1,84 @@
+---
+# Primary Info
+title: Digital Zones
+blockchain: ethereum
+creationTimestamp: Aug-29-2017 11:34:12 AM +UTC
+excerpt: |
+  Digital Zones of Immaterial Pictorial Sensibility is significant 
+  for being one of the earliest NFTs to be exhibited in a legacy art gallery, and advancing the 
+  conceptualism of separating the commodity form of an artwork from the experienced form.
+totalSupply: 100
+contracts:
+  - name: "Digital Zones of Immaterial Pictorial Sensibility (IKB)"
+    address: "0x88AE96845e157558ef59e9Ff90E766E22E480390"
+    notes: ""
+  - name: "IKB Cachet de Garantie (wIKB)"
+    address: "0x80F1Ed6A1Ac694317dC5719dB099a440627D1ea7"
+    notes: "ERC-721 Wrapper for Digital Zones"
+openseaCollection: https://opensea.io/collection/ikb-cachet-de-garantie-1
+openseaVerification: true
+wrapperContract:
+  address: "0x80F1Ed6A1Ac694317dC5719dB099a440627D1ea7"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: ["@mitchellfchan"]
+activeDevelopment: false
+logo: https://pixelmap.art/nfts/images/logo-digitalzones.png
+
+# Socials
+twitter: "@mitchellfchan"
+discord: https://discord.gg/4QdtdZWMpN
+website: https://chan.gallery/ikb/
+
+# Contract Specific Attributes
+assetDataLocation: onchain
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: The Blue Paper
+    link: https://github.com/mitchellfchan/IKB/blob/master/Digital-Zones-Of-Immaterial-Pictorial-Sensibility-Blue-Paper.pdf
+  - name: Why is it so difficult to buy Digital Zones?
+    link: https://medium.com/@mitchellfchan/why-is-it-so-difficult-to-buy-digital-zones-80212ec79082
+  - name: The NFT's Promise of Control
+    link: https://www.artnews.com/art-in-america/features/artists-nfts-control-market-1234591850/
+  - name: Mitch Chan's original talk during IKB release
+    link: https://www.facebook.com/InterAccessTO/videos/1760318004008459/
+  - name: Digital Zone Series 0, Edition 10 on Sotheby's
+    link: https://metaverse.sothebys.com/natively-digital/lots/digital_zone_of_immaterial_pictorial_sensibility
+faq:
+  - question: What happens if I burn the token?
+    answer: |
+      You can do so by calling the ritual() function on the smart contract. If you do so, two things will happen:
+
+      - You will be in possession of the true, immaterial and non-transferrable value of the piece.
+      - The contract will take a sum of ether equivalent to half of the initial sale price of the token from me, and throw it to a null address. 
+        If you burn a series 2 token, 0.2Ξ will be lost from the contract. If you burn a series 7 token, 6.4Ξ will be lost from the contract. 
+        Burning the token costs the token-holder nothing; the ether lost all comes from the contract owned by the artist.
+  - question: How is this an NFT if it isn't an ERC721 contract?
+    answer: |
+      A number of non-fungible tokens pre-date the ERC721 contract standard, notably CryptoPunks. When I was creating the IKB smart contract, 
+      I used a struct that ensured each token was attached to its own record. This was an essential feature of the contract for two reasons, 
+      one of which was practical and the other was conceptual: practically, unique records were required remember the initial sale price of 
+      each token, so that it if the token was burned, the contract would throw the correct amount of ether into the river; conceptually, it 
+      occurred to me that each artwork, though immaterial, would be linked to a unique experience and sensibility of its distinct owner. 
+      Hence, the token had to be non-fungible.
+
+analysis: |
+  ## An early crypto art project about the nature of the artwork-as-a-token
+  *Digital Zones of Immaterial Pictorial Sensibility* is a non-fungible token artwork, **first minted on August 30, 2017** at [InterAccess](https://interaccess.org/event/2017/bitcoin-ethereum-and-conceptual-art) in Toronto.
+
+  The artwork is significant not only for being **one of the earliest NFT artworks to be exhibited and minted in a legacy art gallery**, but also for imagining, in 2017, the ways that non-fungible tokens could advance the conceptualist project of separating the commodity form of an artwork from the experienced form. It also explored the ways the separation changes a collector's relationship to art.
+
+  The Digital Zones tell a story about how different concepts of ownership are fundamental to the experience of an artwork. The artwork--and the [33-page essay which accompanied it](https://ipfs.io/ipfs/QmcdKPjcJgYX2k7weqZLoKjHqB9tWxEV5oKBcPV6L8b5dD)--speculated that if, at some point in the future, artworks were owned and transacted through immaterial blockchain tokens, that shift in the commodity form of the artwork could also precipitate a shift in the material (or immaterial form) of the artwork.
+
+  The best way to tell this story, I decided, was to start with another story drawn from art history. And so the project is modelled after Yves Klein's Zones of Immaterial Pictorial Sensibility, a conceptual artwork that presented itself as a pure expression of an idea that needed no physical aspect, but which did need to be transacted through a non-fungible token (albeit a paper one) to be fully experienced.
+
+  This story, and the details of the process through which the Digital Zones advances Yves Klein's ideas, are described in great detail in The [Blue Paper](https://ipfs.io/ipfs/QmcdKPjcJgYX2k7weqZLoKjHqB9tWxEV5oKBcPV6L8b5dD), and also in a later [video essay](https://editorial.superrare.co/2021/03/10/63-years-ago-a-non-fungible-token-was-an-art-world-sensation-4-years-ago-it-went-on-chain/) I created. Both can be found in the "Essays" section of this web page. I'd encourage anyone interested in NFT art to read it. After all, the Digital Zone of Immaterial Pictorial Sensibility is an idea. It's a way of thinking about the connections between art, and value, and blockchain.
+
+  Mitchell F. Chan
+
+  >"Was it purely by chance that the crisis of realism in the novel and in painting coincided with the end of gold money? Or that the birth of `abstract`` art coincided with >the shocking invention of inconvertible monetary signs, now in general use? Can we not see in this double crisis of money and language the collapse of guarantees and >frames of reference, a rupture between sign and thing, undermining representation and ushering in the age of the floating signifier?” - Jean-Joseph Goux, The Coiners of Language, 1994 p.3
