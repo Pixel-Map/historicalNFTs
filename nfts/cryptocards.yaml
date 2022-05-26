@@ -135,3 +135,8 @@ faq:
       current marketplaces. The first wrapper built although fully functional
       on any other NFT markeplace didn’t work on OpenSea due to a whitelisting
       issue. We built a second wrapper which cleared any issues.
+
+# Meta
+category: 
+  - "Still Image"
+  - "Trading Cards"

@@ -46,3 +46,7 @@ nonfungible: true
 
 # Red Flags
 flags: []
+
+# Meta
+category:
+  - "Still Image" 

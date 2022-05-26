@@ -52,3 +52,8 @@ faq:
     answer: Yes, Autoglyphs commenced minting on the 6th of April 2019.
   - question: Is the painting number the same as the mint number?
     answer: No, paintings have historically been minted in a semi-random order, with people also being able to choose paintings to mint. Painting # 400 was the first minted.
+
+# Meta
+category: 
+  - "Generative Art"
+  - "Real Estate"

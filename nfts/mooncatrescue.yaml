@@ -40,3 +40,11 @@ nonfungible: true
 
 # Red Flags
 flags: []
+
+# Meta
+category:
+  - "Generative Art" 
+  - "Virtual Pet"
+  - "PFP"
+  - "Metaverse Avatar"
+  - "Customizable"

@@ -228,6 +228,41 @@
         "extendedDescription": {
             "description": "For the times that the excerpt just isn't enough",
             "type": "string"
+        },
+        "category": {
+            "description": "What category or type does the NFT primarily align with?",
+            "type": "array",
+            "items": {
+                "enum": [
+                    "Meta",
+                    "Poem",
+                    "Still Image",
+                    "Animated Visual",
+                    "Animated Interactive Visual",
+                    "Ever-changing Visual",
+                    "Generative Art",
+                    "Silent Video",
+                    "Video with Audio",
+                    "Audio Beats",
+                    "Interactive Audio Beats",
+                    "Music",
+                    "VR",
+                    "Real Estate",
+                    "Billboard",
+                    "PFP",
+                    "Game",
+                    "Metaverse Avatar",
+                    "Trading Cards",
+                    "Breedable",
+                    "Virtual Pet",
+                    "Artificial Intelligence",
+                    "3d",
+                    "Customizable",
+                    "Derivative"
+                ],
+                "type": "string"
+            }
+            
         }
     },
     "additionalProperties": false,
@@ -244,6 +279,7 @@
         "totalSupply",
         "staticSupply",
         "logo",
-        "flags"
+        "flags",
+        "category"
     ]
 }

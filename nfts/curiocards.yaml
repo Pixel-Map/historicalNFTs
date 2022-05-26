@@ -145,3 +145,8 @@ nonfungible: false
 
 # Red Flags
 flags: []
+
+# Meta
+category: 
+  - "Still Image"
+  - "Trading Cards"

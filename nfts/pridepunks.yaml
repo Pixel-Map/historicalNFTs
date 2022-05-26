@@ -85,3 +85,9 @@ faq:
   - question: How much control will the creator maintain over the contracts?
     answer: At the end of the mint all contract admin roles will be transferred to the DAO. The only reason for keeping them during the 
       mint it to be able to help in an emergency
+
+# Meta
+category:
+  - "Generative Art" 
+  - "PFP"
+  - "Derivative"

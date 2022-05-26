@@ -44,3 +44,9 @@ nonfungible: true
 
 # Red Flags
 flags: []
+
+category:
+  - "Real Estate"
+  - "Still Image"
+  - "3d"
+  - "Customizable"

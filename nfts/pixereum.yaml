@@ -69,3 +69,9 @@ analysis: |
   
   Other users can get an ownership of a pixel when the pixel's sale status is "for sale" and when sending equal or more amount of Ether 
   than price which is set to the pixel.  When a pixel is purchased, amount of Ether - 1% fee will be sent to owner's address.
+
+category:
+  - "Billboard"
+  - "Real Estate"
+  - "Still Image"
+  - "Customizable"

@@ -31,7 +31,7 @@ nonfungible: true
 flags: []
 
 relatedLinks:
-  - name: Introducing Cryptographics – Unique digital artwork on the Ethereum blockchain (2018)
+  - name: Introducing Cryptographics - Unique digital artwork on the Ethereum blockchain (2018)
     link: https://blog.decenter.com/2018/10/08/cryptographics-unique-digital-artwork-blockchain/
   - name: Cryptographics - a playful digital artwork hub where artists create and sell unique art (2018)
     link: https://medium.com/@soyrosa/cryptographics-a-playful-digital-artwork-hub-where-artists-create-and-sell-unique-art-2676b28d9978
@@ -80,3 +80,8 @@ faq:
     answer: "Once saved, your cryptographic's distinct metadata is stored on the Ethereum blockchain in the form of a unique, non-fungible ERC-721 token and tied to your Ethereum wallet, making you the owner. All of the actual graphic assets are stored on the InterPlanetary File System (IPFS) and each time you open a saved cryptographic in the Cryptographics DApp it is perfectly recreated using its unique metadata and consisting assets. The only pre-composed cryptographics that are kept stored as singular image files are low-resolution thumbnails of existing cryptographics shown in the Gallery."
   - question: "How are funds distributed when selling and purchasing asset packs or cryptographics? (On the native marketplace)"
     answer: "Whenever an Asset pack is bought, the Artist receives 95% of the Creator's payment, while the Cryptographics team receives the remaining 5%. Additionally, whenever someone buys a cryptographic, the seller receives 95% of the payment, with 2% going to the original Creator and 3% to the Cryptographics team."
+
+# Meta
+category:
+  - "Generative Art" 
+  - "Still Image"

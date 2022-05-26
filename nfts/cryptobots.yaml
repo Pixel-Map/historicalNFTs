@@ -42,3 +42,7 @@ faq: []
 # analysis: |
 #   ## This section fully supports Markdown for an indepth overview or analysis of the given NFT.
 #   More info...
+
+# Meta
+category: 
+  - "Game"

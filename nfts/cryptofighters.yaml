@@ -82,3 +82,9 @@ analysis: |
   When we first launched the battle contract, gas fees were low and sustainable and cheap. The first battle cost $1.65 (priced at the time, 
   see here). We couldn't have imagined the gas fees would get so high. If enabled now, some battles would cost around $500 just to battle. 
   We didn't see this as sustainable and found in ruined gameplay.  
+
+# Meta
+category: 
+  - "Game"
+  - "Virtual Pet"
+  - "Generative Art"

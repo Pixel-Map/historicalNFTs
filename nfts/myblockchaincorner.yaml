@@ -40,11 +40,12 @@ flags:
   - name: Unlimited Supply
     level: warning
     details: |
-      There is no limit to the number of PixelCons that can be created as long 
-      as it is unique.  However, historic PixelCons can be found from as far 
-      back as 2018 and the special Genesis series minted at contract launch 
-      can be found by filtering by "2018 Genesis" on OpenSea.
+      There is no limit to the number of MyBlockChainCorner tiles that can be created.
 
 # faq:
 #   - question: ""
 #     answer: ""
+
+category:
+  - "Real Estate"
+  - "Customizable"
