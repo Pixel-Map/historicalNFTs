@@ -48,5 +48,5 @@ nonfungible: true
 flags: []
 
 # Meta
-category:
+categories:
   - "Still Image" 

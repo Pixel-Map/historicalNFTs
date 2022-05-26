@@ -33,7 +33,7 @@ nonfungible: true
 
 # Red Flags
 flags:   
-  - name: Hardcoded royalties (minor issue)
+  - name: Hardcoded royalties
     level: warning
     details: |
       The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
@@ -147,6 +147,6 @@ analysis: |
   accessible to the larger NFT market. It is truly incredible to witness the power a dedicated community can have. In days the floor price 
   for WeiCards went from 1ETH to 10ETH+. It is clear that the only place to go for these early projects that get rediscovered is up. 
 
-category:
+categories:
   - "Still Image"
   - "Customizable"

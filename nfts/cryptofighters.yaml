@@ -31,12 +31,12 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Unlimited Supply
+  - name: Unlimited supply
     level: warning
     details: |
       There is no limit to the number of CryptoFighters that can be created/minted.  However, you CAN filter them by generation, and year
       minted.
-  - name: Centralized Control of Contract
+  - name: Centralization
     level: alert
     details: |
       Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The CryptoFighters contract
@@ -84,7 +84,7 @@ analysis: |
   We didn't see this as sustainable and found in ruined gameplay.  
 
 # Meta
-category: 
+categories: 
   - "Game"
   - "Virtual Pet"
   - "Generative Art"

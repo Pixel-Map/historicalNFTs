@@ -41,7 +41,7 @@ nonfungible: true
 
 # Information
 flags:
-  - name: Unlimited Supply
+  - name: Unlimited supply
     level: warning
     details: |
       There is no limit to the number of PixelCons that can be created as long 
@@ -55,6 +55,6 @@ relatedLinks:
   - name: 137PM Article about PixelCons
     link: https://www.one37pm.com/nft/art/pixelcons-2018-nft-pixel-art-project
 
-category:
+categories:
   - "Still Image"
   - "Customizable"

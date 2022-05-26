@@ -37,7 +37,7 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Original contract isn't verified
+  - name: Unverified contract
     level: warning
     details: It's difficult to identify vulnerabilities or the supply, as the original contract cannot be verified.
 
@@ -110,5 +110,5 @@ faq:
       The original proposal is located at https://snapshot.org/#/realmsofether.eth/proposal/QmQXpg6Qhj8jQcju66ZUacVGHcKt466EiiwFoCNZa3ceL8
 
 # Meta
-category:
+categories:
   - "Still Image" 

@@ -1,285 +1,488 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
-    "$id": "https://example.com/nft.schema.json",
-    "title": "NFT",
-    "description": "A historical nonfungible token",
-    "type": "object",
-    "properties": {
-        "title": {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "NFT",
+  "openapi": "3.0.3",
+  "title": "NFT",
+  "description": "A historical nonfungible token",
+  "$ref": "#/components/schemas/NFT",
+  "paths": {
+    "/nfts": {
+      "get": {
+        "tags": [
+          "nfts"
+        ],
+        "summary": "Retrieves nfts (Optionally filtered by field values)",
+        "description": "By default, this endpoint will return an array of all nfts. You can optionally pass in field values for filtering the list down, provided via query string.",
+        "operationId": "findnftsByTags",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "title",
+            "type": "string"
+          },
+          {
+            "in": "query",
+            "name": "blockchain",
+            "schema": {
+              "$ref": "#/components/schemas/Blockchain"
+            }
+          },
+          {
+            "in": "query",
+            "name": "standard",
+            "schema": {
+              "$ref": "#/components/schemas/Standard"
+            }
+          },
+          {
+            "in": "query",
+            "name": "assetDataLocation",
+            "schema": {
+              "$ref": "#/components/schemas/AssetDataLocation"
+            }
+          },
+          {
+            "name": "flags",
+            "in": "query",
+            "description": "What categories of NFT to filter by",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/FlagType"
+              },
+              "collectionFormat": "multi"
+            }
+          },
+          {
+            "in": "query",
+            "name": "nonfungible",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "in": "query",
+            "name": "staticSupply",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "in": "query",
+            "name": "openseaVerification",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "in": "query",
+            "name": "startDate",
+            "description": "Specify the earliest date to search for contracts, i.e. 'Jan-01-2016 01:01:00 PM +UTC'",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "endDate",
+            "description": "Specify the latest date to search for contracts, i.e. 'Dec-31-2018 12:59:59 PM +UTC'",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "in": "query",
+            "name": "activeDevelopment",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "categories",
+            "in": "query",
+            "description": "What categories of NFT to filter by",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Category"
+              },
+              "collectionFormat": "multi"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/NFT"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid"
+          }
+        }
+      }
+    },
+    "/nfts/{id}": {
+      "get": {
+        "tags": [
+          "nfts"
+        ],
+        "summary": "Find NFT by ID",
+        "description": "Returns a single NFT",
+        "operationId": "getNFTById",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of NFT to return",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "$ref": "#/components/schemas/NFT"
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "NFT not found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "NFT": {
+        "type": "object",
+        "properties": {
+          "title": {
             "description": "Official title of the NFT",
             "type": "string"
-        },
-        "analysis": {
+          },
+          "analysis": {
             "description": "Optional in depth analysis about the NFT",
             "type": "string"
-        },
-        "excerpt": {
+          },
+          "excerpt": {
             "description": "Short (280 character or less) description of the NFT",
             "type": "string",
             "minLength": 1,
             "maxLength": 280
-        },
-        "blockchain": {
-            "description": "Which blockchain is the NFT on?",
-            "type": "string",
-            "enum": [
-                "ethereum",
-                "bitcoin"
-            ]
-        },
-        "standard": {
-            "description": "Which blockchain is the NFT on?",
-            "type": "string",
-            "enum": [
-                "Predates ERC-721",
-                "Predates ERC-1155",
-                "ERC-20",
-                "ERC-721",
-                "ERC-1155"
-            ]
-        },
-        "wrapperContract": {
+          },
+          "blockchain": {
+            "$ref": "#/components/schemas/Blockchain"
+          },
+          "standard": {
+            "$ref": "#/components/schemas/Standard"
+          },
+          "wrapperContract": {
             "pattern": "^0x[a-fA-F0-9]{40}",
             "type": "object",
             "properties": {
-                "address": {
-                    "type": "string",
-                    "pattern": "^0x[a-fA-F0-9]{40}"
-                },
-                "canUnwrapToOriginalToken": {
-                    "type": "boolean"
-                }
+              "address": {
+                "type": "string",
+                "pattern": "^0x[a-fA-F0-9]{40}"
+              },
+              "canUnwrapToOriginalToken": {
+                "type": "boolean"
+              }
             },
             "required": [
-                "address",
-                "canUnwrapToOriginalToken"
+              "address",
+              "canUnwrapToOriginalToken"
             ],
             "additionalProperties": false
-        },
-        "totalSupply": {
+          },
+          "totalSupply": {
             "description": "What is the total supply/individual items within the NFT?",
             "type": "integer"
-        },
-        "assetDataLocation": {
-            "description": "Where is the data for the NFT primarily stored?",
-            "type": "string",
-            "enum": [
-                "onchain",
-                "IPFS",
-                "webserver"
-            ]
-        },
-        "flags": {
+          },
+          "assetDataLocation": {
+            "$ref": "#/components/schemas/AssetDataLocation"
+          },
+          "flags": {
             "description": "Are there substantial issues that collectors should be aware of, if so, list them here.",
             "type": "array",
             "items": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string"
-                    },
-                    "level": {
-                        "type": "string",
-                        "enum": [
-                            "warning",
-                            "alert"
-                        ]
-                    },
-                    "details": {
-                        "type": "string"
-                    }
-                },
-                "additionalProperties": false,
-                "required": [
-                    "name",
-                    "level",
-                    "details"
-                ]
+              "$ref": "#/components/schemas/Flag"
             }
-        },
-        "faq": {
+          },
+          "faq": {
             "description": "Questions and Answers about the NFT",
             "type": "array",
             "items": {
-                "type": "object",
-                "properties": {
-                    "question": {
-                        "type": "string"
-                    },
-                    "answer": {
-                        "type": "string"
-                    }
+              "type": "object",
+              "properties": {
+                "question": {
+                  "type": "string"
                 },
-                "additionalProperties": false,
-                "required": [
-                    "question",
-                    "answer"
-                ]
+                "answer": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "question",
+                "answer"
+              ]
             }
-        },
-        "nonfungible": {
+          },
+          "nonfungible": {
             "description": "Is each token unique (1/1 and non-divisible), or are they fungible?",
             "type": "boolean"
-        },
-        "staticSupply": {
+          },
+          "staticSupply": {
             "description": "Does the supply have a hard limit specified within the contract, with no option of changing?",
             "type": "boolean"
-        },
-        "contracts": {
+          },
+          "contracts": {
             "description": "All contracts related to the given NFT",
             "type": "array",
             "items": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string"
-                    },
-                    "address": {
-                        "type": "string",
-                        "pattern": "^0x[a-fA-F0-9]{40}"
-                    },
-                    "notes": {
-                        "type": "string"
-                    }
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
                 },
-                "additionalProperties": false,
-                "required": [
-                    "name",
-                    "address",
-                    "notes"
-                ]
+                "address": {
+                  "type": "string",
+                  "pattern": "^0x[a-fA-F0-9]{40}"
+                },
+                "notes": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "address",
+                "notes"
+              ]
             }
-        },
-        "creators": {
+          },
+          "creators": {
             "description": "Who created the NFT?",
             "type": "array",
             "items": {
-                "type": "string"
+              "type": "string"
             }
-        },
-        "openseaVerification": {
+          },
+          "openseaVerification": {
             "description": "Is the NFT collection verified on OpenSea?",
             "type": "boolean"
-        },
-        "twitter": {
+          },
+          "twitter": {
             "description": "Twitter account",
             "type": "string",
             "pattern": "^@"
-        },
-        "instagram": {
+          },
+          "instagram": {
             "description": "Instagram account",
             "type": "string",
             "pattern": "^https?://"
-        },
-        "website": {
+          },
+          "website": {
             "description": "Website for NFT",
             "type": "string",
             "pattern": "^https?://"
-        },
-        "discord": {
+          },
+          "discord": {
             "description": "Discord for NFT",
             "type": "string",
             "pattern": "^https?://"
-        },
-        "openseaCollection": {
+          },
+          "openseaCollection": {
             "description": "URL to OpenSea collection",
             "type": "string",
             "pattern": "^https?://"
-        },
-        "creationTimestamp": {
+          },
+          "creationTimestamp": {
             "description": "Exact timestamp that NFT launched (based on blockchain contract deployment ONLY)",
             "type": "string"
-        },
-        "activeDevelopment": {
+          },
+          "activeDevelopment": {
             "description": "Is the project still being actively developed?",
             "type": "boolean"
-        },
-        "logo": {
+          },
+          "logo": {
             "desscription": "Link to square logo for project",
             "type": "string",
             "pattern": "^https://pixelmap.art/nfts/images/logo-"
-        },
-        "relatedLinks": {
+          },
+          "relatedLinks": {
             "description": "All contracts related to the given NFT",
             "type": "array",
             "items": {
-                "type": "object",
-                "properties": {
-                    "name": {
-                        "type": "string"
-                    },
-                    "link": {
-                        "type": "string",
-                        "pattern": "^https?://"
-                    }
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string"
                 },
-                "additionalProperties": false,
-                "required": [
-                    "name",
-                    "link"
-                ]
+                "link": {
+                  "type": "string",
+                  "pattern": "^https?://"
+                }
+              },
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "link"
+              ]
             }
-        },
-        "rarityTools": {
+          },
+          "rarityTools": {
             "description": "URL to rarity tools link (if applicable)",
             "type": "string",
             "pattern": "^https?://"
-        },
-        "extendedDescription": {
+          },
+          "extendedDescription": {
             "description": "For the times that the excerpt just isn't enough",
             "type": "string"
-        },
-        "category": {
-            "description": "What category or type does the NFT primarily align with?",
+          },
+          "categories": {
+            "description": "What categories or types does the NFT primarily align with?",
             "type": "array",
             "items": {
-                "enum": [
-                    "Meta",
-                    "Poem",
-                    "Still Image",
-                    "Animated Visual",
-                    "Animated Interactive Visual",
-                    "Ever-changing Visual",
-                    "Generative Art",
-                    "Silent Video",
-                    "Video with Audio",
-                    "Audio Beats",
-                    "Interactive Audio Beats",
-                    "Music",
-                    "VR",
-                    "Real Estate",
-                    "Billboard",
-                    "PFP",
-                    "Game",
-                    "Metaverse Avatar",
-                    "Trading Cards",
-                    "Breedable",
-                    "Virtual Pet",
-                    "Artificial Intelligence",
-                    "3d",
-                    "Customizable",
-                    "Derivative"
-                ],
-                "type": "string"
+              "schema": {
+                "$ref": "#/components/schemas/Category"
+              }
             }
-            
-        }
-    },
-    "additionalProperties": false,
-    "required": [
-        "title",
-        "excerpt",
-        "blockchain",
-        "assetDataLocation",
-        "contracts",
-        "twitter",
-        "website",
-        "discord",
-        "creationTimestamp",
-        "totalSupply",
-        "staticSupply",
-        "logo",
-        "flags",
-        "category"
-    ]
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "title",
+          "excerpt",
+          "blockchain",
+          "assetDataLocation",
+          "contracts",
+          "twitter",
+          "website",
+          "discord",
+          "creationTimestamp",
+          "totalSupply",
+          "staticSupply",
+          "logo",
+          "flags",
+          "categories"
+        ]
+      },
+      "Category": {
+        "enum": [
+          "Meta",
+          "Poem",
+          "Still Image",
+          "Animated Visual",
+          "Animated Interactive Visual",
+          "Ever-changing Visual",
+          "Generative Art",
+          "Silent Video",
+          "Video with Audio",
+          "Audio Beats",
+          "Interactive Audio Beats",
+          "Music",
+          "VR",
+          "Real Estate",
+          "Billboard",
+          "PFP",
+          "Game",
+          "Metaverse Avatar",
+          "Trading Cards",
+          "Breedable",
+          "Virtual Pet",
+          "Artificial Intelligence",
+          "3d",
+          "Customizable",
+          "Derivative"
+        ],
+        "type": "string"
+      },
+      "Blockchain": {
+        "description": "Which blockchain is the NFT on?",
+        "type": "string",
+        "enum": [
+          "ethereum",
+          "bitcoin",
+          "namecoin",
+          "dogecoin"
+        ]
+      },
+      "Standard": {
+        "description": "Which blockchain is the NFT on?",
+        "type": "string",
+        "enum": [
+          "Predates ERC-721",
+          "Predates ERC-1155",
+          "ERC-20",
+          "ERC-721",
+          "ERC-1155"
+        ]
+      },
+      "AssetDataLocation": {
+        "description": "Where is the data for the NFT primarily stored?",
+        "type": "string",
+        "enum": [
+          "onchain",
+          "IPFS",
+          "webserver"
+        ]
+      },
+      "Flag": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "schema": {
+              "$ref": "#/components/schemas/FlagType"
+            }
+          },
+          "level": {
+            "type": "string",
+            "enum": [
+              "warning",
+              "alert"
+            ]
+          },
+          "details": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "level",
+          "details"
+        ]
+      },
+      "FlagType": {
+        "type": "string",
+        "enum": [
+          "Wrapper contains multiple collections",
+          "Hardcoded royalties",
+          "Unverified contract",
+          "Cannot unwrap",
+          "Security vulnerability",
+          "Multiple contracts",
+          "Unlimited supply",
+          "Centralization"
+        ]
+      }
+    }
+  }
 }

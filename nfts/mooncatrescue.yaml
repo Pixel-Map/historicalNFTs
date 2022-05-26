@@ -42,7 +42,7 @@ nonfungible: true
 flags: []
 
 # Meta
-category:
+categories:
   - "Generative Art" 
   - "Virtual Pet"
   - "PFP"

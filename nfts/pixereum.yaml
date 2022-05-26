@@ -36,7 +36,7 @@ nonfungible: true
 
 # Red Flags
 flags:   
-  - name: Hardcoded royalties (minor issue)
+  - name: Hardcoded royalties
     level: warning
     details: |
       The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
@@ -70,7 +70,7 @@ analysis: |
   Other users can get an ownership of a pixel when the pixel's sale status is "for sale" and when sending equal or more amount of Ether 
   than price which is set to the pixel.  When a pixel is purchased, amount of Ether - 1% fee will be sent to owner's address.
 
-category:
+categories:
   - "Billboard"
   - "Real Estate"
   - "Still Image"

@@ -31,7 +31,7 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Centralized Control of Contract
+  - name: Centralization
     level: alert
     details: |
       Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The EtherLambos contract
@@ -125,6 +125,6 @@ analysis: |
   https://www.instagram.com/etherlambos/
 
 # Meta
-category:
+categories:
   - "Still Image"
   - "Customizable"

@@ -70,7 +70,7 @@ faq:
     answer: "For wrapping cats, you can use the wrapper on the official CryptoCats website: https://cryptocats.thetwentysix.io/wrap"
 
 # Meta
-category:
+categories:
   - "Virtual Pet"
   - "PFP"
   - "Metaverse Avatar"

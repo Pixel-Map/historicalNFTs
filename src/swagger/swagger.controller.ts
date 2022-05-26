@@ -6,12 +6,10 @@ import { SwaggerService } from './swagger.service';
 export class SwaggerController {
   constructor(private readonly swaggerService: SwaggerService) {}
 
-  @Get(':account/:repo*')
+  @Get('/')
   swagger(
-    @Param('account') account: string,
-    @Param('repo') repo: string,
   ): Promise<string> {
-    const schemaJSON = this.swaggerService.getSwagger(account + '/' + repo);
+    const schemaJSON = this.swaggerService.getSwagger( '/' );
 
     return schemaJSON;
   }

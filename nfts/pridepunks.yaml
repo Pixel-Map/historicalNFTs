@@ -37,7 +37,7 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Centralized Control of Contract
+  - name: Centralization
     level: alert
     details: |
       Currently, the supply limit & ability to mint is centralized, and controlled by the MetaPunkController contract.  Per the FAQ, 
@@ -87,7 +87,7 @@ faq:
       mint it to be able to help in an emergency
 
 # Meta
-category:
+categories:
   - "Generative Art" 
   - "PFP"
   - "Derivative"

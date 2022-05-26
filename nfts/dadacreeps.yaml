@@ -36,12 +36,12 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Wrapper contains both 2017 and 2019 NFTs
+  - name: Wrapper contains multiple collections
     level: warning
     details: |
       The DADA wrapper allows users to wrap both 2017 and 2019 NFTs.  If you're trying to buy "Creeps", which are specifically the 2017
       asset, use the official Creeps DADA marketplace here to verify: https://creeps.dada.nyc/marketplace
-  - name: Hardcoded royalties (minor issue)
+  - name: Hardcoded royalties
     level: warning
     details: |
       The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
@@ -170,5 +170,5 @@ analysis: |
   You are about to be part of this history. Join us as we keep exploring and creating community.
 
 # Meta
-category: 
+categories: 
   - "Still Image"

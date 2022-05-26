@@ -147,6 +147,6 @@ nonfungible: false
 flags: []
 
 # Meta
-category: 
+categories:
   - "Still Image"
   - "Trading Cards"

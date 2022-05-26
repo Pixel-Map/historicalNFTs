@@ -43,9 +43,19 @@ staticSupply: true
 nonfungible: true
 
 # Red Flags
-flags: []
-
-category:
+flags:
+  - name: Hardcoded royalties
+    level: warning
+    details: |
+      The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
+      without triggering an ownership change underneath.  However, when dealing with the original contract, 40% is
+      taken as part of any user-to-user transactions.
+  - name: Multiple contracts
+    level: warning
+    details: There are currently 4 contracts that are considered to make up Etheria, v0.9, v1.0, v1.1, and v1.2.  Prior to the
+      "reunification", v1.2 was considered the true Etheria, and sold at a premium.  Post-reunification, all are equal, with v0.9 and v1.0
+      wrappable as ERC-721.  It is currently unknown which is considered the most valuable by collectors.
+categories:
   - "Real Estate"
   - "Still Image"
   - "3d"

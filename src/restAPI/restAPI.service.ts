@@ -19,6 +19,7 @@ export class RestApiService {
 
   // Get Data from API (Main Function)
   async getData(owner, repo, reqPath, queryParams): Promise<any> {
+
     const fullPath = await this.getCachePath(owner, repo, reqPath);
     // First see if there's a folder with the reqPath!
     if (this.isDirectory(fullPath)) {
