@@ -23,7 +23,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: [“@ether-games"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-realmsofether.png
+logo: images/logo-realmsofether.png
 
 # Socials
 twitter: "@realms_of_ether"

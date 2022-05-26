@@ -20,7 +20,7 @@ contracts:
 standard: Predates ERC-721
 creators: ["@raycar5"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-myblockchaincorner.png
+logo: images/logo-myblockchaincorner.png
 
 # Socials
 twitter: "@myblkchaincrner"

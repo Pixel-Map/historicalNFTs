@@ -16,7 +16,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@cryptokitties"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptokitties.png
+logo: images/logo-cryptokitties.png
 
 # Socials
 twitter: "@cryptokitties"
@@ -74,7 +74,7 @@ faq:
 
 analysis: |
   ## Overview by WhiteRabbit1111
-  ![CryptoKitties](https://pixelmap.art/nfts/images/cryptokitties-misc.png "CryptoKitties")
+  ![CryptoKitties](https://api.nftarchaeology.io/images/cryptokitties-misc.png "CryptoKitties")
   This is another project that needs little introduction. Cryptokitties was one of the earliest blockchain games on Ethereum and was 
   developed by Canadian studio Dapper Labs. The game allows players to purchase, collect, breed and sell virtual cats, and is credited with 
   helping define the ERC721 early NFT standard.

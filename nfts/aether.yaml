@@ -17,7 +17,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@aspheris"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-aether.png
+logo: images/logo-aether.png
 
 # Socials
 twitter: "@aether_city"

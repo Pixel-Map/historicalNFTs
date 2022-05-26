@@ -44,7 +44,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@CryptoCats26"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-cryptocats.png
+logo: images/logo-cryptocats.png
 
 # Socials
 twitter: "@CryptoCats26"

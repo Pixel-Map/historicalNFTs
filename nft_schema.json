@@ -308,7 +308,7 @@
           "logo": {
             "desscription": "Link to square logo for project",
             "type": "string",
-            "pattern": "^https://pixelmap.art/nfts/images/logo-"
+            "pattern": "^images/logo-"
           },
           "relatedLinks": {
             "description": "All contracts related to the given NFT",

@@ -19,7 +19,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@Willdn"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-weicards.png
+logo: images/logo-weicards.png
 
 # Socials
 twitter: "@WeiCardsNft"
@@ -68,7 +68,7 @@ faq:
 
 analysis: |
   ## Overview by WhiteRabbit1111
-  ![WeiCards](https://pixelmap.art/nfts/images/weicards-misc.png "WeiCards")
+  ![WeiCards](https://api.nftarchaeology.io/images/weicards-misc.png "WeiCards")
 
   WeiCards was an early blockchain project that allows users to buy, lease and sell promotional cards on the site. The WeiCards homepage is 
   filled with cards ranked from 1 to 100. Each card is made from a descriptive title, a redirection URL and an image set by the card owner.

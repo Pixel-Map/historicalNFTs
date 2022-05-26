@@ -131,7 +131,7 @@ creators:
   - "Unknown" # Thoros of Myr: curio artist, artwork and animation for card 30"
 
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-curiocards.png
+logo: images/logo-curiocards.png
 
 # Socials
 twitter: "@MyCurioCards"

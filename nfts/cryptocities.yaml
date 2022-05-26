@@ -22,7 +22,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@liquid_pixels"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptocities.png
+logo: images/logo-cryptocities.png
 
 # Socials
 twitter: "@liquid_pixels"

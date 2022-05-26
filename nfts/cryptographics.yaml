@@ -15,7 +15,7 @@ openseaVerification: false
 standard: ERC-721
 creators: ["@DecenterTeam"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptographics.png
+logo: images/logo-cryptographics.png
 
 # Socials
 twitter: "@_Cryptographics"

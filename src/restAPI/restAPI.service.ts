@@ -67,7 +67,16 @@ export class RestApiService {
     resources.forEach(resource => {
       let filteredOut = false;
       for (const key in params) {
-        const targetValue = params[key];
+        let targetValue = params[key];
+
+        // Cast if necessary
+        if (targetValue == "true") {
+          targetValue = true
+        }
+        if (targetValue == "false") {
+          targetValue = false
+        }
+
         if (resource[key] != targetValue) {
           filteredOut = true;
         }

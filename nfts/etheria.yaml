@@ -30,7 +30,7 @@ contracts:
 standard: Predates ERC-721
 creators: ["@fivedogit"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-etheria.png
+logo: images/logo-etheria.png
 
 # Socials
 twitter: "@etheria_feed"

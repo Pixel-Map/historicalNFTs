@@ -22,7 +22,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@hm0429"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-pixereum.png
+logo: images/logo-pixereum.png
 
 # Socials
 twitter: "@pixereum"

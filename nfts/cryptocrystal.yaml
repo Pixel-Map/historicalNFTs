@@ -18,7 +18,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["Minicoohei"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptocrystal.png
+logo: images/logo-cryptocrystal.png
 
 # Socials
 twitter: "@_cryptocrystal"

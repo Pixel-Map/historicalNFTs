@@ -31,7 +31,7 @@ wrapperContract:
 standard: Predates ERC-1155
 creators: ["@the_cryptocards"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptocards.png
+logo: images/logo-cryptocards.png
 
 # Socials
 twitter: "@the_cryptocards"

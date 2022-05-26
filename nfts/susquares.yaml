@@ -26,7 +26,7 @@ openseaVerification: false
 standard: ERC-721
 creators: ["@fulldecent"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-susquares.png
+logo: images/logo-susquares.png
 
 # Socials
 twitter: "@SuSquares"

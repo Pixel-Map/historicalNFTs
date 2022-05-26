@@ -16,7 +16,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@Crypto_Skulls"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptoskulls.png
+logo: images/logo-cryptoskulls.png
 rarityTools: https://rarity.tools/cryptoskulls
 
 # Socials

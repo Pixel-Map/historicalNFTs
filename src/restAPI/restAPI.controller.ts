@@ -1,7 +1,6 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { RestApiService } from './restAPI.service';
 
-// devopslibrary.sampledata.adde.to/rest/datacenters
 @Controller('/nfts')
 export class RestApiController {
   constructor(private readonly restApiService: RestApiService) {}

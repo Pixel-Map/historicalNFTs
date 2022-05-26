@@ -16,7 +16,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@cryptobots_game"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-cryptobots.png
+logo: images/logo-cryptobots.png
 rarityTools: https://rarity.tools/cryptobotsgame
 
 # Socials

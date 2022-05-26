@@ -27,7 +27,7 @@ openseaVerification: false
 standard: ERC-721
 creators: ["@PixelConsToken"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-pixelcons.png
+logo: images/logo-pixelcons.png
 
 # Socials
 twitter: "@PixelConsToken"

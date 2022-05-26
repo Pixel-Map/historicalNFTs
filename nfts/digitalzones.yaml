@@ -23,7 +23,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@mitchellfchan"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-digitalzones.png
+logo: images/logo-digitalzones.png
 
 # Socials
 twitter: "@mitchellfchan"

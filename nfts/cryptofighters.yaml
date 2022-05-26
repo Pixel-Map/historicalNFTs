@@ -17,7 +17,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@CryptoFighters"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptofighters.png
+logo: images/logo-cryptofighters.png
 
 # Socials
 twitter: "@CryptoFighters"

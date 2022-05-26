@@ -23,7 +23,7 @@ openseaVerification: false
 standard: ERC-721
 creators: ["@pridepunks2018"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-pridepunks.png
+logo: images/logo-pridepunks.png
 
 # Socials
 twitter: "@pridepunks2018"

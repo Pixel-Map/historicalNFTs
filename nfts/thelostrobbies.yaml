@@ -32,7 +32,7 @@ wrapperContract:
 standard: ERC-20
 creators: ["@videodrome"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-thelostrobbies.png
+logo: images/logo-thelostrobbies.png
 
 # Socials
 twitter: "@LostRobbies"
