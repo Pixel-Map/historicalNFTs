@@ -79,22 +79,6 @@
           },
           {
             "in": "query",
-            "name": "startDate",
-            "description": "Specify the earliest date to search for contracts, i.e. 'Jan-01-2016 01:01:00 PM +UTC'",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "in": "query",
-            "name": "endDate",
-            "description": "Specify the latest date to search for contracts, i.e. 'Dec-31-2018 12:59:59 PM +UTC'",
-            "schema": {
-              "type": "string"
-            }
-          },
-          {
-            "in": "query",
             "name": "activeDevelopment",
             "schema": {
               "type": "boolean"

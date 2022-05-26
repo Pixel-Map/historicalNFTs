@@ -3,24 +3,24 @@ import { RestApiService } from './restAPI.service';
 import { Role } from '../auth/interfaces/role.enum';
 
 // devopslibrary.sampledata.adde.to/rest/datacenters
-@Controller('/rest')
+@Controller('/nfts')
 export class RestApiController {
   constructor(private readonly restApiService: RestApiService) {}
 
   // Wildcard, /rest/*
-  @Get(':account/:repo*')
+  @Get('/:name*')
   rest(
-    @Param('account') account: string,
-    @Param('repo') repo: string,
-    @Param() reqPath,
-    @Query() queryParams,
+    @Param('name') name: string,
+
   ) {
-    return this.restApiService.getData(account, repo, reqPath[0], queryParams);
+    return this.restApiService.getData(name, false);
   }
 
   // Root URL, /rest
   @Get()
-  restRoot(@Param('account') account: string, @Param('repo') repo: string) {
-    return this.restApiService.getData(account, repo, '', false);
+  restRoot(
+    @Query() queryParams,
+  ) {
+    return this.restApiService.getData( '', queryParams);
   }
 }

@@ -8,6 +8,7 @@ import { ConfigService } from '@nestjs/config';
 import fs from 'fs';
 import path from 'path';
 import { SchemaService } from '../schema/schema.service';
+import * as yaml from 'js-yaml';
 
 @Injectable()
 export class RestApiService {
@@ -18,19 +19,23 @@ export class RestApiService {
 
 
   // Get Data from API (Main Function)
-  async getData(owner, repo, reqPath, queryParams): Promise<any> {
+  async getData(reqPath, queryParams): Promise<any> {
+    console.log(queryParams)
+    const fullPath = "nfts/" + reqPath;
 
-    const fullPath = await this.getCachePath(owner, repo, reqPath);
     // First see if there's a folder with the reqPath!
     if (this.isDirectory(fullPath)) {
+
       const resources = await this.listResources(fullPath);
+
       if (queryParams) {
+        console.log("BANNN")
         return this.filterByQueryParams(resources, queryParams);
       }
       return resources;
     }
     // Else return data if a file exists at location
-    if (this.isFile(fullPath + '.json')) {
+    if (this.isFile(fullPath + '.yaml')) {
       return this.getResource(fullPath);
     }
 
@@ -58,8 +63,10 @@ export class RestApiService {
     }
   }
   // Return the JSON contents of the file provided user has access.
-  async getResource(reqPath): Promise<JSON> {
-    return JSON.parse(fs.readFileSync(reqPath + '.json', 'utf8'));
+  async getResource(reqPath): Promise<Record<string, any>> {
+    return yaml.load(
+      fs.readFileSync(reqPath + '.yaml', 'utf8'),
+    ) as Record<string, any>;
   }
 
   // Filter resources by keys (used for query params being passed in)
@@ -82,20 +89,20 @@ export class RestApiService {
 
   // Return list of resources in folder as JSON array
   async listResources(reqPath): Promise<JSON> {
-    const filesWithExtensions = await fs.readdirSync(reqPath);
+    const filesWithExtensions = fs.readdirSync(reqPath);
     const resourceList = [];
     filesWithExtensions.forEach(name => {
       if (
         name != '.schema.json' &&
         name != '.git' &&
-        path.extname(name) == '.json'
+        path.extname(name) == '.yaml'
       ) {
         if (this.isDirectory(reqPath + name)) {
           resourceList.push(name);
         } else {
-          const fileData = JSON.parse(
+          const fileData = yaml.load(
             fs.readFileSync(reqPath + '/' + name, 'utf8'),
-          );
+          ) as Record<string, any>;
           resourceList.push(fileData);
         }
       }

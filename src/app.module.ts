@@ -10,9 +10,14 @@ import { OrgsService } from './orgs/orgs.service';
 import { TerminusModule } from '@nestjs/terminus';
 import { HealthController } from './health/health.controller';
 import { SchemaModule } from './schema/schema.module';
+import { ServeStaticModule } from '@nestjs/serve-static';
 
 @Module({
   imports: [
+    ServeStaticModule.forRoot({
+      rootPath: "nfts/",
+      renderPath: "images"
+    }),
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath: process.env.NODE_ENV + '.env',
@@ -35,3 +40,4 @@ export class AppModule {
     consumer.apply(LoggerMiddleware).forRoutes('*');
   }
 }
+
