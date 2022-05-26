@@ -8,6 +8,10 @@ export class SwaggerService {
   async getSwagger(repoPath): Promise<string> {
     const endpoints = [];
     const schema = JSON.parse(fs.readFileSync(  'nft_schema.json', 'utf-8'));
+
+    // Post-processing on JSON
+    delete schema["$ref"]
+
     endpoints.push({ ["nfts"]: schema });
 
     return schema;

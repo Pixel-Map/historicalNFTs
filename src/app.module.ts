@@ -13,9 +13,10 @@ import { ServeStaticModule } from '@nestjs/serve-static';
 @Module({
   imports: [
     ServeStaticModule.forRoot({
-      rootPath: "nfts/",
-      renderPath: "images"
+      rootPath: ".",
+      renderPath: "."
     }),
+
     ConfigModule.forRoot({
       isGlobal: true,
       envFilePath: process.env.NODE_ENV + '.env',
