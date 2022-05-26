@@ -1,0 +1,587 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "This is an automatically generated REST API endpoint for the `sampledata` repository within the `devopslibrary` organization.  For more information about ADDE, visit [adde.to/documentation](adde.to/documentation), or for information on Swagger, visit [http://swagger.io](http://swagger.io).",
+    "version": "1.0.0",
+    "title": "devopslibrary/sampledata"
+  },
+  "host": "localhost:3000",
+  "basePath": "/rest/devopslibrary/sampledata",
+  "tags": [
+    {
+      "name": "applications",
+      "description": "Everything about your applications"
+    },
+    {
+      "name": "datacenters",
+      "description": "Everything about your datacenters"
+    },
+    { "name": "servers", "description": "Everything about your servers" }
+  ],
+  "paths": {
+    "/applications": {
+      "post": {
+        "tags": ["applications"],
+        "summary": "Add a new applications to the repository",
+        "description": "By POSTing data to this endpoint, ADDE will first validate that the token making the call has write access to the target repository.  If it does, it will then validate the data being passed in is able to be validated successfully with the JSON Schema provided here http://devopslibrary.sampledata.adde.to/applications/.schema.json.  If so, it will add a new applications to the repository in a new commit on the master branch.  If one with the same name already exists, the call will fail.",
+        "operationId": "addapplications",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "applications object that needs to be added to the repository",
+            "required": true,
+            "schema": { "$ref": "#/definitions/applications" }
+          }
+        ],
+        "responses": { "405": { "description": "Invalid input" } },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      },
+      "get": {
+        "tags": ["applications"],
+        "summary": "Retrieves applications (Optionally filtered by field values)",
+        "description": "By default, this endpoint will return an array of all applications.  You can optionally pass in field values for filtering the list down, provided via query string.",
+        "operationId": "findapplicationsByTags",
+        "produces": ["application/json"],
+        "parameters": [
+          { "in": "query", "name": "name", "type": "string" },
+          { "in": "query", "name": "serverType", "type": "string" },
+          { "in": "query", "name": "teamOwner", "type": "string" },
+          { "in": "query", "name": "count", "type": "number" }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/applications" }
+            }
+          },
+          "400": { "description": "Invalid tag value" }
+        },
+        "security": [{ "auth": ["read:repository"] }]
+      }
+    },
+    "/applications/{id}": {
+      "get": {
+        "tags": ["applications"],
+        "summary": "Find applications by ID",
+        "description": "Returns a single applications",
+        "operationId": "getapplicationsById",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of applications to return",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": { "$ref": "#/definitions/applications" }
+          },
+          "400": { "description": "Invalid ID supplied" },
+          "404": { "description": "applications not found" }
+        },
+        "security": [{ "auth": ["read:repository"] }]
+      },
+      "post": {
+        "tags": ["applications"],
+        "summary": "Updates an existing applications in the repository",
+        "description": "",
+        "operationId": "updateapplications",
+        "consumes": ["application/x-www-form-urlencoded"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of applications that needs to be updated",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "name",
+            "in": "formData",
+            "description": "Updated name of the applications",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "in": "formData",
+            "description": "Updated status of the applications",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "405": { "description": "Invalid input" } },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      },
+      "delete": {
+        "tags": ["applications"],
+        "summary": "Deletes a applications",
+        "description": "",
+        "operationId": "deleteapplications",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "applications id to delete",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "400": { "description": "Invalid ID supplied" },
+          "404": { "description": "applications not found" }
+        },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      }
+    },
+    "/datacenters": {
+      "post": {
+        "tags": ["datacenters"],
+        "summary": "Add a new Datacenter to the repository",
+        "description": "By POSTing data to this endpoint, ADDE will first validate that the token making the call has write access to the target repository.  If it does, it will then validate the data being passed in is able to be validated successfully with the JSON Schema provided here http://devopslibrary.sampledata.adde.to/datacenters/.schema.json.  If so, it will add a new Datacenter to the repository in a new commit on the master branch.  If one with the same name already exists, the call will fail.",
+        "operationId": "addDatacenter",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Datacenter object that needs to be added to the repository",
+            "required": true,
+            "schema": { "$ref": "#/definitions/Datacenter" }
+          }
+        ],
+        "responses": { "405": { "description": "Invalid input" } },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      },
+      "get": {
+        "tags": ["datacenters"],
+        "summary": "Retrieves datacenters (Optionally filtered by field values)",
+        "description": "By default, this endpoint will return an array of all datacenters.  You can optionally pass in field values for filtering the list down, provided via query string.",
+        "operationId": "finddatacentersByTags",
+        "produces": ["application/json"],
+        "parameters": [
+          { "in": "query", "name": "name", "type": "string" },
+          { "in": "query", "name": "lastUpdated", "type": "string" },
+          { "in": "query", "name": "shortname", "type": "string" },
+          { "in": "query", "name": "cidr", "type": "string" }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/Datacenter" }
+            }
+          },
+          "400": { "description": "Invalid tag value" }
+        },
+        "security": [{ "auth": ["read:repository"] }]
+      }
+    },
+    "/datacenters/{id}": {
+      "get": {
+        "tags": ["datacenters"],
+        "summary": "Find Datacenter by ID",
+        "description": "Returns a single Datacenter",
+        "operationId": "getDatacenterById",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of Datacenter to return",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": { "$ref": "#/definitions/Datacenter" }
+          },
+          "400": { "description": "Invalid ID supplied" },
+          "404": { "description": "Datacenter not found" }
+        },
+        "security": [{ "auth": ["read:repository"] }]
+      },
+      "post": {
+        "tags": ["datacenters"],
+        "summary": "Updates an existing Datacenter in the repository",
+        "description": "",
+        "operationId": "updateDatacenter",
+        "consumes": ["application/x-www-form-urlencoded"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of Datacenter that needs to be updated",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "name",
+            "in": "formData",
+            "description": "Updated name of the Datacenter",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "in": "formData",
+            "description": "Updated status of the Datacenter",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "405": { "description": "Invalid input" } },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      },
+      "delete": {
+        "tags": ["datacenters"],
+        "summary": "Deletes a Datacenter",
+        "description": "",
+        "operationId": "deleteDatacenter",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Datacenter id to delete",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "400": { "description": "Invalid ID supplied" },
+          "404": { "description": "Datacenter not found" }
+        },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      }
+    },
+    "/servers": {
+      "post": {
+        "tags": ["servers"],
+        "summary": "Add a new Server to the repository",
+        "description": "By POSTing data to this endpoint, ADDE will first validate that the token making the call has write access to the target repository.  If it does, it will then validate the data being passed in is able to be validated successfully with the JSON Schema provided here http://devopslibrary.sampledata.adde.to/servers/.schema.json.  If so, it will add a new Server to the repository in a new commit on the master branch.  If one with the same name already exists, the call will fail.",
+        "operationId": "addServer",
+        "consumes": ["application/json"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "description": "Server object that needs to be added to the repository",
+            "required": true,
+            "schema": { "$ref": "#/definitions/Server" }
+          }
+        ],
+        "responses": { "405": { "description": "Invalid input" } },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      },
+      "get": {
+        "tags": ["servers"],
+        "summary": "Retrieves servers (Optionally filtered by field values)",
+        "description": "By default, this endpoint will return an array of all servers.  You can optionally pass in field values for filtering the list down, provided via query string.",
+        "operationId": "findserversByTags",
+        "produces": ["application/json"],
+        "parameters": [
+          { "in": "query", "name": "name", "type": "string" },
+          { "in": "query", "name": "owner", "type": "string" },
+          { "in": "query", "name": "contact", "type": "string" },
+          { "in": "query", "name": "lastUpdated", "type": "string" },
+          { "in": "query", "name": "purpose", "type": "string" },
+          { "in": "query", "name": "os", "type": "string" },
+          { "in": "query", "name": "firmware", "type": "string" },
+          { "in": "query", "name": "ip", "type": "string" }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": {
+              "type": "array",
+              "items": { "$ref": "#/definitions/Server" }
+            }
+          },
+          "400": { "description": "Invalid tag value" }
+        },
+        "security": [{ "auth": ["read:repository"] }]
+      }
+    },
+    "/servers/{id}": {
+      "get": {
+        "tags": ["servers"],
+        "summary": "Find Server by ID",
+        "description": "Returns a single Server",
+        "operationId": "getServerById",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of Server to return",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "successful operation",
+            "schema": { "$ref": "#/definitions/Server" }
+          },
+          "400": { "description": "Invalid ID supplied" },
+          "404": { "description": "Server not found" }
+        },
+        "security": [{ "auth": ["read:repository"] }]
+      },
+      "post": {
+        "tags": ["servers"],
+        "summary": "Updates an existing Server in the repository",
+        "description": "",
+        "operationId": "updateServer",
+        "consumes": ["application/x-www-form-urlencoded"],
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "ID of Server that needs to be updated",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          },
+          {
+            "name": "name",
+            "in": "formData",
+            "description": "Updated name of the Server",
+            "required": false,
+            "type": "string"
+          },
+          {
+            "name": "status",
+            "in": "formData",
+            "description": "Updated status of the Server",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "responses": { "405": { "description": "Invalid input" } },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      },
+      "delete": {
+        "tags": ["servers"],
+        "summary": "Deletes a Server",
+        "description": "",
+        "operationId": "deleteServer",
+        "produces": ["application/json"],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "description": "Server id to delete",
+            "required": true,
+            "type": "integer",
+            "format": "int64"
+          }
+        ],
+        "responses": {
+          "400": { "description": "Invalid ID supplied" },
+          "404": { "description": "Server not found" }
+        },
+        "security": [{ "auth": ["write:repository", "read:repository"] }]
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "devopslibrary/sampledata Repository",
+    "url": "https://github.com/devopslibrary/sampledata"
+  },
+  "definitions": {
+    "applications": {
+      "type": "object",
+      "title": "applications",
+      "required": ["name", "serverType", "teamOwner", "count"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "The name Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "serverType": {
+          "type": "string",
+          "title": "The serverType Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "teamOwner": {
+          "type": "string",
+          "title": "The teamOwner Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "count": {
+          "type": "number",
+          "title": "The count Schema",
+          "default": 0
+        }
+      }
+    },
+    "Datacenter": {
+      "type": "object",
+      "title": "Datacenter",
+      "required": ["name", "lastUpdated", "shortname", "dns", "cidr", "vlans"],
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "The Name Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "title": "The Lastupdated Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "shortname": {
+          "type": "string",
+          "title": "The Shortname Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "dns": {
+          "type": "object",
+          "title": "The Dns Schema",
+          "required": ["primary", "secondary"],
+          "properties": {
+            "primary": {
+              "type": "string",
+              "title": "The Primary Schema",
+              "default": "",
+              "pattern": "^(.*)$"
+            },
+            "secondary": {
+              "type": "string",
+              "title": "The Secondary Schema",
+              "default": "",
+              "pattern": "^(.*)$"
+            }
+          }
+        },
+        "cidr": {
+          "type": "string",
+          "title": "The Cidr Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "vlans": {
+          "type": "array",
+          "title": "The Vlans Schema",
+          "items": {
+            "type": "integer",
+            "title": "The Items Schema",
+            "default": 0
+          }
+        }
+      }
+    },
+    "Server": {
+      "type": "object",
+      "title": "Server",
+      "required": [
+        "name",
+        "owner",
+        "contact",
+        "lastUpdated",
+        "datacenter",
+        "purpose",
+        "os",
+        "firmware",
+        "ip"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "title": "The Name Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "owner": {
+          "type": "string",
+          "title": "The Owner Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "contact": {
+          "type": "string",
+          "title": "The Contact Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "lastUpdated": {
+          "type": "string",
+          "title": "The Lastupdated Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "datacenter": {
+          "type": "object",
+          "title": "The Datacenter Schema",
+          "required": ["$ref"],
+          "properties": {
+            "$ref": {
+              "type": "string",
+              "title": "The $ref Schema",
+              "default": "",
+              "pattern": "^(.*)$"
+            }
+          }
+        },
+        "purpose": {
+          "type": "string",
+          "title": "The Purpose Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "os": {
+          "type": "string",
+          "title": "The Os Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "firmware": {
+          "type": "string",
+          "title": "The Firmware Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        },
+        "ip": {
+          "type": "string",
+          "title": "The Ip Schema",
+          "default": "",
+          "pattern": "^(.*)$"
+        }
+      }
+    }
+  }
+}

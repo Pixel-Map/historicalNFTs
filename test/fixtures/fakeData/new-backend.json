@@ -1,0 +1,7 @@
+{
+  "name": "New Backend Application",
+  "serverType": "node",
+  "teamOwner": "devteam",
+  "count": 14,
+  "extraInformation": "This should not get picked up."
+}
