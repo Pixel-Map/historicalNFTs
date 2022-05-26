@@ -16,7 +16,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@Crypto_Skulls"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptoskulls.png
+logo: images/logo-cryptoskulls.png
 rarityTools: https://rarity.tools/cryptoskulls
 
 # Socials
@@ -60,5 +60,5 @@ faq:
       1% of the supply will be used in future giveaways
       80.1% of the supply is currently in circulation
 
-category:
+categories:
   - "PFP" 

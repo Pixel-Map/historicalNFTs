@@ -21,7 +21,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["BitAIrtFoundation"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-deepblack.png
+logo: images/logo-deepblack.png
 
 # Socials
 twitter: "@DeepBlackAI"
@@ -82,6 +82,6 @@ faq:
       guy” and has no art skill whatsoever, and the only Artist is the AI named DeepBlack.
       As far as we know DeepBlack is a  concept of AI artist, not AI art."
 
-category: 
+categories:
   - "Artificial Intelligence"
   - "Still Image"

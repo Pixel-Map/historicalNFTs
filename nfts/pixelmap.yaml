@@ -35,7 +35,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@kenerwin88"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-pixelmap.png
+logo: images/logo-pixelmap.png
 
 rarityTools: https://rarity.tools/pixelmap
 
@@ -147,7 +147,7 @@ faq:
       them on OpenSea at https://opensea.io/collection/pixelmap-time-capsules."
 analysis: |
   ## Background Story
-  ![PixelMap](https://pixelmap.art/nfts/images/profile-pixelmap.png "PixelMap")
+  ![PixelMap](https://api.nftarchaeology.io/images/profile-pixelmap.png "PixelMap")
   A little over a decade ago, a website called MillionDollarHomePage.com was created by Alex Tew.  The page consisted (and still consists) 
   of a 1000x1000 pixel grid, with a total of 1,000,000 pixels being sold for $1 each.  Because the pixels themselves were too small to be 
   seen individually, they were sold in 10x10 pixel tiles for $100 each.  The purchasers of each tile then provided a 10x10 pixel image to be 
@@ -277,7 +277,7 @@ analysis: |
 
   ```
 
-category:
+categories:
   - "Game"
   - "Billboard"
   - "Real Estate"

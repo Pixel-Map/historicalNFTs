@@ -22,7 +22,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@PowerDada"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-dadacreeps.png
+logo: images/logo-dadacreeps.png
 
 # Socials
 twitter: "@PowerDada"
@@ -36,12 +36,12 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Wrapper contains both 2017 and 2019 NFTs
+  - name: Wrapper contains multiple collections
     level: warning
     details: |
       The DADA wrapper allows users to wrap both 2017 and 2019 NFTs.  If you're trying to buy "Creeps", which are specifically the 2017
       asset, use the official Creeps DADA marketplace here to verify: https://creeps.dada.nyc/marketplace
-  - name: Hardcoded royalties (minor issue)
+  - name: Hardcoded royalties
     level: warning
     details: |
       The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
@@ -121,7 +121,7 @@ analysis: |
 
   The DADA Collective has also been at the forefront of the many live events featuring digital art. Our live drawing performances have been featured in art galleries and events around the world, including [Soul In The Machine](https://soulinthemachine.dada.nyc/) at the Ethereal Summit, and [Screens: An Exploration at the Tate Modern](https://tate.dada.nyc/) in London.
 
-  ![DADA Redwoman](https://pixelmap.art/nfts/images/dada-redwoman.png)
+  ![DADA Redwoman](https://api.nftarchaeology.io/images/dada-redwoman.png)
 
   ## One Collection
 
@@ -129,7 +129,7 @@ analysis: |
 
   This curated collection with a Halloween theme officially launched on October 31, 2017. It comprises 108 unique artworks made by 30 artists on DADA. The 2017 ERC20 Creeps have a total of 16,600 digital editions with 5 different levels of scarcity, which represent the significance of the visual conversations that the artworks belong to.
 
-  ![DADA Learn](https://pixelmap.art/nfts/images/dada-learn.png)
+  ![DADA Learn](https://api.nftarchaeology.io/images/dada-learn.png)
 
   ## Two Vintage Editions
 
@@ -152,7 +152,7 @@ analysis: |
 
   The 2017 ERC20 C&W Catalog
 
-  ![DADA Collection](https://pixelmap.art/nfts/images/dada-collection.png)
+  ![DADA Collection](https://api.nftarchaeology.io/images/dada-collection.png)
 
   Browse the [catalog created by Artefact](https://ipfs.io/ipfs/QmennozPxioL3kEcVMV4wXicZTuWaJsFeEnE6tVinj2GS5)
 
@@ -170,5 +170,5 @@ analysis: |
   You are about to be part of this history. Join us as we keep exploring and creating community.
 
 # Meta
-category: 
+categories: 
   - "Still Image"

@@ -4,8 +4,8 @@ title: Aether
 blockchain: ethereum
 creationTimestamp: Mar-11-2018 06:39:46 AM +UTC
 excerpt: |
-  Aether is the first metaverse built on NFT (ERC721) standards. Our vision for 
-  Aether spans across our Community Members, our Visitors, and Aether Labs. For 
+  Aether is the first metaverse built on NFT (ERC721) standards. Our vision for
+  Aether spans across our Community Members, our Visitors, and Aether Labs. For
   all of us, success means building one of the best communities in the industry.
 totalSupply: 0
 contracts:
@@ -17,7 +17,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@aspheris"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-aether.png
+logo: images/logo-aether.png
 
 # Socials
 twitter: "@aether_city"
@@ -46,7 +46,7 @@ relatedLinks:
 #     answer: ""
 
 # Meta
-category: 
+categories:
   - "VR"
   - "Real Estate"
   - "Customizable"

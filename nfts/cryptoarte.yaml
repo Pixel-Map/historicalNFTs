@@ -21,7 +21,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@sebinatx"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-cryptoarte.png
+logo: images/logo-cryptoarte.png
 
 # Socials
 twitter: "@cryptoarte"
@@ -54,6 +54,6 @@ faq:
     answer: No, paintings have historically been minted in a semi-random order, with people also being able to choose paintings to mint. Painting # 400 was the first minted.
 
 # Meta
-category: 
+categories:
   - "Generative Art"
   - "Real Estate"

@@ -18,7 +18,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@larvalabs"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-cryptopunks.png
+logo: images/logo-cryptopunks.png
 
 # Socials
 twitter: "@larvalabs"
@@ -31,13 +31,23 @@ staticSupply: true
 nonfungible: true
 
 # Red Flags
-flags: []
+flags:
+  - name: Multiple contracts
+    level: warning
+    details: The \"Official CryptoPunks\ are considered V2.  A previous contract exists that was disavowed by the creators (LarvaLabs).  It
+      is important to note that the previous contract IS still actively wrapped and traded, but at a significant discount due to the risks
+      of a cease and desist on the collection or other legal actions.  YugaLabs acquired LarvaLabs, and has appeared to not take an interest
+      in pursuing V1 at the current time.
+  - name: Security vulnerability
+    level: alert
+    details: The V1 CryptoPunks contract contains a vulnerability that allows someone to steal your punk via frontrunning when listing it
+      for sale.  This can be prevented once wrapped, but is important to keep in mind for V1 collectors.
 
 relatedLinks:
   - name: Breaking down V1 CryptoPunks
     link: https://www.startwithnfts.com/posts/breaking-down-v1-cryptopunks-the-first-cryptopunks-release
 
 # Meta
-category:
+categories:
   - "Generative Art" 
   - "PFP"

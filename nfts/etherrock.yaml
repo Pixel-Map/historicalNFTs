@@ -27,7 +27,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@etherrockcom"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-etherrock.png
+logo: images/logo-etherrock.png
 
 # Socials
 twitter: "@etherrockcom"
@@ -74,6 +74,6 @@ faq:
       marketplace.
 
 # Meta
-category:
+categories:
   - "Still Image"
   - "Virtual Pet"

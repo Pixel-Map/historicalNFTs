@@ -15,7 +15,7 @@ openseaVerification: false
 standard: ERC-721
 creators: ["@DecenterTeam"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptographics.png
+logo: images/logo-cryptographics.png
 
 # Socials
 twitter: "@_Cryptographics"
@@ -82,6 +82,6 @@ faq:
     answer: "Whenever an Asset pack is bought, the Artist receives 95% of the Creator's payment, while the Cryptographics team receives the remaining 5%. Additionally, whenever someone buys a cryptographic, the seller receives 95% of the payment, with 2% going to the original Creator and 3% to the Cryptographics team."
 
 # Meta
-category:
+categories:
   - "Generative Art" 
   - "Still Image"

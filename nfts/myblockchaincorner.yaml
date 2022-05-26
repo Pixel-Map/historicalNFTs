@@ -20,7 +20,7 @@ contracts:
 standard: Predates ERC-721
 creators: ["@raycar5"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-myblockchaincorner.png
+logo: images/logo-myblockchaincorner.png
 
 # Socials
 twitter: "@myblkchaincrner"
@@ -34,10 +34,10 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Original contract isn't verified
+  - name: Unverified contract
     level: warning
     details: It's difficult to identify vulnerabilities, as the original contract cannot be verified.
-  - name: Unlimited Supply
+  - name: Unlimited supply
     level: warning
     details: |
       There is no limit to the number of MyBlockChainCorner tiles that can be created.
@@ -46,6 +46,6 @@ flags:
 #   - question: ""
 #     answer: ""
 
-category:
+categories:
   - "Real Estate"
   - "Customizable"

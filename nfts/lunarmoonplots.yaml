@@ -26,7 +26,7 @@ wrapperContract:
 standard: ERC-20
 creators: ["@Lunartoken"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-lunarmoonplots.png
+logo: images/logo-lunarmoonplots.png
 
 # Socials
 twitter: "@lunar_token"
@@ -74,6 +74,6 @@ faq:
     answer: In the cryptocurrency community, people often use the expression, “We're going to 
       the moon!” But Lunar is the only token that will get you there.
 
-category:
+categories:
   - "Real Estate"
   - "Still Image"

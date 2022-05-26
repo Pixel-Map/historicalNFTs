@@ -31,7 +31,7 @@ wrapperContract:
 standard: Predates ERC-1155
 creators: ["@the_cryptocards"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptocards.png
+logo: images/logo-cryptocards.png
 
 # Socials
 twitter: "@the_cryptocards"
@@ -137,6 +137,6 @@ faq:
       issue. We built a second wrapper which cleared any issues.
 
 # Meta
-category: 
+categories:
   - "Still Image"
   - "Trading Cards"

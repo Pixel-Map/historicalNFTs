@@ -24,7 +24,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@ponderware", "@wanderwonder"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-mooncatrescue.png
+logo: images/logo-mooncatrescue.png
 
 rarityTools: https://rarity.tools/acclimatedmooncats
 
@@ -42,7 +42,7 @@ nonfungible: true
 flags: []
 
 # Meta
-category:
+categories:
   - "Generative Art" 
   - "Virtual Pet"
   - "PFP"

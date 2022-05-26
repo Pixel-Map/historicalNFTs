@@ -15,7 +15,7 @@ openseaVerification: false
 standard: ERC-721
 creators: ["@Dappcentral1"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-peoplescasino.png
+logo: images/logo-peoplescasino.png
 
 # Socials
 twitter: "@dappcentral1"
@@ -54,5 +54,5 @@ faq:
   - question: "What if I have other questions?"
     answer: "For any other questions, or feedback, feel free to join our friendly Discord community: JOIN"
 
-category:
+categories:
   - "Game"

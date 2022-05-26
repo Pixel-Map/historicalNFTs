@@ -18,7 +18,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["Minicoohei"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptocrystal.png
+logo: images/logo-cryptocrystal.png
 
 # Socials
 twitter: "@_cryptocrystal"
@@ -39,6 +39,6 @@ relatedLinks:
     link: https://docs.google.com/spreadsheets/d/1nNYnsXjdKuveSoLUNrMQZ_9FUtvgUNTZfWTEmzkIaH0/edit#gid=0
 
 # Meta
-category: 
+categories:
   - "Virtual Pet"
   - "PFP"

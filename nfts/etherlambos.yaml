@@ -17,7 +17,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@Etherlambos"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-etherlambos.png
+logo: images/logo-etherlambos.png
 
 # Socials
 twitter: "@Etherlambos"
@@ -31,7 +31,7 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Centralized Control of Contract
+  - name: Centralization
     level: alert
     details: |
       Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The EtherLambos contract
@@ -68,7 +68,7 @@ analysis: |
   The collection consists of 1600 total lambos, all named after different 
   blockchains/founders.
 
-  ![Etherlambos Rarity](https://pixelmap.art/nfts/images/etherlambos-rarity.png "EtherLambos")
+  ![Etherlambos Rarity](https://api.nftarchaeology.io/images/etherlambos-rarity.png "EtherLambos")
 
   The original mint lambos from 2018 are known to the community as the "OG" lambos are serial numbers #1-100 for all 
   models except T-Rex which is #50 and under.
@@ -125,6 +125,6 @@ analysis: |
   https://www.instagram.com/etherlambos/
 
 # Meta
-category:
+categories:
   - "Still Image"
   - "Customizable"

@@ -19,7 +19,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@Willdn"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-weicards.png
+logo: images/logo-weicards.png
 
 # Socials
 twitter: "@WeiCardsNft"
@@ -33,7 +33,7 @@ nonfungible: true
 
 # Red Flags
 flags:   
-  - name: Hardcoded royalties (minor issue)
+  - name: Hardcoded royalties
     level: warning
     details: |
       The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
@@ -68,7 +68,7 @@ faq:
 
 analysis: |
   ## Overview by WhiteRabbit1111
-  ![WeiCards](https://pixelmap.art/nfts/images/weicards-misc.png "WeiCards")
+  ![WeiCards](https://api.nftarchaeology.io/images/weicards-misc.png "WeiCards")
 
   WeiCards was an early blockchain project that allows users to buy, lease and sell promotional cards on the site. The WeiCards homepage is 
   filled with cards ranked from 1 to 100. Each card is made from a descriptive title, a redirection URL and an image set by the card owner.
@@ -147,6 +147,6 @@ analysis: |
   accessible to the larger NFT market. It is truly incredible to witness the power a dedicated community can have. In days the floor price 
   for WeiCards went from 1ETH to 10ETH+. It is clear that the only place to go for these early projects that get rediscovered is up. 
 
-category:
+categories:
   - "Still Image"
   - "Customizable"

@@ -44,7 +44,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@CryptoCats26"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-cryptocats.png
+logo: images/logo-cryptocats.png
 
 # Socials
 twitter: "@CryptoCats26"
@@ -70,7 +70,7 @@ faq:
     answer: "For wrapping cats, you can use the wrapper on the official CryptoCats website: https://cryptocats.thetwentysix.io/wrap"
 
 # Meta
-category:
+categories:
   - "Virtual Pet"
   - "PFP"
   - "Metaverse Avatar"

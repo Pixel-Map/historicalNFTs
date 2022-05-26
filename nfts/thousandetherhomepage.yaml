@@ -26,7 +26,7 @@ wrapperContract:
 standard: Predates ERC-721
 creators: ["@shazow", "@mveytsman"]
 activeDevelopment: false
-logo: https://pixelmap.art/nfts/images/logo-thousandetherhomepage.png
+logo: images/logo-thousandetherhomepage.png
 
 # Socials
 twitter: "@ketherhomepage"
@@ -72,7 +72,7 @@ faq:
       We're delighted to have you along on this journey if it fits with your values.
 
 
-category:
+categories:
   - "Billboard"
   - "Real Estate"
   - "Still Image"

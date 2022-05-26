@@ -16,7 +16,7 @@ openseaVerification: true
 standard: ERC-721
 creators: ["@cryptokitties"]
 activeDevelopment: true
-logo: https://pixelmap.art/nfts/images/logo-cryptokitties.png
+logo: images/logo-cryptokitties.png
 
 # Socials
 twitter: "@cryptokitties"
@@ -30,11 +30,11 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Unlimited Supply
+  - name: Unlimited supply
     level: warning
     details: |
       There is no limit to the number of CryptoKitties that can created/minted/bred.  However, there IS a limit of how many gen-0 kitties.
-  - name: Centralized Control of Contract
+  - name: Centralization
     level: alert
     details: |
       Currently, the supply limit, ability to mint, and abilty to transfer is centralized.  The CryptoKitties contract
@@ -74,7 +74,7 @@ faq:
 
 analysis: |
   ## Overview by WhiteRabbit1111
-  ![CryptoKitties](https://pixelmap.art/nfts/images/cryptokitties-misc.png "CryptoKitties")
+  ![CryptoKitties](https://api.nftarchaeology.io/images/cryptokitties-misc.png "CryptoKitties")
   This is another project that needs little introduction. Cryptokitties was one of the earliest blockchain games on Ethereum and was 
   developed by Canadian studio Dapper Labs. The game allows players to purchase, collect, breed and sell virtual cats, and is credited with 
   helping define the ERC721 early NFT standard.
@@ -90,7 +90,7 @@ analysis: |
   kitties that have retained significant value.
 
 # Meta
-category:
+categories:
   - "Virtual Pet"
   - "Breedable"
   - "Game"
