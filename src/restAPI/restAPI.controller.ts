@@ -1,6 +1,5 @@
 import { Controller, Get, Param, Query } from '@nestjs/common';
 import { RestApiService } from './restAPI.service';
-import { Role } from '../auth/interfaces/role.enum';
 
 // devopslibrary.sampledata.adde.to/rest/datacenters
 @Controller('/nfts')

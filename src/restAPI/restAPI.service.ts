@@ -1,8 +1,6 @@
 import {
   Injectable,
   BadRequestException,
-  HttpException,
-  HttpStatus,
 } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import fs from 'fs';
@@ -12,15 +10,10 @@ import * as yaml from 'js-yaml';
 
 @Injectable()
 export class RestApiService {
-  constructor(
-    private readonly configService: ConfigService,
-    private readonly schemaService: SchemaService,
-  ) {}
-
+  constructor() {}
 
   // Get Data from API (Main Function)
   async getData(reqPath, queryParams): Promise<any> {
-    console.log(queryParams)
     const fullPath = "nfts/" + reqPath;
 
     // First see if there's a folder with the reqPath!
@@ -29,7 +22,6 @@ export class RestApiService {
       const resources = await this.listResources(fullPath);
 
       if (queryParams) {
-        console.log("BANNN")
         return this.filterByQueryParams(resources, queryParams);
       }
       return resources;
@@ -108,18 +100,5 @@ export class RestApiService {
       }
     });
     return JSON.parse(JSON.stringify(resourceList));
-  }
-
-  // Given an owner, repo, and reqPath, this returns the local file reqPath to it.
-  async getCachePath(owner, repo, reqPath): Promise<string> {
-    return (
-      this.configService.get('REPO_CACHE_DIRECTORY') +
-      '/' +
-      owner +
-      '/' +
-      repo +
-      '/' +
-      reqPath
-    );
   }
 }
