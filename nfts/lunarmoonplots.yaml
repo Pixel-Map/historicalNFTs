@@ -50,9 +50,7 @@ flags:
     level: warning
     details: |
       The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
-      without triggering an ownership change underneath.  However, when dealing with the original contract, 40% is
-      taken as part of any user-to-user transactions.
-
+      without triggering an ownership change underneath.
 relatedLinks:
   - name: Check floor price
     link: https://alphaonchain.com/lunartoken
