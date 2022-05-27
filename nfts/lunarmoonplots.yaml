@@ -4,8 +4,8 @@ title: Lunar Moon Plots
 blockchain: ethereum
 creationTimestamp: Oct-20-2017 10:13:37 AM +UTC
 excerpt: |
-  Lunar is a virtual moon real estate NFT that launched on October 20, 2017. Only 400 sectors of 
-  the Moon exist and vary by size and location, making this collection extremely rare. Each plot 
+  Lunar is a virtual moon real estate NFT that launched on October 20, 2017. Only 400 sectors of
+  the Moon exist and vary by size and location, making this collection extremely rare. Each plot
   includes a unique interactive 3D lunar map - spin to see your plot!
 totalSupply: 400
 contracts:
@@ -39,7 +39,19 @@ staticSupply: true
 nonfungible: true
 
 # Red Flags
-flags: []
+flags:
+  - name: Centralization
+    level: alert
+    details: |
+      Currently, the ability to trade is centralized.  The original LunarToken contract allows the owner to pause trading
+      at any time, as well as modify whether subdivisioning is enabled.  If setOwner is called, and ownership transferred
+      to the burn address 0x000, this alert can be removed.
+  - name: Hardcoded royalties
+    level: warning
+    details: |
+      The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
+      without triggering an ownership change underneath.  However, when dealing with the original contract, 40% is
+      taken as part of any user-to-user transactions.
 
 relatedLinks:
   - name: Check floor price
@@ -51,27 +63,27 @@ relatedLinks:
 
 faq:
   - question: How does it work?
-    answer: "https://lunartoken.co/ is a fully-functioning decentralized real estate exchange 
-      built on top of Ethereum smart contracts. Originally launched in 2017, this is one of the 
-      first non-fungible tokens (NFTs) ever created. For every moon plot you purchase, you receive 
-      a token called a “lunar” (symbol: LUNA). Each token corresponds to a unique sector of the 
-      Moon, and has a price set by the owner upon purchase. Any other visitor to the moon can 
+    answer: "https://lunartoken.co/ is a fully-functioning decentralized real estate exchange
+      built on top of Ethereum smart contracts. Originally launched in 2017, this is one of the
+      first non-fungible tokens (NFTs) ever created. For every moon plot you purchase, you receive
+      a token called a “lunar” (symbol: LUNA). Each token corresponds to a unique sector of the
+      Moon, and has a price set by the owner upon purchase. Any other visitor to the moon can
       acquire a plot for the seller's price."
   - question: How do I send or sell my deed to someone else?
-    answer: "In order to transfer or sell your moon deed, you can use lunartoken.co or interact 
-      with the contract directly. Note: Sending with a traditional wallet won't work because 
-      plots vary in location, size, and value—i.e. they are not fungible. Lunartoken was 
-      implemented using the original EIP proposal for non-fungible tokens (NFTs), meaning you 
+    answer: "In order to transfer or sell your moon deed, you can use lunartoken.co or interact
+      with the contract directly. Note: Sending with a traditional wallet won't work because
+      plots vary in location, size, and value—i.e. they are not fungible. Lunartoken was
+      implemented using the original EIP proposal for non-fungible tokens (NFTs), meaning you
       can still check your balance with a traditional ERC-20 wallet."
   - question: Is this legal?
-    answer: The Outer Space Treaty of 1967 clearly states, "outer space, including the Moon and 
-      other celestial bodies, is not subject to national appropriation by claim of sovereignty, 
-      by means of use or occupation, or by any other means." In other words, no government can 
-      claim ownership of the moon. It says nothing, however, about individuals claiming ownership 
-      of the moon. Accordingly, Lunar provides a decentralized service to manage everyone's 
+    answer: The Outer Space Treaty of 1967 clearly states, "outer space, including the Moon and
+      other celestial bodies, is not subject to national appropriation by claim of sovereignty,
+      by means of use or occupation, or by any other means." In other words, no government can
+      claim ownership of the moon. It says nothing, however, about individuals claiming ownership
+      of the moon. Accordingly, Lunar provides a decentralized service to manage everyone's
       claims.
   - question: Where did this come from?
-    answer: In the cryptocurrency community, people often use the expression, “We're going to 
+    answer: In the cryptocurrency community, people often use the expression, “We're going to
       the moon!” But Lunar is the only token that will get you there.
 
 categories:
