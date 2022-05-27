@@ -77,9 +77,16 @@ export class RestApiService {
           targetValue = false
         }
 
-        if (resource[key] != targetValue) {
-          filteredOut = true;
+        if (Array.isArray(resource[key])) {
+          if (!resource[key].includes(targetValue)) {
+              filteredOut = true;
+            }
+        } else {
+          if (resource[key] != targetValue) {
+            filteredOut = true;
+          }
         }
+
       }
       if (!filteredOut) {
         filteredResources.push(resource);
