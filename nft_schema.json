@@ -36,21 +36,30 @@
             "in": "query",
             "name": "blockchain",
             "schema": {
-              "$ref": "#/components/schemas/Blockchain"
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Blockchain"
+              }
             }
           },
           {
             "in": "query",
             "name": "standard",
             "schema": {
-              "$ref": "#/components/schemas/Standard"
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/Standard"
+              }
             }
           },
           {
             "in": "query",
             "name": "assetDataLocation",
             "schema": {
-              "$ref": "#/components/schemas/AssetDataLocation"
+              "type": "array",
+              "items": {
+                "$ref": "#/components/schemas/AssetDataLocation"
+              }
             }
           },
           {
@@ -377,7 +386,8 @@
           "staticSupply",
           "logo",
           "flags",
-          "categories"
+          "categories",
+          "openseaVerification"
         ]
       },
       "Category": {

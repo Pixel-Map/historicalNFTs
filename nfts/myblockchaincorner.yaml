@@ -13,7 +13,7 @@ contracts:
     notes: ""
 # No wrapper afaik, not listed on OpenSea.
 # openseaCollection: https://opensea.io/collection/placeholder
-# openseaVerification: false
+openseaVerification: false
 # wrapperContract:
 #   address: "0x0000000000000000000000000000000000000000"
 #   canUnwrapToOriginalToken: false

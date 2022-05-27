@@ -23,7 +23,7 @@ contracts:
       The very first contract launched for Etheria, has dangerous trading mechanisms, likely bugged,
       and is considered invalid.
 # openseaCollection: Etheria cannot be wrapped currently, so not available on OS!
-# openseaVerification: Etheria cannot be wrapped currently, so not available on OS!
+openseaVerification: false #Etheria cannot be wrapped currently, so not available on OS!
 # wrapperContract:
 #   address: "0x0000000000000000000000000000000000000000"
 #   canUnwrapToOriginalToken: false
@@ -41,6 +41,7 @@ website: https://etheria.world/
 assetDataLocation: onchain
 staticSupply: true
 nonfungible: true
+
 
 # Red Flags
 flags:

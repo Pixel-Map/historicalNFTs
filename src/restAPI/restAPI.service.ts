@@ -1,11 +1,6 @@
-import {
-  Injectable,
-  BadRequestException,
-} from '@nestjs/common';
-import { ConfigService } from '@nestjs/config';
+import { BadRequestException, Injectable } from '@nestjs/common';
 import fs from 'fs';
 import path from 'path';
-import { SchemaService } from '../schema/schema.service';
 import * as yaml from 'js-yaml';
 
 @Injectable()
@@ -63,36 +58,52 @@ export class RestApiService {
 
   // Filter resources by keys (used for query params being passed in)
   filterByQueryParams(resources, params: Record<string, any>): JSON[] {
-    const filteredResources = [];
-    resources.forEach(resource => {
-      let filteredOut = false;
-      for (const key in params) {
-        let targetValue = params[key];
+    let mapOfMatchedResourcesByParam = {}
 
-        // Cast if necessary
-        if (targetValue == "true") {
-          targetValue = true
-        }
-        if (targetValue == "false") {
-          targetValue = false
-        }
+    for (const param in params) {
+      mapOfMatchedResourcesByParam[param] = resources.filter(function (currentResource) {
+        if (Array.isArray(params[param])) {
+          let found = false;
+          for (const paramValue of params[param]) {
 
-        if (Array.isArray(resource[key])) {
-          if (!resource[key].includes(targetValue)) {
-              filteredOut = true;
+            if (Array.isArray(currentResource[param])) {
+              if (currentResource[param].includes(paramValue)) {
+                found = true;
+              }
+            } else {
+              if (currentResource[param].toString() == paramValue.toString()) {
+                found = true;
+              }
             }
+          }
+          return found;
+        }
+
+        if (Array.isArray(currentResource[param])) {
+          return currentResource[param].includes(params[param]);
         } else {
-          if (resource[key] != targetValue) {
-            filteredOut = true;
+          return currentResource[param].toString() == params[param].toString();
+        }
+      })
+    }
+
+    return resources.filter(function(currentResource) {
+      let foundInAllMatches = true
+
+      for (const key in mapOfMatchedResourcesByParam) {
+        let foundInMatchedResource = false
+        const matchedResourcesByParam = mapOfMatchedResourcesByParam[key]
+        for (const matchedResource of matchedResourcesByParam) {
+          if (matchedResource.title === currentResource.title) {
+            foundInMatchedResource = true
           }
         }
-
+        if (!foundInMatchedResource) {
+          foundInAllMatches = false
+        }
       }
-      if (!filteredOut) {
-        filteredResources.push(resource);
-      }
+      return foundInAllMatches;
     });
-    return filteredResources;
   }
 
   // Return list of resources in folder as JSON array
