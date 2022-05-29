@@ -1,7 +1,7 @@
 import { Controller, Get, Param } from '@nestjs/common';
 import { SwaggerService } from './swagger.service';
 
-@Controller('/swagger.json')
+@Controller('/schema')
 export class SwaggerController {
   constructor(private readonly swaggerService: SwaggerService) {}
 
@@ -9,7 +9,6 @@ export class SwaggerController {
   swagger(
   ): Promise<string> {
     const schemaJSON = this.swaggerService.getSwagger( '/' );
-
     return schemaJSON;
   }
 }

@@ -7,7 +7,6 @@ import { RestApiService } from './restAPI/restAPI.service';
 import { LoggerMiddleware } from './logger.middleware';
 import { TerminusModule } from '@nestjs/terminus';
 import { HealthController } from './health/health.controller';
-import { SchemaModule } from './schema/schema.module';
 import { ServeStaticModule } from '@nestjs/serve-static';
 
 @Module({
@@ -24,7 +23,6 @@ import { ServeStaticModule } from '@nestjs/serve-static';
     SwaggerModule,
     RestApiModule,
     TerminusModule,
-    SchemaModule,
   ],
   controllers: [
     RestApiController,
