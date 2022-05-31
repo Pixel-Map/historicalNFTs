@@ -115,7 +115,7 @@ openseaVerification: true
 wrapperContract:
   address: "0x73da73ef3a6982109c4d5bdb0db9dd3e3783f313"
   canUnwrapToOriginalToken: true
-standard: Predates ERC-721
+standard: Predates ERC-1155
 creators:
   - "@cryptograffiti" # Cryptograffiti: Artwork for cards 11-13
   - "@helloluis" # Cryptopop: Artwork for cards 17-19
