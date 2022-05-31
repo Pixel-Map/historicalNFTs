@@ -1,4 +1,4 @@
-import { Module, MiddlewareConsumer } from '@nestjs/common';
+import { Module, MiddlewareConsumer, CacheModule, CacheInterceptor } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { SwaggerModule } from './swagger/swagger.module';
 import { RestApiModule } from './restAPI/restAPI.module';
@@ -8,6 +8,7 @@ import { LoggerMiddleware } from './logger.middleware';
 import { TerminusModule } from '@nestjs/terminus';
 import { HealthController } from './health/health.controller';
 import { ServeStaticModule } from '@nestjs/serve-static';
+import { APP_INTERCEPTOR } from '@nestjs/core';
 
 @Module({
   imports: [
@@ -15,6 +16,9 @@ import { ServeStaticModule } from '@nestjs/serve-static';
       rootPath: ".",
       renderPath: "."
     }),
+    CacheModule.register(
+      {isGlobal: true, ttl: 9999999}
+    ),
 
     ConfigModule.forRoot({
       isGlobal: true,
@@ -28,7 +32,10 @@ import { ServeStaticModule } from '@nestjs/serve-static';
     RestApiController,
     HealthController,
   ],
-  providers: [RestApiService],
+  providers: [RestApiService, {
+    provide: APP_INTERCEPTOR,
+    useClass: CacheInterceptor,
+  },],
 })
 export class AppModule {
   configure(consumer: MiddlewareConsumer) {
