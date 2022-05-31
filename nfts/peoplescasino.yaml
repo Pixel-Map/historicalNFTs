@@ -23,7 +23,7 @@ discord: https://discord.gg/4zHFxWQsTf
 website: https://peoplescasino.online/
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: false
 nonfungible: true
 

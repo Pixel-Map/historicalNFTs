@@ -30,7 +30,7 @@ discord: https://discord.gg/4yxxpPEJDV
 website: https://cryptocities.net/
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: true
 nonfungible: true
 

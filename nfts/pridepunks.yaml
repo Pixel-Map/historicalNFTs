@@ -31,7 +31,7 @@ discord: https://discord.gg/ZkX4CFtWhJ
 website: https://www.pridepunk.xyz
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: false
 nonfungible: true
 

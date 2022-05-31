@@ -29,7 +29,7 @@ discord: https://t.co/NM9G4vDEXj
 website: https://deepblack.io
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: true
 nonfungible: true
 

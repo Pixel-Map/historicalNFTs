@@ -12,6 +12,13 @@ export class SwaggerService {
     // Post-processing on JSON
     delete schema["$ref"]
 
+    // Embellish the schema with generated data
+    schema.components.schemas.NFT.properties.year = {
+      description: "Year the NFT was created",
+      type: "integer"
+    }
+    schema.paths['/nfts'].get.parameters.push({in: 'query', name: 'year', schema: { type: 'integer'}})
+
     endpoints.push({ ["nfts"]: schema });
 
     return schema;

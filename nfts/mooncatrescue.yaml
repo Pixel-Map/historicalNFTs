@@ -34,7 +34,7 @@ discord: https://discord.gg/mooncats
 website: https://mooncat.community/
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: true
 nonfungible: true
 

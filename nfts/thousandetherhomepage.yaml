@@ -34,7 +34,7 @@ discord: https://discord.gg/PXVRw37bQ7
 website: https://thousandetherhomepage.com
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: true
 nonfungible: true
 

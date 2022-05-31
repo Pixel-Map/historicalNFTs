@@ -445,9 +445,9 @@
         "description": "Where is the data for the NFT primarily stored?",
         "type": "string",
         "enum": [
-          "onchain",
+          "On-Chain",
           "IPFS",
-          "webserver"
+          "Webserver"
         ]
       },
       "Flag": {

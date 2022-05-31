@@ -29,7 +29,7 @@ discord: https://discord.gg/kwbRuwf
 website: https://www.cryptoarte.io/
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: false
 nonfungible: true
 

@@ -14,7 +14,7 @@ contracts:
     notes: |
       There were 3 releases of CryptoCats and all tokens from release 1 and 2 
       have been migrated to the official contract with the tokens for release 
-      3: 0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f The onchain history is all 
+      3: 0x088C6Ad962812b5Aa905BA6F3c5c145f9D4C079f The On-Chain history is all 
       connected to the Contract Owner address: 0xd7148578159b87a9EFA2f0290531B44b0f9063D1 
       More details can be found in cryptocats-history channel
   - name: CryptoCat Release 2

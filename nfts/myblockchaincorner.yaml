@@ -28,7 +28,7 @@ discord: https://discord.gg/cHVPNarH
 website: https://myblockchaincorner.web.app
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: false
 nonfungible: true
 

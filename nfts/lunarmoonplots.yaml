@@ -34,7 +34,7 @@ discord: https://discord.gg/4YQ4twNTUZ
 website: https://lunartoken.co
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: true
 nonfungible: true
 
@@ -53,7 +53,7 @@ flags:
       without triggering an ownership change underneath.
 relatedLinks:
   - name: Check floor price
-    link: https://alphaonchain.com/lunartoken
+    link: https://alphaOn-Chain.com/lunartoken
   - name: Medium
     link: https://lunartoken.medium.com/
   - name: Podcast about Lunar Moon Plots

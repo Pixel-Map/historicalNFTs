@@ -122,6 +122,10 @@ export class RestApiService {
           const fileData = yaml.load(
             fs.readFileSync(reqPath + '/' + name, 'utf8'),
           ) as Record<string, any>;
+          
+          // Embellish the data here
+          fileData.year = parseInt(fileData.creationTimestamp.substring(7, 11))
+
           resourceList.push(fileData);
         }
       }

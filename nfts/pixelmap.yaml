@@ -45,7 +45,7 @@ discord: https://discord.gg/pixelmap
 website: https://pixelmap.io
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: true
 nonfungible: true
 
@@ -128,7 +128,7 @@ faq:
       more, we don't blame you.
   - question: What does on-chain mean?
     answer: Most NFTs do NOT store the art and other details on the Blockchain,
-      as it is significantly cheaper to point to a link on IPFS or even a standard webserver.
+      as it is significantly cheaper to point to a link on IPFS or even a standard Webserver.
   - question: How do I make a private sale on OpenSea?
     answer: https://docs.google.com/document/d/1ZK1Y0mTjxlVErhHx9werwV8podPtJ030xM2DpXasnuQ/edit?usp=sharing
   - question: What is the secret/invisible tile?

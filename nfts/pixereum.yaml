@@ -30,7 +30,7 @@ discord: https://discord.com/invite/wNXJKYTMqm
 website: https://v2.pixereum.io
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: true
 nonfungible: true
 

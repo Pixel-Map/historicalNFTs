@@ -35,7 +35,7 @@ discord: https://discord.gg/cuzYmchbQx
 website: https://etherrock.com
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: true
 nonfungible: true
 

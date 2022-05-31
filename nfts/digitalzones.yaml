@@ -31,7 +31,7 @@ discord: https://discord.gg/4QdtdZWMpN
 website: https://chan.gallery/ikb/
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: true
 nonfungible: true
 

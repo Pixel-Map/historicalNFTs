@@ -25,7 +25,7 @@ discord: https://discord.gg/aethercity
 website: https://www.aethercity.org/
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: false
 nonfungible: true
 

@@ -25,7 +25,7 @@ discord: https://discord.com/invite/YkVayphdy4
 website: https://etherlambos.io
 
 # Contract Specific Attributes
-assetDataLocation: webserver
+assetDataLocation: Webserver
 staticSupply: false
 nonfungible: true
 

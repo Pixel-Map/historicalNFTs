@@ -24,7 +24,7 @@ discord: https://discord.com/invite/cryptokitties
 website: https://www.cryptokitties.co
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: false
 nonfungible: true
 
@@ -52,7 +52,7 @@ relatedLinks:
 faq:
   - question: Why are CryptoKitties listed as on-chain on NFTArchaeology.io?
     answer: |
-      While the art is NOT onchain, the parts that matter as part of the game (with a focus on breeding), are all stored directly on-chain.
+      While the art is NOT On-Chain, the parts that matter as part of the game (with a focus on breeding), are all stored directly on-chain.
       Even the "genes" of the cat are stored directly within the contract.
   - question: How do CryptoKitties work?
     answer: |

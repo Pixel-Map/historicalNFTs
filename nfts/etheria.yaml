@@ -38,7 +38,7 @@ discord: https://discord.gg/SzVmtk44Rw
 website: https://etheria.world/
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: true
 nonfungible: true
 

@@ -27,7 +27,7 @@ discord: https://discord.gg/qMWgjtSumY
 website: https://wei.cards
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: true
 nonfungible: true
 

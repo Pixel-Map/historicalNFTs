@@ -26,7 +26,7 @@ discord: https://discord.com/invite/4JMAauFZBq
 website: https://t.co/3ql2XFbduR
 
 # Contract Specific Attributes
-assetDataLocation: onchain
+assetDataLocation: On-Chain
 staticSupply: true
 nonfungible: true
 

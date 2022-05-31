@@ -26,7 +26,7 @@ discord: https://discord.com/invite/sTFJs5QDQy
 website: https://cryptocrystal.app/
 
 # Contract Specific Attributes
-assetDataLocation: onchain # All attributes, except images
+assetDataLocation: On-Chain # All attributes, except images
 staticSupply: false # Not sure, says locked at 10,000, must validate!
 nonfungible: true
 
