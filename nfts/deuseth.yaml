@@ -1,0 +1,130 @@
+---
+# Primary Info
+title: Deus ETH
+blockchain: ethereum
+creationTimestamp: Apr-24-2018 11:49:21 AM +UTC
+excerpt: |
+  Deus ETH is an online multimedia survival show that originally aired from 
+  February 19, 2018, to April 13, 2018. It was the first smart contract-based 
+  story where NFTs were used both as collectibles and utilities.
+totalSupply: 69
+contracts:
+  - name: "DeusETH Token (DEUS)"
+    address: "0xb8d1cdcefe47834971067bb0b8249f45433b4157"
+    notes: ""
+openseaCollection: https://opensea.io/collection/deuseth
+openseaVerification: false
+standard: ERC-721
+creators: ["@Tokenville_TV"]
+activeDevelopment: true
+logo: images/logo-deuseth.png
+
+# Socials
+twitter: "@Tokenville_TV"
+discord: https://discord.com/invite/wbwpsjjDcZ
+website: https://deuseth.com
+
+# Contract Specific Attributes
+assetDataLocation: Unknown
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Unlimited supply
+    level: warning
+    details: |
+      There is no limit to the number of Deus ETH characters that can be minted
+      by the contract creator wallet.  However, they do have the ability to burn
+      owner address, which would then in-turn cause the supply to be static.  If
+      that is completed, please let us know and we'll remove this warning.
+
+relatedLinks:
+  - name: Deus ETH FAQ
+    link: https://deuseth.com/faq
+  - name: TokenVille HQ Instagram
+    link: https://www.instagram.com/tokenville_hq
+  - name: TokenVille Telegram
+    link: https://t.me/tokenville
+  - name: TokenVille TV Medium.com
+    link: https://medium.com/@tokenville_tv
+
+faq:
+  - question: What is Deus ETH?
+    answer: |
+      Deus ETH was the first web series that used NFTs and smart contracts to 
+      add value to the narrative. The show was finished in 2018 and acquired a 
+      small dedicated fan base.
+
+      Nonfungible tokens representing 50 characters and 19 special characters 
+      are still tradable on OpenSea. During the show, these tokens also acted 
+      as utilities in the lottery.
+  - question: Is Deus ETH Finished?
+    answer: |
+      Yes and no. In each episode of the first season, smart contracts randomly 
+      determine which characters will die, as a simulation. The team was making 
+      a story based on those who died and those who were alive, as an 
+      interpretation. Although smart contracts have simulated all the events 
+      that were planned for the season and the winners were honored, the 
+      interpretation of The Final Episode is still missing. So, no one knows 
+      how the last heroes survived and what happened next.
+  - question: What is it all about?
+    answer: |
+      We are a team of creative minds whose dream was to build a new kind of 
+      drama: something that combines the emotions of a trader and a TV viewer. 
+      We call it the “Entertainment of Value.”
+
+      Deus ETH is our creative approach to the blockchain community. Although 
+      it was never designed for mass appeal, we are happy that Deus ETH did 
+      acquire a small community.
+
+      Here's what you need to know to understand Deus ETH:
+
+      1. It's a drama of ownership. Owning a hero in Deus ETH means having a 
+      new kind of emotional engagement with your character who can literally 
+      die in any episode.
+
+      2. It's a transmedia show that lives in many dimensions. If you explore 
+      the episodes, you'll see that we tried different media formats: animation, 
+      comic strip, audio, video and coubs. But, every episode also has stories 
+      and obits. All of this, and every character as well, is part of the narrative.
+
+      3. It was a creative adventure for us — we had to improvise, as we never 
+      knew who would die and who would stay alive.
+  - question: How to participate in Deus ETH?
+    answer: |
+      The show is finished, but you can trade characters on OpenSea. These 
+      characters are just collectibles now and there is no utility value in them. 
+      Though, if Deus ETH 2 will be released, we'll think about adding original 
+      tokens to the show.
+  - question: How can I support Deus ETH?
+    answer: |
+      To fund the development of The Final Episode, we are releasing a collection 
+      of Deus ETH posters of 2069 randomly generated NFTs with original 
+      characters on each of them. Part of these posters will be released for 
+      free to our community.
+  - question: Where can I watch Deus ETH?
+    answer: |
+      Deus ETH will be released on deuseth.com. Although we are using YouTube to 
+      post our videos, it's recommended to watch Deus ETH on our website, as 
+      there are a lot of additional exclusive materials telling the whole story.
+  - question: Why is Deus ETH important?
+    answer: |
+      Deus ETH was the first project to combine narrative and blockchain. We 
+      envisioned blockchain not only as a ledger but as a medium for art. Today, 
+      a lot of projects are trying to use nonfungible tokens to fund the 
+      development or to create a new layer of engagement. Deus ETH is way ahead 
+      of them.
+
+analysis: |
+  ## Deus ETH characters
+  For more than three weeks, these 50 brave tokens were fighting for survival. 
+  The owners of three survivors have shared the box office. Now, 50 original 
+  characters and 19 specials are available as NFT collectibles.
+  ![Deus ETH Characters](https://api.nftarchaeology.io/images/deuseth-characters.jpg "Deus ETH Characters")
+
+categories:
+  - Still Image
+  - Visual Novel
+  - Lottery
+  - TV Show

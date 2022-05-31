@@ -416,7 +416,10 @@
           "Artificial Intelligence",
           "3d",
           "Customizable",
-          "Derivative"
+          "Derivative",
+          "Visual Novel",
+          "Lottery",
+          "TV Show"
         ],
         "type": "string"
       },
@@ -447,7 +450,8 @@
         "enum": [
           "On-Chain",
           "IPFS",
-          "Webserver"
+          "Webserver",
+          "Unknown"
         ]
       },
       "Flag": {
