@@ -1,0 +1,135 @@
+---
+# Primary Info
+title: EtherTulips
+blockchain: ethereum
+creationTimestamp: Jan-22-2018 03:42:04 AM +UTC
+excerpt: |
+  Tradable virtual tulips on the Ethereum blockchain that can fight each other. What could go wrong?
+  Yep, you can battle your tulips because why not? Select a squad of your favorite tulips and show everyone what 
+  you've got!
+totalSupply: 12345
+contracts:
+  - name: "Ether Tulips (ETHT)"
+    address: "0x995020804986274763df9deb0296b754f2659ca1"
+    notes: "Original Contract"
+  - name: "EtherTulips (TULIP)"
+    address: "0xf7f6dee46c6bdcf32c14a825f3a714262960c361"
+    notes: "2021 V2 Contract"
+  - name: "EtherTulips Bridge"
+    address: "0x8d9ebd38442b681a253e5a1f7dc5721b269904bf"
+    notes: "EtherTulips Wrapper"
+openseaCollection: https://opensea.io/collection/ethertulips-legacy
+openseaVerification: true
+wrapperContract:
+  address: "0x8d9ebd38442b681a253e5a1f7dc5721b269904bf"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: ["@ethertulips"]
+activeDevelopment: true
+logo: images/logo-ethertulips.png
+
+# Socials
+twitter: "@ethertulips"
+discord: https://discord.gg/7xBAV9n6uD
+website: https://ethertulips.com
+
+# Contract Specific Attributes
+assetDataLocation: Webserver
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Centralization
+    level: alert
+    details: |
+      The EtherTulips bridge is controlled by the creator address.  If that account went rogue or was compromised, the 
+      bridge contract has a vulnerability in that the creator could unwrap all wrapped tokens back to itself via changing
+      the V2 contract address.  A similar vulnerability going the other direction also likely exists, as the bridge itself
+      holds the V1 tokens, not the wrapper contract.
+  - name: Unlimited supply
+    level: warning
+    details: |
+      There is no limit to the number of EtherTulips that can be created.  However,
+      the number of Gen0 and Gen1 EtherTulips has a soft cap built-in, due to a hardcoded
+      increase of price for new mints.  Currently, to mint a new Gen0 would cost 100E, so
+      the supply is semi limited for older generations.  Newer generations can be created
+      with no fee and unlimited minting, and are therefore unlikely to have value.
+relatedLinks:
+  - name: Legacy EtherTulips Shop
+    link: https://legacy.ethertulips.com/shop
+
+faq:
+  - question: What are all those tulips that look the same on OpenSea selling for ~0.01eth?
+    answer: |
+      EtherTulips does not endorse and is not affiliated with OpenSea. In February 
+      2018, we released as a valentine's day easter egg a sister collection EtherValentines. 
+      As part of this collection, there were three types of roses. Since we didn't intend these roses to be 
+      collectibles, they were set as infinitely mintable at a price of 0.01eth.  As a result, to this day 
+      EtherValentines roses can still be minted directly from the contract for 0.01eth (+gas).
+
+      Back then (in 2018), fixed cap total supply wasn't a major feature of NFT collections. 
+      So, since we wanted to easily be able to show/send EtherValentines roses within the same 
+      collection as EtherTulips, we added them as extra generations in the same contract. 
+      They were never for sale officially through ethertulips.com as Generations 2, 3, or 4, only 
+      through the EtherValentines site as roses (Gen 2/3/4 is only an internal identifier in the 
+      contract code to make things work together).
+  - question: Why don't roses have any attributes and why do they all look the same on OpenSea?
+    answer:
+      EtherValentines roses display correctly with attributes on EtherTulips.com. As a reminder, OpenSea is a
+      third party that EtherTulips does not support or endorse. However, to give some history, when OpenSea listed
+      EtherTulips they wrote custom code to scrape EtherTulips images. For some reason, it seems that that custom
+      scraper does not work with Gens 2/3/4, and OpenSea instead displays the project icon (which is why they all
+      look identical on OpenSea). We've submitted a ticket with OpenSea to notify them of the issue, but we have
+      no control over their code.
+  - question: Why is EtherTulips upgrading to a new contract?
+    answer: |
+      EtherTulips was first released in January 2018. Back then, the ERC-721 standard was still an unfinalized draft 
+      (that's how old we are!), and so certain protocols that rely on the modern finalized ERC-721 standard may not 
+      fully support EtherTulips (for example, OpenSea's EtherTulips image scraper). Additionally, as mentioned 
+      previously, fixed cap total supply wasn't a major feature of NFT collections back then.
+
+      Fast forward to 2021, and now ERC-721 is a finalized standard and fixed cap total supply is a standard feature 
+      of collectable NFTs. So, we want to update the EtherTulips contract to make EtherTulips fully compatible with 
+      ERC-721 compliant NFT protocols (such as OpenSea), and it makes sense that the scarcity of Gen 0/1 tulips 
+      shouldn't be tarnished by the infinitely mintable 0.01eth EtherValentines roses. Therefore, only Gen 0/1 tulips 
+      will be able to be bridged to the upgraded contract, and the total supply between Gen 0/1/2021 on the upgraded 
+      contract will be capped at 12,345.
+  - question: How will the upgraded contract affect the history and lineage of Gen 0/1 tulips?
+    answer: |
+      We took history and lineage heavily into account in the design of the contract upgrade. First, Gen 0/1 tulips on 
+      the new contract will include attributes indicating their mint date.
+
+      Additionally, the bridge from the legacy contract to the new contract will be bidirectional: Gen 0/1 tulips can 
+      be moved back and forth between the legacy and upgraded contracts at any time. 
+
+      Effectively, the upgraded contract is like a wrapper around the legacy contract. As an empirical example, the 
+      original CryptoPunks contract also isn't ERC-721 compliant; to make CryptoPunks interoperable with NFT dapps like 
+      OpenSea an ERC-721 wrapper was created. It doesn't look like the wrapper has had any negative effect on CryptoPunks' 
+      collectability!
+  - question: What will happen to EtherValentines rose?
+    answer: |
+      Absolutely nothing! Although EtherValentines roses will not be able to be bridged to the upgraded contract, the 
+      legacy contract will continue to stick around for the duration of the lifespan of the Ethereum blockchain. 
+      You'll be able to continue to view, manage, and battle your EtherValentines roses at https://legacy.ethertulips.com/.
+  - question: How do I mint new tulips?
+    answer: |
+      Generation 2021, the final generation of EtherTulips with a fixed cap of 5,094 tulips, has dropped at 
+      https://ethertulips.com/shop. Although more Gen 0/1 tulips can technically be minted on the legacy contract 
+      (at high cost--100eth for Gen 0 and ~2.6eth for Gen 1), new Gen 0/1 tulips will not be able to be bridged to 
+      the upgraded contract.
+
+analysis: |
+  ## Tulip mania. Now with fights. On the blockchain.
+
+  Tulip mania was a bubble in the 17th century during which prices for tulips rose to ridiculous levels. One bulb 
+  cost more than a house! The tulip market crashed in 1637, so you were born too late to participate — but no worries!
+
+  We're bringing tulip mania to the 21st century. Each adorable EtherTulip lives on the Ethereum blockchain, where 
+  they can be securely bought, traded, and battled. All EtherTulips have unique DNA, which determines their appearance 
+  and battle traits. Want a particularly powerful tulip? Buy some seeds, or trade with someone else. But hurry: prices 
+  are rising exponentially by the day. You don't want to miss out, do you?
+
+categories:
+  - Still Image
+  - Game
