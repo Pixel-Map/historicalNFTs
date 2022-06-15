@@ -132,4 +132,86 @@ export class RestApiService {
     });
     return JSON.parse(JSON.stringify(resourceList));
   }
+
+  // Returns a grade for a given NFT
+  getScore(nft) {
+    let score = 100; // Default to A+
+
+    // Is the NFT actively maintained/developed?
+    if (!nft.activeDevelopment) {
+      score = score - 5
+    }
+
+    // Does the NFT have a fixed supply?
+    if (!nft.staticSupply) {
+      score = score - 10
+    }
+
+    // Is the NFT non-fungible?
+    if (!nft.nonfungible) {
+      score = score - 5
+    }
+
+    // Has the NFT gotten OpenSea verification?
+    if (!nft.openseaVerification) {
+      score = score - 5
+    }
+
+    // Where is the data for the NFT stored?
+    if (nft.assetDataLocation == "On-Chain") {
+      score = score + 8 // Bonus for On-Chain
+    } else if (nft.assetDataLocation == "IPFS") {
+      // No penalty for IPFS
+    } else {
+      // Penalize centralized data
+      score = score - 10
+    }
+
+    // Warning Punishments
+    for (const flag of nft.flags) {
+      if (flag.level == 'warning') {
+        score = score - 6
+      }
+      if (flag.level == 'alert') {
+        score = score - 25
+      }
+    }
+
+    // if (nft.flags.some(flag => flag.name == "Multiple ")) {
+    //   score = score - 5
+    // }
+
+
+    return score
+  }
+
+  // Get Grade as letter
+  getGrade(score: number) {
+    // Calculate Grade
+    if (score >= 97) {
+      return 'A+'
+    } else if (score >= 93) {
+      return 'A'
+    } else if (score >= 90) {
+      return 'A-'
+    } else if (score >= 87) {
+      return 'B+'
+    } else if (score >= 83) {
+      return 'B'
+    } else if (score >= 80) {
+      return 'B-'
+    } else if (score >= 77) {
+      return 'C+'
+    } else if (score >= 73) {
+      return 'C'
+    } else if (score >= 70) {
+      return 'C-'
+    } else if (score >= 67) {
+      return 'D+'
+    } else if (score >= 65) {
+      return 'D'
+    } else {
+      return 'F'
+    }
+  }
 }

@@ -38,7 +38,7 @@ nonfungible: true
 # Red Flags
 flags:
   - name: Unverified contract
-    level: warning
+    level: alert
     details: It's difficult to identify vulnerabilities or the supply, as the original contract cannot be verified.
 
 # Helpful Links

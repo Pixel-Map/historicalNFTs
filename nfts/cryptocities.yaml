@@ -42,7 +42,7 @@ flags:
       royalties on various marketplaces, having it directly controlled by the contract means that a compromised key or bad actor could
       set it to 100% and there would be no possibility of setting up a new collection or listing on a different marketplace as a workaround.
   - name: Unverified contract
-    level: warning
+    level: alert
     details: It's difficult to identify vulnerabilities or the supply, as the original contract cannot be verified.
   - name: Cannot unwrap
     level: warning

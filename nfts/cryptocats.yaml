@@ -57,7 +57,12 @@ staticSupply: true
 nonfungible: true
 
 # Red Flags
-flags: []
+flags:
+  - name: Multiple versions
+    level: warning
+    details: |
+      There are currently 2 contracts that make up CryptoCats.  One is considered legitimate, the other is known
+      as "CryptoCats Reborn".
 
 # Helpful Links
 relatedLinks:
@@ -74,4 +79,3 @@ categories:
   - "Virtual Pet"
   - "PFP"
   - "Metaverse Avatar"
-  

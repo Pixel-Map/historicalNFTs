@@ -32,7 +32,7 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Multiple contracts
+  - name: Multiple versions
     level: warning
     details: The \"Official CryptoPunks\ are considered V2.  A previous contract exists that was disavowed by the creators (LarvaLabs).  It
       is important to note that the previous contract IS still actively wrapped and traded, but at a significant discount due to the risks
