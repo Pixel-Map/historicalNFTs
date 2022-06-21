@@ -15,9 +15,20 @@ export class SwaggerService {
     // Embellish the schema with generated data
     schema.components.schemas.NFT.properties.year = {
       description: "Year the NFT was created",
-      type: "integer"
+      type: "integer",
+      example: 2016
     }
     schema.paths['/nfts'].get.parameters.push({in: 'query', name: 'year', schema: { type: 'integer'}})
+    schema.components.schemas.NFT.properties.score = {
+      description: "NFT Archaeology quality score (1-100)",
+      type: "integer",
+      example: "97"
+    }
+    schema.components.schemas.NFT.properties.year = {
+      description: "NFT Archaeology quality grade (A+ thru F)",
+      type: "string",
+      example: "A+"
+    }
 
     endpoints.push({ ["nfts"]: schema });
 

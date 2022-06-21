@@ -181,11 +181,13 @@
         "properties": {
           "title": {
             "description": "Official title of the NFT",
-            "type": "string"
+            "type": "string",
+            "example": "PixelMap"
           },
           "analysis": {
             "description": "Optional in depth analysis about the NFT",
-            "type": "string"
+            "type": "string",
+            "example": "A little over a decade ago..."
           },
           "excerpt": {
             "description": "Short (280 character or less) description of the NFT",
