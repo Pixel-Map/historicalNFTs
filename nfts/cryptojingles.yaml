@@ -6,8 +6,7 @@ creationTimestamp: Feb-18-2018 04:29:26 PM +UTC
 excerpt: |
   The first sound based, decentralized Ethereum game. The goal of it is simple, 
   mix your sound samples to create the best sounding jingle. Every composed jingle 
-  is completely unique and nobody can create a jingle that sounds the same and 
-  has the same combination of samples.
+  is completely unique and nobody can create a jingle that sounds the same.
 totalSupply: 79
 contracts:
   - name: "CryptoJingles"
