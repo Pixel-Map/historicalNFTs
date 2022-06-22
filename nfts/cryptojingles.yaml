@@ -1,0 +1,104 @@
+---
+# Primary Info
+title: Crypto Jingles
+blockchain: ethereum
+creationTimestamp: Feb-18-2018 04:29:26 PM +UTC
+excerpt: |
+  The first sound based, decentralized Ethereum game. The goal of it is simple, 
+  mix your sound samples to create the best sounding jingle. Every composed jingle 
+  is completely unique and nobody can create a jingle that sounds the same and 
+  has the same combination of samples.
+totalSupply: 79
+contracts:
+  - name: "CryptoJingles"
+    address: "0xdea4c5c25218994d0468515195622e25820d27c7"
+    notes: "Primary original contract"
+  - name: "Genesis Jingles (GJ)"
+    address: "0xa603806c2bcd429841a075acadbebcd53b651b02"
+    notes: "CryptoJingles Wrapper"
+  - name: "Sample Contract"
+    address: "0x57fd3480581f72b0df1adead72b4181a52a1d7de"
+    notes: "Used for storing sound samples"
+  - name: "Sample Storage"
+    address: "0xddcab0ece1816a517683d858be471e377d421300"
+    notes: "Sample registry?"
+  - name: "V1 Jingle token contract"
+    address: "0x5b6660ca047cc351bfedca4fc864d0a88f551485"
+    notes: "Used for storing Jingles"
+  - name: "V0 Jingle token contract"
+    address: "0x5af7af54e8bc34b293e356ef11fffe51d6f9ae78"
+    notes: ""
+openseaCollection: https://opensea.io/collection/genesis-jingles
+openseaVerification: false
+wrapperContract:
+  address: "0xa603806c2bcd429841a075acadbebcd53b651b02"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-721
+creators: ["@CryptoJingles"]
+activeDevelopment: true
+logo: images/logo-cryptojingles.png
+
+# Socials
+twitter: "@CryptoJingles"
+discord: https://discord.com/invite/nzH4pcjtV5
+website: https://cryptojingles.app
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: false
+nonfungible: true
+
+# Red Flags
+flags:
+  - name: Unlimited supply
+    level: warning
+    details: |
+      There is no limit to the number of CryptoJingles that can be created as long 
+      as it is unique.  However, historic CryptoJingles can be found from as far 
+      back as 2018.
+  - name: Multiple versions
+    level: warning
+    details: |
+      There are currently two old versions of CryptoJingles, and one new version.
+
+relatedLinks:
+  - name: Reddit CryptoJingles
+    link: https://www.reddit.com/r/CryptoJingles
+  - name: Medium
+    link: https://medium.com/@cryptojingles
+  - name: New CryptoJingles (Non Historical)
+    link: https://opensea.io/collection/new-cryptojingles
+  - name: New Jingles Marketplace
+    link: https://opensea.io/collection/new-cryptojingles
+
+faq: []
+
+analysis: |
+  ## About
+  Compose the best jingles on the blockchain, you can share them, sell them and love them.
+
+  ## Samples
+  Currently there are 100 sound samples available in the game with the possibility 
+  to add more in the future. A sample can be one of 4 types of rarity: common, 
+  rare, legendary and mythical. Rarer the sample, better the sound. There are 
+  currently 59 common sounds, 30 rare, 10 legendary and only 1 mythical! Every 
+  sound sample is hosted on IPFS and referenced on the main smart contract. 
+  Samples have a fixed price of 0.001Ξ and can't be traded. In order to compose 
+  a jingle you need 5 samples. When a sample is used to compose a jingle it 
+  becomes a part of it and you can't use it in other jingles.
+
+  ## Jingles
+  Every jingle is unique in two aspects. One, nobody can create a jingle with 
+  the same combination of sound samples. Two, we generate a unique cover image 
+  that is based on the jingle identificator. As a result, a jingle can have value 
+  because of its cover image and its sound. Jingles are tradable items that you 
+  can put on sale in our marketplace for whatever price you think it’s worth. 
+  Putting a jingle on sale is free, but we do take a 3% cut on a successful sale. 
+  Additionally, a jingle has a name and a author. They are set when a jingle is 
+  composed and can't be altered after that, even after a change of ownership. 
+  The default name for every owner is Soundtoshi Nakajingles, you are free to 
+  change this on your profile page.
+
+categories:
+  - "Audio Beats"
+  - "Still Image"
