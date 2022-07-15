@@ -5,7 +5,7 @@ blockchain: ethereum
 creationTimestamp: Nov-01-2015 01:20:11 AM +UTC
 excerpt: |
   Ξtheria is the first NFT on Ethereum, a virtual world in which players can own tiles, and build things. The state of the world and all 
-  player actions are stored on the blockchain.  Ξtheria was demoed at DEVCON 1 (Ethereum's first dev conference) on November 13, 2015.
+  player actions are stored on the blockchain.
 totalSupply: 457
 contracts:
   - name: "Etheria v1.2 (Official)"
