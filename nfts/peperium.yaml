@@ -130,7 +130,7 @@ website: https://peperium.art/
 
 # Contract Specific Attributes
 assetDataLocation: IPFS
-staticSupply: true
+staticSupply: false
 nonfungible: false
 
 # Red Flags
