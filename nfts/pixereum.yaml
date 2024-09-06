@@ -31,7 +31,7 @@ website: https://v2.pixereum.io
 
 # Contract Specific Attributes
 assetDataLocation: On-Chain
-staticSupply: true
+staticSupply: false
 nonfungible: true
 
 # Red Flags
