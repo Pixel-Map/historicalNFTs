@@ -1,0 +1,148 @@
+---
+# Primary Info
+title: Peperium
+blockchain: ethereum
+creationTimestamp: Apr-14-2017 11:34:48 PM UTC
+excerpt: |
+  Peperium, the first Pepes and first Art collection on the Ethereum blockchain, 
+  minted in 2017, with an on-chain verifiable IPFS hash.
+totalSupply: 2072
+contracts:
+  - name: "Card Factory v1"
+    address: "0xd875c876435a79b5eb2099d06aa97ffd4fb6fc9d"
+    notes: "Used to create individual card contracts"
+  - name: "Card Factory v2"
+    address: "0xb4e34890034a13325363b3226dce8eeec292d626"
+    notes: "Used to create individual card contracts"
+  - name: "Peperium ERC1155 Wrapper"
+    address: "0xfe880206214856f984d4f64fc89c26681dca15a2"
+    notes: ""
+  - name: "KFPEPE"
+    address: "0x648445e48093d999966375b30186D433fEF9c364"
+    notes: ""
+  - name: "PEPESTREET"
+    address: "0x51b41e61B654EA852679E374171F08f35119e255"
+    notes: ""
+  - name: "ZENPEPE"
+    address: "0xA3832b169Ac40c23d85eEb1D0c2e51FCAc5df5De"
+    notes: ""
+  - name: "PEPRESSIONISM"
+    address: "0x8B990d8bBB502eaa09AE4bAdEb8ec85Acbe7FB66"
+    notes: ""
+  - name: "PEPEBANKSY"
+    address: "0x57E62ee19ffd8f73CD978282a45a1e5ab7341c96"
+    notes: ""
+  - name: "MONAPEPE"
+    address: "0xA87c5dcC2e24FACe553cFC0c04d8E22c94c117a2"
+    notes: ""
+  - name: "LORDRARE"
+    address: "0xEd01ca51723C0F9ebc167e8E382A7cfA73735077"
+    notes: ""
+  - name: "BASEBALLPEPE"
+    address: "0x99523add649D16e69E2eE913baC893e69e926444"
+    notes: ""
+  - name: "BATPEPE"
+    address: "0x9F0bf0e983B227b2c026d4655B9fDF6cd435A66E"
+    notes: ""
+  - name: "HOTDOGPEPE"
+    address: "0x8F94BC777CB8B6876Cd2410Da3a6F796733212f5"
+    notes: ""
+  - name: "KINGRARE"
+    address: "0x97E5cC2F56E08C6338AC7907E1073a8049D4bC60"
+    notes: ""
+  - name: "ACCEPTRARE"
+    address: "0x20Cd103D4Ed989338E122Eb069d9cC51f497151E"
+    notes: ""
+  - name: "NEVERENDINGPEPE"
+    address: "0xD3Fab082012b7482244379B77d9548495A029F54"
+    notes: ""
+  - name: "PEPEGOD"
+    address: "0x38A8E6f911aB6163b663f7fa414af03c7Ab4b35b"
+    notes: ""
+  - name: "PEPEGOLD"
+    address: "0x08aAB3C173639a37C7E5254C2F1C153c3e3444B2"
+    notes: ""
+  - name: "NEWPEPE"
+    address: "0x76330651533B02B89c563352062265663E410923"
+    notes: ""
+  - name: "PEPETTE"
+    address: "0x3aC136f428889E0E8d88B79940dEA547Eb7Ca00D"
+    notes: ""
+  - name: "VAPORPEPE"
+    address: "0x2523f621ce57E0503c114FbD0181B4c385165513"
+    notes: ""
+  - name: "PEPESTENCIL"
+    address: "0x5921F43985a027ba74EE110b77DcE09B96De943E"
+    notes: ""
+  - name: "GlitchPepe"
+    address: "0x60E762fA4FCB2bA472B055D64fEbBFccA000ED6C"
+    notes: ""
+  - name: "PEPERIUMCLASSIC"
+    address: "0x6160A19EC62392ADf43Cc22c89C0193432216417"
+    notes: ""
+  - name: "CHILLPEPE"
+    address: "0x4B5CF00AE4D5b1a8DC4E0D81f28e373aAdbe59d3"
+    notes: ""
+  - name: "RUINSOFPEPE"
+    address: "0xbA7101b0aaf0F1cF655240ed519C4EcAc3394022"
+    notes: ""
+  - name: "GIGERPEPECITY"
+    address: "0xDaa9CecfE002536574D7958c50950F8f545a9Bd4"
+    notes: ""
+  - name: "PEPEZEUSLIGHT"
+    address: "0xF10e9228221777920d413E74Aa40a54b33886Ac4"
+    notes: ""
+  - name: "CRIMEANDPEPESHMENT"
+    address: "0x11266bF3498FaBe08707C16F3BA7fbF526Cf9f98"
+    notes: ""
+  - name: "PEPENEMSTEAK"
+    address: "0xa9DDec7e4B31D63Aa9fEaf77190b242070483B24"
+    notes: ""
+  - name: "RPALPHASTIK"
+    address: "0x5443F7D80875AFD18737F2A5322161582373cE5e"
+    notes: ""
+  - name: "UNDEADPEPE"
+    address: "0x0273b0846a9877af88b3F080fB963d8f51679996"
+    notes: ""
+  - name: "MHV"
+    address: "0xC8a1464d5936C9dcB033dAA7fc198215E7538292"
+    notes: ""
+  - name: "PBJCAT"
+    address: "0x7469580d483e9832B9C68676b5EA17141bE97df2"
+    notes: ""
+
+openseaCollection: https://opensea.io/collection/peperium-2017
+openseaVerification: false
+wrapperContract:
+  address: "0xfe880206214856f984d4f64fc89c26681dca15a2"
+  canUnwrapToOriginalToken: true
+standard: Predates ERC-1155
+creators:
+  - "JadeEgg" # Anon developer
+
+activeDevelopment: true
+logo: images/logo-peperium.png
+
+# Socials
+twitter: "@peperium2017"
+discord: https://discord.gg/UdJET9ZNvf
+website: https://peperium.art/
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: true
+nonfungible: false
+
+# Red Flags
+flags:  
+  - name: Some cards are unlocked
+    level: warning
+    details: |
+      There is a tiny possibility the owner of some of the cards
+      can increase the supply because it is unlocked. 
+      However, the owner of those cards has been MIA for 7 years.
+
+# Meta
+categories:
+  - "Still Image"
+  - "Trading Cards"
