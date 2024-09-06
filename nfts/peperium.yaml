@@ -135,7 +135,7 @@ nonfungible: false
 
 # Red Flags
 flags:  
-  - name: Some cards are unlocked
+  - name: Unlimited supply
     level: warning
     details: |
       There is a tiny possibility the owner of some of the cards
