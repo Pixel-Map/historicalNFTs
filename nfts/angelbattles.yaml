@@ -1,0 +1,82 @@
+---
+# Primary Info
+title: Angel Battles
+blockchain: ethereum
+creationTimestamp: Jan-28-2018 05:30:40 PM UTC
+excerpt: |
+  Angel Battles was one of the first play to earn games on the Ethereum blockchain. There were originally 3 separate data contracts - angels, pets, and accessories. 
+  These were combined under a single wrapper contract in 2022. The game featured arena battles (vs computer), breeding, player vs player leaderboards, aura training, and more.
+  Cards were traded on the Project Wyvern marketplace. In 2023 a new version of the game was launched on polygon. 
+totalSupply: 7625
+contracts:
+  - name: "AngelCardData"
+    address: "0x6D2E76213615925c5fc436565B5ee788Ee0E86DC"
+    notes: "Holds data for angel cards"
+  - name: "PetCardData"
+    address: "0xb340686da996b8b3d486b4d27e38e38500a9e926"
+    notes: "Holds data for pet cards"
+  - name: "AccessoryData"
+    address: "0x466c44812835f57b736ef9F63582b8a6693A14D0"
+    notes: "Holds data for accessory cards"
+wrapperContract:
+  address: "0x1d9711c7c67ace347ff45661708aeac4bbb2aed3"
+  canUnwrapToOriginalToken: true
+openseaCollection: https://opensea.io/collection/angel-battles-historical-wrapper
+openseaVerification: true
+standard: Predates ERC-721
+creators: ["@AngelBattles"]
+activeDevelopment: true
+logo: images/logo-angelbattles.png
+
+# Socials
+twitter: "@EthAngelBattles"
+discord: https://discord.com/invite/u2xgWuQ
+website: https://www.angelbattles.com/
+
+# Contract Specific Attributes
+assetDataLocation: IPFS
+staticSupply: true
+nonfungible: true
+
+# Red Flags
+flags: []
+
+relatedLinks:
+  - name: Historic Site (Ethereum)
+    link: https://www.angelbattles.com/historic/
+  - name: Documentation
+    link: https://mirror.xyz/angelbattles.eth
+  - name: DAO Governance
+    link: https://www.tally.xyz/gov/angel-battles-dao-1592
+
+faq: []
+
+analysis: |
+  ## Our History
+
+  Angel Battles was one of the first play to earn games on the Ethereum blockchain.  According to DappRadar, it was in the top 5 of all Ethereum games by daily active users. 
+  The  game was more complex than most other games at the time. There were 3 types of cards - angels, pets, and accessories. Angels were purchased and had one of six aura colors. 
+  Level 1 pets could be claimed for free, and other pets could either be bred or recruited by defeating them in the battle arenas. When battling, players would randomly
+  face either a monster or a pet. There were 24 different angels, 19 different pets, and 18 different accessories.
+
+  Accessories were optional, but could be used to enhance stats in battles. Angels had battle power (set on creation), and experience (earned from battles).
+  Pets had speed (set on creation) and aura power (earned through aura training and breeding).
+  Accessories could be used to enhance some stats - for instance the sapphire colllar increased a pet's blue aura power. 
+
+  There was a linear, 20 space leaderboard. Anyone could trustlessly open up their own 'sponsored leaderboard' with Ether which would reward the top 4 players on that leaderboard
+  once the time was up. 
+
+  Like many games of the time, the popularity plummeted as gas fees skyrocketed in summer 2018. 
+
+  In 2022, a new version was launched on Polygon. This version had leaderboards which were 2 dimensional called battle mountains. The mountains had certain areas
+  which enhanced certain attributes. For instance, red aura power was enhanced in the lava field. There were other official mountains which were limited in certain ways, 
+  for instance, only light angels allowed, only dark angels allowed, only free cards allowed, etc. Players were also able to create their own mountains and limit the players who could enter. 
+
+  With the polygon version, 100% of the money from card sales went to the Gitcoin matching pool. The game also featured a ERRC20 token called Halo. Halo is a governance
+  token which was airdropped in a stream to all holders of the original ERC721 cards. It is also available as rewards for winning in any of the mountains or battle arenas. 
+
+  The game is fully decentralized - the Ethereum contracts from 2018 are owned by the 0x0 address and the Polygon contracts are all controlled by the DAO.    
+# Meta
+categories: 
+  - "Game"
+  - "Virtual Pet"
