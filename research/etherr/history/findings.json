@@ -133,7 +133,7 @@
   "addresses": {
     "0x0148368e9efd8d6a5dd56134cd2b3f941e10d953": {
       "status": "identified-related-deployment",
-      "finding": "Etheria v0.7. The creator identifies this as a test version. The captured code stores owners by tile coordinate. The sampled early calls include tile initialization, which documents setup activity.",
+      "finding": "Etheria v0.7. The creator identifies this as a test version. The captured code stores owners by tile coordinate. The sampled early calls include tile initialization, which documents setup activity. The runtime published by Etheria’s creator matches the archive snapshot byte for byte.",
       "sourceFile": "Etheria.sol",
       "lines": "64–75,208–215",
       "references": [
@@ -141,11 +141,16 @@
         "https://www.etheria.world/early-nft-claimants.html",
         "https://etherscan.io/tx/0x090d2a4843ddc73216d4c26f10fbcca3a91ec19e67185267062ac509f197a387"
       ],
-      "nextCheck": "Document the setup calls and any later item-level activity as part of Etheria's version history."
+      "nextCheck": "Document the setup calls and any later item-level activity as part of Etheria's version history.",
+      "title": "Etheria v0.7 prototype",
+      "publishedRuntimeEvidence": {
+        "url": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt7_0x014.sol",
+        "sha256": "6e27c1c2f178e5cb9659fbd41173174d0cec487061a780dcb1d3c2d96003ba48"
+      }
     },
     "0xa2f63e28172ebf2477f4c1a87aed68aaa3ebbe3d": {
       "status": "identified-related-deployment",
-      "finding": "Etheria v0.85. The creator identifies this as a test version. The captured code stores individual tile owners and offers. An early on-chain call matches the makeOffer signature. Its resulting state change still needs confirmation.",
+      "finding": "Etheria v0.85. The creator identifies this as a test version. The captured code stores individual tile owners and offers. An early on-chain call matches the makeOffer signature. Its resulting state change still needs confirmation. The runtime published by Etheria’s creator matches the archive snapshot byte for byte.",
       "sourceFile": "Etheria.sol",
       "lines": "297–308,345–403",
       "references": [
@@ -153,18 +158,25 @@
         "https://www.etheria.world/early-nft-claimants.html",
         "https://etherscan.io/tx/0xd3599efeded39dea93c1923c4aab528ac0c90150a5b8e1b0d9a0a3ed1e179e0a"
       ],
-      "nextCheck": "Read the offer state before and after the sampled call at historical blocks."
+      "nextCheck": "Read the offer state before and after the sampled call at historical blocks.",
+      "title": "Etheria v0.85 prototype",
+      "publishedRuntimeEvidence": {
+        "url": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt85_0xa2f.sol",
+        "sha256": "95b1d18f14cd5f38532df4f66e36d31b3d89065c5d290df0b2cf66f2ede277fb"
+      }
     },
     "0xd588b586d61c826a0e87919b3d1a239206d58bf2": {
       "status": "registrar-with-observed-wrapped-domain",
-      "finding": "The verified wrapper binds this exact registrar address. One successful transaction records a change on the original registrar, a mint from the zero address in the ERC-721 wrapper, and a Wrapped event, all for the same domain identifier. The archived registrar source describes individually owned, expiring domains. The original project README names a different deployment.",
+      "finding": "The original EtherId client switched from the older registry to this address in its June 30, 2016 Contract updated commit. A 2022 transaction records an ERC-721 mint and a change on the original registrar for the same domain identifier.",
       "references": [
         "https://etherscan.io/address/0x7c7b29e25677e14b2f7d87a081f0c8e48b688f30#code",
         "https://github.com/rllola/ethereum-contract-scraper/blob/475bf1f3a9507f54a1ae5959d753e9a36ca262bc/contracts/EtherId/contract.sol#L21",
         "https://github.com/lexansoft/etherid.org",
-        "https://etherscan.io/tx/0x91903ceff5b787fe942852e825120050a1d9d9f96ac554143324412c7d5fd64f"
+        "https://etherscan.io/tx/0x91903ceff5b787fe942852e825120050a1d9d9f96ac554143324412c7d5fd64f",
+        "https://github.com/lexansoft/etherid.org/blob/63012c047369ea1197d9a70cde59f0b1ab6457f3/www/js/common.js#L1-L3",
+        "https://github.com/lexansoft/etherid.org/blob/63012c047369ea1197d9a70cde59f0b1ab6457f3/solidity/etherid.sol"
       ],
-      "nextCheck": "Recompile the archived registrar source against this deployment and check version lineage, expiry, and historical metadata.",
+      "nextCheck": "Recompile the creator-published registrar source against this deployment and trace whether individual domains migrated from the older registry.",
       "activityEvidence": {
         "provider": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x91903ceff5b787fe942852e825120050a1d9d9f96ac554143324412c7d5fd64f",
         "chainId": 1,
@@ -214,7 +226,8 @@
         "rpc": "https://ethereum-rpc.publicnode.com",
         "uri": "https://metadata.etherid.net/meta/144402319749450433063908212",
         "resolution": "dns-resolution-failed-when-checked"
-      }
+      },
+      "title": "EtherId registrar (June 2016)"
     },
     "0x92f9c5992c7a6141836e624dc02fc958b1ca187d": {
       "status": "document-registry-source-finding",
@@ -239,21 +252,31 @@
     },
     "0x6489fc370c7df314ee0bdfb1fbd185f1bc457d89": {
       "status": "identified-related-deployment",
-      "finding": "Etheria v0.6. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map.",
+      "finding": "Etheria v0.6. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map. The runtime published by Etheria’s creator matches the archive snapshot byte for byte.",
       "references": [
         "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md",
         "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt6_0x648.sol"
       ],
-      "nextCheck": "Document any historical setup and tile activity in the Etheria version history."
+      "nextCheck": "Document any historical setup and tile activity in the Etheria version history.",
+      "title": "Etheria v0.6 prototype",
+      "publishedRuntimeEvidence": {
+        "url": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt6_0x648.sol",
+        "sha256": "2d70a22f714e1d599d6ed6a3bd5b7f53ecf43ffb4dde8d876c39d5910d97da14"
+      }
     },
     "0xcf1eecf5929c151427dc3662a28353266ea3f9e6": {
       "status": "identified-related-deployment",
-      "finding": "Etheria v0.8. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map.",
+      "finding": "Etheria v0.8. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map. The runtime published by Etheria’s creator matches the archive snapshot byte for byte.",
       "references": [
         "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md",
         "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt8_0xcf1.sol"
       ],
-      "nextCheck": "Document any historical setup and tile activity in the Etheria version history."
+      "nextCheck": "Document any historical setup and tile activity in the Etheria version history.",
+      "title": "Etheria v0.8 prototype",
+      "publishedRuntimeEvidence": {
+        "url": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt8_0xcf1.sol",
+        "sha256": "4118c571458fdcdb600600ac796b230a70b94e57c4f7ef2b1c0c8e5743c4acfe"
+      }
     },
     "0x103c2c150a2dbcc277ee084c59881978060c8c22": {
       "status": "provider-source-finding",
