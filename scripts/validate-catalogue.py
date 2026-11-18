@@ -36,4 +36,13 @@ cities = review["cryptocities"]
 assert cities["original"] in addresses(records["cryptocities"])
 assert records["cryptocities"]["staticSupply"] is cities["immutableCap"] is None
 assert records["cryptocities"]["totalSupply"] is cities["supply"] is None
-print(f"Validated {len(records)} collections and {len(review)} pinned evidence reviews.")
+dada = json.loads((ROOT / "research/catalogue/dada-wrapper.json").read_text())
+wrapper = records["dadacreeps"]["wrapperContract"]
+assert wrapper["address"].lower() == dada["wrapper"]
+assert wrapper["canUnwrapToOriginalToken"] is True
+assert dada["sourceMatch"] == "exact_match"
+assert set(dada["activeSamples"]) == {"2017", "2019"}
+for year in (2017, 2019):
+    sample = dada["unwrapExamples"][f"Unwrapped{year}(uint256,uint256,uint256)"]
+    assert sample["receipt"]["status"] == "0x1"
+print(f"Validated {len(records)} collections and {len(review) + 1} pinned evidence reviews.")

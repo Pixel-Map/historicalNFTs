@@ -13,12 +13,12 @@ contracts:
     notes: "The original DADA Creeps Contract"
   - name: Wrapped Historic DADA (wD)
     address: "0x5f53f9f5dcf76757f7cbf35c2e47164c65b9b5ed"
-    notes: Wrapper for the original 2017 DADA Creeps, NOTE it includes both 2017 and 2019!!
+    notes: Shared wrapper for 2017 and 2019 DADA assets. Successful receipts document return of original assets for both branches.
 openseaCollection: https://opensea.io/collection/wrapped-historic-dada
 openseaVerification: false
 wrapperContract:
   address: "0x5f53f9f5dcf76757f7cbf35c2e47164c65b9b5ed"
-  canUnwrapToOriginalToken: false
+  canUnwrapToOriginalToken: true
 standard: Predates ERC-721
 creators: ["@PowerDada"]
 activeDevelopment: true
@@ -47,7 +47,16 @@ flags:
       The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
       without triggering an ownership change underneath.  However, when dealing with the original contract, 40% is
       taken as part of any user-to-user transactions.
+  - name: Centralization
+    level: warning
+    details: The wrapper owner can update the token metadata URI prefix. Both sampled wrapper tokens resolve their metadata URI to an HTTPS endpoint at the reviewed block. This describes the wrapper metadata path, which is separate from the original artwork.
 relatedLinks:
+  - name: Historical 2017 unwrap receipt
+    link: https://etherscan.io/tx/0x9fdf7d2853462b1b56c153dac65b78e8dc2a6d1e8d7e745846d34cdbdfc33171
+  - name: Historical 2019 unwrap receipt
+    link: https://etherscan.io/tx/0x7c1acad6a9de8e06475e75b72595428e3a9ada9d61b345a60e92b155ad189a10
+  - name: Wrapper source and chain evidence
+    link: https://github.com/Pixel-Map/historicalNFTs/blob/main/research/catalogue/dada-wrapper.json
   - name: Creeps & Weirdos Marketplace
     link: https://creeps.dada.nyc/marketplace
   - name: Creeps & Weirdos FAQs
