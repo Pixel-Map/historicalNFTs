@@ -9,3 +9,4 @@ jobs:
         with:
           python-version: '3.12'
       - run: python scripts/validate-research.py
+      - run: python scripts/validate-history.py

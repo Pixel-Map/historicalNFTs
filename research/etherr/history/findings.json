@@ -1,0 +1,281 @@
+{
+  "scope": "Interpretations of the cited source and project records. A runtime-family finding applies to the shared code; identity, constructor state, and activity still require per-address evidence.",
+  "families": [
+    {
+      "runtimeSha256": "68747c2fbb55d78003de95964908b2dfeb650757e6ce9803c189dea90cef108a",
+      "representative": "0x45481d701e6efc124394df5845974d666925560b",
+      "sourceFile": "Coin.sol",
+      "lines": "2–12",
+      "finding": "Fungible balance ledger. Each address has a numeric balance, sendCoin moves an amount, and token can set the caller's balance. The reviewed runtime has no item IDs or fixed supply.",
+      "codeClassification": "fungible-balance-ledger"
+    },
+    {
+      "runtimeSha256": "50645b6af30093c78a81780705c653efde69d8162dfc1c29fcb5cf6a7bf421ef",
+      "representative": "0x2273df812e2695a4d36aa42b70c567570527ef78",
+      "sourceFile": "MyToken.sol",
+      "lines": "3–18",
+      "finding": "Fungible balance ledger. The token function assigns an amount to the caller, and sendCoin debits and credits amounts, with a transfer event documenting the change.",
+      "codeClassification": "fungible-balance-ledger"
+    },
+    {
+      "runtimeSha256": "e21c71d947a253eb933ed4cf0092d88ee2b3c1d27fcc5c0951a599d434c0342c",
+      "representative": "0x6d405ff09d3cde0a35a2d7257bd9921067ddb5a3",
+      "sourceFile": "MyAdvancedToken.sol",
+      "lines": "30–31,136–138,161–169",
+      "finding": "Fungible token template with mutable supply, address balances and allowances. Buy and sell settings and the initialized token identity depend on each deployment.",
+      "codeClassification": "fungible-token-template"
+    },
+    {
+      "runtimeSha256": "288444fcab5958374db59b6667031f3cb509bb16391f4445b441a0ecae10237c",
+      "representative": "0x55c96b806b6bb5d8b0b8f368cccd066b8ee22530",
+      "sourceFile": "MyAdvancedToken.sol",
+      "lines": "30–31,136–138,161–169",
+      "finding": "Fungible token template with mutable supply, address balances and allowances. Buy and sell settings and the initialized token identity depend on each deployment.",
+      "codeClassification": "fungible-token-template"
+    },
+    {
+      "runtimeSha256": "4b485137dec378fc01c8abd2dc0023c9f1c5b9fb29a2a3f48257b41080d5604e",
+      "representative": "0xf7eddf1b48963625142a326f3e4dbb6c3d69c366",
+      "sourceFile": "TSwap.sol",
+      "lines": "30–31,142–144,167–175",
+      "finding": "Fungible token template with mutable supply, address balances and allowances. Buy and sell settings and the initialized token identity depend on each deployment.",
+      "codeClassification": "fungible-token-template"
+    },
+    {
+      "runtimeSha256": "2443d42ff62ecf61f62aeae9336dc36c278142e9d07fb47455a882f261f92a7a",
+      "representative": "0x003b160ab58a62376b6e2950e444ed28f38a8dd1",
+      "sourceFile": "Coin.sol",
+      "lines": "4–16",
+      "finding": "Fungible numeric balances. The source assigns supply to an address and moves units between balances.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "ce2c90c92c1982b2c4668a3bdebd358f6715e66e7a10b7106b855180e8d6882e",
+      "representative": "0x79cfd1812ca3f6770f0000901305e3d60f0e14ee",
+      "sourceFile": "Coin.sol",
+      "lines": "3–15",
+      "finding": "Fungible numeric balances. The implementation initializes a balance and transfers units.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "9889e1c009204fe2c666c601a780e34b31e35accf27c183d71da8b3dda2c16a2",
+      "representative": "0x491e59358171dcf43b7846fc235e8a305057e8e1",
+      "sourceFile": "Token.sol",
+      "lines": "5–23",
+      "finding": "Fungible balance token. Transfers move quantities between account balances.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "5bcf41862ed3c02bf976b5dd34cb623ab6ef40775dbd9c54cefd2b29b29069b1",
+      "representative": "0xea59080e96a5d83a2a5e8637d226fa22dfa83bad",
+      "sourceFile": "MyToken.sol",
+      "lines": "31–53,79–82",
+      "finding": "Fungible token template with owner-controlled supply expansion.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "397e83ea47e1d0809743bb8f017f803f8ee50cc6b015e12db65c475d3ea39d3a",
+      "representative": "0xd033895f6fbd796837c3fe38fc79af82322c1fab",
+      "sourceFile": "MyAdvancedToken.sol",
+      "lines": "30–43,110–117",
+      "finding": "Fungible token template consisting of address balances and amount-based transfers.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "133cdf42888f8f63638029a8260f26817b3962bec33f9fefe02f235f6ebef6be",
+      "representative": "0x1926a3254d6bb48f983d1890a993d618d1b6c9cf",
+      "sourceFile": "SwarmRedistribution.sol",
+      "lines": "41,59–70,111–142",
+      "finding": "Fungible balances for a redistribution campaign. The contract records purchases as quantities and applies a redistribution mechanism to transfers.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "7f03d4d8f9350cac4c180b9abf5c3cb0e6e9b4ff410bd700982c02ce2d835a31",
+      "representative": "0x522111258771cae79913c795a639b4a2fa4042ec",
+      "sourceFile": "UbermenschPrefundToken.sol",
+      "lines": "116–118,335–365",
+      "finding": "Fungible units and a prefunding path. The base transfer routine moves numerical balances.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "e00b69bfd3f2798fa766c43f3cbdc8384296e8c95d572e4a635058e3a0fe6a68",
+      "representative": "0xa6925e30ff46f82f1170d59c516cda1a82a51625",
+      "sourceFile": "EthsMePresale.sol",
+      "lines": "101–103,143–144",
+      "finding": "Presale token logic records account quantities and transfers amounts.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "9a7b69a76046dcd81fda4c5acfe119aa24499d10bdcfb445600816e8fc0fe4dd",
+      "representative": "0x9ec72a4fa8708de4af4d541bd9fa50ee0331cd0b",
+      "sourceFile": "ChinhCoin.sol",
+      "lines": "29,112–117,134–138",
+      "finding": "Fungible token with account balances and owner-controlled issuance.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "263cf647025137adca543cddf09c4bf1ff02f32e7d7780d189634b11b8002072",
+      "representative": "0x5d381106f335a28ae225c6cc5fac9f9b6050823e",
+      "sourceFile": "Betcash.sol",
+      "lines": "29,112–117,134–138",
+      "finding": "Fungible token with account balances and owner-controlled issuance.",
+      "codeClassification": "fungible-balance-code"
+    },
+    {
+      "runtimeSha256": "475cd5f58a6e676940f37e8917d004d4811f661b7759b5170a0ce44c91be377a",
+      "representative": "0x498e6e0206f74d187ce810f7d8cfff7223be9f2a",
+      "sourceFile": "FujintoToken.sol",
+      "lines": "29,112–117,134–138",
+      "finding": "Fungible token with account balances and owner-controlled issuance.",
+      "codeClassification": "fungible-balance-code"
+    }
+  ],
+  "addresses": {
+    "0x0148368e9efd8d6a5dd56134cd2b3f941e10d953": {
+      "status": "identified-related-deployment",
+      "finding": "Etheria v0.7. The creator identifies this as a test version. The captured code stores owners by tile coordinate. The sampled early calls include tile initialization, which documents setup activity.",
+      "sourceFile": "Etheria.sol",
+      "lines": "64–75,208–215",
+      "references": [
+        "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md",
+        "https://www.etheria.world/early-nft-claimants.html",
+        "https://etherscan.io/tx/0x090d2a4843ddc73216d4c26f10fbcca3a91ec19e67185267062ac509f197a387"
+      ],
+      "nextCheck": "Document the setup calls and any later item-level activity as part of Etheria's version history."
+    },
+    "0xa2f63e28172ebf2477f4c1a87aed68aaa3ebbe3d": {
+      "status": "identified-related-deployment",
+      "finding": "Etheria v0.85. The creator identifies this as a test version. The captured code stores individual tile owners and offers. An early on-chain call matches the makeOffer signature. Its resulting state change still needs confirmation.",
+      "sourceFile": "Etheria.sol",
+      "lines": "297–308,345–403",
+      "references": [
+        "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md",
+        "https://www.etheria.world/early-nft-claimants.html",
+        "https://etherscan.io/tx/0xd3599efeded39dea93c1923c4aab528ac0c90150a5b8e1b0d9a0a3ed1e179e0a"
+      ],
+      "nextCheck": "Read the offer state before and after the sampled call at historical blocks."
+    },
+    "0xd588b586d61c826a0e87919b3d1a239206d58bf2": {
+      "status": "registrar-with-observed-wrapped-domain",
+      "finding": "The verified wrapper binds this exact registrar address. One successful transaction records a change on the original registrar, a mint from the zero address in the ERC-721 wrapper, and a Wrapped event, all for the same domain identifier. The archived registrar source describes individually owned, expiring domains. The original project README names a different deployment.",
+      "references": [
+        "https://etherscan.io/address/0x7c7b29e25677e14b2f7d87a081f0c8e48b688f30#code",
+        "https://github.com/rllola/ethereum-contract-scraper/blob/475bf1f3a9507f54a1ae5959d753e9a36ca262bc/contracts/EtherId/contract.sol#L21",
+        "https://github.com/lexansoft/etherid.org",
+        "https://etherscan.io/tx/0x91903ceff5b787fe942852e825120050a1d9d9f96ac554143324412c7d5fd64f"
+      ],
+      "nextCheck": "Recompile the archived registrar source against this deployment and check version lineage, expiry, and historical metadata.",
+      "activityEvidence": {
+        "provider": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x91903ceff5b787fe942852e825120050a1d9d9f96ac554143324412c7d5fd64f",
+        "chainId": 1,
+        "blockNumber": 15888820,
+        "blockHash": "0xb4095ce8e5ba4bfd2514e288de44d52d9e88da8fcbae80402821ad63c2c73e37",
+        "transactionHash": "0x91903ceff5b787fe942852e825120050a1d9d9f96ac554143324412c7d5fd64f",
+        "domainIdHex": "0x0000000000000000000000000000000000000000007772617070657274657374",
+        "domainLabel": "wrappertest",
+        "logs": [
+          {
+            "address": "0xd588b586d61c826a0e87919b3d1a239206d58bf2",
+            "data": "0x00000000000000000000000000000000000000000077726170706572746573740000000000000000000000000000000000000000000000000000000000000000",
+            "topics": [
+              "0xf10cb5dcb691bb26c2685b3fd72f4ca4008c33eafd1ee88c27210ef1db722459",
+              "0x0000000000000000000000007c7b29e25677e14b2f7d87a081f0c8e48b688f30"
+            ],
+            "logIndex": "0xc2"
+          },
+          {
+            "address": "0x7c7b29e25677e14b2f7d87a081f0c8e48b688f30",
+            "data": "0x",
+            "topics": [
+              "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+              "0x0000000000000000000000000000000000000000000000000000000000000000",
+              "0x000000000000000000000000e80abd1a0c3ed32fe789d4cf33cdc15d72bceaa6",
+              "0x0000000000000000000000000000000000000000007772617070657274657374"
+            ],
+            "logIndex": "0xc3"
+          },
+          {
+            "address": "0x7c7b29e25677e14b2f7d87a081f0c8e48b688f30",
+            "data": "0x",
+            "topics": [
+              "0x4700c1726b4198077cd40320a32c45265a1910521eb0ef713dd1d8412413d7fc",
+              "0x000000000000000000000000e80abd1a0c3ed32fe789d4cf33cdc15d72bceaa6",
+              "0x0000000000000000000000000000000000000000007772617070657274657374"
+            ],
+            "logIndex": "0xc4"
+          }
+        ]
+      },
+      "metadataEvidence": {
+        "wrapperAddress": "0x7c7b29e25677e14b2f7d87a081f0c8e48b688f30",
+        "method": "tokenURI(uint256)",
+        "blockNumber": 26444300,
+        "blockHash": "0xb721a79eaf2e463bf736f9a202caa5af7aacd7cf73ebbdca5322f3596e963658",
+        "rpc": "https://ethereum-rpc.publicnode.com",
+        "uri": "https://metadata.etherid.net/meta/144402319749450433063908212",
+        "resolution": "dns-resolution-failed-when-checked"
+      }
+    },
+    "0x92f9c5992c7a6141836e624dc02fc958b1ca187d": {
+      "status": "document-registry-source-finding",
+      "finding": "The full captured source stores a name and opaque bytes under a unique string code. A successful addition increases a document count. The source defines no document owner or transfer operation.",
+      "sourceFile": "DocumentRegistry.sol",
+      "lines": "3–26",
+      "nextCheck": "Seek an original project reference and confirm a registered entry at a historical block."
+    },
+    "0x8a8f86fa05ea762526cde6a83a6a3994eba66d32": {
+      "status": "game-registration-source-finding",
+      "finding": "The full captured source describes address balances for registration and an authorized winner payout. The storage does not model individual game items or item ownership.",
+      "sourceFile": "Game.sol",
+      "lines": "4–15",
+      "nextCheck": "Search for the game title and compare participant activity with the source."
+    },
+    "0xc0829421c1d260bd3cb3e0f06cfe2d52db2ce315": {
+      "status": "holder-redemption-source-finding",
+      "finding": "The source records token amounts per address and a withdrawal that deducts the caller's token balance and total supply before paying ETH. Its balance therefore needs to be interpreted in the context of token liabilities.",
+      "sourceFile": "EtherToken.sol",
+      "lines": "197–198,331–337",
+      "nextCheck": "Reconcile deposit and redemption history with the token supply at the new balance block."
+    },
+    "0x6489fc370c7df314ee0bdfb1fbd185f1bc457d89": {
+      "status": "identified-related-deployment",
+      "finding": "Etheria v0.6. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map.",
+      "references": [
+        "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md",
+        "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt6_0x648.sol"
+      ],
+      "nextCheck": "Document any historical setup and tile activity in the Etheria version history."
+    },
+    "0xcf1eecf5929c151427dc3662a28353266ea3f9e6": {
+      "status": "identified-related-deployment",
+      "finding": "Etheria v0.8. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map.",
+      "references": [
+        "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md",
+        "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt8_0xcf1.sol"
+      ],
+      "nextCheck": "Document any historical setup and tile activity in the Etheria version history."
+    },
+    "0x103c2c150a2dbcc277ee084c59881978060c8c22": {
+      "status": "provider-source-finding",
+      "finding": "Routescan returned SmartBillions source for this address. The published contract tracks address-based bets, investment, and dividends. Interpreting the ETH balance calls for reviewing these obligations and checking the source’s correspondence to deployed code.",
+      "sourceFile": "SmartBillions.sol",
+      "lines": "131,222–238,388–474",
+      "references": [
+        "https://etherscan.io/address/0x103c2c150a2dbcc277ee084c59881978060c8c22#code"
+      ],
+      "nextCheck": "Verify the published source against the pinned runtime and reconcile obligations with the recorded ETH flows."
+    },
+    "0xd6b955483656054a0754244400c8395d7630dd2a": {
+      "status": "game-identified-by-runtime",
+      "finding": "Ethereum History identifies this early last-player game as LastIsMe. Its published proof target matches our pinned runtime byte for byte. The locally captured source tracks a last player and an ETH prize, with no distinct collectible positions or assets.",
+      "sourceFile": "Bid.sol",
+      "lines": "3–5,13–25",
+      "references": [
+        "https://github.com/cartoonitunes/awesome-ethereum-proofs/tree/eab3ec63cd1dc57e071c0d2cffdeae1316f40134/proofs/lastisme-0xd6b95548",
+        "https://www.ethereumhistory.com/contract/0xd6b955483656054a0754244400c8395d7630dd2a"
+      ],
+      "archiveRuntimeSha256": "71c398b60fdec56967be0b2e3fb531907edb097463f12eb537cd26fcbc92ce28",
+      "nextCheck": "Find contemporaneous project material and document observed play through the earliest calls."
+    }
+  }
+}

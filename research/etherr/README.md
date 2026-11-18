@@ -21,3 +21,6 @@ Sourcify's source verification and an exact comparison of its runtime against th
 ETH balances are exact wei values at the recorded block. A positive balance does not establish recoverability, permission, entitlement, solvency, or absence of obligations to users. Withdrawal/claim/refund-like ABI names are investigation leads only. No claim, mint, approval, wallet action or transaction is performed.
 
 The evaluation worksheet uses the catalogue's dimensions but keeps unknowns unknown: NFT classification, non-fungibility, fixed supply, asset storage, wrapper/unwrap behavior, development status, marketplace status, and security concerns. Promotion into `nfts/` requires a sourced human interpretation; no letter grade is invented for unreviewed contracts.
+
+See [deployment and activity research](history/README.md) for the second-pass
+evidence, archival source leads, ETH balance refresh, and reviewed findings.
