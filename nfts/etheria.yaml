@@ -46,11 +46,11 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Version-specific ownership and wrapping
+  - name: Multiple versions
     level: warning
     details: |
       The four viable maps contain 457 ownable tiles each. The v0.9 and v1.0 maps have separate ERC-721 wrappers. The v1.1 and v1.2 maps trade through the Etheria Exchange and the creator documents limitations on ownership by contracts.
-  - name: Earlier test deployments
+  - name: Security vulnerability
     level: warning
     details: |
       Surviving pre-v0.9 test deployments have documented ownership or trading defects and sit outside the four viable maps. In v0.6 the ownership setter does not update the owner.
