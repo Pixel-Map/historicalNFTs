@@ -71,7 +71,8 @@ From the repository root:
 [findings.json](findings.json) records five byte-for-byte matches for creation
 input and runtime bytecode. Use the pinned source file as published, including
 comments. The source, compiler and output hashes in the finding identify the
-specific inputs and results.
+specific inputs and results. [recompiled-abis.json](recompiled-abis.json)
+contains the original compiler-emitted interfaces for those five matches.
 
 - **EtherId:** use the `solc@0.3.5` npm package and
   `solc.compile(sourceText, 0).contracts.EtherId`.

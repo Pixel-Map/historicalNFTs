@@ -150,6 +150,15 @@ for a, finding in findings["addresses"].items():
         domain = activity["domainIdHex"]
         assert domain[2:] == registrar_change["data"][2:66]
         assert domain == mint["topics"][3] == wrapped["topics"][2]
+abis = read(HISTORY / "recompiled-abis.json")
+assert abis.keys() == {
+    a for a, finding in findings["addresses"].items() if finding.get("compilationEvidence")
+}
+for a, result in abis.items():
+    proof = findings["addresses"][a]["compilationEvidence"]
+    for key in ("contract", "runtimeSha256", "creationInputSha256"):
+        assert result[key] == proof[key]
+    assert result["abi"] and all(isinstance(item, dict) for item in result["abi"])
 for f in findings["families"]:
     assert len(families[f["runtimeSha256"]]) > 1
     source = candidates[f["representative"]]

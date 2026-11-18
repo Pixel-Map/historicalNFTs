@@ -1,0 +1,1160 @@
+{
+  "0x0148368e9efd8d6a5dd56134cd2b3f941e10d953": {
+    "contract": "Etheria",
+    "runtimeSha256": "6e27c1c2f178e5cb9659fbd41173174d0cec487061a780dcb1d3c2d96003ba48",
+    "creationInputSha256": "19e74ece6ff3dd64da102cdf3e5a577ba0fe20af24ae0461a1673189530de262",
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getElevations",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint8[17][17]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint256"
+          },
+          {
+            "name": "row",
+            "type": "uint256"
+          }
+        ],
+        "name": "initOccupado",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "int8"
+          },
+          {
+            "name": "y",
+            "type": "int8"
+          }
+        ],
+        "name": "blockHexCoordsValid",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "_b32",
+            "type": "bytes32"
+          },
+          {
+            "name": "byteindex",
+            "type": "uint8"
+          }
+        ],
+        "name": "getUint8FromByte32",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "which",
+            "type": "uint8"
+          },
+          {
+            "name": "occupies",
+            "type": "int8[3][8]"
+          },
+          {
+            "name": "surroundedby",
+            "type": "int8[3][]"
+          }
+        ],
+        "name": "initBlockDef",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "_elevations",
+            "type": "uint8[17]"
+          }
+        ],
+        "name": "initializeTiles",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          }
+        ],
+        "name": "makeOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          }
+        ],
+        "name": "getOfferers",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address[]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "coordx",
+            "type": "uint8"
+          },
+          {
+            "name": "coordy",
+            "type": "uint8"
+          },
+          {
+            "name": "which",
+            "type": "int8"
+          },
+          {
+            "name": "x",
+            "type": "int8"
+          },
+          {
+            "name": "y",
+            "type": "int8"
+          },
+          {
+            "name": "z",
+            "type": "int8"
+          }
+        ],
+        "name": "touchesAndAvoidsOverlap",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          },
+          {
+            "name": "index",
+            "type": "uint256"
+          },
+          {
+            "name": "block",
+            "type": "int8[5]"
+          }
+        ],
+        "name": "editBlock",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          }
+        ],
+        "name": "farmTile",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getOwners",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address[17][17]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          },
+          {
+            "name": "i",
+            "type": "uint8"
+          }
+        ],
+        "name": "acceptOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          },
+          {
+            "name": "i",
+            "type": "uint8"
+          }
+        ],
+        "name": "rejectOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "which",
+            "type": "int8"
+          },
+          {
+            "name": "x",
+            "type": "int8"
+          },
+          {
+            "name": "y",
+            "type": "int8"
+          }
+        ],
+        "name": "wouldFallOutside",
+        "outputs": [
+          {
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          }
+        ],
+        "name": "getOffers",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256[]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          }
+        ],
+        "name": "retractOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          }
+        ],
+        "name": "getBlocks",
+        "outputs": [
+          {
+            "name": "",
+            "type": "int8[5][]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "type": "constructor"
+      }
+    ]
+  },
+  "0xa2f63e28172ebf2477f4c1a87aed68aaa3ebbe3d": {
+    "contract": "Etheria",
+    "runtimeSha256": "95b1d18f14cd5f38532df4f66e36d31b3d89065c5d290df0b2cf66f2ede277fb",
+    "creationInputSha256": "4364440bc8603c1817272f2ab96bb063ae07ff8cc84f88c2e6280869cf3a654a",
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getWhatHappened",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "_b32",
+            "type": "bytes32"
+          },
+          {
+            "name": "byteindex",
+            "type": "uint8"
+          }
+        ],
+        "name": "getUint8FromByte32",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "makeOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "getOfferers",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address[]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "index",
+            "type": "uint256"
+          },
+          {
+            "name": "_block",
+            "type": "int8[5]"
+          }
+        ],
+        "name": "editBlock",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "farmTile",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getOwners",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address[33][33]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "i",
+            "type": "uint8"
+          }
+        ],
+        "name": "acceptOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "i",
+            "type": "uint8"
+          }
+        ],
+        "name": "rejectOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "getOffers",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256[]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "retractOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "getBlocks",
+        "outputs": [
+          {
+            "name": "",
+            "type": "int8[5][]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "type": "constructor"
+      }
+    ]
+  },
+  "0xd588b586d61c826a0e87919b3d1a239206d58bf2": {
+    "contract": "EtherId",
+    "runtimeSha256": "e8609a0d8d10ba0d33fac42c2dfa200d0cd97d3f93943e86cf861688b558eba2",
+    "creationInputSha256": "1df44e9ea3cae8b1bee989ae65120b019161fac0d90bea2c4cf2c2e52926e1c6",
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "root_domain",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "uint256"
+          }
+        ],
+        "name": "getDomain",
+        "outputs": [
+          {
+            "name": "owner",
+            "type": "address"
+          },
+          {
+            "name": "expires",
+            "type": "uint256"
+          },
+          {
+            "name": "price",
+            "type": "uint256"
+          },
+          {
+            "name": "transfer",
+            "type": "address"
+          },
+          {
+            "name": "next_domain",
+            "type": "uint256"
+          },
+          {
+            "name": "root_id",
+            "type": "uint256"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "n_domains",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "uint256"
+          },
+          {
+            "name": "id",
+            "type": "uint256"
+          }
+        ],
+        "name": "getId",
+        "outputs": [
+          {
+            "name": "v",
+            "type": "uint256"
+          },
+          {
+            "name": "next_id",
+            "type": "uint256"
+          },
+          {
+            "name": "prev_id",
+            "type": "uint256"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "uint256"
+          },
+          {
+            "name": "expires",
+            "type": "uint256"
+          },
+          {
+            "name": "price",
+            "type": "uint256"
+          },
+          {
+            "name": "transfer",
+            "type": "address"
+          }
+        ],
+        "name": "changeDomain",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "domain",
+            "type": "uint256"
+          },
+          {
+            "name": "name",
+            "type": "uint256"
+          },
+          {
+            "name": "value",
+            "type": "uint256"
+          }
+        ],
+        "name": "changeId",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "type": "constructor"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "name": "sender",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "name": "domain",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "name": "id",
+            "type": "uint256"
+          }
+        ],
+        "name": "DomainChanged",
+        "type": "event"
+      }
+    ]
+  },
+  "0x6489fc370c7df314ee0bdfb1fbd185f1bc457d89": {
+    "contract": "Etheria",
+    "runtimeSha256": "2d70a22f714e1d599d6ed6a3bd5b7f53ecf43ffb4dde8d876c39d5910d97da14",
+    "creationInputSha256": "a74acbbbddd5cc8e3e049e0d78f97a3fc0fc88c22bdda58ea431b1e3017d8801",
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getElevations",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint8[33][33]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          },
+          {
+            "name": "block",
+            "type": "int8[7]"
+          }
+        ],
+        "name": "addBlock",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          },
+          {
+            "name": "newowner",
+            "type": "address"
+          }
+        ],
+        "name": "setOwner",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "rows",
+            "type": "uint8[]"
+          }
+        ],
+        "name": "initializeOwners",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getOwners",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address[33][33]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "x",
+            "type": "uint8"
+          },
+          {
+            "name": "y",
+            "type": "uint8"
+          }
+        ],
+        "name": "getBlocksForTile",
+        "outputs": [
+          {
+            "name": "",
+            "type": "int8[]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getPrices",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256[33][33]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "_elevations",
+            "type": "uint8[33]"
+          }
+        ],
+        "name": "setElevations",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "type": "constructor"
+      }
+    ]
+  },
+  "0xcf1eecf5929c151427dc3662a28353266ea3f9e6": {
+    "contract": "Etheria",
+    "runtimeSha256": "4118c571458fdcdb600600ac796b230a70b94e57c4f7ef2b1c0c8e5743c4acfe",
+    "creationInputSha256": "c9114b926c7c024378e0c5fa8c1cdf9b8a396f0b4dd2b8a766790d2c0e65c87a",
+    "abi": [
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getElevations",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint8[17][17]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "which",
+            "type": "uint8"
+          },
+          {
+            "name": "occupies",
+            "type": "int8[3][8]"
+          },
+          {
+            "name": "surroundedby",
+            "type": "int8[3][]"
+          }
+        ],
+        "name": "initBlockDef",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "_i",
+            "type": "address"
+          }
+        ],
+        "name": "setInitializer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "makeOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "getOfferers",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address[]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "index",
+            "type": "uint256"
+          },
+          {
+            "name": "block",
+            "type": "int8[5]"
+          }
+        ],
+        "name": "editBlock",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "farmTile",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [],
+        "name": "getOwners",
+        "outputs": [
+          {
+            "name": "",
+            "type": "address[17][17]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "i",
+            "type": "uint8"
+          }
+        ],
+        "name": "acceptOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "i",
+            "type": "uint8"
+          }
+        ],
+        "name": "rejectOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "getOffers",
+        "outputs": [
+          {
+            "name": "",
+            "type": "uint256[]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "retractOffer",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "row",
+            "type": "uint8"
+          },
+          {
+            "name": "_elevations",
+            "type": "uint8[17]"
+          }
+        ],
+        "name": "initElevations",
+        "outputs": [],
+        "type": "function"
+      },
+      {
+        "constant": true,
+        "inputs": [
+          {
+            "name": "col",
+            "type": "uint8"
+          },
+          {
+            "name": "row",
+            "type": "uint8"
+          }
+        ],
+        "name": "getBlocks",
+        "outputs": [
+          {
+            "name": "",
+            "type": "int8[5][]"
+          }
+        ],
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "type": "constructor"
+      }
+    ]
+  }
+}
