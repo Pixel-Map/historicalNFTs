@@ -1,0 +1,30 @@
+{
+  "url": "https://etherr.eth.limo/",
+  "title": "Claimables 2015-2017",
+  "capturedAt": "2026-11-18T18:44:40.544628+00:00",
+  "sourceHtmlSha256": "2447c74f7321d87393c8d6baaaafed439adc6ba5854f0c0981e19eaab0fa23dd",
+  "ipfsPath": "/ipfs/bafybeicwxw3jycpupsylgvevpbjku2lmk34cqwdgb5wf4h75hcnbkuwdj4/",
+  "chainId": 1,
+  "blockNumber": 26443825,
+  "blockHash": "0xe47e3a0b07a753da6041a8dedbad79508ba91fa5bc485fa2106c6773c8087e2d",
+  "rpc": "https://ethereum-rpc.publicnode.com",
+  "count": 2577,
+  "methodology": "Every address: eth_getCode at the same block; disassemble PUSH4 operands; when supportsInterface selector is present, eth_call ERC165, invalid ID, ERC721 and ERC1155 with 30000 gas. These are heuristic signals only. Missing selectors do not rule out historical NFTs; proxies and nonstandard designs require source/storage/event research. Source labels are unverified and retained verbatim. No claim, mint, approval or transaction is performed.",
+  "enrichment": {
+    "balance": "eth_getBalance at the same block",
+    "artifacts": "contracts/{address}.json.gz contains actual runtime bytecode, summary and available Sourcify response",
+    "sourceVerification": "Provider runtime match and exact equality against RPC runtime recorded separately; source lookup failure is not proof that verified source does not exist elsewhere.",
+    "eth": "A positive balance is ETH held at this block, not evidence of recoverability. Withdraw/claim/refund ABI names are leads, not proof of permission or entitlement."
+  },
+  "attribution": {
+    "name": "the 0xzxch list",
+    "author": "0xzxch",
+    "url": "https://x.com/0xzxch/status/2122996595637588119"
+  },
+  "sourceLookupLimitation": "Sourcify returned a rate-limit response stating that this API is for single-contract lookups, not bulk collection. Bulk source requests were stopped. Previously captured responses are preserved; remaining addresses have runtime bytecode and balance artifacts with source lookup explicitly incomplete. The script permits one explicit --lookup-address=0x... lookup at a time and does not retry rate limits.",
+  "balanceRPCProviders": [
+    "https://ethereum-rpc.publicnode.com",
+    "https://rpc.flashbots.net"
+  ],
+  "archiveRPCNote": "PublicNode completed the initial runtime scan. As the pinned block aged, its free endpoint required an archive token. Remaining balances were read through Flashbots at the identical mainnet block (block hash verified). Remaining raw code was retrieved at latest through PublicNode and accepted only when its SHA-256 exactly matched the original block-pinned code hash. A mismatch fails capture; code changes are never silently substituted. Older artifacts without explicit provider fields used PublicNode at the pinned block."
+}

@@ -1,0 +1,40 @@
+{
+  "0xd76b5c2a23ef78368d8e34288b5b65d616b746ae": [
+    {
+      "scope": "ETH withdrawal conditions",
+      "file": "EtherToken.sol",
+      "lines": "331-337",
+      "finding": "The withdraw(uint256) implementation deducts the amount from balanceOf[msg.sender] using safeSub, decreases totalSupply, and sends the same amount to the caller. The contract balance backs token-holder withdrawals; its existence does not establish funds available to an arbitrary visitor.",
+      "reviewKind": "preliminary-source-reading",
+      "recoveryEligibility": "not-established"
+    },
+    {
+      "scope": "Token rescue permissions",
+      "file": "EtherToken.sol",
+      "lines": "275-282",
+      "finding": "withdrawTokens is gated by ownerOnly and operates on an ERC20 token transfer. It is distinct from the ETH withdraw path and is not a public ETH claim.",
+      "reviewKind": "preliminary-source-reading",
+      "recoveryEligibility": "not-established"
+    }
+  ],
+  "0x0b8d56c26d8cf16fe1bddf4967753503d974de06": [
+    {
+      "scope": "Refund eligibility",
+      "file": "GavCoin.sol",
+      "lines": "54-56,87-96",
+      "finding": "refund(price, units) is gated by the caller's active purchase receipt and token balance. It reduces the caller's receipt and balance before sending ETH. Recorded ETH holdings do not establish that a new caller has an eligible receipt or token balance.",
+      "reviewKind": "preliminary-source-reading",
+      "recoveryEligibility": "not-established"
+    }
+  ],
+  "0xc305b6401643b63dd9d74040bb16bb5c8bbbaa88": [
+    {
+      "scope": "Initialization and payout permissions",
+      "file": "x15.sol",
+      "lines": "18-23,53-71",
+      "finding": "The source describes participant payouts and owner-gated fee collection. A function named Doubler assigns owner inside a contract named x15, so initialization and ownership require a focused source/state review. The source excerpt alone does not establish current ownership, fee availability, user obligations, or authorization to move ETH.",
+      "reviewKind": "preliminary-source-reading",
+      "recoveryEligibility": "not-established"
+    }
+  ]
+}

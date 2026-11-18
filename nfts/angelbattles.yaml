@@ -4,7 +4,9 @@ title: Angel Battles
 blockchain: ethereum
 creationTimestamp: Jan-28-2018 05:30:40 PM UTC
 excerpt: |
-  Angel Battles was one of the first play to earn games on the Ethereum blockchain. There were originally 3 separate data contracts - angels, pets, and accessories. 
+  Angel Battles is an early Ethereum game with separate data contracts for angels, pets, and accessories, later combined under a wrapper. Gameplay included arena battles, breeding, leaderboards, and aura training.
+extendedDescription: |
+  Angel Battles was one of the first play to earn games on the Ethereum blockchain. There were originally 3 separate data contracts - angels, pets, and accessories.
   These were combined under a single wrapper contract in 2022. The game featured arena battles (vs computer), breeding, player vs player leaderboards, aura training, and more.
   Cards were traded on the Project Wyvern marketplace. In 2023 a new version of the game was launched on polygon. 
 totalSupply: 7625
