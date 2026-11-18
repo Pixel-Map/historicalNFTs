@@ -167,7 +167,7 @@
     },
     "0xd588b586d61c826a0e87919b3d1a239206d58bf2": {
       "status": "registrar-with-observed-wrapped-domain",
-      "finding": "The original EtherId client switched from the older registry to this address in its June 30, 2016 Contract updated commit. A 2022 transaction records an ERC-721 mint and a change on the original registrar for the same domain identifier.",
+      "finding": "The original EtherId client switched from the older registry to this address in its June 30, 2016 Contract updated commit. A 2022 transaction records an ERC-721 mint and a change on the original registrar for the same domain identifier. The creator’s published Solidity reproduces both the creation transaction input and the deployed runtime byte for byte.",
       "references": [
         "https://etherscan.io/address/0x7c7b29e25677e14b2f7d87a081f0c8e48b688f30#code",
         "https://github.com/rllola/ethereum-contract-scraper/blob/475bf1f3a9507f54a1ae5959d753e9a36ca262bc/contracts/EtherId/contract.sol#L21",
@@ -176,7 +176,7 @@
         "https://github.com/lexansoft/etherid.org/blob/63012c047369ea1197d9a70cde59f0b1ab6457f3/www/js/common.js#L1-L3",
         "https://github.com/lexansoft/etherid.org/blob/63012c047369ea1197d9a70cde59f0b1ab6457f3/solidity/etherid.sol"
       ],
-      "nextCheck": "Recompile the creator-published registrar source against this deployment and trace whether individual domains migrated from the older registry.",
+      "nextCheck": "Trace whether particular domain records migrated from the older registry and look for archived copies of wrapper metadata.",
       "activityEvidence": {
         "provider": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionReceipt&txhash=0x91903ceff5b787fe942852e825120050a1d9d9f96ac554143324412c7d5fd64f",
         "chainId": 1,
@@ -227,7 +227,23 @@
         "uri": "https://metadata.etherid.net/meta/144402319749450433063908212",
         "resolution": "dns-resolution-failed-when-checked"
       },
-      "title": "EtherId registrar (June 2016)"
+      "title": "EtherId registrar (June 2016)",
+      "compilationEvidence": {
+        "source": "https://raw.githubusercontent.com/lexansoft/etherid.org/63012c047369ea1197d9a70cde59f0b1ab6457f3/solidity/etherid.sol",
+        "sourceSha256": "64c32a22b2213d470bb8463697b0670313512beec64e6e4ab22c5ba4adaa31ac",
+        "compilerPackage": "solc",
+        "matchingVersions": [
+          "0.3.4",
+          "0.3.5"
+        ],
+        "creationMatchCheckedWith": "0.3.5",
+        "optimizerEnabled": false,
+        "contract": "EtherId",
+        "runtimeSha256": "e8609a0d8d10ba0d33fac42c2dfa200d0cd97d3f93943e86cf861688b558eba2",
+        "creationInputSha256": "1df44e9ea3cae8b1bee989ae65120b019161fac0d90bea2c4cf2c2e52926e1c6",
+        "creationTransaction": "0x3de621c7b959da10bb4fb5d6477bed184c1d2d2364b06a2b39bac134dd793c2d",
+        "creationInputProvider": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionByHash&txhash=0x3de621c7b959da10bb4fb5d6477bed184c1d2d2364b06a2b39bac134dd793c2d"
+      }
     },
     "0x92f9c5992c7a6141836e624dc02fc958b1ca187d": {
       "status": "document-registry-source-finding",

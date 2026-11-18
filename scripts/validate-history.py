@@ -132,6 +132,15 @@ findings = read(HISTORY / "findings.json")
 assert findings["addresses"].keys() <= candidates.keys()
 for a, finding in findings["addresses"].items():
     assert finding["finding"] and finding["nextCheck"]
+    if published := finding.get("publishedRuntimeEvidence"):
+        assert published["sha256"] == candidates[a]["runtimeSha256"]
+    if compilation := finding.get("compilationEvidence"):
+        assert compilation["runtimeSha256"] == candidates[a]["runtimeSha256"]
+        assert any(
+            row["txHash"] == compilation["creationTransaction"]
+            for row in evidence[a]["creation"]["rows"]
+        )
+        assert re.fullmatch(r"[0-9a-f]{64}", compilation["creationInputSha256"])
     if activity := finding.get("activityEvidence"):
         assert tx_hash(activity["transactionHash"]) and tx_hash(activity["blockHash"])
         registrar_change, mint, wrapped = activity["logs"]
