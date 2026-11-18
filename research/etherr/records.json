@@ -104748,11 +104748,32 @@
     "interfaces": {},
     "balanceWei": "3375428922792326643699",
     "balanceEth": "3375.428922792326643699",
-    "sourceStatus": "not-queried-provider-limit",
-    "sourceRuntimeAgrees": false,
+    "sourceStatus": "available",
+    "sourceRuntimeAgrees": true,
     "sourceURL": "https://sourcify.dev/server/v2/contract/1/0xb59a226a2b8a2f2b0512baa35cc348b6b213b671?fields=sources,abi,runtimeBytecode.onchainBytecode",
-    "abiFunctionCount": 0,
-    "withdrawalFunctions": [],
+    "abiFunctionCount": 17,
+    "withdrawalFunctions": [
+      {
+        "name": "withdraw",
+        "inputs": [
+          {
+            "name": "amount",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": null
+      },
+      {
+        "name": "reclaim",
+        "inputs": [
+          {
+            "name": "token",
+            "type": "address"
+          }
+        ],
+        "stateMutability": null
+      }
+    ],
     "evaluation": {
       "nftStatus": "unresolved",
       "assetDataLocation": "not-reviewed",

@@ -1,4 +1,14 @@
 {
+  "0xb59a226a2b8a2f2b0512baa35cc348b6b213b671": [
+    {
+      "scope": "ETH withdrawal conditions for the largest recorded balance",
+      "file": "EtherToken.sol",
+      "lines": "841-849",
+      "finding": "withdraw(amount) explicitly requires _balances[msg.sender] to cover the amount, then reduces the caller's token balance and total supply before transferring ETH to the caller. The recorded ETH balance is therefore not a public claimable pot; a caller's eligible token balance and all other obligations require separate state review.",
+      "reviewKind": "preliminary-source-reading",
+      "recoveryEligibility": "not-established"
+    }
+  ],
   "0xd76b5c2a23ef78368d8e34288b5b65d616b746ae": [
     {
       "scope": "ETH withdrawal conditions",
