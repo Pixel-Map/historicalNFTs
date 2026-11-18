@@ -18,6 +18,7 @@ jobs:
           python-version: "3.12"
           cache: "pip"
       - run: pip install -r requirements.txt
+      - run: python scripts/validate-catalogue.py
       - uses: jannekem/run-python-script-action@v1
         with:
           script: |

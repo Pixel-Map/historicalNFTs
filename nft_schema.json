@@ -220,8 +220,8 @@
             "additionalProperties": false
           },
           "totalSupply": {
-            "description": "What is the total supply/individual items within the NFT?",
-            "type": "integer"
+            "description": "Recorded total supply, or null when unknown.",
+            "type": ["integer", "null"]
           },
           "assetDataLocation": {
             "$ref": "#/components/schemas/AssetDataLocation"
@@ -258,8 +258,8 @@
             "type": "boolean"
           },
           "staticSupply": {
-            "description": "Does the supply have a hard limit specified within the contract, with no option of changing?",
-            "type": "boolean"
+            "description": "Whether the contract enforces an immutable supply cap. Null means unverified.",
+            "type": ["boolean", "null"]
           },
           "contracts": {
             "description": "All contracts related to the given NFT",
@@ -273,6 +273,10 @@
                 "address": {
                   "type": "string",
                   "pattern": "^0x[a-fA-F0-9]{40}"
+                },
+                "role": {
+                  "description": "Special role when this address is auxiliary to the original asset.",
+                  "enum": ["wrapper", "controller"]
                 },
                 "notes": {
                   "type": "string"

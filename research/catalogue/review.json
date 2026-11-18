@@ -1,0 +1,46 @@
+{
+  "chainId": 1,
+  "evidenceBlock": {
+    "number": 26444523,
+    "hash": "0x1a71255ccb78d16dbd83c585958b964b15f2eba2cb31bce41ef148ce756ee6c8",
+    "provider": "https://ethereum-rpc.publicnode.com"
+  },
+  "collections": {
+    "etheria": {
+      "deployment": {
+        "address": "0xe468d26721b703d224d05563cb64746a7a40e1f4",
+        "block": 407810,
+        "blockHash": "0xd1ef3b14e3235152fe4f42611a327b2865ad06477c49f40cfa52a3eefb8bbbc3",
+        "timestamp": "Oct-19-2015 02:54:36 PM +UTC"
+      },
+      "reportedSupply": { "maps": 4, "ownablePerMap": 457, "total": 1828 },
+      "v11": {
+        "previousAddress": "0xcf684dfb8304729355b58315e8019b1aa2ad1bac",
+        "previousAddressCodeBytes": 0,
+        "creatorDocumentedAddress": "0x169332ae7d143e4b5c6baedb2fef77bfbddb4011",
+        "creatorDocumentedAddressCodeBytes": 10923
+      },
+      "references": [
+        "https://www.etheria.world/early-nft-timeline.html",
+        "https://www.etheria.world/faq.html",
+        "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/README.md"
+      ]
+    },
+    "pridepunks": {
+      "token": "0x0144b7e66993c6bfab85581e8601f96bfe50c9df",
+      "observedOwner": "0x67401149e3e88b10dd92821eb6302f4dee8191bc",
+      "ownerCodeBytes": 13027,
+      "readKind": "eth_call owner() and eth_getCode at evidenceBlock",
+      "references": ["https://etherscan.io/address/0x0144b7e66993c6bfab85581e8601f96bfe50c9df"]
+    },
+    "cryptocities": {
+      "original": "0xd137ed189a8a3e9bf5541431c9b9ff1d4eb5c196",
+      "pastSupplyClaim": 25000,
+      "pastCapClaim": true,
+      "supply": null,
+      "immutableCap": null,
+      "reason": "The catalogue has no original-contract evidence verifying either claim.",
+      "references": ["https://cryptocities.net/bug_bounty"]
+    }
+  }
+}

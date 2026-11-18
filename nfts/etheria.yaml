@@ -2,30 +2,32 @@
 # Primary Info
 title: Etheria
 blockchain: ethereum
-creationTimestamp: Nov-01-2015 01:20:11 AM +UTC
+creationTimestamp: Oct-19-2015 02:54:36 PM +UTC
 excerpt: |
-  Ξtheria is the first NFT on Ethereum, a virtual world in which players can own tiles, and build things. The state of the world and all 
-  player actions are stored on the blockchain.
-totalSupply: 457
+  Etheria is an early Ethereum virtual world of individually owned hexagonal tiles. Four viable maps were deployed in October 2015, starting with v0.9. Tile ownership and builds are stored on-chain.
+totalSupply: 1828
 contracts:
-  - name: "Etheria v1.2 (Official)"
+  - name: "Etheria v0.9"
+    address: "0xe468d26721b703d224d05563cb64746a7a40e1f4"
+    notes: First viable map. It contains 457 ownable land tiles and has an ERC-721 wrapper.
+  - name: "Etheria v1.0"
+    address: "0xe414716f017b5c1457bf98e985bccb135dff81f2"
+    notes: First official release. It contains 457 ownable land tiles and has an ERC-721 wrapper.
+  - name: "Etheria v1.1"
+    address: "0x169332ae7d143e4b5c6baedb2fef77bfbddb4011"
+    notes: Second official release. It contains 457 ownable land tiles and trades through the Etheria Exchange.
+  - name: "Etheria v1.2"
     address: "0xb21f8684f23dbb1008508b4de91a0aaedebdb7e4"
-    notes: Etheria v1.2 is the only version supported by the original dev and on etheria.world.
-  - name: "Etheria v1.1 (Deprecated)"
-    address: "0xcf684dfb8304729355b58315e8019b1aa2ad1bac"
-    notes: |
-      Commonly referred to as Blockplots, the Etheria v1.1 contract is not sanctioned by the creator,
-      and generally trades at 1/10th the value of official Etheria tiles.
-  - name: "Etheria v1.0 (Legacy)"
-    address: "0xe414716F017b5c1457bF98e985BCcB135DFf81F2"
-    notes: |
-      The very first contract launched for Etheria, has dangerous trading mechanisms, likely bugged,
-      and is considered invalid.
-# openseaCollection: Etheria cannot be wrapped currently, so not available on OS!
-openseaVerification: false #Etheria cannot be wrapped currently, so not available on OS!
-# wrapperContract:
-#   address: "0x0000000000000000000000000000000000000000"
-#   canUnwrapToOriginalToken: false
+    notes: Final 2015 release, presented at DEVCON 1. It contains 457 ownable land tiles and trades through the Etheria Exchange.
+  - name: "Etheria v0.9 ERC-721 wrapper"
+    address: "0x4b1705c75fde41e35e454ddd14e5d0a0eac06280"
+    role: wrapper
+    notes: Wrapper for the v0.9 map only. Wrapped tiles represent existing land.
+  - name: "Etheria v1.0 ERC-721 wrapper"
+    address: "0x629a493a94b611138d4bee231f94f5c08ab6570a"
+    role: wrapper
+    notes: Wrapper for the v1.0 map only. Wrapped tiles represent existing land.
+openseaVerification: false
 standard: Predates ERC-721
 creators: ["@fivedogit"]
 activeDevelopment: true
@@ -44,17 +46,21 @@ nonfungible: true
 
 # Red Flags
 flags:
-  - name: Hardcoded royalties
+  - name: Version-specific ownership and wrapping
     level: warning
     details: |
-      The original contract has royalties hardcoded directly within the contract.  Not a major issue, as once wrapped, you can trade them
-      without triggering an ownership change underneath.  However, when dealing with the original contract, 40% is
-      taken as part of any user-to-user transactions.
-  - name: Multiple versions
+      The four viable maps contain 457 ownable tiles each. The v0.9 and v1.0 maps have separate ERC-721 wrappers. The v1.1 and v1.2 maps trade through the Etheria Exchange and the creator documents limitations on ownership by contracts.
+  - name: Earlier test deployments
     level: warning
-    details: There are currently 4 contracts that are considered to make up Etheria, v0.9, v1.0, v1.1, and v1.2.  Prior to the
-      "reunification", v1.2 was considered the true Etheria, and sold at a premium.  Post-reunification, all are equal, with v0.9 and v1.0
-      wrappable as ERC-721.  It is currently unknown which is considered the most valuable by collectors.
+    details: |
+      Surviving pre-v0.9 test deployments have documented ownership or trading defects and sit outside the four viable maps. In v0.6 the ownership setter does not update the owner.
+relatedLinks:
+  - name: Creator's contract and deployment list
+    link: https://www.etheria.world/early-nft-timeline.html
+  - name: Creator's FAQ on supply and wrapping
+    link: https://www.etheria.world/faq.html
+  - name: Etheria source, including the prototype records
+    link: https://github.com/cyrusadkisson/etheria_source
 categories:
   - "Real Estate"
   - "Still Image"

@@ -11,10 +11,10 @@ contracts:
   - name: MetaPunk Token (Pride Punks Contract)
     address: "0x0144b7e66993c6bfab85581e8601f96bfe50c9df"
     notes: Originally required wrapping a valid LarvaLabs punk, later modified via a second contract.
-  - name: MetaPunkController
-    address: "0x0144b7e66993c6bfab85581e8601f96bfe50c9df"
-    notes: In the 2022 system the MetaPunkController is the owner of the MetaPunk Token 2018 . This means the controller controls all the 
-      functionality of the token and enforces the 10k limit as well as assigns metadata for each token as it is minted. 
+  - name: MetaPunk mint controller
+    address: "0x67401149e3e88b10dd92821eb6302f4dee8191bc"
+    role: controller
+    notes: The project's 2022 notes describe the controller managing minting and assigning metadata. The original token's owner() returned this contract at Ethereum block 26444523.
 openseaCollection: https://opensea.io/collection/pridepunks2018
 openseaVerification: false
 # wrapperContract:
@@ -49,6 +49,8 @@ flags:
 relatedLinks:
   - name: Matt2000 from LarvaLabs calling the project cool in 2018
     link: https://discord.com/channels/329381334701178885/329381334701178885/460208740172300328
+  - name: Pinned controller and contract evidence
+    link: https://github.com/Pixel-Map/historicalNFTs/tree/main/research/catalogue
   - name: PridePunk Wiki
     link: https://pridepunks.notion.site/pridepunks/Pride-Punk-Wiki-0df75b81726b4650bbd922075f47f59e
 
