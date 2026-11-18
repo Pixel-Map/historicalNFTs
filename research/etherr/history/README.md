@@ -65,3 +65,20 @@ From the repository root:
    GitHub CLI to cross-check the pinned source trees.
 5. Run `python3 scripts/validate-research.py` and
    `python3 scripts/validate-history.py` offline.
+
+## Reproduce the featured Solidity matches
+
+[findings.json](findings.json) records five byte-for-byte matches for creation
+input and runtime bytecode. Use the pinned source file as published, including
+comments. The source, compiler and output hashes in the finding identify the
+specific inputs and results.
+
+- **EtherId:** use the `solc@0.3.5` npm package and
+  `solc.compile(sourceText, 0).contracts.EtherId`.
+- **Etheria prototypes:** follow the [creator's verification recipe](https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md)
+  with the exact compiler file listed for the address. Run each file in a
+  fresh process and enable the optimizer.
+
+Hash the compiled `bytecode` and `runtimeBytecode` properties as bytes
+decoded from hex. Compare the former to the creation transaction input and
+the latter to the original snapshot's runtime artifact.

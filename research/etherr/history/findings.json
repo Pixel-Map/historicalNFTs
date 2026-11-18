@@ -133,7 +133,7 @@
   "addresses": {
     "0x0148368e9efd8d6a5dd56134cd2b3f941e10d953": {
       "status": "identified-related-deployment",
-      "finding": "Etheria v0.7. The creator identifies this as a test version. The captured code stores owners by tile coordinate. The sampled early calls include tile initialization, which documents setup activity. The runtime published by Etheria’s creator matches the archive snapshot byte for byte.",
+      "finding": "Etheria v0.7. The creator identifies this as a test version. The captured code stores owners by tile coordinate. The sampled early calls include tile initialization, which documents setup activity. The runtime published by Etheria’s creator matches the archive snapshot byte for byte. A fresh run of the historical compiler reproduced the deployed runtime and creation input byte for byte.",
       "sourceFile": "Etheria.sol",
       "lines": "64–75,208–215",
       "references": [
@@ -146,11 +146,25 @@
       "publishedRuntimeEvidence": {
         "url": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt7_0x014.sol",
         "sha256": "6e27c1c2f178e5cb9659fbd41173174d0cec487061a780dcb1d3c2d96003ba48"
+      },
+      "compilationEvidence": {
+        "source": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt7_0x014.sol",
+        "sourceSha256": "3aa06126fbbe482369b82c3ded640347d221dc2385efb68b9369d9b7d0baa912",
+        "compiler": "0.1.5-nightly.2015.10.13+commit.e11e10f8",
+        "compilerURL": "https://raw.githubusercontent.com/ethereum/solc-bin/gh-pages/bin/soljson-v0.1.5-nightly.2015.10.13+commit.e11e10f8.js",
+        "compilerSha256": "6e50b566c9e11b307e7c71e204cdba63e1eb555a623216010027a887d6b23d1b",
+        "optimizerEnabled": true,
+        "contract": "Etheria",
+        "runtimeSha256": "6e27c1c2f178e5cb9659fbd41173174d0cec487061a780dcb1d3c2d96003ba48",
+        "creationTransaction": "0x3a2d2a923263d92a7dbdb1c6048faa9213afac78ae5259f6a6be15ea6456b0af",
+        "creationInputSha256": "19e74ece6ff3dd64da102cdf3e5a577ba0fe20af24ae0461a1673189530de262",
+        "creationInputProvider": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionByHash&txhash=0x3a2d2a923263d92a7dbdb1c6048faa9213afac78ae5259f6a6be15ea6456b0af",
+        "creationMatchCheckedWith": "0.1.5-nightly.2015.10.13+commit.e11e10f8"
       }
     },
     "0xa2f63e28172ebf2477f4c1a87aed68aaa3ebbe3d": {
       "status": "identified-related-deployment",
-      "finding": "Etheria v0.85. The creator identifies this as a test version. The captured code stores individual tile owners and offers. An early on-chain call matches the makeOffer signature. Its resulting state change still needs confirmation. The runtime published by Etheria’s creator matches the archive snapshot byte for byte.",
+      "finding": "Etheria v0.85. The creator identifies this as a test version. The captured code stores individual tile owners and offers. An early on-chain call matches the makeOffer signature. Its resulting state change still needs confirmation. The runtime published by Etheria’s creator matches the archive snapshot byte for byte. A fresh run of the historical compiler reproduced the deployed runtime and creation input byte for byte.",
       "sourceFile": "Etheria.sol",
       "lines": "297–308,345–403",
       "references": [
@@ -163,6 +177,20 @@
       "publishedRuntimeEvidence": {
         "url": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt85_0xa2f.sol",
         "sha256": "95b1d18f14cd5f38532df4f66e36d31b3d89065c5d290df0b2cf66f2ede277fb"
+      },
+      "compilationEvidence": {
+        "source": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt85_0xa2f.sol",
+        "sourceSha256": "4b48725be5a983f07af61181a50bb92943e8d1deee7a6eb3695bf38b2603e4d8",
+        "compiler": "0.1.5-nightly.2015.10.13+commit.e11e10f8",
+        "compilerURL": "https://raw.githubusercontent.com/ethereum/solc-bin/gh-pages/bin/soljson-v0.1.5-nightly.2015.10.13+commit.e11e10f8.js",
+        "compilerSha256": "6e50b566c9e11b307e7c71e204cdba63e1eb555a623216010027a887d6b23d1b",
+        "optimizerEnabled": true,
+        "contract": "Etheria",
+        "runtimeSha256": "95b1d18f14cd5f38532df4f66e36d31b3d89065c5d290df0b2cf66f2ede277fb",
+        "creationTransaction": "0x5e8cc57fdfb121b56a6cde4f1e3d1b5cb6ad2dbdca5fe2bb16106474a4eb9dab",
+        "creationInputSha256": "4364440bc8603c1817272f2ab96bb063ae07ff8cc84f88c2e6280869cf3a654a",
+        "creationInputProvider": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionByHash&txhash=0x5e8cc57fdfb121b56a6cde4f1e3d1b5cb6ad2dbdca5fe2bb16106474a4eb9dab",
+        "creationMatchCheckedWith": "0.1.5-nightly.2015.10.13+commit.e11e10f8"
       }
     },
     "0xd588b586d61c826a0e87919b3d1a239206d58bf2": {
@@ -268,7 +296,7 @@
     },
     "0x6489fc370c7df314ee0bdfb1fbd185f1bc457d89": {
       "status": "identified-related-deployment",
-      "finding": "Etheria v0.6. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map. The runtime published by Etheria’s creator matches the archive snapshot byte for byte.",
+      "finding": "Etheria v0.6. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map. The runtime published by Etheria’s creator matches the archive snapshot byte for byte. A fresh run of the historical compiler reproduced the deployed runtime and creation input byte for byte.",
       "references": [
         "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md",
         "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt6_0x648.sol"
@@ -278,11 +306,25 @@
       "publishedRuntimeEvidence": {
         "url": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt6_0x648.sol",
         "sha256": "2d70a22f714e1d599d6ed6a3bd5b7f53ecf43ffb4dde8d876c39d5910d97da14"
+      },
+      "compilationEvidence": {
+        "source": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt6_0x648.sol",
+        "sourceSha256": "a0da1da5d69ea8efb2130ccb9321577208d07606e6c179f0325aad9713c55e3d",
+        "compiler": "0.1.4+commit.5f6c3cdf",
+        "compilerURL": "https://raw.githubusercontent.com/ethereum/solc-bin/gh-pages/bin/soljson-v0.1.4+commit.5f6c3cdf.js",
+        "compilerSha256": "34a1e8b62b5eae88ee59e572c8f941a375d587a7f3c21b6d24f415452bdc7a15",
+        "optimizerEnabled": true,
+        "contract": "Etheria",
+        "runtimeSha256": "2d70a22f714e1d599d6ed6a3bd5b7f53ecf43ffb4dde8d876c39d5910d97da14",
+        "creationTransaction": "0x710f516f119e0519ae8c2283bb639b14bf90188609ab2f531c9642d28010357e",
+        "creationInputSha256": "a74acbbbddd5cc8e3e049e0d78f97a3fc0fc88c22bdda58ea431b1e3017d8801",
+        "creationInputProvider": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionByHash&txhash=0x710f516f119e0519ae8c2283bb639b14bf90188609ab2f531c9642d28010357e",
+        "creationMatchCheckedWith": "0.1.4+commit.5f6c3cdf"
       }
     },
     "0xcf1eecf5929c151427dc3662a28353266ea3f9e6": {
       "status": "identified-related-deployment",
-      "finding": "Etheria v0.8. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map. The runtime published by Etheria’s creator matches the archive snapshot byte for byte.",
+      "finding": "Etheria v0.8. The creator's address list and published source identify this as a test deployment before v0.9, with tile state and ownership logic on-chain. The creator documents limitations that prevent using it as an official Etheria map. The runtime published by Etheria’s creator matches the archive snapshot byte for byte. A fresh run of the historical compiler reproduced the deployed runtime and creation input byte for byte.",
       "references": [
         "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/README.md",
         "https://github.com/cyrusadkisson/etheria_source/blob/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt8_0xcf1.sol"
@@ -292,6 +334,20 @@
       "publishedRuntimeEvidence": {
         "url": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt8_0xcf1.sol",
         "sha256": "4118c571458fdcdb600600ac796b230a70b94e57c4f7ef2b1c0c8e5743c4acfe"
+      },
+      "compilationEvidence": {
+        "source": "https://raw.githubusercontent.com/cyrusadkisson/etheria_source/0ec8b64ee6dbb0812a1ad6ce173b79b6a2a64b4e/NKNVELSC/etheria-0pt8_0xcf1.sol",
+        "sourceSha256": "7d101012a30358aa77ade072a6f199962d13aaf942b67e55dc39e20a4ef25988",
+        "compiler": "0.1.5-nightly.2015.10.13+commit.e11e10f8",
+        "compilerURL": "https://raw.githubusercontent.com/ethereum/solc-bin/gh-pages/bin/soljson-v0.1.5-nightly.2015.10.13+commit.e11e10f8.js",
+        "compilerSha256": "6e50b566c9e11b307e7c71e204cdba63e1eb555a623216010027a887d6b23d1b",
+        "optimizerEnabled": true,
+        "contract": "Etheria",
+        "runtimeSha256": "4118c571458fdcdb600600ac796b230a70b94e57c4f7ef2b1c0c8e5743c4acfe",
+        "creationTransaction": "0x5a06f61ef86fed6da914abbbc243e5a105e2290598ffa5be7aea0d68fe3f45dd",
+        "creationInputSha256": "c9114b926c7c024378e0c5fa8c1cdf9b8a396f0b4dd2b8a766790d2c0e65c87a",
+        "creationInputProvider": "https://api.routescan.io/v2/network/mainnet/evm/1/etherscan/api?module=proxy&action=eth_getTransactionByHash&txhash=0x5a06f61ef86fed6da914abbbc243e5a105e2290598ffa5be7aea0d68fe3f45dd",
+        "creationMatchCheckedWith": "0.1.5-nightly.2015.10.13+commit.e11e10f8"
       }
     },
     "0x103c2c150a2dbcc277ee084c59881978060c8c22": {
