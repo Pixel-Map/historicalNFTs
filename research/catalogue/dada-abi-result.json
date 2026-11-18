@@ -1,0 +1,40 @@
+{
+  "cohorts": {
+    "train": {
+      "2017": 19,
+      "2019": 19
+    },
+    "test": {
+      "2017": 20,
+      "2019": 19
+    }
+  },
+  "results": {
+    "status-and-host": {
+      "conflicting_output_patterns": 1,
+      "error": "Error:   \u00d7 failed to build pearl from decision traces\n  \u2570\u2500\u25b6 no recoverable deny rule found (19 denied, 19 allowed rows): no feature\n      separates the denied rows from the allowed rows; add features that\n      explain the decision or more reviewed examples"
+    },
+    "include-uri-number": {
+      "correct": 38,
+      "prefix_heuristic_correct": 38,
+      "evaluated": 38,
+      "abstained": 1,
+      "matched_rules": [
+        "Uri Number at or above 20190000001059"
+      ],
+      "training_evaluated": 38,
+      "live_read_counterexample": {
+        "token_id": "20190000001021",
+        "event_year": 2019,
+        "predicted_year": 2017,
+        "observed_wrap_transaction": "0xdb81e41337491a9a7412a4db0bddcdbecc0b98fd2446c3442d2d69efbcd42fba",
+        "matched_rules": []
+      }
+    }
+  },
+  "same_id_rewrapped": {
+    "token_id": "20190000601274",
+    "earlier": "0x7c1acad6a9de8e06475e75b72595428e3a9ada9d61b345a60e92b155ad189a10",
+    "later": "0x891e388eda6497d40e93e3a8a5c7d8d5b4575526db3ad9f5c3603efbd9e9570d"
+  }
+}
