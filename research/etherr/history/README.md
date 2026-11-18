@@ -11,6 +11,8 @@ reviewed findings can be joined using the lowercase contract address.
   source was captured, and an address-specific next check.
   [creation-supplements.json](creation-supplements.json) contains a deployment
   verified from its indexed receipt after the bulk creation endpoint omitted it.
+  [factory-traces.json](factory-traces.json) records indexed internal CREATE
+  evidence for children deployed through a factory.
 - [findings.json](findings.json) records reviewed readings of representative
   source, original project documentation, and particular transactions. A finding
   about a shared runtime applies to executable code. Deployment parameters,
@@ -54,7 +56,8 @@ From the repository root:
 2. Run `python3 scripts/research-history.py --collect --funded`. It uses the
    local `.cache/etherr-history/` checkpoint and stays below Routescan's
    documented keyless request rate. To regenerate from captured responses, use
-   `--assemble --funded`.
+   `--assemble --funded`. Then run `--factory-traces` to corroborate the
+   factory deployments, then assemble again to join the child creation blocks.
 3. Obtain the tarball for
    [ethereum-contract-scraper at the pinned commit](https://github.com/rllola/ethereum-contract-scraper/tree/475bf1f3a9507f54a1ae5959d753e9a36ca262bc).
    Run `python3 scripts/research-history-archive.py --archive-2015 --community-tar PATH`.

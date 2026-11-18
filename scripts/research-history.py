@@ -288,6 +288,8 @@ def assemble(rows, batches, block):
             archive_sources.update(archive["matches"])
     supplements_path = OUT / "creation-supplements.json"
     supplements = read_json(supplements_path) if supplements_path.exists() else {}
+    traces_path = OUT / "factory-traces.json"
+    traces = read_json(traces_path) if traces_path.exists() else {}
     for row in rows:
         families.setdefault(row["runtimeSha256"], []).append(row["address"])
     for batch in batches:
@@ -303,6 +305,12 @@ def assemble(rows, batches, block):
             if creation["status"] != "observed" and address in supplements:
                 creation = supplements[address]
             for item in creation.get("rows", []):
+                for trace in traces.get(address, {}).get("traces", []):
+                    if trace["txHash"] == item["txHash"]:
+                        item["blockNumber"] = str(trace["blockNumber"])
+                        item["timeStamp"] = str(int(datetime.datetime.fromisoformat(trace["timestamp"]).timestamp()))
+                        item["factoryTraceIndex"] = trace["opIndex"]
+                        break
                 creator = item.get("contractFactory") or item.get("contractCreator")
                 if creator:
                     deployers.setdefault(creator.lower(), []).append(address)
@@ -371,11 +379,55 @@ def assemble(rows, batches, block):
         print(field, counts, flush=True)
 
 
+def collect_factory_traces():
+    evidence = read_json(OUT / "evidence.json")
+    by_transaction = {}
+    for item in evidence["records"].values():
+        for row in item["creation"].get("rows", []):
+            if row.get("contractFactory"):
+                by_transaction.setdefault(row["txHash"], []).append(row)
+
+    def get_transaction(tx_hash):
+        return tx_hash, lookup(
+            "factory-transaction-" + tx_hash,
+            DATA_API + "/internal-operations", txHash=tx_hash, limit=100,
+        )
+
+    output = {}
+    with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+        for tx_hash, response in pool.map(get_transaction, by_transaction):
+            for deployment in by_transaction[tx_hash]:
+                address = deployment["contractAddress"].lower()
+                factory = deployment["contractFactory"].lower()
+                matches = [
+                    row for row in response.get("result", [])
+                    if row.get("txHash") == tx_hash and row.get("chainId") == "1"
+                    and row.get("type") in {"CREATE", "CREATE2"} and row.get("status") is True
+                    and (row.get("from") or "").lower() == factory
+                    and (row.get("to") or "").lower() == address
+                ]
+                output[address] = {
+                    "transactionHash": tx_hash,
+                    "status": "observed" if matches else (
+                        "lookup-error" if "error" in response else "none-returned"
+                    ),
+                    "url": response["url"],
+                    "checkedAt": response.get("checkedAt"),
+                    "queryPageTruncated": response.get("paginated", False),
+                    "traces": matches,
+                }
+    write_json(OUT / "factory-traces.json", output)
+    print("Factory deployment traces:", sum(x["status"] == "observed" for x in output.values()),
+          "of", len(output), flush=True)
+
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--collect", action="store_true")
     parser.add_argument("--assemble", action="store_true")
     parser.add_argument("--funded", action="store_true")
+    parser.add_argument("--factory-traces", action="store_true")
     args = parser.parse_args()
     rows = [row for row in read_json(SOURCE / "records.json") if row["address"] not in KNOWN]
     block = read_json(SOURCE / "source.json")["blockNumber"]
@@ -413,6 +465,8 @@ def main():
         assemble(rows, batches, block)
     if args.funded:
         assemble_funded(funded)
+    if args.factory_traces:
+        collect_factory_traces()
 
 
 if __name__ == "__main__":

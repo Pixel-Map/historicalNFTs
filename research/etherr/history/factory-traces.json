@@ -1,0 +1,1610 @@
+{
+  "0x8ba0e78c257902993354297ceb83bea95b5c652a": {
+    "transactionHash": "0x967dc494784de6b6f4571135e33cf31987c227a5449e43289b755d5d5850277e",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x967dc494784de6b6f4571135e33cf31987c227a5449e43289b755d5d5850277e&limit=100",
+    "checkedAt": "2026-11-18T20:42:12.201506+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-02-25T22:46:21.000Z",
+        "blockNumber": 1060160,
+        "txIndex": 0,
+        "opIndex": 3,
+        "txHash": "0x967dc494784de6b6f4571135e33cf31987c227a5449e43289b755d5d5850277e",
+        "from": "0x05FbEB6D83475038107d8C2Fc921135dC595918B",
+        "to": "0x8Ba0E78c257902993354297CEb83beA95b5c652a",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1074361",
+        "status": true
+      }
+    ]
+  },
+  "0xe3898a31b2b133f45fc32670c05bb40486d7f371": {
+    "transactionHash": "0xf10ab68f057bcfaf3dbeb04b6e524aca4c853fb20b43be0fce08ba7df5048efe",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xf10ab68f057bcfaf3dbeb04b6e524aca4c853fb20b43be0fce08ba7df5048efe&limit=100",
+    "checkedAt": "2026-11-18T20:42:14.503933+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-03-22T12:26:36.000Z",
+        "blockNumber": 1196430,
+        "txIndex": 0,
+        "opIndex": 2,
+        "txHash": "0xf10ab68f057bcfaf3dbeb04b6e524aca4c853fb20b43be0fce08ba7df5048efe",
+        "from": "0x09890f52CDd5D0743c7d13aBE481E705A2706384",
+        "to": "0xe3898a31B2B133F45fC32670c05bb40486D7F371",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1181138",
+        "status": true
+      }
+    ]
+  },
+  "0xe02640be68df835aa3327ea6473c02c8f6c3815a": {
+    "transactionHash": "0xb5e63b8d1113c3fe469f0130f662d3e8110c832130443cce90568cd3a2db9515",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xb5e63b8d1113c3fe469f0130f662d3e8110c832130443cce90568cd3a2db9515&limit=100",
+    "checkedAt": "2026-11-18T20:42:14.140816+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-03-28T14:03:34.000Z",
+        "blockNumber": 1233073,
+        "txIndex": 0,
+        "opIndex": 3,
+        "txHash": "0xb5e63b8d1113c3fe469f0130f662d3e8110c832130443cce90568cd3a2db9515",
+        "from": "0x82f39D996D1E9Ab119e4b33d581c3EEB4133ACf6",
+        "to": "0xe02640be68Df835AA3327eA6473c02c8F6C3815a",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1074361",
+        "status": true
+      }
+    ]
+  },
+  "0x7c9c78ef6cea2a302476a995ce03fd8ed055027b": {
+    "transactionHash": "0x80ac63c65ef3d1abc56906a54ce90b9221c29e95be07093998b2d1d968f62ff6",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x80ac63c65ef3d1abc56906a54ce90b9221c29e95be07093998b2d1d968f62ff6&limit=100",
+    "checkedAt": "2026-11-18T20:42:15.207496+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-04-24T21:17:39.000Z",
+        "blockNumber": 1397501,
+        "txIndex": 1,
+        "opIndex": 1,
+        "txHash": "0x80ac63c65ef3d1abc56906a54ce90b9221c29e95be07093998b2d1d968f62ff6",
+        "from": "0x1EC446600Aef39Aa9D4688068E7Ca013428dC1A7",
+        "to": "0x7C9C78EF6CEA2A302476a995CE03fd8ed055027B",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "196214",
+        "status": true
+      }
+    ]
+  },
+  "0x2059c73f90f93d179795f28bf26b9a6769efc8df": {
+    "transactionHash": "0xb16cf5f1266e40ad897402a0508347d77d8b14c877b5f1b3d0709ca84f8d88b5",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xb16cf5f1266e40ad897402a0508347d77d8b14c877b5f1b3d0709ca84f8d88b5&limit=100",
+    "checkedAt": "2026-11-18T20:42:15.648368+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-05-20T06:23:51.000Z",
+        "blockNumber": 1550416,
+        "txIndex": 8,
+        "opIndex": 17,
+        "txHash": "0xb16cf5f1266e40ad897402a0508347d77d8b14c877b5f1b3d0709ca84f8d88b5",
+        "from": "0x7b2344Cd14CC79A72FD15565338B6d1caEeD7073",
+        "to": "0x2059C73F90F93d179795f28bf26B9A6769EFC8dF",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "168952",
+        "status": true
+      }
+    ]
+  },
+  "0x95b7bf7cf60b4ee39748cc4909bfc556124fc53a": {
+    "transactionHash": "0xc80b1090508db2b7835b397b6bda38727e039b54c18b629c6ec396d5f2307fff",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xc80b1090508db2b7835b397b6bda38727e039b54c18b629c6ec396d5f2307fff&limit=100",
+    "checkedAt": "2026-11-18T20:42:16.401279+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-05-20T16:09:48.000Z",
+        "blockNumber": 1552808,
+        "txIndex": 0,
+        "opIndex": 2,
+        "txHash": "0xc80b1090508db2b7835b397b6bda38727e039b54c18b629c6ec396d5f2307fff",
+        "from": "0xaf38DF37acf4C8c83a8dcea5299f36EB8Ddeb629",
+        "to": "0x95B7BF7cF60b4Ee39748CC4909bfC556124fC53A",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "2801222",
+        "status": true
+      }
+    ]
+  },
+  "0x776a192f558f1b36329db47d4381778b825998e3": {
+    "transactionHash": "0x7096fdc522f44561347853bd35c0456ac5163464d25dac1739b77ee0ae286567",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x7096fdc522f44561347853bd35c0456ac5163464d25dac1739b77ee0ae286567&limit=100",
+    "checkedAt": "2026-11-18T20:42:16.751572+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-06-12T21:05:30.000Z",
+        "blockNumber": 1692685,
+        "txIndex": 0,
+        "opIndex": 3,
+        "txHash": "0x7096fdc522f44561347853bd35c0456ac5163464d25dac1739b77ee0ae286567",
+        "from": "0x580c2caa8796C0352a1E0e326Fc1D2505f54381f",
+        "to": "0x776a192F558f1b36329Db47d4381778B825998E3",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1092581",
+        "status": true
+      }
+    ]
+  },
+  "0x4812f805822860f4932195518da823c0c9bacd96": {
+    "transactionHash": "0x1e4a19e6d039485511a4be5807aad0c4af494ea3ad5e91e32ee2267bc133bc8c",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x1e4a19e6d039485511a4be5807aad0c4af494ea3ad5e91e32ee2267bc133bc8c&limit=100",
+    "checkedAt": "2026-11-18T20:42:17.152759+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-06-01T14:53:39.000Z",
+        "blockNumber": 1624672,
+        "txIndex": 1,
+        "opIndex": 17,
+        "txHash": "0x1e4a19e6d039485511a4be5807aad0c4af494ea3ad5e91e32ee2267bc133bc8c",
+        "from": "0xDF88D5e6F5f1CB9dEB92707675178CbFd504E11E",
+        "to": "0x4812f805822860F4932195518da823c0C9bAcd96",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "235849",
+        "status": true
+      }
+    ]
+  },
+  "0x2f4ce0e529679b094cdbf1986c834900fa83522d": {
+    "transactionHash": "0x25bdd8251f1c01f8f530520f0b41252b1e5c8a1c1562ea7587811f16d85e8380",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x25bdd8251f1c01f8f530520f0b41252b1e5c8a1c1562ea7587811f16d85e8380&limit=100",
+    "checkedAt": "2026-11-18T20:42:17.443950+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-06-16T00:13:36.000Z",
+        "blockNumber": 1711603,
+        "txIndex": 0,
+        "opIndex": 4,
+        "txHash": "0x25bdd8251f1c01f8f530520f0b41252b1e5c8a1c1562ea7587811f16d85e8380",
+        "from": "0xD4DF16618173DC4F4B5557178ADB40ACdf11FD60",
+        "to": "0x2F4Ce0E529679B094cdBf1986C834900Fa83522d",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "715476",
+        "status": true
+      }
+    ]
+  },
+  "0x8992fcd9dd2f79a8f336a0795417afe8352a6af1": {
+    "transactionHash": "0xc6fb74cfe3bc79940be61126135a12b4b4c5ed086ed90371d74afcf87eb11e05",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xc6fb74cfe3bc79940be61126135a12b4b4c5ed086ed90371d74afcf87eb11e05&limit=100",
+    "checkedAt": "2026-11-18T20:42:17.945967+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-07-06T05:19:41.000Z",
+        "blockNumber": 1833330,
+        "txIndex": 0,
+        "opIndex": 6,
+        "txHash": "0xc6fb74cfe3bc79940be61126135a12b4b4c5ed086ed90371d74afcf87eb11e05",
+        "from": "0xF5a8BB1cEeA02aB0250e4BB85f214a50f8753389",
+        "to": "0x8992fCD9Dd2F79a8F336A0795417Afe8352A6af1",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "884904",
+        "status": true
+      }
+    ]
+  },
+  "0xee6efa6c728d85b4691988d35c9ed1a1c23500cc": {
+    "transactionHash": "0x6daea4b7e68bb75ce4ff361a5e229a0b19e88cd2c59e87716a6ec6996d861735",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x6daea4b7e68bb75ce4ff361a5e229a0b19e88cd2c59e87716a6ec6996d861735&limit=100",
+    "checkedAt": "2026-11-18T20:42:18.045262+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-07-07T08:04:58.000Z",
+        "blockNumber": 1840060,
+        "txIndex": 8,
+        "opIndex": 6,
+        "txHash": "0x6daea4b7e68bb75ce4ff361a5e229a0b19e88cd2c59e87716a6ec6996d861735",
+        "from": "0x71Aa7573A9c23ec40CeB62028b153E47c99D1763",
+        "to": "0xeE6efa6c728D85B4691988d35C9ed1a1c23500cc",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "929258",
+        "status": true
+      }
+    ]
+  },
+  "0x3533275cf07da023ce2dbcc336a9ba1b51068662": {
+    "transactionHash": "0x0af41b2797c376c935039d2df76ccd553995c0ae5011257a2fe6a1b2a0c59f81",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x0af41b2797c376c935039d2df76ccd553995c0ae5011257a2fe6a1b2a0c59f81&limit=100",
+    "checkedAt": "2026-11-18T20:42:18.913040+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-07-06T12:46:46.000Z",
+        "blockNumber": 1835229,
+        "txIndex": 0,
+        "opIndex": 6,
+        "txHash": "0x0af41b2797c376c935039d2df76ccd553995c0ae5011257a2fe6a1b2a0c59f81",
+        "from": "0x2BEA4562F4024f896D66D1421E64AE39a05d5450",
+        "to": "0x3533275cF07DA023cE2DbCc336A9ba1b51068662",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "936871",
+        "status": true
+      }
+    ]
+  },
+  "0xfb4043f471a549f04a705f999321249d95525c3f": {
+    "transactionHash": "0x4350f08c7a322ee33e7b7d3102ec4c78e57074b5aff87c31e3260dbeb5225be0",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x4350f08c7a322ee33e7b7d3102ec4c78e57074b5aff87c31e3260dbeb5225be0&limit=100",
+    "checkedAt": "2026-11-18T20:42:19.467358+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-07-07T08:03:39.000Z",
+        "blockNumber": 1840056,
+        "txIndex": 18,
+        "opIndex": 6,
+        "txHash": "0x4350f08c7a322ee33e7b7d3102ec4c78e57074b5aff87c31e3260dbeb5225be0",
+        "from": "0x42ACD08521ed10197f310866ca5D46EF322E3B91",
+        "to": "0xfB4043F471A549f04A705F999321249D95525C3F",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "929258",
+        "status": true
+      }
+    ]
+  },
+  "0xccd568462ead1e84cf385fb59080508336bbec5c": {
+    "transactionHash": "0x681769597dc2e839475dfc27a4ba7451194200eac48a005d170df9f074020880",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x681769597dc2e839475dfc27a4ba7451194200eac48a005d170df9f074020880&limit=100",
+    "checkedAt": "2026-11-18T20:42:19.765204+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-07-07T13:44:38.000Z",
+        "blockNumber": 1841523,
+        "txIndex": 0,
+        "opIndex": 6,
+        "txHash": "0x681769597dc2e839475dfc27a4ba7451194200eac48a005d170df9f074020880",
+        "from": "0x558376a0b876fA09e6f779caF942a6Aa98d81FcC",
+        "to": "0xCcD568462eaD1e84CF385fB59080508336bbec5C",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "929258",
+        "status": true
+      }
+    ]
+  },
+  "0x6bae452dd398a636189f7352ea47c8244bbb931d": {
+    "transactionHash": "0xc92ccbf3665beeb54c888d8de8d760f4fe90b0f16fe491f904a796742e588577",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xc92ccbf3665beeb54c888d8de8d760f4fe90b0f16fe491f904a796742e588577&limit=100",
+    "checkedAt": "2026-11-18T20:42:20.555808+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-07-08T07:36:26.000Z",
+        "blockNumber": 1846043,
+        "txIndex": 0,
+        "opIndex": 1,
+        "txHash": "0xc92ccbf3665beeb54c888d8de8d760f4fe90b0f16fe491f904a796742e588577",
+        "from": "0xb9b12207025C61eB88852C88475D0A71417Aab53",
+        "to": "0x6BAe452Dd398a636189f7352EA47c8244bBb931d",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "457654",
+        "status": true
+      }
+    ]
+  },
+  "0xe4d708819805840e7ca0315977ee39fac41ea911": {
+    "transactionHash": "0x0c6ed0fb16402ab57222654e9111ec2311bdca3c3f1de9549d69820d52a0b770",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x0c6ed0fb16402ab57222654e9111ec2311bdca3c3f1de9549d69820d52a0b770&limit=100",
+    "checkedAt": "2026-11-18T20:42:21.363125+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-07-08T15:16:41.000Z",
+        "blockNumber": 1847986,
+        "txIndex": 1,
+        "opIndex": 1,
+        "txHash": "0x0c6ed0fb16402ab57222654e9111ec2311bdca3c3f1de9549d69820d52a0b770",
+        "from": "0x7266B383b26b87e4a696451BA922094d27fEdcE6",
+        "to": "0xe4d708819805840E7ca0315977Ee39FaC41ea911",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "486356",
+        "status": true
+      }
+    ]
+  },
+  "0x73917388fe1eef8af711b2e9dd17ec00fcd4b5cd": {
+    "transactionHash": "0xf876c7d3e7c6b65e024415be21bddf4032d0ed2c7bc48704dde2cbaf742ae420",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xf876c7d3e7c6b65e024415be21bddf4032d0ed2c7bc48704dde2cbaf742ae420&limit=100",
+    "checkedAt": "2026-11-18T20:42:22.200753+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-07-20T23:55:15.000Z",
+        "blockNumber": 1922507,
+        "txIndex": 16,
+        "opIndex": 1,
+        "txHash": "0xf876c7d3e7c6b65e024415be21bddf4032d0ed2c7bc48704dde2cbaf742ae420",
+        "from": "0xc4De448187e943383d84c1A6EE83D78062E76743",
+        "to": "0x73917388Fe1Eef8af711b2e9Dd17eC00Fcd4B5cD",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60a06040",
+        "gasUsed": "1310799",
+        "status": true
+      }
+    ]
+  },
+  "0xa40241346a218647c68aa042b31ec1fd91a4450c": {
+    "transactionHash": "0x63bbbbdbe9d70ac05e413b9e355192fa7cd42a7d777fd434bb21e81b1667a0ab",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x63bbbbdbe9d70ac05e413b9e355192fa7cd42a7d777fd434bb21e81b1667a0ab&limit=100",
+    "checkedAt": "2026-11-18T20:42:22.474382+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-08-19T23:40:01.000Z",
+        "blockNumber": 2103481,
+        "txIndex": 1,
+        "opIndex": 1,
+        "txHash": "0x63bbbbdbe9d70ac05e413b9e355192fa7cd42a7d777fd434bb21e81b1667a0ab",
+        "from": "0x65bBC91459aAAd9603ef1345c6Bb6396dd6772B9",
+        "to": "0xA40241346A218647c68Aa042B31ec1Fd91a4450c",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60a06040",
+        "gasUsed": "559615",
+        "status": true
+      }
+    ]
+  },
+  "0x045d2c4d9011e30eeca01e76c2989253274e4a92": {
+    "transactionHash": "0x07b8c423b8ebdb9e4d749ec8ac464fe325430919dfd19e3730f49e2d98abe000",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x07b8c423b8ebdb9e4d749ec8ac464fe325430919dfd19e3730f49e2d98abe000&limit=100",
+    "checkedAt": "2026-11-18T20:42:22.919434+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-08-20T09:14:51.000Z",
+        "blockNumber": 2105928,
+        "txIndex": 0,
+        "opIndex": 1,
+        "txHash": "0x07b8c423b8ebdb9e4d749ec8ac464fe325430919dfd19e3730f49e2d98abe000",
+        "from": "0x48DD03d4b012E51b7843f1c0bA91900A8717ab7e",
+        "to": "0x045d2C4D9011e30eECA01E76C2989253274E4A92",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60a06040",
+        "gasUsed": "630284",
+        "status": true
+      }
+    ]
+  },
+  "0x4c19c4588913e03c825c35513522ecf1e350c630": {
+    "transactionHash": "0xb210be096e7a1d339cea90d9f1d87580896237196fe539bb38b6e97bfbb92936",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xb210be096e7a1d339cea90d9f1d87580896237196fe539bb38b6e97bfbb92936&limit=100",
+    "checkedAt": "2026-11-18T20:42:23.744282+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2016-12-31T20:38:25.000Z",
+        "blockNumber": 2911581,
+        "txIndex": 0,
+        "opIndex": 2,
+        "txHash": "0xb210be096e7a1d339cea90d9f1d87580896237196fe539bb38b6e97bfbb92936",
+        "from": "0x753391F1260b243d30E99E7Ade1dA663457ED2bb",
+        "to": "0x4C19c4588913E03C825c35513522ecF1E350C630",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1399692",
+        "status": true
+      }
+    ]
+  },
+  "0x1dc5b8ccbe7a3669ed59dcd3b3d5afa0fed4ee57": {
+    "transactionHash": "0xe44db32d143ddff30b53a6d4fee4fb553d907e45acf6d4675d302bae4d8845be",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xe44db32d143ddff30b53a6d4fee4fb553d907e45acf6d4675d302bae4d8845be&limit=100",
+    "checkedAt": "2026-11-18T20:42:24.686173+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-05-17T16:13:31.000Z",
+        "blockNumber": 3722473,
+        "txIndex": 2,
+        "opIndex": 2,
+        "txHash": "0xe44db32d143ddff30b53a6d4fee4fb553d907e45acf6d4675d302bae4d8845be",
+        "from": "0x9A0ace223eDe819b9A48C605fdB0254b3335f4B2",
+        "to": "0x1DC5b8CcBe7A3669ED59dcd3B3d5AFA0FeD4eE57",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "644216",
+        "status": true
+      }
+    ]
+  },
+  "0xe412189da2dfa188a1a61633114b8732bbbfba19": {
+    "transactionHash": "0xe44db32d143ddff30b53a6d4fee4fb553d907e45acf6d4675d302bae4d8845be",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xe44db32d143ddff30b53a6d4fee4fb553d907e45acf6d4675d302bae4d8845be&limit=100",
+    "checkedAt": "2026-11-18T20:42:24.686173+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-05-17T16:13:31.000Z",
+        "blockNumber": 3722473,
+        "txIndex": 2,
+        "opIndex": 1,
+        "txHash": "0xe44db32d143ddff30b53a6d4fee4fb553d907e45acf6d4675d302bae4d8845be",
+        "from": "0x9A0ace223eDe819b9A48C605fdB0254b3335f4B2",
+        "to": "0xE412189dA2dfa188A1A61633114b8732BbbFBA19",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "765084",
+        "status": true
+      }
+    ]
+  },
+  "0x626e6a26423ce9dd358e1e5bd84bce01de07bc73": {
+    "transactionHash": "0xa1424553b5d08c1315498a7110b8c6307afdfe0241a2a8c52b1ff2e2fc072d8e",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xa1424553b5d08c1315498a7110b8c6307afdfe0241a2a8c52b1ff2e2fc072d8e&limit=100",
+    "checkedAt": "2026-11-18T20:42:25.166864+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-07-04T05:07:26.000Z",
+        "blockNumber": 3971343,
+        "txIndex": 17,
+        "opIndex": 3,
+        "txHash": "0xa1424553b5d08c1315498a7110b8c6307afdfe0241a2a8c52b1ff2e2fc072d8e",
+        "from": "0x5aad8436ec6320E846084aa4e6E6231387E8950a",
+        "to": "0x626e6A26423ce9dd358e1e5bD84BCE01De07BC73",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1401493",
+        "status": true
+      }
+    ]
+  },
+  "0x22164e957ac4c0cb0f19c49b05e627675436dfe1": {
+    "transactionHash": "0x0e741d415ca7f3c276c361cae7d935d578bdb15856b6a40b51582d27a2880a5a",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x0e741d415ca7f3c276c361cae7d935d578bdb15856b6a40b51582d27a2880a5a&limit=100",
+    "checkedAt": "2026-11-18T20:42:25.173642+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-07-04T05:40:24.000Z",
+        "blockNumber": 3971455,
+        "txIndex": 63,
+        "opIndex": 3,
+        "txHash": "0x0e741d415ca7f3c276c361cae7d935d578bdb15856b6a40b51582d27a2880a5a",
+        "from": "0x2C544275203B0dB7550887067507CE2beFCEA893",
+        "to": "0x22164E957ac4C0cB0f19C49B05e627675436DFE1",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1542843",
+        "status": true
+      }
+    ]
+  },
+  "0xe732d507d46a0fc5e66fef237e5d687f9b5e5298": {
+    "transactionHash": "0x3ea66120991dc7409daea891411507d36894596748fccb39c615c741bbc88806",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x3ea66120991dc7409daea891411507d36894596748fccb39c615c741bbc88806&limit=100",
+    "checkedAt": "2026-11-18T20:42:26.185093+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-01T08:00:18.000Z",
+        "blockNumber": 4226232,
+        "txIndex": 102,
+        "opIndex": 1,
+        "txHash": "0x3ea66120991dc7409daea891411507d36894596748fccb39c615c741bbc88806",
+        "from": "0x48946d2452E72103703ad5317c9fa7b3a3D9b5a8",
+        "to": "0xe732D507d46A0fc5e66fEF237E5D687f9b5e5298",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "936005",
+        "status": true
+      }
+    ]
+  },
+  "0x0d88ed6e74bbfd96b831231638b66c05571e824f": {
+    "transactionHash": "0x58f1e3eade2711f6ac13520b05b8d872af8d0ef7aa1640ce8f33ac0a11a6c4cf",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x58f1e3eade2711f6ac13520b05b8d872af8d0ef7aa1640ce8f33ac0a11a6c4cf&limit=100",
+    "checkedAt": "2026-11-18T20:42:26.272315+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-03T20:32:15.000Z",
+        "blockNumber": 4235140,
+        "txIndex": 22,
+        "opIndex": 1,
+        "txHash": "0x58f1e3eade2711f6ac13520b05b8d872af8d0ef7aa1640ce8f33ac0a11a6c4cf",
+        "from": "0x8b7B6C61238088593BF75eEC8FBF58D0a615d30c",
+        "to": "0x0d88eD6E74bbFD96B831231638b66C05571e824F",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1469728",
+        "status": true
+      }
+    ]
+  },
+  "0xd0b87156fbc5b87512be916db0be9cdc6d6ebb37": {
+    "transactionHash": "0xf3a16a51f1c373a74ed61d2b16782cff50df82e589351e2e3092c3fd73a45ada",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xf3a16a51f1c373a74ed61d2b16782cff50df82e589351e2e3092c3fd73a45ada&limit=100",
+    "checkedAt": "2026-11-18T20:42:26.980899+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-11T09:30:02.000Z",
+        "blockNumber": 4261851,
+        "txIndex": 50,
+        "opIndex": 1,
+        "txHash": "0xf3a16a51f1c373a74ed61d2b16782cff50df82e589351e2e3092c3fd73a45ada",
+        "from": "0x2a0BD18a60EBC8b6e95b5F7e923BEB91EbfF48A8",
+        "to": "0xD0B87156fBC5b87512be916db0bE9cDC6d6EbB37",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1445644",
+        "status": true
+      }
+    ]
+  },
+  "0x3b8e6c5d8a170d554c2257f675b62c391f4c2e3f": {
+    "transactionHash": "0x6d792d5d010ce8d4a55f81183c59099ce61f3d09b2432ad43770b49bdf638f90",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x6d792d5d010ce8d4a55f81183c59099ce61f3d09b2432ad43770b49bdf638f90&limit=100",
+    "checkedAt": "2026-11-18T20:42:27.673445+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-12T03:36:06.000Z",
+        "blockNumber": 4264590,
+        "txIndex": 59,
+        "opIndex": 1,
+        "txHash": "0x6d792d5d010ce8d4a55f81183c59099ce61f3d09b2432ad43770b49bdf638f90",
+        "from": "0x29ca18a588cdcfe0759aD44f7345E91166bd64bA",
+        "to": "0x3B8E6c5D8A170d554c2257F675b62c391F4C2E3F",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "869827",
+        "status": true
+      }
+    ]
+  },
+  "0x3be856c94c7a1ff4f433ae95a48544b1a62ce385": {
+    "transactionHash": "0x7e3e847340bd9f3381e807a8557799e8c02e373e369dd305e58f37aeca7d9777",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x7e3e847340bd9f3381e807a8557799e8c02e373e369dd305e58f37aeca7d9777&limit=100",
+    "checkedAt": "2026-11-18T20:42:27.730006+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-12T04:59:40.000Z",
+        "blockNumber": 4264813,
+        "txIndex": 36,
+        "opIndex": 1,
+        "txHash": "0x7e3e847340bd9f3381e807a8557799e8c02e373e369dd305e58f37aeca7d9777",
+        "from": "0x2dc2E581f1DcA93B618937Aa313C8920153aF960",
+        "to": "0x3BE856c94C7a1ff4f433Ae95a48544b1a62ce385",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "744127",
+        "status": true
+      }
+    ]
+  },
+  "0xd4bc8dfd5eb9b72c166cb7daaf025ac4f7b1fe91": {
+    "transactionHash": "0x75febb0a1b97b0ab2e82efe295cc46962151561058f12535c948a2ad297c3319",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x75febb0a1b97b0ab2e82efe295cc46962151561058f12535c948a2ad297c3319&limit=100",
+    "checkedAt": "2026-11-18T20:42:28.792979+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-13T10:33:41.000Z",
+        "blockNumber": 4269189,
+        "txIndex": 60,
+        "opIndex": 1,
+        "txHash": "0x75febb0a1b97b0ab2e82efe295cc46962151561058f12535c948a2ad297c3319",
+        "from": "0x754FCa5728bEf644Cc695c2F501dBBa818a1E560",
+        "to": "0xD4Bc8dfd5EB9B72C166Cb7dAaf025Ac4F7b1FE91",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1580950",
+        "status": true
+      }
+    ]
+  },
+  "0x1ad9355d6aa94e934bd740787ef42c4765243e05": {
+    "transactionHash": "0xaba2b8d726af8fae555d8c337a11502b65a52fb687e3f2989001c3817d7a1e3c",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xaba2b8d726af8fae555d8c337a11502b65a52fb687e3f2989001c3817d7a1e3c&limit=100",
+    "checkedAt": "2026-11-18T20:42:29.499108+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-14T09:50:44.000Z",
+        "blockNumber": 4272652,
+        "txIndex": 82,
+        "opIndex": 1,
+        "txHash": "0xaba2b8d726af8fae555d8c337a11502b65a52fb687e3f2989001c3817d7a1e3c",
+        "from": "0x64B8f0f9fB71EaEcEB1B9fbD24eACE092A1967Ee",
+        "to": "0x1AD9355D6AA94E934Bd740787EF42C4765243E05",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1580950",
+        "status": true
+      }
+    ]
+  },
+  "0x510d3e1360b382b773eece55bb232f72c6d524af": {
+    "transactionHash": "0x47a3121353ca3aa7dcc50df4603823cdac4cfbf435d1271ddcc9e6de08e8bf3e",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x47a3121353ca3aa7dcc50df4603823cdac4cfbf435d1271ddcc9e6de08e8bf3e&limit=100",
+    "checkedAt": "2026-11-18T20:42:29.593500+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-15T20:22:21.000Z",
+        "blockNumber": 4277849,
+        "txIndex": 58,
+        "opIndex": 1,
+        "txHash": "0x47a3121353ca3aa7dcc50df4603823cdac4cfbf435d1271ddcc9e6de08e8bf3e",
+        "from": "0xf67382A1f8D2978abD238dfA84fA451eFb98c8D6",
+        "to": "0x510d3e1360b382b773EEcE55bb232F72C6d524aF",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "664802",
+        "status": true
+      }
+    ]
+  },
+  "0x439766d753c076a36faa93b4d514ba8b98a01793": {
+    "transactionHash": "0xc468739f9e89aaaf259a426056844a9840b5db3f015f432ef3ad2ff0b9b5e4b6",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xc468739f9e89aaaf259a426056844a9840b5db3f015f432ef3ad2ff0b9b5e4b6&limit=100",
+    "checkedAt": "2026-11-18T20:42:30.444821+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-18T04:08:58.000Z",
+        "blockNumber": 4286231,
+        "txIndex": 55,
+        "opIndex": 1,
+        "txHash": "0xc468739f9e89aaaf259a426056844a9840b5db3f015f432ef3ad2ff0b9b5e4b6",
+        "from": "0xD332F2C09856322225E31723A611E5Db35453a8a",
+        "to": "0x439766d753C076A36faa93b4D514bA8b98A01793",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "569701",
+        "status": true
+      }
+    ]
+  },
+  "0x89ad3d2c99f2ba07da9249003ae831e94d8153a9": {
+    "transactionHash": "0xbec390eab6a3d95c54b93d44ac2da48a8e5d85ae88c436e2d979388c021beb50",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xbec390eab6a3d95c54b93d44ac2da48a8e5d85ae88c436e2d979388c021beb50&limit=100",
+    "checkedAt": "2026-11-18T20:42:30.610693+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-19T02:25:25.000Z",
+        "blockNumber": 4289561,
+        "txIndex": 68,
+        "opIndex": 1,
+        "txHash": "0xbec390eab6a3d95c54b93d44ac2da48a8e5d85ae88c436e2d979388c021beb50",
+        "from": "0x548076e0a0eF518B62C7E3EFA3Be0B676018f2E9",
+        "to": "0x89Ad3D2C99F2BA07da9249003AE831e94d8153a9",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "761334",
+        "status": true
+      }
+    ]
+  },
+  "0xe46e30b36c1175241f4c4284f9f368ea4757e25a": {
+    "transactionHash": "0x8c24a04a88f8622b6a6030427f75539db928e3771c6b8dcb8332961c22003e61",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x8c24a04a88f8622b6a6030427f75539db928e3771c6b8dcb8332961c22003e61&limit=100",
+    "checkedAt": "2026-11-18T20:42:31.511754+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-20T18:53:37.000Z",
+        "blockNumber": 4295663,
+        "txIndex": 61,
+        "opIndex": 1,
+        "txHash": "0x8c24a04a88f8622b6a6030427f75539db928e3771c6b8dcb8332961c22003e61",
+        "from": "0x26d44A724303B2d49Aef00355d6BE0A7B530B19F",
+        "to": "0xe46E30b36c1175241f4c4284f9f368ea4757e25A",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "761334",
+        "status": true
+      }
+    ]
+  },
+  "0x93afb02e3e93ca9bc3ae031cf832de3dd031a7a0": {
+    "transactionHash": "0x7cbcf370c4c26bcc46da3e75d5c45ef9f68caa35e4c99d115d0077123070d173",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x7cbcf370c4c26bcc46da3e75d5c45ef9f68caa35e4c99d115d0077123070d173&limit=100",
+    "checkedAt": "2026-11-18T20:42:31.909977+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-30T09:44:30.000Z",
+        "blockNumber": 4324331,
+        "txIndex": 1,
+        "opIndex": 2,
+        "txHash": "0x7cbcf370c4c26bcc46da3e75d5c45ef9f68caa35e4c99d115d0077123070d173",
+        "from": "0xE605Ecad7B235Cdb1c47B6464aeE3602D6c0bD61",
+        "to": "0x93afb02e3e93Ca9BC3AE031cF832de3dd031a7A0",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1613479",
+        "status": true
+      }
+    ]
+  },
+  "0x69a3e8c6cf0ff937a3f08607b6d6cb80df8ae733": {
+    "transactionHash": "0xc0620b4666c017452e514d87779af4b1029fce15a610ee12f9f4ac1790f4c374",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xc0620b4666c017452e514d87779af4b1029fce15a610ee12f9f4ac1790f4c374&limit=100",
+    "checkedAt": "2026-11-18T20:42:32.378334+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-09-30T20:56:21.000Z",
+        "blockNumber": 4325679,
+        "txIndex": 0,
+        "opIndex": 2,
+        "txHash": "0xc0620b4666c017452e514d87779af4b1029fce15a610ee12f9f4ac1790f4c374",
+        "from": "0xbc5a20418Ae29cE61B519C3281A622979Fa87132",
+        "to": "0x69A3e8c6cF0Ff937a3F08607b6D6CB80DF8aE733",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1603463",
+        "status": true
+      }
+    ]
+  },
+  "0x81f8747b2eb6e5fbba871a01f974864f3133dd96": {
+    "transactionHash": "0x28755e338e4d41a49c91b39b867edfeb438b2613d352483850beacc8467a69bf",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x28755e338e4d41a49c91b39b867edfeb438b2613d352483850beacc8467a69bf&limit=100",
+    "checkedAt": "2026-11-18T20:42:33.547726+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-06T09:39:13.000Z",
+        "blockNumber": 4341595,
+        "txIndex": 24,
+        "opIndex": 1,
+        "txHash": "0x28755e338e4d41a49c91b39b867edfeb438b2613d352483850beacc8467a69bf",
+        "from": "0x19159c1C49c009dcA882722F8375bc9e87ec6A69",
+        "to": "0x81F8747b2eb6e5FBBa871A01f974864F3133dD96",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "891544",
+        "status": true
+      }
+    ]
+  },
+  "0x8f8221afbb33998d8584a2b05749ba73c37a938a": {
+    "transactionHash": "0x0ce57bf9142799a03d46614696ab36b458a9683ab1257bf2e10ce7f6cd54f8ad",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x0ce57bf9142799a03d46614696ab36b458a9683ab1257bf2e10ce7f6cd54f8ad&limit=100",
+    "checkedAt": "2026-11-18T20:42:33.837480+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-07T15:47:37.000Z",
+        "blockNumber": 4345153,
+        "txIndex": 22,
+        "opIndex": 1,
+        "txHash": "0x0ce57bf9142799a03d46614696ab36b458a9683ab1257bf2e10ce7f6cd54f8ad",
+        "from": "0x97208Bf5dC25e6FD4719cfc2A3C1D1A59a974c3b",
+        "to": "0x8f8221aFbB33998d8584A2B05749bA73c37a938a",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "892344",
+        "status": true
+      }
+    ]
+  },
+  "0xbb2743e616da4751f43c02159c0ad0ae4adf5fd2": {
+    "transactionHash": "0x21cf7c8216b54542bfd0d9462a8a337c582e7969d949c367754f1bf7181c081b",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x21cf7c8216b54542bfd0d9462a8a337c582e7969d949c367754f1bf7181c081b&limit=100",
+    "checkedAt": "2026-11-18T20:42:34.404450+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-11T10:23:48.000Z",
+        "blockNumber": 4356058,
+        "txIndex": 15,
+        "opIndex": 1,
+        "txHash": "0x21cf7c8216b54542bfd0d9462a8a337c582e7969d949c367754f1bf7181c081b",
+        "from": "0xfb5b0bFa0669C3FcdB046566844e3e3ABfAE7906",
+        "to": "0xBB2743e616dA4751F43c02159C0Ad0aE4aDf5fD2",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "853029",
+        "status": true
+      }
+    ]
+  },
+  "0x706543907113a4af575658c663e57507f9f99f99": {
+    "transactionHash": "0xdb900e619b080e57b5cedb04f2171d4f612e8aa336297a322d7851e6d83256e2",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xdb900e619b080e57b5cedb04f2171d4f612e8aa336297a322d7851e6d83256e2&limit=100",
+    "checkedAt": "2026-11-18T20:42:34.789052+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-11T10:44:06.000Z",
+        "blockNumber": 4356098,
+        "txIndex": 36,
+        "opIndex": 1,
+        "txHash": "0xdb900e619b080e57b5cedb04f2171d4f612e8aa336297a322d7851e6d83256e2",
+        "from": "0x9211cEa84fDbd31cD86A72c8f32b9327715f464D",
+        "to": "0x706543907113A4af575658c663e57507F9F99f99",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "853029",
+        "status": true
+      }
+    ]
+  },
+  "0x813dc52fc6ff36ab18868648a70f21302064f03f": {
+    "transactionHash": "0x5b2723ac10b189cdd875eee3e49198d6782fac7e3b140b6550b907fe1ed2b61b",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x5b2723ac10b189cdd875eee3e49198d6782fac7e3b140b6550b907fe1ed2b61b&limit=100",
+    "checkedAt": "2026-11-18T20:42:35.365572+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-12T14:03:06.000Z",
+        "blockNumber": 4359395,
+        "txIndex": 42,
+        "opIndex": 1,
+        "txHash": "0x5b2723ac10b189cdd875eee3e49198d6782fac7e3b140b6550b907fe1ed2b61b",
+        "from": "0x93F43701F0c06dA8E4A30a5FDB4Ca236DC89e792",
+        "to": "0x813dC52fc6ff36aB18868648A70F21302064f03f",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "846823",
+        "status": true
+      }
+    ]
+  },
+  "0x4cd988afbad37289baaf53c13e98e2bd46aaea8c": {
+    "transactionHash": "0xccc48389f0610409d9b0819ffc9e1cd01cb790e249fb00bc949f6f554d1b9c23",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xccc48389f0610409d9b0819ffc9e1cd01cb790e249fb00bc949f6f554d1b9c23&limit=100",
+    "checkedAt": "2026-11-18T20:42:35.492464+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-12T15:43:05.000Z",
+        "blockNumber": 4359597,
+        "txIndex": 71,
+        "opIndex": 1,
+        "txHash": "0xccc48389f0610409d9b0819ffc9e1cd01cb790e249fb00bc949f6f554d1b9c23",
+        "from": "0x6B625e363E2241D0e67b1f01E0488144436d505A",
+        "to": "0x4Cd988AfBad37289BAAf53C13e98E2BD46aAEa8c",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "936005",
+        "status": true
+      }
+    ]
+  },
+  "0x5d818363b3f083d0262d5a213725636110e89f5d": {
+    "transactionHash": "0x8f59e1883dc491e764bce142b9ae2becb0283a711640c80c5f879e218a57840f",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x8f59e1883dc491e764bce142b9ae2becb0283a711640c80c5f879e218a57840f&limit=100",
+    "checkedAt": "2026-11-18T20:42:36.353684+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-17T12:07:33.000Z",
+        "blockNumber": 4376916,
+        "txIndex": 24,
+        "opIndex": 2,
+        "txHash": "0x8f59e1883dc491e764bce142b9ae2becb0283a711640c80c5f879e218a57840f",
+        "from": "0x187B69c057Bcc98b77ed98e8d51eda6a880ed5d5",
+        "to": "0x5D818363B3f083D0262d5a213725636110E89F5d",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "488107",
+        "status": true
+      }
+    ]
+  },
+  "0x042393ecca691888eb06d95cdbb6ecfafff77ecd": {
+    "transactionHash": "0xdb30a63894197f5165ec48e9dc35ab536d08d20c1285e43da542a6cbad45d1c0",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xdb30a63894197f5165ec48e9dc35ab536d08d20c1285e43da542a6cbad45d1c0&limit=100",
+    "checkedAt": "2026-11-18T20:42:36.906663+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-25T03:52:38.000Z",
+        "blockNumber": 4424655,
+        "txIndex": 80,
+        "opIndex": 1,
+        "txHash": "0xdb30a63894197f5165ec48e9dc35ab536d08d20c1285e43da542a6cbad45d1c0",
+        "from": "0x165B98160458E9698bF85E29ED09e8c6e3dDDc85",
+        "to": "0x042393EcCA691888EB06d95CdBB6ECfafff77ECd",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "921560",
+        "status": true
+      }
+    ]
+  },
+  "0xf072fe48788e0e77f9a20121d11a57cdd2c712b8": {
+    "transactionHash": "0x38499bf2bb0addfeacb213d75f8b4683aadc596d14130881d21f87274560e78d",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x38499bf2bb0addfeacb213d75f8b4683aadc596d14130881d21f87274560e78d&limit=100",
+    "checkedAt": "2026-11-18T20:42:37.775602+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-28T08:12:16.000Z",
+        "blockNumber": 4444359,
+        "txIndex": 82,
+        "opIndex": 1,
+        "txHash": "0x38499bf2bb0addfeacb213d75f8b4683aadc596d14130881d21f87274560e78d",
+        "from": "0x8E6FfF605143f9f274f7FC676F0366e4a2a43258",
+        "to": "0xf072Fe48788e0e77f9A20121d11A57cDd2C712b8",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1469069",
+        "status": true
+      }
+    ]
+  },
+  "0xd61eaa2d5d7f9a92060d596a49c03be162e760a8": {
+    "transactionHash": "0xba33f0b5a841804a1139724bae575b377a9e0404749f391d1d87f27cc6afd63b",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xba33f0b5a841804a1139724bae575b377a9e0404749f391d1d87f27cc6afd63b&limit=100",
+    "checkedAt": "2026-11-18T20:42:38.168632+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-31T00:12:18.000Z",
+        "blockNumber": 4460780,
+        "txIndex": 78,
+        "opIndex": 1,
+        "txHash": "0xba33f0b5a841804a1139724bae575b377a9e0404749f391d1d87f27cc6afd63b",
+        "from": "0xC18703db130C09961913ffb53814c3e2b21d155F",
+        "to": "0xD61eaa2D5D7F9a92060d596A49c03bE162e760A8",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "792021",
+        "status": true
+      }
+    ]
+  },
+  "0x7b4744b536c4e03c7dd5789a9e1ab45478eac6f0": {
+    "transactionHash": "0xaf28e99453dff61d5bfc8939b3c62c03fcdfcf7f251c6f30ce38202e25fbf324",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xaf28e99453dff61d5bfc8939b3c62c03fcdfcf7f251c6f30ce38202e25fbf324&limit=100",
+    "checkedAt": "2026-11-18T20:42:38.374375+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-31T13:38:15.000Z",
+        "blockNumber": 4464271,
+        "txIndex": 82,
+        "opIndex": 1,
+        "txHash": "0xaf28e99453dff61d5bfc8939b3c62c03fcdfcf7f251c6f30ce38202e25fbf324",
+        "from": "0x85a1E52F8B9Bd72e17d9f93903D47fa84B35D8a1",
+        "to": "0x7b4744B536C4e03C7dd5789A9e1aB45478EAC6F0",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "781221",
+        "status": true
+      }
+    ]
+  },
+  "0xb28d8de9ae36abaa18e711e7ca9495695e242693": {
+    "transactionHash": "0x1d91c7fc37d1db668cf1240bbd06b74a3e164b093ff01988667a3c0dda29628a",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x1d91c7fc37d1db668cf1240bbd06b74a3e164b093ff01988667a3c0dda29628a&limit=100",
+    "checkedAt": "2026-11-18T20:42:38.995868+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-31T14:37:11.000Z",
+        "blockNumber": 4464523,
+        "txIndex": 27,
+        "opIndex": 1,
+        "txHash": "0x1d91c7fc37d1db668cf1240bbd06b74a3e164b093ff01988667a3c0dda29628a",
+        "from": "0x74F236cd5331B5f3a6c1663Eb2f98b3338743751",
+        "to": "0xb28D8De9Ae36AbaA18E711E7CA9495695e242693",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "781221",
+        "status": true
+      }
+    ]
+  },
+  "0x11a6f59188c22ac72573969d52778790a260570e": {
+    "transactionHash": "0x68d1a4c45110201afe84f1d9831e5fbc299ce36aa42df7a9b14e66b400fbc7b7",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x68d1a4c45110201afe84f1d9831e5fbc299ce36aa42df7a9b14e66b400fbc7b7&limit=100",
+    "checkedAt": "2026-11-18T20:42:39.457124+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-10-31T14:44:08.000Z",
+        "blockNumber": 4464558,
+        "txIndex": 81,
+        "opIndex": 1,
+        "txHash": "0x68d1a4c45110201afe84f1d9831e5fbc299ce36aa42df7a9b14e66b400fbc7b7",
+        "from": "0x225755cc2A3B777f2cfeeE86144F496eFC09401C",
+        "to": "0x11a6f59188c22AC72573969d52778790a260570e",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "781221",
+        "status": true
+      }
+    ]
+  },
+  "0xca1fbffcbf1fdd4037ad7d42b37558c249c2f099": {
+    "transactionHash": "0x74fad9fc99695ee1b6831f996cd97cfb359ca97926519acf2135ae906180089f",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x74fad9fc99695ee1b6831f996cd97cfb359ca97926519acf2135ae906180089f&limit=100",
+    "checkedAt": "2026-11-18T20:42:40.827589+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-01T14:05:08.000Z",
+        "blockNumber": 4470656,
+        "txIndex": 29,
+        "opIndex": 1,
+        "txHash": "0x74fad9fc99695ee1b6831f996cd97cfb359ca97926519acf2135ae906180089f",
+        "from": "0x8c79ec3f260B067157B0A7dB0BB465F90b87F8F1",
+        "to": "0xca1FbfFCBf1fDd4037Ad7d42b37558c249c2F099",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1561027",
+        "status": true
+      }
+    ]
+  },
+  "0xeb3c84c1fa78cb4e1676e3c72c6d64324f89f4de": {
+    "transactionHash": "0xfb96521b1dc0f99f58f4c4fa19c8f81a0f145d1dbad73df0031796c7d38bb527",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xfb96521b1dc0f99f58f4c4fa19c8f81a0f145d1dbad73df0031796c7d38bb527&limit=100",
+    "checkedAt": "2026-11-18T20:42:40.760644+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-05T11:37:45.000Z",
+        "blockNumber": 4494804,
+        "txIndex": 133,
+        "opIndex": 1,
+        "txHash": "0xfb96521b1dc0f99f58f4c4fa19c8f81a0f145d1dbad73df0031796c7d38bb527",
+        "from": "0xbdfD176BD9428F2d1d0C403684Af061E20CD666C",
+        "to": "0xEb3C84C1FA78CB4e1676E3C72C6d64324F89f4DE",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1469269",
+        "status": true
+      }
+    ]
+  },
+  "0x45fce6a8f75e358b5f51cb93d3caf48a7f6f431b": {
+    "transactionHash": "0x71663d87b5c56ec1d07d163631baa3de5e4d16bd985332a2670f2b4931b13471",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x71663d87b5c56ec1d07d163631baa3de5e4d16bd985332a2670f2b4931b13471&limit=100",
+    "checkedAt": "2026-11-18T20:42:41.564917+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-07T16:47:07.000Z",
+        "blockNumber": 4508491,
+        "txIndex": 10,
+        "opIndex": 1,
+        "txHash": "0x71663d87b5c56ec1d07d163631baa3de5e4d16bd985332a2670f2b4931b13471",
+        "from": "0x4c5326690185793cc4BD72313f40D01c98C4a473",
+        "to": "0x45FCE6A8F75e358B5f51Cb93d3Caf48A7f6f431B",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "378194",
+        "status": true
+      }
+    ]
+  },
+  "0x6ef109b139a6afb8428b216b4b492cc611056a49": {
+    "transactionHash": "0xd3dcc9c8960d959ba193252490b8f53806cedd9804f2bdad90540a7e10f399d9",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xd3dcc9c8960d959ba193252490b8f53806cedd9804f2bdad90540a7e10f399d9&limit=100",
+    "checkedAt": "2026-11-18T20:42:41.867858+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-13T12:20:11.000Z",
+        "blockNumber": 4544847,
+        "txIndex": 85,
+        "opIndex": 5,
+        "txHash": "0xd3dcc9c8960d959ba193252490b8f53806cedd9804f2bdad90540a7e10f399d9",
+        "from": "0x8cdA6E0B60EeAF71A0B39B16ce6C060eBdb3584b",
+        "to": "0x6eF109b139a6afB8428B216b4B492cC611056a49",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "890533",
+        "status": true
+      }
+    ]
+  },
+  "0x74fc6bd2ef2ba90d6235dbc21bc94175044fc04b": {
+    "transactionHash": "0xe0544c2e07a613b451b81f840b5322c212d21b263fa470fb6d762ba585a32aef",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xe0544c2e07a613b451b81f840b5322c212d21b263fa470fb6d762ba585a32aef&limit=100",
+    "checkedAt": "2026-11-18T20:42:42.376962+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-16T02:50:53.000Z",
+        "blockNumber": 4560972,
+        "txIndex": 14,
+        "opIndex": 1,
+        "txHash": "0xe0544c2e07a613b451b81f840b5322c212d21b263fa470fb6d762ba585a32aef",
+        "from": "0xbB014b85805Cc76782731752456734042F3a28b7",
+        "to": "0x74FC6bd2Ef2BA90D6235DBc21Bc94175044Fc04B",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1520123",
+        "status": true
+      }
+    ]
+  },
+  "0x2d74a68adbbf35253c13e86171b9881a3c42679a": {
+    "transactionHash": "0x5c9ca951f5a70710ccedc2061dd2acf485f81dbb6f12a6c0518ec0512c3802a3",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x5c9ca951f5a70710ccedc2061dd2acf485f81dbb6f12a6c0518ec0512c3802a3&limit=100",
+    "checkedAt": "2026-11-18T20:42:43.022268+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-17T17:37:38.000Z",
+        "blockNumber": 4570972,
+        "txIndex": 74,
+        "opIndex": 1,
+        "txHash": "0x5c9ca951f5a70710ccedc2061dd2acf485f81dbb6f12a6c0518ec0512c3802a3",
+        "from": "0x66961AA357fd19f783Ce1d6c74d2002c1A98072E",
+        "to": "0x2D74a68aDBBF35253c13e86171B9881A3c42679a",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1392160",
+        "status": true
+      }
+    ]
+  },
+  "0x0d0715427f11a8d203079fef254542f054bb8372": {
+    "transactionHash": "0x2399e58fea99ac30e8fbab3c23308f2def03871bcca1513e71080a23493d7e4f",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x2399e58fea99ac30e8fbab3c23308f2def03871bcca1513e71080a23493d7e4f&limit=100",
+    "checkedAt": "2026-11-18T20:42:43.420347+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-17T17:39:37.000Z",
+        "blockNumber": 4570982,
+        "txIndex": 51,
+        "opIndex": 1,
+        "txHash": "0x2399e58fea99ac30e8fbab3c23308f2def03871bcca1513e71080a23493d7e4f",
+        "from": "0x8cC5F9288B9A37331cA969A0b1d0A71D2Eb1a871",
+        "to": "0x0D0715427F11a8d203079fEF254542F054bB8372",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1392160",
+        "status": true
+      }
+    ]
+  },
+  "0xf14c3c143e05ff2f4b097b200834dc38898e94aa": {
+    "transactionHash": "0xd5c93d0db303d2a0d829235958ffd390e63738f9f7d34fa3680f610bc4bbaa48",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xd5c93d0db303d2a0d829235958ffd390e63738f9f7d34fa3680f610bc4bbaa48&limit=100",
+    "checkedAt": "2026-11-18T20:42:44.503169+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-24T20:27:26.000Z",
+        "blockNumber": 4615170,
+        "txIndex": 45,
+        "opIndex": 1,
+        "txHash": "0xd5c93d0db303d2a0d829235958ffd390e63738f9f7d34fa3680f610bc4bbaa48",
+        "from": "0x7283cfB8E92aA44A49ec7a32A7960FAa35F3C402",
+        "to": "0xF14C3c143e05ff2F4b097B200834dc38898E94AA",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1240156",
+        "status": true
+      }
+    ]
+  },
+  "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2": {
+    "transactionHash": "0x5c9b0f9c6c32d2690771169ec62dd648fef7bce3d45fe8a6505d99fdcbade27a",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x5c9b0f9c6c32d2690771169ec62dd648fef7bce3d45fe8a6505d99fdcbade27a&limit=100",
+    "checkedAt": "2026-11-18T20:42:44.785926+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-25T18:24:17.000Z",
+        "blockNumber": 4620855,
+        "txIndex": 55,
+        "opIndex": 1,
+        "txHash": "0x5c9b0f9c6c32d2690771169ec62dd648fef7bce3d45fe8a6505d99fdcbade27a",
+        "from": "0x731c6F8C754FA404CFCC2Ed8035EF79262f65702",
+        "to": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "753182",
+        "status": true
+      }
+    ]
+  },
+  "0xb8a88034bcf46e26c6bae1269ff2d051e2dee65c": {
+    "transactionHash": "0x1cfc2ec37b7527e71ccf4f6a25afc8fb0593a607a7458e1b795468862b810fb8",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x1cfc2ec37b7527e71ccf4f6a25afc8fb0593a607a7458e1b795468862b810fb8&limit=100",
+    "checkedAt": "2026-11-18T20:42:44.948482+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-25T19:18:17.000Z",
+        "blockNumber": 4621085,
+        "txIndex": 11,
+        "opIndex": 1,
+        "txHash": "0x1cfc2ec37b7527e71ccf4f6a25afc8fb0593a607a7458e1b795468862b810fb8",
+        "from": "0xB6D5414a1550B70d3A1280081b115FdDc4A465D2",
+        "to": "0xB8a88034BcF46e26C6Bae1269fF2d051e2DEe65C",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1217729",
+        "status": true
+      }
+    ]
+  },
+  "0xe3012d226bc7c0bccb91176a6505041f049d48a2": {
+    "transactionHash": "0x91edd3ad762fc7748f537afd7c8cc6e6caa0a3a405d61e6b1a06ab318e300121",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x91edd3ad762fc7748f537afd7c8cc6e6caa0a3a405d61e6b1a06ab318e300121&limit=100",
+    "checkedAt": "2026-11-18T20:42:45.888008+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-27T05:35:48.000Z",
+        "blockNumber": 4629927,
+        "txIndex": 15,
+        "opIndex": 7,
+        "txHash": "0x91edd3ad762fc7748f537afd7c8cc6e6caa0a3a405d61e6b1a06ab318e300121",
+        "from": "0x7D855423502a09Db482D60c81eC30300eB0302C4",
+        "to": "0xe3012D226bC7C0bccB91176A6505041f049D48A2",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1498014",
+        "status": true
+      }
+    ]
+  },
+  "0x8e0b0ff9ca9868f70983c229daa20a97d52af3bd": {
+    "transactionHash": "0x8b9f65faa58698f83990b7c204eb603f1dfad064b459208a99e5e28e0093f895",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x8b9f65faa58698f83990b7c204eb603f1dfad064b459208a99e5e28e0093f895&limit=100",
+    "checkedAt": "2026-11-18T20:42:46.598844+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-30T04:37:51.000Z",
+        "blockNumber": 4647987,
+        "txIndex": 28,
+        "opIndex": 1,
+        "txHash": "0x8b9f65faa58698f83990b7c204eb603f1dfad064b459208a99e5e28e0093f895",
+        "from": "0x4F46D6BB7941Fced1ADcdf44Baf39A5e2cF02f8F",
+        "to": "0x8e0b0Ff9Ca9868F70983c229dAA20A97D52Af3BD",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1392160",
+        "status": true
+      }
+    ]
+  },
+  "0x7dd7f56d697cc0f2b52bd55c057f378f1fe6ab4b": {
+    "transactionHash": "0xa4b35c90602fbebe80c94b2e54dd311b1d2bd4784ab6ff0556f797f24a2e8e83",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xa4b35c90602fbebe80c94b2e54dd311b1d2bd4784ab6ff0556f797f24a2e8e83&limit=100",
+    "checkedAt": "2026-11-18T20:42:46.676726+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-11-30T12:45:15.000Z",
+        "blockNumber": 4650051,
+        "txIndex": 56,
+        "opIndex": 1,
+        "txHash": "0xa4b35c90602fbebe80c94b2e54dd311b1d2bd4784ab6ff0556f797f24a2e8e83",
+        "from": "0x1dEbC6427Df10a3193553382ec3cab99f9d702F3",
+        "to": "0x7DD7F56D697Cc0f2b52bD55C057f378F1fE6Ab4b",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1183306",
+        "status": true
+      }
+    ]
+  },
+  "0xaba8b0df9d9710189c773b2d1b7b8cd262f61325": {
+    "transactionHash": "0x0383ad5e80eaff058753583f255641d94c7891b73e1a16a4a06d0ca98a0fc5b1",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0x0383ad5e80eaff058753583f255641d94c7891b73e1a16a4a06d0ca98a0fc5b1&limit=100",
+    "checkedAt": "2026-11-18T20:42:48.035834+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-12-01T08:06:34.000Z",
+        "blockNumber": 4655015,
+        "txIndex": 14,
+        "opIndex": 1,
+        "txHash": "0x0383ad5e80eaff058753583f255641d94c7891b73e1a16a4a06d0ca98a0fc5b1",
+        "from": "0x19089A611638d301d3Fe1612C847b16672b72E9F",
+        "to": "0xAbA8B0DF9d9710189c773b2d1b7B8cD262f61325",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "1168331",
+        "status": true
+      }
+    ]
+  },
+  "0x105c351f01ef3278afb6939e92fbe71d38a605ff": {
+    "transactionHash": "0xdc49a9545816dceaf18f51eb45f0a8661bce15fa6d2a47bd06312094c0dc3be4",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xdc49a9545816dceaf18f51eb45f0a8661bce15fa6d2a47bd06312094c0dc3be4&limit=100",
+    "checkedAt": "2026-11-18T20:42:48.035925+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-12-01T08:32:09.000Z",
+        "blockNumber": 4655109,
+        "txIndex": 22,
+        "opIndex": 1,
+        "txHash": "0xdc49a9545816dceaf18f51eb45f0a8661bce15fa6d2a47bd06312094c0dc3be4",
+        "from": "0x202d43518FEd0FB1753b870f8D24d2aDc89f83F5",
+        "to": "0x105c351f01EF3278Afb6939E92fbE71d38A605ff",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "716942",
+        "status": true
+      }
+    ]
+  },
+  "0x09ace149ddfef4da7f46b8a5f6da28f9de7c9a7e": {
+    "transactionHash": "0xd3c4670863d5c69d0b96e620746c1cdf5e92c10423ed4947e03267116cb5260d",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xd3c4670863d5c69d0b96e620746c1cdf5e92c10423ed4947e03267116cb5260d&limit=100",
+    "checkedAt": "2026-11-18T20:42:48.801406+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-12-17T19:23:33.000Z",
+        "blockNumber": 4750110,
+        "txIndex": 81,
+        "opIndex": 5,
+        "txHash": "0xd3c4670863d5c69d0b96e620746c1cdf5e92c10423ed4947e03267116cb5260d",
+        "from": "0xEC4D29fD22066E75746EB68cb51d8A7df7d28356",
+        "to": "0x09aCE149DDfEF4Da7f46B8a5f6DA28F9DE7C9A7E",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "2440317",
+        "status": true
+      }
+    ]
+  },
+  "0x448a5065aebb8e423f0896e6c5d525c040f59af3": {
+    "transactionHash": "0xa066bef4d74ad5433cc89ea21799d7df3e2f37ec0879f9ca74c419e861064fbf",
+    "status": "observed",
+    "url": "https://api.routescan.io/v2/network/mainnet/evm/1/internal-operations?txHash=0xa066bef4d74ad5433cc89ea21799d7df3e2f37ec0879f9ca74c419e861064fbf&limit=100",
+    "checkedAt": "2026-11-18T20:42:49.228418+00:00",
+    "queryPageTruncated": false,
+    "traces": [
+      {
+        "chainId": "1",
+        "timestamp": "2017-12-18T03:11:11.000Z",
+        "blockNumber": 4752011,
+        "txIndex": 38,
+        "opIndex": 5,
+        "txHash": "0xa066bef4d74ad5433cc89ea21799d7df3e2f37ec0879f9ca74c419e861064fbf",
+        "from": "0xEC4D29fD22066E75746EB68cb51d8A7df7d28356",
+        "to": "0x448a5065aeBB8E423F0896E6c5D525C040f59af3",
+        "value": "0",
+        "type": "CREATE",
+        "methodId": "0x60606040",
+        "gasUsed": "2440317",
+        "status": true
+      }
+    ]
+  }
+}

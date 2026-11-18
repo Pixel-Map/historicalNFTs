@@ -66,6 +66,24 @@ assert history["exactRuntimeFamilies"] == {k: v for k, v in families.items() if 
 assert history["sharedDeploymentActors"] == {k: v for k, v in actors.items() if len(v) > 1}
 assert all(item["runtimeFamilySize"] == len(families[candidates[a]["runtimeSha256"]]) for a, item in evidence.items())
 
+factory_deployments = {
+    a: row for a, item in evidence.items()
+    for row in item["creation"]["rows"] if row.get("contractFactory")
+}
+factory_traces = read(HISTORY / "factory-traces.json")
+assert factory_traces.keys() == factory_deployments.keys()
+for a, result in factory_traces.items():
+    deployment = factory_deployments[a]
+    assert result["transactionHash"] == deployment["txHash"]
+    assert bool(result["traces"]) == (result["status"] == "observed")
+    for trace in result["traces"]:
+        assert trace["txHash"] == deployment["txHash"]
+        assert trace["chainId"] == "1" and trace["status"] is True
+        assert trace["type"] in {"CREATE", "CREATE2"}
+        assert trace["from"].lower() == deployment["contractFactory"].lower()
+        assert trace["to"].lower() == a
+        assert trace["blockNumber"] == int(deployment["blockNumber"]) <= history["throughBlock"]
+
 funded = {a for a, item in original.items() if int(item["balanceWei"]) > 0}
 balances = read(HISTORY / "balances.json")
 assert balances["balanceWei"].keys() == funded
